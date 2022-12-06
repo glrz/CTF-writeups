@@ -39,8 +39,7 @@ The learning point or takeway from the above incident is that I should always cr
 | [LagNCrash Interpoly CTF 2022](https://gadiel-lau.gitbook.io/2022-writeups/lagncrash-interpoly-ctf-2022)                                                               | Open (Solo)          | 84/108                                                        |
 | [CTF.SG CTF 2022](https://gadiel-lau.gitbook.io/2022-writeups/ctf.sg-ctf-2022)                                                                                         | Open (Team)          | 29/130                                                        |
 | [SG Cyber Olympian Trials 2022](https://gadiel-lau.gitbook.io/2022-writeups/sg-cyber-olympian-trials-2022)                                                             | Open (Solo)          | 41/54                                                         |
-| [AIS3 EOF CTF 2022](https://gadiel-lau.gitbook.io/2022-writeups/ais3-eof-ctf-2022)                                                                                     | Open (Team)          | 22/25                                                         |
-|                                                                                                                                                                        |                      |                                                               |
+| [AIS3 EOF CTF 2022](https://gadiel-lau.gitbook.io/2022-writeups/v/ctf-writeups-2022/ais3-eof-ctf-2022)                                                                 | Open (Team)          | 22/25                                                         |
 
 ## CTF Competitions/Challenges 2021
 
