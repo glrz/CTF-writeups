@@ -16,7 +16,7 @@ I am glad my passion for cybersecurity kept me going despite all these "setbacks
 
 Note: As of 5 December 2022, 11pm something unfortunate happened. I was updating my GitBook with challenge files in the documentation during that time. In the process of uploading challenge files, there was a `.svg` file which caused severe lag and I could not proceed with much further editing. I tried to remedy this using different methods, one of it was to try changing my initial `sync from GitBook to GitHub` to `sync from GitHub to Gitbook`. I was hoping I could delete the file from GitHub when it is all synced. However, when I synced from GitHub to GitBook, it somehow completely "wiped out" all my documentation/collection in the year 2022. It is quite unlikely that I will be able to retrieve those many hundreds pages of documentation anytime soon as I had tried many methods to resolve this but to no avail. I could update the writeups in 2022 during my free time but this will take quite some time as I am focused on completing my Final Year Project. In the meantime, do check out my other writeups in 2020/2021.
 
-The learning point or takeway from the above incident is that I should always create a backup on GitBook whenever I do make certain major changes.
+The learning point or takeway from the above incident is that I should always create a backup on GitBook whenever I do make certain changes.
 
 ## CTF Competitions/Challenges 2022
 
