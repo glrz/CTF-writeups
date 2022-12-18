@@ -10,7 +10,7 @@ I found this Cryptography challenge on [CTFtime](https://ctftime.org/team/151372
 
 It reads `Join us - but first, solve a challenge: https://forms.gle/o4mYdmpT6KTRc31M9`
 
-![](<.gitbook/assets/image (105).png>)
+![](<.gitbook/assets/image (530).png>)
 
 I have been looking for a team to participate in CTF competitions since 2020 so this was a great opportunity. Furthermore, I wanted to challenge myself to see if I could solve their challenge!
 
@@ -24,15 +24,15 @@ Despite getting the correct flag for this challenge and writing a short introduc
 
 Update: After slightly more than a month, on the 8 August 2022, founder of `Social Engineering Experts` CTF team, Zeyu replied.
 
-![](<.gitbook/assets/image (60).png>)
+![](<.gitbook/assets/image (798).png>)
 
 I have officially joined the `Social Engineering Experts` CTF Team on 8 August 2022 :)
 
 ## Cryptography
 
-![](<.gitbook/assets/image (151).png>)
+![](<.gitbook/assets/image (513).png>)
 
-![](<.gitbook/assets/image (325).png>)
+![](<.gitbook/assets/image (519).png>)
 
 For this challenge we were given some parameters and the goal is to find out what was sent to `Agent Rainbow` and `Agent Pigeon`. Here are the parameters provided in the challenge:
 
@@ -50,11 +50,11 @@ At first glance, this challenge might seem a little daunting, with 5 different l
 
 I scroll down till number 5 and realised it looked similar to the challenge here.
 
-![](<.gitbook/assets/image (368).png>)
+![](<.gitbook/assets/image (542).png>)
 
 Next, I opened up [Sublime Text](https://www.sublimetext.com/) to edit the Python script.
 
-![](<.gitbook/assets/image (153).png>)
+![](<.gitbook/assets/image (524).png>)
 
 The python script can be found below
 
@@ -86,8 +86,8 @@ print ( binascii . unhexlify ( hex ( m ) [ 2 : ] ) )
 
 Running the script would give me the flag
 
-![](<.gitbook/assets/image (339).png>)
+![](<.gitbook/assets/image (579).png>)
 
-![](<.gitbook/assets/image (130).png>)
+![](<.gitbook/assets/image (595).png>)
 
 Flag: SocialEngineeringExperts{e4sy\_crypt0\_ch4ll3ng3\_46b4456c34b983f3be91e5f0c0679896434d6cf6b81a5e96efdc316578e99c22}

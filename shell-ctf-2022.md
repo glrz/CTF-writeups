@@ -20,33 +20,33 @@ We achieved 2nd position for this CTF out of 1000+ teams! I managed to solve a f
 
 &#x20;
 
-![](<.gitbook/assets/image (768).png>)
+![](<.gitbook/assets/image (163).png>)
 
 The team solved all the challenges.
 
-![](<.gitbook/assets/image (821).png>)
+![](<.gitbook/assets/image (138).png>)
 
 I solved 3 of the challenges. There were some other challenges which I solved too, but my teammates were faster at solving them.
 
-![](<.gitbook/assets/image (11).png>)
+![](<.gitbook/assets/image (2).png>)
 
 I will be including writeups of challenges I solved and some other writeups of challenges which was not solved by me during the CTF for documentation purposes.
 
 ## Sanity Check
 
-![](<.gitbook/assets/image (44).png>)
+![](<.gitbook/assets/image (34).png>)
 
 This should be the easiest challenge out of all the other challenges. Usually in CTF, there would be such a challenge probably for participants to get familiar with the flag format.&#x20;
 
 Joining their discord server, and browsing to the announcement channel would give us the flag. I am not exactly sure why I could not copy the flag from the discord server, so I had to type it out manually and submit the flag.
 
-![](<.gitbook/assets/image (39).png>)
+![](<.gitbook/assets/image (18).png>)
 
 Flag: SHELLCTF{W3lc0me\_2\_SHELLCTF2022}
 
 ## Alien Communications
 
-![](<.gitbook/assets/image (38).png>)
+![](<.gitbook/assets/image (17).png>)
 
 This challenge was under the forensics category. This challenge was relatively easy but I actually got 6 wrong attempts before getting the correct flag due to the flag format. When I submitted it, I  then realised my teammate zeyu already submitted the correct flag few seconds earlier.&#x20;
 
@@ -54,35 +54,35 @@ For this challenge, we were given an audio file. First, I put this file in `Auda
 
 Note that this kind of challenge is rather simple and common in CTF, I have previously solved similar challenges here.
 
-![](<.gitbook/assets/image (4).png>)
+![](<.gitbook/assets/image (26).png>)
 
 Flag: SHELL{y0u\_g07\_7h3\_f1ag}
 
 ## World's Greatest Detective
 
-![](<.gitbook/assets/image (317).png>)
+![](<.gitbook/assets/image (810).png>)
 
 This challenge was under the MISC category. For this challenge, we were given an image file. If we download this image, we would notice that this is a screenshot image and at the end of the image name, it mentions `Wakandan_Translator`.
 
-![](<.gitbook/assets/image (66).png>)
+![](<.gitbook/assets/image (30).png>)
 
 If we open the image, we would see an image with weird characters that look like our flag. We could tell this from the `{ }` in the image.
 
-![](<.gitbook/assets/image (819).png>)
+![](<.gitbook/assets/image (133).png>)
 
 A quick Google search and we would find that we could decode this [here](https://www.dcode.fr/wakanda-alphabet). If we manually match each character, we would get the decoded flag.
 
-![](<.gitbook/assets/image (280).png>)
+![](<.gitbook/assets/image (297).png>)
 
 Flag: SHELLCTF{w4kandA\_F0rev3r}
 
 ## Tweet
 
-![](<.gitbook/assets/image (329).png>)
+![](<.gitbook/assets/image (809).png>)
 
 This challenge is under the cryptography category. For this challenge, we were given a `.jpeg` image file. If we open the file, we could see this image.
 
-![](<.gitbook/assets/image (46).png>)
+![](<.gitbook/assets/image (10).png>)
 
 What could this be? Normally, for cryptography challenge, participants would need to write a script or decode messages that are encoded or encrypted with commonly used encryptions or encoding such as `XOR`, `Base64` etc. I would seldom see image in Cryptography related challenges.
 
@@ -90,17 +90,17 @@ First, I opened this image in hex editor like `HxD` but could not find anything 
 
 A quick Google search on `bird cryptography` and we could find `Birds on a Wire Cipher`.
 
-![](<.gitbook/assets/image (27).png>)
+![](<.gitbook/assets/image (31).png>)
 
 Now, we just need to match each bird image/position to get the decoded flag [here](https://www.dcode.fr/birds-on-a-wire-cipher).
 
-![](<.gitbook/assets/image (777).png>)
+![](<.gitbook/assets/image (229).png>)
 
 Flag: SHELLCTF{WELOVESINGING}
 
 ## MALBORNE
 
-![](<.gitbook/assets/image (88).png>)
+![](<.gitbook/assets/image (28).png>)
 
 This challenge was in the cryptography category as well. I solved this challenge few seconds after my teammate solved it. For this challenge, we were given a bunch of text which looked like some kind of [Esoteric programming language](https://en.wikipedia.org/wiki/Esoteric\_programming\_language) or esolang in short.
 
@@ -108,13 +108,13 @@ We could go to the [esolang language list](https://esolangs.org/wiki/Language\_l
 
 We could then copy the entire code in the challenge description, paste it [here](https://malbolge.doleczek.pl/), run the program and we would get the flag in the terminal output.
 
-![](<.gitbook/assets/image (287).png>)
+![](<.gitbook/assets/image (296).png>)
 
 Flag: SHELL{m41b01g3\_15\_my\_n3w\_l4ngu4g3}
 
 ## GO Deep!
 
-![](<.gitbook/assets/image (327).png>)
+![](<.gitbook/assets/image (255).png>)
 
 This challenge was under the forensics category. For this challenge, my teammate solved it but I managed to solve part of the challenge.
 
@@ -128,11 +128,11 @@ After we have downloaded `DeepSound`, simply drag and drop the audio file and ke
 
 This would give us a `Deep Flag.txt` file at the bottom. We could extract this file by pressing `F5` or clicking the `Extract secret files` button.
 
-![](<.gitbook/assets/image (733).png>)
+![](<.gitbook/assets/image (187).png>)
 
 &#x20;Opening up the file would give us the flag.
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (43).png>)
 
 SHELL{y0u\_w3r3\_7h1nk1ng\_R3ally\_D33p}
 

@@ -2,17 +2,17 @@
 
 ## go n c
 
-![](<../.gitbook/assets/image (735).png>)
+![](<../.gitbook/assets/image (124) (1).png>)
 
 This should be the easiest challenge out of all the other challenges. We are given the netcat command in the challenge description and we just need to copy paste that in our terminal which would give us the flag.
 
-![](<../.gitbook/assets/image (939).png>)
+![](<../.gitbook/assets/image (137).png>)
 
 Flag: CDDC22{S1mple\_Ch4113ng3\_just\_G0\_4nd\_S33}
 
 ## Copy n Paste
 
-![](<../.gitbook/assets/image (725).png>)
+![](<../.gitbook/assets/image (169).png>)
 
 For this challenge, we were given a `.svg` file.
 
@@ -20,57 +20,57 @@ For this challenge, we were given a `.svg` file.
 
 The animation was playing too fast but we could tell that there was likely a `Base64` data from the `==` appended at the end as padding.
 
-<figure><img src="../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 First, if we do not know how to copy and paste this data from `.svg` file, we could Google search `Copy paste svg`
 
-![](<../.gitbook/assets/image (948).png>)
+![](<../.gitbook/assets/image (147).png>)
 
 Then, we could simply follow the instructions, right click the `SVG` tag, select `Copy` then select `copy outerHTML`
 
-![](<../.gitbook/assets/image (789).png>)
+![](<../.gitbook/assets/image (133) (1).png>)
 
 Next, I paste it on Notepad and realised there were a bunch of unnecessary text and we need to clean them up
 
-![](<../.gitbook/assets/image (996).png>)
+![](<../.gitbook/assets/image (135).png>)
 
 I was manually cleaning up those text but I think there should be an easier way to clean up these
 
-![](<../.gitbook/assets/image (991).png>)
+![](<../.gitbook/assets/image (123).png>)
 
 I realised I could `CTRL+H` and replace these text that I don't need
 
-![](<../.gitbook/assets/image (998).png>)
+![](<../.gitbook/assets/image (131).png>)
 
 Next, I searched for the End of base64 string and deleted everything below it.
 
-![](<../.gitbook/assets/image (815).png>)
+![](<../.gitbook/assets/image (159).png>)
 
 After these cleaning up, I saw another common pattern to delete.
 
 I went to [CyberChef ](https://cyberchef.org/)and selected `find and replace` operation:
 
-![](<../.gitbook/assets/image (742).png>)
+![](<../.gitbook/assets/image (138) (1).png>)
 
 After some final clean up, I got the flag.
 
-![](<../.gitbook/assets/image (750).png>)
+![](<../.gitbook/assets/image (170).png>)
 
 Flag: CDDC22{S4V4G3\_LOVE}
 
 ## Invisible morse
 
-![](<../.gitbook/assets/image (817).png>)
+![](<../.gitbook/assets/image (168) (1).png>)
 
 For this challenge, we are given a `blind_for_.-.txt` file in the zip file.
 
 First, I opened this on [HxD](https://mh-nexus.de/en/hxd/). This seemed like a similar challenge that we had attempted before [here](https://gadiel-lau.gitbook.io/2022-writeups/nus-greyhats-grey-cat-the-flag-2022#ghost). However, its a little different.
 
-![](<../.gitbook/assets/image (814).png>)
+![](<../.gitbook/assets/image (148).png>)
 
 Next, I tried [stegsnow](https://manpages.ubuntu.com/manpages/bionic/man1/stegsnow.1.html) - whitespace steganography program. But as you can see, it didn't work as well or produce any useful output.
 
-![](<../.gitbook/assets/image (918).png>)
+![](<../.gitbook/assets/image (198).png>)
 
 There are a few steps we could take to solve this in [CyberChef](https://cyberchef.org/)&#x20;
 
@@ -83,13 +83,13 @@ There are a few steps we could take to solve this in [CyberChef](https://cyberch
 
 4\. and 6. are replacing the space, basically deleting the space in between. Following these steps, we would get the flag from this [recipe](https://cyberchef.org/#recipe=Find\_/\_Replace\(%7B'option':'Regex','string':'20'%7D,'.',true,false,true,false\)Find\_/\_Replace\(%7B'option':'Regex','string':'09'%7D,'-',true,false,true,false\)Find\_/\_Replace\(%7B'option':'Regex','string':'0A'%7D,'%5C%5Cn',true,false,true,false\)Find\_/\_Replace\(%7B'option':'Regex','string':'%20'%7D,'',true,false,true,false\)From\_Morse\_Code\('Space','Line%20feed'\)Find\_/\_Replace\(%7B'option':'Regex','string':'%20'%7D,'',true,false,true,false\)\&input=MjAgMDkgMjAgMjAgMEEgMjAgMDkgMDkgMDkgMDkgMEEgMjAgMjAgMjAgMEEgMDkgMEEgMjAgMEEgMDkgMjAgMEEgMDkgMjAgMjAgMjAgMjAgMDkgMEEgMDkgMEEgMDkgMDkgMDkgMDkgMDkgMEEgMDkgMjAgMjAgMjAgMjAgMDkgMEEgMDkgMEEgMjAgMjAgMjAgMjAgMEEgMjAgMEEgMDkgMjAgMjAgMjAgMjAgMDkgMEEgMDkgMDkgMEEgMDkgMDkgMDkgMDkgMDkgMEEgMjAgMDkgMjAgMEEgMjAgMjAgMjAgMEEgMjAgMEEgMDkgMjAgMjAgMjAgMjAgMDkgMEEgMDkgMjAgMDkgMjAgMEEgMDkgMDkgMDkgMDkgMDkgMEEgMDkgMjAgMjAgMEEgMjAgMjAgMjAgMDkgMDkgMEEgMDkgMjAgMjAgMjAgMjAgMDkgMEEgMjAgMDkgMDkgMjAgMEEgMjAgMDkgMjAgMjAgMEEgMjAgMEEgMjAgMjAgMjAgMjAgMDkgMEEgMjAgMjAgMjAgMEEgMjAgMEE).
 
-![](<../.gitbook/assets/image (728).png>)
+![](<../.gitbook/assets/image (114) (1).png>)
 
 CDDC22{L1STEN-T0-THE-M0RSE-C0D3-PLE4SE}
 
 ## PPS
 
-![](<../.gitbook/assets/image (961).png>)
+![](<../.gitbook/assets/image (125).png>)
 
 For this challenge, we were given a `dtmf.wav` file in the zip file.
 
@@ -101,15 +101,15 @@ Thus I need to convert it to `.wav` file using `ffmpeg` command.
 
 `ffmpeg -i DTMF.mp3 DTMP.wav`
 
-![](<../.gitbook/assets/image (911).png>)
+![](<../.gitbook/assets/image (184).png>)
 
 After it has converted to `DTMF.wav`, I proceed to run `dtmf` on the file
 
-![](<../.gitbook/assets/image (787).png>)
+![](<../.gitbook/assets/image (175) (1).png>)
 
 At this point, I noticed there could be an extra `*` in front. We could also run with the `-v` option to analyze further.
 
-![](<../.gitbook/assets/image (928).png>)
+![](<../.gitbook/assets/image (192).png>)
 
 If we remove the extra `*` in front, we would get the 8 digit access password : `*38492751#`
 
@@ -139,7 +139,7 @@ Flag: CDDC22{\*38492751#}
 
 ## Hash Attack
 
-![](<../.gitbook/assets/image (967).png>)
+![](<../.gitbook/assets/image (172).png>)
 
 For this challenge, we were given a `hash.txt` in the zip file.
 
@@ -147,7 +147,7 @@ If we open the `hash.txt` file, we could see a bunch of hex data that looks hash
 
 At this point, I used a hint that helped me solve the challenge.
 
-![](<../.gitbook/assets/image (806).png>)
+![](<../.gitbook/assets/image (102) (1).png>)
 
 I searched up and found that I could use the `fold` command to divide these characters.
 
@@ -159,10 +159,10 @@ I was able to divide these into 64 characters on each line. Then I copied the re
 
 I proceeded to my favourite website for [hash identifier](https://hashes.com/en/tools/hash\_identifier), pasted the results in and click `SUBMIT & IDENTIFY`
 
-![](<../.gitbook/assets/image (983).png>)
+![](<../.gitbook/assets/image (157).png>)
 
 Here we can see the flag.
 
-![](<../.gitbook/assets/image (927).png>)
+![](<../.gitbook/assets/image (109).png>)
 
 Flag: CDDC22{1\_Love\_you\_more\_than\_ever!}

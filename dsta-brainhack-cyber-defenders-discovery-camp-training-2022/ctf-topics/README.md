@@ -6,4 +6,4 @@ description: >-
 
 # CTF Topics
 
-![](<../../.gitbook/assets/image (320).png>)
+![](<../../.gitbook/assets/image (559).png>)

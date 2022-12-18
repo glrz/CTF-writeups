@@ -6,7 +6,7 @@ description: >-
 
 # SIT N0H4TS STANDCON CTF 2022
 
-![](<.gitbook/assets/image (365).png>)
+![](<.gitbook/assets/image (562).png>)
 
 I attended the Conference as well as Reverse Engineering workshop on Day 1. On Day 1, I also searched for fishes around the GatherTown platform. See if you can spot my name in one of the images on [Twitter](https://twitter.com/N0H4TS/status/1538869529828372480?s=20\&t=YCTTiPrZtgn55kqQZnKjuQ), [Instagram ](https://www.instagram.com/p/CfBy8Lrsltb/)and [LinkedIn](https://www.linkedin.com/posts/n0h4ts\_student-conference-standcon-activity-6944635001439170560-Z4u\_/).&#x20;
 
@@ -18,17 +18,17 @@ This CTF is a little different. Participants were required to find `key` objects
 
 This competition allowed up to 3 members to form a team but I participated solo in this CTF with the team name: Mekdonal. I managed to solve 3 challenges - 1 MISC, 1 OSINT and 1 Forensics challenge. Honestly, the searching of keys got quite tiring at some point. Searching for a bunch of keys alone throughout the whole GatherTown map was not an easy task.
 
-![](<.gitbook/assets/image (360).png>)
+![](<.gitbook/assets/image (580).png>)
 
-![](<.gitbook/assets/image (167).png>)
+![](<.gitbook/assets/image (553).png>)
 
 ## CERTIFICATE OF PARTICIPATION
 
-![](<.gitbook/assets/image (739).png>)
+![](<.gitbook/assets/image (177).png>)
 
 ## A New Gateway
 
-![](<.gitbook/assets/image (104).png>)
+![](<.gitbook/assets/image (510).png>)
 
 In this challenge, we were given a .pcapng file.
 
@@ -40,23 +40,23 @@ Once the `Challenge3.pcapng` file is opened in Wireshark, we can select file, `E
 
 Here we can see there is a file in packet 16957 transferred by HTTP. Lets save this file!
 
-![](<.gitbook/assets/image (142).png>)
+![](<.gitbook/assets/image (520).png>)
 
 I opened up the file and saw some `HTML` code. But notice this string which I highlighted. Does this look familiar? If not, I suggest you could check out my previous [writeup](https://gadiel-lau.gitbook.io/2022-writeups/nus-greyhats-grey-cat-the-flag-2022#ghost) and get familiar with different encoding methods.
 
-![](<.gitbook/assets/image (313).png>)
+![](<.gitbook/assets/image (597).png>)
 
 The `=` appended at the end of the string likely suggest that this is Base64 encoded. To decode this, we could use an [online Base64 decoder](https://www.base64decode.org/). If you would like to try an alternative tool to solve this, check out my other [writeup](https://gadiel-lau.gitbook.io/2022-writeups/aisp-cyber-wellness-ctf#mix-and-match).
 
 Once it is decoded, we get the output which is the flag.
 
-![](<.gitbook/assets/image (350).png>)
+![](<.gitbook/assets/image (577).png>)
 
 Flag: STANDCON2022{cfc-y0u2\_d3f4u17\_9473w4y\_70\_4\_cy832\_c42332}
 
 ## I Sea You (Part 1)
 
-![](<.gitbook/assets/image (284).png>)
+![](<.gitbook/assets/image (521).png>)
 
 For this challenge, we were given a `.wav` audio file. I compressed to zip file (because file upload limit size here is 100MB only)
 
@@ -68,29 +68,29 @@ I opened the `.wav` file in [Audacity](https://www.audacityteam.org/download/) t
 
 &#x20;I moved to the 1 min mark because I know that's when the morse code starts playing. Next, I could right click on the drop down list and select `Spectrogram`
 
-![](<.gitbook/assets/image (342).png>)
+![](<.gitbook/assets/image (507).png>)
 
 This would give us the Spectrogram view
 
-![](<.gitbook/assets/image (330).png>)
+![](<.gitbook/assets/image (546).png>)
 
 There were 8 different channels for this audio file. But I saw something interesting at Channels 7 and 8.
 
-![](<.gitbook/assets/image (291).png>)
+![](<.gitbook/assets/image (533).png>)
 
 It looked like these 2 channels contained the morse code we are looking for. We could click `Solo` here just to listen to the specific channel. I realised channel 7 and 8 are probably the same audio.
 
 I proceeded to click on the drop down list again and select `Spectrogram settings`. I changed the `range` to `1` . This time the morse code appeared much clearer. We could take the longer dash as `-` and the shorter dash as `.`&#x20;
 
-![](<.gitbook/assets/image (312).png>)
+![](<.gitbook/assets/image (567).png>)
 
 I decoded this using this [online morse code translator](https://morsecode.world/international/translator.html). I input the morse code which I saw on Audacity into the input (can be quite time consuming) and saw the message in the output. For an alternative solution, refer to my previous writeup [here](https://gadiel-lau.gitbook.io/2020-writeups/brixel-ctf-winter-edition-2020/forensics#lost-evidence) where I used Audacity to copy paste the audio section into a new file and export it. After that, we could upload the audio on [online morse code decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html) to get the message. I wanted to try to "manually" decode this time as the morse code decoder doesn't work 100% of the time for me (i.e. sometimes it decodes a wrong output)
 
-![](<.gitbook/assets/image (160).png>)
+![](<.gitbook/assets/image (593).png>)
 
 Alternative solution output (after a few tries.. had to clear message and play again)
 
-![](<.gitbook/assets/image (353).png>)
+![](<.gitbook/assets/image (536).png>)
 
 In both output above, we would get the same message.
 
@@ -113,23 +113,23 @@ CHANNEL COMPROMISED. EMAIL ORCA.ATLANTIS@GMAIL.COM.
 
 After getting the message, I proceeded to email `ORCA` for the flag.
 
-![](<.gitbook/assets/image (163).png>)
+![](<.gitbook/assets/image (561).png>)
 
 After a few seconds, I get back a response which contained a Partial Flag for Part 1.
 
-![Part 1 flag: STANDCON22{Y0u\_F0uNd\_0r](<.gitbook/assets/image (156).png>)
+![Part 1 flag: STANDCON22{Y0u\_F0uNd\_0r](<.gitbook/assets/image (590).png>)
 
 If I click on `Show original`, I would see more details about this email. Now I know that `Content-Transfer-Encoding` used Base64 and I could see a chunk of Base64 encoded text at the bottom.
 
-![](<.gitbook/assets/image (169).png>)
+![](<.gitbook/assets/image (581).png>)
 
 I copied the whole chunk and paste into [online Base64 decoder](https://www.base64decode.org/), which gave me an interesting output. Right at the bottom, I could see a message that was not shown in the email previously.
 
-![](<.gitbook/assets/image (141).png>)
+![](<.gitbook/assets/image (596).png>)
 
 This is likely to be "`Digital invisible ink`".  If we press `CTRL+A` on the email message, we could see the hidden message appear at the bottom as well.
 
-![](<.gitbook/assets/image (166).png>)
+![](<.gitbook/assets/image (573).png>)
 
 Now that we got the first part of the flag, where is the second part? We know that `ORCA` left us a hint from the hidden message which reads `I loved the food so much that I left a review!`
 
@@ -139,11 +139,11 @@ After some searching online, I found a pretty good read [here](https://webintmas
 
 Sometimes you would get this "annoying" pop up to verify that you are human. It is totally normal. If you are unable to verify for some reason and cannot proceed to the next step, continue reading.. I have another solution to solve this challenge.
 
-![](<.gitbook/assets/image (346).png>)
+![](<.gitbook/assets/image (508).png>)
 
 After verified, we will see a `Google maps` link at the bottom.
 
-![](<.gitbook/assets/image (103).png>)
+![](<.gitbook/assets/image (540).png>)
 
 If we go to the [link](https://www.google.com/maps/contrib/115760377201113977336), and click on `Reviews`, we will get the 2nd part of the flag.
 
@@ -151,11 +151,11 @@ An alternative solution to find the 2nd part of the flag would be to use [GHunt]
 
 After installation, I could simply run the command `python ghunt.py email orca.atlantis@gmail.com` on my Command Prompt and I would get the [Google Maps link](https://www.google.com/maps/contrib/115760377201113977336/reviews) where Orca left a review.&#x20;
 
-![](<.gitbook/assets/image (297).png>)
+![](<.gitbook/assets/image (504) (1).png>)
 
 Clicking on the link would give us the 2nd part of the flag.
 
-![](<.gitbook/assets/image (331).png>)
+![](<.gitbook/assets/image (576).png>)
 
 Combining both parts of the flag would give us the flag for this challenge.
 
@@ -163,7 +163,7 @@ Flag: STANDCON22{Y0u\_F0uNd\_0r C@'s\_SEA\_cR3t!}
 
 ## Warmup Forensics
 
-![](<.gitbook/assets/image (133).png>)
+![](<.gitbook/assets/image (565).png>)
 
 We are given a `broken` file with no file extensions.
 
@@ -171,7 +171,7 @@ We are given a `broken` file with no file extensions.
 
 First, I used `file` command to check the type of file data. Next, I used a hex editor like[ GHex](https://wiki.gnome.org/Apps/Ghex) to analyse the file data.
 
-![](<.gitbook/assets/image (117).png>)
+![](<.gitbook/assets/image (539).png>)
 
 We could see that the decoded [file signature](https://en.wikipedia.org/wiki/List\_of\_file\_signatures) shows `STANDCON2022`. This is an invalid file signature, so we have to change this. But what file signature should we change? or what type of file should this  be?&#x20;
 
@@ -179,11 +179,11 @@ If we continue inspecting the data, we would see `IHDR`,`IDAT` and `IEND`. Hence
 
 We could change the file signature and the following 2 bytes to `00 00` as well. If we take a closer look, we would realise that the width(4 bytes) and height(4 bytes) are all set to 0.&#x20;
 
-![](<.gitbook/assets/image (99).png>)
+![](<.gitbook/assets/image (531).png>)
 
 We need to find out the correct width and height of this image. To do this, we could check its[ CRC value(4 bytes)](https://www.w3.org/TR/PNG-Structure.html) as highlighted
 
-![CRC value: E8 D3 C1 43](<.gitbook/assets/image (332).png>)
+![CRC value: E8 D3 C1 43](<.gitbook/assets/image (555).png>)
 
 Now, we could write a simple Python script on a text editor like Vim or Sublime Text.
 
@@ -203,21 +203,21 @@ for i in range(3000):
 
 If we run the python script, we would get the correct values for width and height. In this case, we should set the width to 0x780 and height to 0x438.
 
-![](<.gitbook/assets/image (295).png>)
+![](<.gitbook/assets/image (563).png>)
 
 Now that everything is set, we will save this data in GHex.
 
-![](<.gitbook/assets/image (120).png>)
+![](<.gitbook/assets/image (584).png>)
 
 If we go to the directory and open up `broken`, we can now see the flag at the bottom of the image!
 
-![](<.gitbook/assets/image (129).png>)
+![](<.gitbook/assets/image (501).png>)
 
 Flag: STANDCON22{W@RMUP\_lia00000}
 
 ## MemeDump
 
-![](<.gitbook/assets/image (917).png>)
+![](<.gitbook/assets/image (158).png>)
 
 For this challenge, we were given a [google drive link](https://drive.google.com/file/d/1oR2iV5kub75hfSya91xjPiXs7cCBNbao/view) which contained a `memedump.raw` file. Note that I solved this challenge after the competition. Nevertheless, I thought this was quite an interesting challenge and decided to do a writeup.
 
@@ -225,7 +225,7 @@ I will be using [Volatility 2](https://en.wikipedia.org/wiki/Volatility\_\(softw
 
 First, we run `imageinfo` to determine the profile of `memedump`.
 
-![](<.gitbook/assets/image (20).png>)
+![](<.gitbook/assets/image (808).png>)
 
 Next, we could take the first profile that we see: `Win7SP1x86_23418` to perform other commands below. We could run `pslist` to check the list of processes.
 
@@ -266,7 +266,7 @@ Offset(V)  Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Star
 
 If we used the hint, it would tell us that MEMES are made in `Microsoft Paint`. Notice previously when we ran `pslist`, there was a `mspaint.exe` with the Process ID - PID: `1464`. This process could have our flag.
 
-![](<.gitbook/assets/image (86).png>)
+![](<.gitbook/assets/image (801).png>)
 
 Another possibility could be the flag is in the filesystem. We could run `filescan` and `grep` for `Users.*` to check the list of files and limit to only search for users files. We would see that there are a few files with `.png` files.
 
@@ -451,17 +451,17 @@ Writing mspaint.exe [  1464] to 1464.dmp
 
 Once it's extracted, we will get a `1464.dmp` file. We change this to `.data` file.
 
-![](<.gitbook/assets/image (820).png>)
+![](<.gitbook/assets/image (799).png>)
 
 Open the `1464.data` in [`GIMP`](https://www.gimp.org/).&#x20;
 
-![](<.gitbook/assets/image (35).png>)
+![](<.gitbook/assets/image (803).png>)
 
 After some trial and error, if we change the Image settings to `Offset: 192115874` `Width: 953` `Height: 910`, we will get the flag.
 
-![](<.gitbook/assets/image (804).png>)
+![](<.gitbook/assets/image (120) (1).png>)
 
-![](<.gitbook/assets/image (745).png>)
+![](<.gitbook/assets/image (121) (1).png>)
 
 Flag: STANDCON22{meme\_mem\_dump}
 
@@ -477,12 +477,12 @@ I would like to thank the organiser N0H4TS for the giftpack which contained pen,
 
 ## Gift pack & Lucky Draw Winner
 
-![Gift pack](<.gitbook/assets/image (304).png>)
+![Gift pack](<.gitbook/assets/image (566) (1).png>)
 
-![Lucky Draw prize](<.gitbook/assets/image (139).png>)
+![Lucky Draw prize](<.gitbook/assets/image (537).png>)
 
-![Lucky Draw Prize Giving Ceremony](<.gitbook/assets/image (956).png>)
+![Lucky Draw Prize Giving Ceremony](<.gitbook/assets/image (111).png>)
 
-![Venue was changed 1 day before...](<.gitbook/assets/image (770).png>)
+![Venue was changed 1 day before...](<.gitbook/assets/image (128) (1).png>)
 
 Pictures taken for this Prize Giving Ceremony can be found on [Instagram ](https://www.instagram.com/p/Cg1YSaTpt5o/?hl=en)and [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6960904737680486400/?updateEntityUrn=urn%3Ali%3Afs\_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6960904737680486400%29).

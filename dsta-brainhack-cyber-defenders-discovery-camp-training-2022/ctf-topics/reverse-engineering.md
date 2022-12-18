@@ -6,13 +6,13 @@ description: This topic consists of 9 challenges and I solved 3/9 of them.
 
 ## WhoAmI
 
-![](<../../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image (32) (1).png>)
 
 For this challenge, we were given a `.cpp` file. In the cpp file, there is `whoami` function and `start` function.
 
-![](<../../.gitbook/assets/image (715).png>)
+![](<../../.gitbook/assets/image (94) (1).png>)
 
-![](<../../.gitbook/assets/image (589).png>)
+![](<../../.gitbook/assets/image (61) (1).png>)
 
 From the code, we could tell it is comparing the length of the 2 strings.&#x20;
 
@@ -20,11 +20,11 @@ In cpp, we use the `strcmp` function.
 
 If we generate the SHA1 of `strcmp` [here](http://www.sha1-online.com/), it would give us the flag.
 
-![](<../../.gitbook/assets/image (699).png>)
+![](<../../.gitbook/assets/image (73) (1).png>)
 
 ## Weird Section
 
-![](<../../.gitbook/assets/image (273).png>)
+![](<../../.gitbook/assets/image (99) (1).png>)
 
 For this challenge, we were given a `.exe` file embedded in the zip file.
 
@@ -40,19 +40,19 @@ We could use `UPX` to unpack the `.exe` file.
 
 In this case, we saved it to another file `weirdsection`.
 
-![](<../../.gitbook/assets/image (641).png>)
+![](<../../.gitbook/assets/image (37) (1).png>)
 
 Next, we could load the file into[ IDA freeware](https://hex-rays.com/ida-free/) and we see the string : UPX\_IS\_EASY
 
-![](<../../.gitbook/assets/image (579).png>)
+![](<../../.gitbook/assets/image (120).png>)
 
 Finally, we generate the SHA1 of `UPX_IS_EASY` using [SHA1 online generator ](http://www.sha1-online.com/)and we will get the flag.
 
-![](<../../.gitbook/assets/image (577).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 ## (Sharp)
 
-![](<../../.gitbook/assets/image (56).png>)
+![](<../../.gitbook/assets/image (55).png>)
 
 In this challenges, it provided us with a [link](https://pelock.medium.com/reverse-engineering-tools-for-net-applications-a28275f185b4) with some possible tools we could use for .NET applications. We are also given a zip file.
 
@@ -64,4 +64,4 @@ I opened the file in `dotPeek`, expanded the application, scroll down and found 
 
 If we generate the SHA1 of the string using [SHA1 online generator](http://www.sha1-online.com/) and we would get the flag.
 
-![](<../../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (82).png>)

@@ -6,4 +6,4 @@ description: >-
 
 # Basic Concepts of Cybersecurity
 
-![](<../../.gitbook/assets/image (275).png>)
+![](<../../.gitbook/assets/image (571).png>)

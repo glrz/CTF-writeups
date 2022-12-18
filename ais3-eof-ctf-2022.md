@@ -14,13 +14,13 @@ This year's GCC covered topics such as [Hand-on Post-exploitation Penetration an
 
 The AIS3 EOF CTF 2022 was hosted by the same organization: AIS3. GCC students were then invited to participate in this CTF and up to 10 GCC students were allowed in a team. For this CTF, I participated with the team name: \[GCC]2, with 3 other teammates - Choo Chi Siang(Malaysia), Liu pin-tin(Taiwan) and Kota Fukushima(Japan). We had 2 solves, 1 was solved by me and the other solved by Liu pin-tin. In this writeup, I would only include the one I solved.
 
-![](<.gitbook/assets/image (692).png>)
+![](<.gitbook/assets/image (253) (1).png>)
 
-![](<.gitbook/assets/image (379).png>)
+![](<.gitbook/assets/image (287).png>)
 
-![](<.gitbook/assets/image (220).png>)
+![](<.gitbook/assets/image (364).png>)
 
-![Final scoreboard](<.gitbook/assets/image (657).png>)
+![Final scoreboard](<.gitbook/assets/image (296) (1).png>)
 
 ## Capture the Flag™
 
@@ -38,13 +38,13 @@ At first glance, it just looks like a normal flag design.
 
 I proceeded to check every part of the flag design: top view, bottom view, front view, back view..
 
-![Front view](<.gitbook/assets/image (421).png>)
+![Front view](<.gitbook/assets/image (272).png>)
 
-![Back view](<.gitbook/assets/image (235).png>)
+![Back view](<.gitbook/assets/image (345).png>)
 
-![Top view](<.gitbook/assets/image (466).png>)
+![Top view](<.gitbook/assets/image (361).png>)
 
-![Bottom view](<.gitbook/assets/image (253).png>)
+![Bottom view](<.gitbook/assets/image (391).png>)
 
 Zoomed in and out for a couple of minutes but could not find anything useful.
 
@@ -54,30 +54,30 @@ I could click `Model selection mode` and then click on this model
 
 &#x20;
 
-![](<.gitbook/assets/image (234).png>)
+![](<.gitbook/assets/image (332).png>)
 
 On the left, I select `Wireframe`
 
-![](<.gitbook/assets/image (582).png>)
+![](<.gitbook/assets/image (238).png>)
 
 I realised there are some words at the base of the flag. I decided to zoom in to take a closer look
 
-![](<.gitbook/assets/image (626).png>)
+![](<.gitbook/assets/image (258) (1).png>)
 
 Now, we could change different settings such as decreasing the opacity, or try different rotating methods to read the words.
 
 After doing this for some time, the text reads : `I heard that people have been stealing 3D printing without attributing the author Wonder if there is any way to add watermark to a 3d model?`
 
-![](<.gitbook/assets/image (398).png>)
+![](<.gitbook/assets/image (215).png>)
 
 Solving this challenge, I came across this online [site](https://www.watermark3d.com/) which allowed me to check the watermark.
 
 I could upload the file, leave the password field as empty and click `check watermark`
 
-![](<.gitbook/assets/image (619).png>)
+![](<.gitbook/assets/image (283).png>)
 
 As we can see, there is our flag in the results column
 
-![](<.gitbook/assets/image (416).png>)
+![](<.gitbook/assets/image (337).png>)
 
 Flag: EOF{sT3gn0gr4phy\_0n-3d\_Fi1es-miGhT\_be-a\_vi4bl3-$trat\_lol}
