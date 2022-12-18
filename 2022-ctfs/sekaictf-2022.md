@@ -10,35 +10,35 @@ The event details can be found on [CTFtime](https://ctftime.org/event/1619). The
 
 I participated in this CTF with 2 other teammates from NTU. I did not commit too much time in this CTF as I had other commitments and preparations to do for school.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (861).png" alt=""><figcaption></figcaption></figure>
 
 I participated with the team name `4Xv11$` with my initials `RZ` and solved a few challenge which include `Sanity Check`, `Console Port` and `Survey` challenges. I documented these challenges below as well as other challenges I solved after the event. I also documented some challenges that was solved by my teammate.
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (881).png" alt=""><figcaption></figcaption></figure>
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 Like most "sanity check" kind of challenges, this one was very straightforward. It was similar to what I solved [here](https://gadiel-lau.gitbook.io/2022-writeups/shell-ctf-2022#sanity-check). For this challenge, the flag could be found at the top of the channel.
 
-<figure><img src="../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (849).png" alt=""><figcaption></figcaption></figure>
 
 Flag: SEKAI{w31c0m3\_t0\_th3\_w0r1d!}
 
 ## Console Port
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we could connect to the challenge with the command given on our terminal.&#x20;
 
 Once the command is executed, we can proceed to press any key to start.
 
-<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 We would need to defuse the bomb before it actually explodes.&#x20;
 
-<figure><img src="../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (819).png" alt=""><figcaption></figcaption></figure>
 
 At this point, it seemed like the game is "cut off" and we cannot see the full game. I clarified with the challenge creator and indeed I was not seeing the full game. If we go back to the first image when we just executed the command, we would notice that it says `You shall use a terminal with a size of at least 80 columns and 40 rows`. In our case, the number of rows is insufficient, only around 20+ rows which is short of the `40 rows` that we needed.
 
@@ -46,17 +46,17 @@ To solve this simple issue, we could simply open the terminal again, press `CTRL
 
 After that is done, we would be presented with a series of random challenges in the game. Our goal is to solve all these mini challenges before the time runs out.
 
-<figure><img src="../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (814).png" alt=""><figcaption></figcaption></figure>
 
 In the challenge description, we could refer to[ the manual](https://www.bombmanual.com/) provided. In the manual, we could refer to its respective challenges and solve it accordingly. After solving the 5 different random challenges in the game, we will get the flag.
 
-<figure><img src="../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 Flag: SEKAI{SenkouToTomoniHibikuBakuon!}
 
 ## Matrix Lab 1
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was reverse engineering related. We were given a `.class` file. I only managed to decompile the `.class` file into `java` using an [online decompiler](http://www.javadecompilers.com/). My teammate solved the rest of the challenge.
 
@@ -383,29 +383,29 @@ public class Sekai {
 
 Using the above code, we could compile the java file and execute it to get the flag.
 
-<figure><img src="../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 Flag: SEKAI{m4tr1x\_d3cryP710N\_15\_Fun\_M4T3\_@2D2D!}
 
 ## Bottle Poem
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the Web category. I worked together with my teammate and we solved this challenge during the CTF.
 
 We were given a link. Upon browsing the link, we could see 3 different links which would lead us to 3 different poems.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (854).png" alt=""><figcaption></figcaption></figure>
 
 If we click on the first link, it would bring us to this `Spring` poem. Upon further inspection, it is just a poem.
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (880).png" alt=""><figcaption></figcaption></figure>
 
 The second and third links are similar. Nothing special, just different poems.
 
 If we take a closer look at the URL, we would notice `id=spring.txt`. We could proceed to check for `Local File Inclusion`. By changing the value of `id` to `/proc/self/cmdline`, we could get the executable path. Alternatively, we could do a path traversal by going `../../../../proc/self/status` to find the `pid` of the web app. After we found out that the `pid` is `7`, we could use `../../../../proc/7/cmdline` to extract the command that starts up the web server.
 
-<figure><img src="../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -471,19 +471,19 @@ I proceeded to go to [http://bottle-poem.ctf.sekai.team/show?id=/proc/self/cwd/c
 
 We would see the value of `sekai` on the page.&#x20;
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (871).png" alt=""><figcaption></figcaption></figure>
 
 At this point, my teammate and I were stuck at the challenge for some time. After awhile, I found an article on [bottle cookie mechanism](https://pwp.stevecassidy.net/bottle/cookies/). If we follow it, we would get the cookie for `admin` after running the code in Python.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
 
 I changed the cookie value in `EditThisCookie` and refreshed the page. However, this brought us to what seemed like dead end. The page only says `Hello, you are admin, but it's useless`.&#x20;
 
-<figure><img src="../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
 After some research on `Bottle cookie` and reading through the [documentation](https://bottlepy.org/docs/dev/bottle-docs.pdf), we found on page 51 that we could probably use `Pickle` to perform `Remote Code Execution`.
 
-<figure><img src="../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 
 Here my teammate constructed a simple python script, somehow without the use of `Pickle` to solve the challenge.
 
@@ -505,7 +505,7 @@ r = requests.get("http://bottle-poem.ctf.sekai.team/show?id=/tmp/output")
 print(r.text)
 ```
 
-<figure><img src="../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 The intended solution was to use `Pickle` and `RCE` like [this](https://github.com/bottlepy/bottle/issues/900) to get the flag.
 
@@ -513,73 +513,73 @@ Flag: SEKAI{W3lcome\_To\_Our\_Bottle}
 
 ## Broken Converter
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (891).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the forensics category. We were given a `.xps` file. I was close to solve this challenge during the CTF, I eventually solved it after the CTF.
 
 XPS files are like [OOXML](https://en.wikipedia.org/wiki/Office\_Open\_XML) files (MS Office files): mainly XML files inside a ZIP container, e.g. a file according to the [Open Packaging Conventions](https://en.wikipedia.org/wiki/Open\_Packaging\_Conventions) specification. Read more about XPS on [Wikipedia](https://en.wikipedia.org/wiki/Open\_XML\_Paper\_Specification).&#x20;
 
-<figure><img src="../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
 We can proceed to unzip this `.xps` file. Previously, I had solved a challenge in another CTF where I unzip `OOXML` file [here](https://gadiel-lau.gitbook.io/2022-writeups/downunderctf-2022#doxme).
 
-<figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 At this point, I chanced upon some articles [here ](https://isc.sans.edu/diary/Analyzing+XPS+files/23804)and [here ](https://videos.didierstevens.com/2018/06/30/analyzing-xps-files/)after doing some research on `xps file forensics`.
 
 I tried applying it to this challenge itself.
 
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (850).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
 
 I extracted the UnicodeString from the `xps` file but it looked like I was going in the wrong direction.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (899).png" alt=""><figcaption></figcaption></figure>
 
 If I go right back to the beginning when I extracted the files, I would notice that there is a `.odttf` file extracted to `resources`.
 
 `ODTTF` file is a obfuscated OpenType file, you could read more about it [here](https://en.wikipedia.org/wiki/ODTTF). Basically, we could upload this file to an [online ODTTF demo](https://somanchiu.github.io/odttf2ttf/js/demo) and this would give us a `TTF` file. TTF files are TrueType font files, you could read more about it [here](https://docs.fileformat.com/font/ttf/).
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (886).png" alt=""><figcaption></figcaption></figure>
 
 After we saved the TTF file, we could open the `.ttf` file in programs that sort by ASCII such as [FontDrop!](https://fontdrop.info/) or [FontForge](https://fontforge.org/).
 
 Since FontForge requires download, I choose the online solution and used FontDrop! to solve this challenge. If we open up the `.ttf` file, we could see the flag displayed under `Glyphs`.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 
 Flag: SEKAI{sCR4MBLeD\_a5ci1-FONT+GlYPHZ,W3|!.d0n&}
 
 ## flag Mono
 
-<figure><img src="../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it shared the same file as the previous challenge `Broken Converter`.
 
 We could simply proceed to solve this challenge from where we left off in the previous challenge. After we loaded the `.ttf` file in `FontDrop!`, we could click on the different buttons on OpenType features to yield the flag.
 
-<figure><img src="../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
 
 If we enable `ss01`, we will see the first part of the flag.
 
-<figure><img src="../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
 
 If we disable `ss01` and click on `ss02`, we would get the second part of the flag.
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
 
 Similarly, following the same procedure we will get third part of the flag.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (866).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we would get the final part of the flag.
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (888).png" alt=""><figcaption></figcaption></figure>
 
 Combing the 4 different parts obtained above, we would get the flag.
 
@@ -587,7 +587,7 @@ Flag: SEKAI{OpenTypeMagicGSUBIsTuringComplete}
 
 ## Sus
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the MISC category. We were given a `.sus` file. This challenge is actually pretty straightforward and I solved it after the CTF.
 
@@ -864,7 +864,7 @@ Once we load the file we will get this bunch of text.
 
 Simply just copy and paste everything and press convert and we can see the flag from bottom-up.
 
-<figure><img src="../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
 
 Note that there are other ways to solve this as well. You could use other tools [here](https://paletteworks.mkpo.li/), [here ](https://github.com/crash5band/MikuMikuWorld)or [here](https://github.com/paralleltree/Ched).
 
@@ -872,13 +872,13 @@ Flag: SEKAI{SbtnFmnW2HnYbdDkryunTkrrtims}
 
 ## Survey
 
-<figure><img src="../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it is similar to this challenge [here](https://gadiel-lau.gitbook.io/2022-writeups/downunderctf-2022#survey). Nowadays, the CTFs on the CTFtime platform would include this `survey` challenge to reward you free points for doing their survey and providing feedback at the end of their event. A challenge but not really a challenge.
 
 At the end of the survey, the flag is displayed as an image.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (895).png" alt=""><figcaption></figcaption></figure>
 
 Flag: SEKAI{thx\_for\_playing\_SekaiCTF\_2022}
 
