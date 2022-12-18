@@ -1,6 +1,6 @@
 ---
-description: This is a collection of CTF writeups in 2022.
+description: This is a collection of CTF writeups in 2021.
 ---
 
-# 2022 CTFs
+# 2021 CTFs
 
