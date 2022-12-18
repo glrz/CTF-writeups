@@ -12,10 +12,10 @@ For this CTF competition, I only solved one challenge, which is the welcome chal
 
 The challenge description is as follow
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (84).png>)
 
 If we navigate to the website, we will see the flag.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 Flag: LINECTF{welcome\__to\__linectf}

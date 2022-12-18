@@ -6,7 +6,7 @@ description: CTF.SG CTF 2021 is a 24 hours CTF competition held from 13 Mar - 14
 
 This competition allowed up to 4 members to form a team but I participated solo in this CTF competition with the team name: TeamNotFound and came in 27/123 teams, pretty satisfied with the results. I solved a few challenges which includes the insanity challenge and a web challenge.
 
-![](<../.gitbook/assets/image (91).png>)
+![](<../.gitbook/assets/image (83).png>)
 
 ## Insanity challenge
 
@@ -23,7 +23,7 @@ For me, I went on to Google `how to view hidden channels on discord` and came ac
 I proceeded to download `BetterDiscord` [here](https://betterdiscord.app/), and installed the ShowHiddenChannels plugin [here](https://betterdiscord.app/plugin/ShowHiddenChannels). Once everything is set up correctly, we can go back to the CTF.SG discord server. We will notice a hidden channel called `Insanity` appear now. \
 If we right click and click channel access, we will see the flag under `Channel Topic`
 
-![](<../.gitbook/assets/image (81).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 _Author's writeup :_ [_here_](https://isopach.dev/CTFSG-CTF-2021/#insanity-check)__
 
@@ -31,7 +31,7 @@ _CTFSG{4LL\_uR\_cH4nn3lS\_R\_13eLonG\_t0\_uS!}_
 
 ## Wildest Dream
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (18).png>)
 
 For this challenge, we are given a website link and a php file.&#x20;
 
@@ -39,7 +39,7 @@ For this challenge, we are given a website link and a php file.&#x20;
 
 The website looks normal and nothing out of the ordinary.&#x20;
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (92).png>)
 
 First, lets inspect the php code provided. This is the php source code provided.
 
@@ -78,7 +78,7 @@ It looks like if this condition is satisfied, it will print out the flag for us.
 
 After a few attempts, I realised we can find 2 md5 values `i1` and `i2`, both should not contain hexadecimals, and input this into the php URL query like this, which will give us the flag below the image.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (60).png>)
 
 Flag: CTFSG{1-+h1nk-h3-d1d-1+bu+-I-ju5t-c4n+-pr0v3-1t}
 
