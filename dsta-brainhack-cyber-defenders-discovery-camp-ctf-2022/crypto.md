@@ -18,7 +18,7 @@ Furthermore, we had encountered such challenge before [here](https://gadiel-lau.
 
 To solve this, we simply use an [online Vigenere Cipher decoder](https://www.dcode.fr/vigenere-cipher), paste in the text and click `AUTOMATIC DECRYPTION`. The flag would appear decoded on the left.
 
-![](<../.gitbook/assets/image (117).png>)
+![](<../.gitbook/assets/image (27).png>)
 
 Flag: CDDC22{v3ry\_simple\_4nd\_34sy\_crypt0\_ch4llenge}
 

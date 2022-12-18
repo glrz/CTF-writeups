@@ -14,7 +14,7 @@ This year's GCC covered topics such as [Hand-on Post-exploitation Penetration an
 
 The AIS3 EOF CTF 2022 was hosted by the same organization: AIS3. GCC students were then invited to participate in this CTF and up to 10 GCC students were allowed in a team. For this CTF, I participated with the team name: \[GCC]2, with 3 other teammates - Choo Chi Siang(Malaysia), Liu pin-tin(Taiwan) and Kota Fukushima(Japan). We had 2 solves, 1 was solved by me and the other solved by Liu pin-tin. In this writeup, I would only include the one I solved.
 
-![](<.gitbook/assets/image (253).png>)
+![](<.gitbook/assets/image (266).png>)
 
 ![](<.gitbook/assets/image (287).png>)
 
@@ -26,7 +26,7 @@ The AIS3 EOF CTF 2022 was hosted by the same organization: AIS3. GCC students we
 
 In this challenge, we were given a .STL file.&#x20;
 
-{% file src=".gitbook/assets/trademarked_flag.stl" %}
+{% file src=".gitbook/assets/trademarked_flag (1).stl" %}
 
 Spoiler : This challenge is kind of steganography related, where the flag is hidden in the 3D design.
 
@@ -38,7 +38,7 @@ At first glance, it just looks like a normal flag design.
 
 I proceeded to check every part of the flag design: top view, bottom view, front view, back view..
 
-![Front view](<.gitbook/assets/image (272) (1).png>)
+![Front view](<.gitbook/assets/image (272).png>)
 
 ![Back view](<.gitbook/assets/image (345).png>)
 
@@ -62,7 +62,7 @@ On the left, I select `Wireframe`
 
 I realised there are some words at the base of the flag. I decided to zoom in to take a closer look
 
-![](<.gitbook/assets/image (258).png>)
+![](<.gitbook/assets/image (239).png>)
 
 Now, we could change different settings such as decreasing the opacity, or try different rotating methods to read the words.
 

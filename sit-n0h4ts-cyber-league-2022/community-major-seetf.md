@@ -11,7 +11,7 @@ More details about SEETF 2022 can be found on [CTFtime](https://ctftime.org/even
 
 I solved 3 MISC, 1 Web and 1 OSINT challenge. The `Join our Discord` and `Survey` challenges are like free points giveaway, so I will only do writeups for the others.
 
-![](<../.gitbook/assets/image (529).png>)
+![](<../.gitbook/assets/image (529) (1).png>)
 
 ![](<../.gitbook/assets/image (785).png>)
 
@@ -62,7 +62,7 @@ I would be covering 3 different ways on how you could solve this.
 
 `-E` option stands for regular expression
 
-![](<../.gitbook/assets/image (731).png>)
+![](<../.gitbook/assets/image (731) (1).png>)
 
 2\. Using [Sublime Text](https://www.sublimetext.com/), we can `CTRL+F` then input `SEE{[A-Z]{5}\d{5}[A-Z]{6}}` into the search field, click on `Regular expression` or `ALT+R` and click `Find`
 
@@ -94,7 +94,7 @@ Flag: SEE{RGSXG13841KLWIUO}
 
 ## Everyone Needs a Break
 
-![](<../.gitbook/assets/image (794).png>)
+![](<../.gitbook/assets/image (794) (1).png>)
 
 For this challenge, we were given this `challenge.png` image.
 
@@ -127,7 +127,7 @@ We could go file, `Export objects > HTTP`\
 
 There are a list of contents, but notice there is a zip file. We could save this zip file.
 
-![](<../.gitbook/assets/image (738).png>)
+![](<../.gitbook/assets/image (738) (1).png>)
 
 After saving the file, we could try to extract the zip file. However, we cannot extract the zip file because it is password protected.
 

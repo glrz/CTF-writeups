@@ -164,7 +164,7 @@ Press this `magic wand` icon
 
 We can now see the flag in output.
 
-![](<.gitbook/assets/image (554).png>)
+![](<.gitbook/assets/image (554) (1).png>)
 
 Flag: flag{69cc4294c4986c901f053d364d822acb}
 
@@ -176,6 +176,6 @@ This challenge mentions `Vigenère cipher` in the description, so we already kno
 
 We could use [CyberChef](https://cyberchef.org/) to decrypt this and get the flag.
 
-![Vigenère cipher Key: key](<.gitbook/assets/image (538).png>)
+![Vigenère cipher Key: key](<.gitbook/assets/image (538) (1).png>)
 
 Flag: flag{357256db26aa89137e14fc6c46128031}

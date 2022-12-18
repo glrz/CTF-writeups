@@ -18,11 +18,11 @@ We first had to find out the `IP address` of the destination performing the 3 wa
 
 We could for example click on packet 9 to check the destination `IP address` and the `MAC address`.
 
-![](<../../.gitbook/assets/image (762).png>)
+![](<../../.gitbook/assets/image (762) (1).png>)
 
 Finally, we generate the MD5 flag using an online [MD5 Hash Generator](https://www.md5hashgenerator.com/).
 
-![](<../../.gitbook/assets/image (753).png>)
+![](<../../.gitbook/assets/image (753) (1).png>)
 
 ## Who has...?
 
@@ -68,11 +68,11 @@ We could analyze this file in Wireshark.&#x20;
 
 As the challenge title is `HTTP`, we could first filter it by `http`. If we look closely, we would see the flag at packet 279, under the `Info` section.
 
-![](<../../.gitbook/assets/image (718).png>)
+![](<../../.gitbook/assets/image (718) (1).png>)
 
 However, if we did not see this, we could right click on packet 39, `Follow > HTTP Stream`
 
-![](<../../.gitbook/assets/image (703).png>)
+![](<../../.gitbook/assets/image (703) (1).png>)
 
 Scroll down a bit and we would see the flag.
 

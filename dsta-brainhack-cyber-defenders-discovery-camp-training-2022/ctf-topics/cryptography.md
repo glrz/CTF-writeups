@@ -14,7 +14,7 @@ description: This topic consists of 9 challenges and I solved all of them.
 
 ## Symmetric Key 3
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (231).png>)
 
 ## Symmetric Key 4
 
@@ -50,7 +50,7 @@ If we press the `padlock` icon, we could see `Certificate is valid`.&#x20;
 
 Clicking on it would give us more information such as the information of the issuer under `General` and the public key under `Details`.
 
-![](<../../.gitbook/assets/image (88).png>)
+![](<../../.gitbook/assets/image (246).png>)
 
 ![](<../../.gitbook/assets/image (12) (1).png>)
 

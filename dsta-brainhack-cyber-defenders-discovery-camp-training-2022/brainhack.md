@@ -18,7 +18,7 @@ After spending some time hunting for easter eggs, I finished 57/974 with 160 poi
 
 ![](<../.gitbook/assets/image (86) (1).png>)
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (240).png>)
 
 ![](<../.gitbook/assets/image (75) (1).png>)
 

@@ -20,7 +20,7 @@ Besides the lecture videos, participants could solve up to 85 challenges in `Bas
 
 I solved 60/85 challenges, of which 18/26 are in `Basic Concepts of Cybersecurity and` 42/59 in `CTF Topics`.&#x20;
 
-![Basic Concepts of Cybersecurity](<../.gitbook/assets/image (574).png>)
+![Basic Concepts of Cybersecurity](<../.gitbook/assets/image (574) (1).png>)
 
 ![CTF Topics](<../.gitbook/assets/image (514).png>)
 

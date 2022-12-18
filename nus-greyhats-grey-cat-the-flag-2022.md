@@ -28,11 +28,11 @@ We could inspect the packets by applying this filter
 
 `http.request.method == POST`
 
-![](<.gitbook/assets/image (583).png>)
+![](<.gitbook/assets/image (583) (1).png>)
 
 There is only 1 packet shown. We could right click on that packet, and select `Follow > TCP Stream`. If we paid close attention, we could already see the flag here.
 
-![](<.gitbook/assets/image (586).png>)
+![](<.gitbook/assets/image (586) (1).png>)
 
 An alternative solution would be to select file, `Export Objects > HTTP`&#x20;
 
@@ -50,7 +50,7 @@ The challenge mentioned `extract the image. Then find the name of the creator of
 
 If we were to follow the instructions provided in the challenge description, we could go to the same packet, go to `MIME Multipart Media Encapsulation` and expand until we see `Portable Network Graphics`, right click and select `Copy Bytes as Hex + ASCII Dump`.
 
-![](<.gitbook/assets/image (548).png>)
+![](<.gitbook/assets/image (548) (1).png>)
 
 Then, we could go to [CyberChef](https://cyberchef.org/) and paste the data in the Input.
 
@@ -66,7 +66,7 @@ We save this output to a file `flag.png`
 
 Finally, we upload `flag.png` on an [online exiftool](https://exif.tools/) and we will see the flag appear in `Author` description.
 
-![](<.gitbook/assets/image (518).png>)
+![](<.gitbook/assets/image (518) (1).png>)
 
 Check out my other writeups where I used Wireshark [here](https://gadiel-lau.gitbook.io/2022-writeups/sg-cyber-olympian-trials-2022#what-did-i-send) and [here.](https://gadiel-lau.gitbook.io/2022-writeups/lagncrash-interpoly-ctf-2022#nothing-here)
 
@@ -74,7 +74,7 @@ Flag: grey{wireshark\_exiftool\_are\_good}
 
 ## Ghost
 
-![](<.gitbook/assets/image (502).png>)
+![](<.gitbook/assets/image (502) (1).png>)
 
 In this challenge, we are provided a `ghost` file. This file does not have any file extensions and cannot be opened "normally".
 
@@ -150,11 +150,11 @@ Pikalang output:
 
 Base32 output:
 
-![This is not the flag man D:](<.gitbook/assets/image (517).png>)
+![This is not the flag man D:](<.gitbook/assets/image (517) (1).png>)
 
 ROT13 output:
 
-![flag{notThatSimple:P}](<.gitbook/assets/image (528).png>)
+![flag{notThatSimple:P}](<.gitbook/assets/image (528) (1).png>)
 
 As we can see, none of the 5 decoded messages gave us the correct flag.
 
@@ -178,7 +178,7 @@ If I input this in an[ online morse code decoder](https://morsecode.world/intern
 
 After some searching online, I found out this is `Whitespace steganography`. I decided to try [stegsnow](https://manpages.ubuntu.com/manpages/bionic/man1/stegsnow.1.html) - whitespace steganography program. But as you can see, it didn't work or produce any output.
 
-![](<.gitbook/assets/image (541).png>)
+![](<.gitbook/assets/image (541) (1).png>)
 
 Then, I found 2 writeups [here](https://shankaraman.wordpress.com/tag/hackyou-2012-stegano-writeups/) and [here](https://reese.dev/codemash2019-ctf-solutions/#ghost-text) which were useful in helping me solve this challenge.
 
@@ -210,7 +210,7 @@ Some joked that this is the actual CTF challenge. This was a $20 Grab Food Vouch
 
 ![](<.gitbook/assets/image (578).png>)
 
-![](<.gitbook/assets/image (558).png>)
+![](<.gitbook/assets/image (558) (1).png>)
 
 These vouchers are only limited to the first 150 participants who submit the form. I missed the first 2 days of this giveaway event as I joined this CTF late...
 
@@ -218,8 +218,8 @@ In the subsequent days, I managed to submit the form within 1 minute and got $20
 
 Notice we need to submit the form really fast here to get the vouchers, at 9.01pm which is 1 minute+ later, all 150 vouchers would be gone.
 
-![](<.gitbook/assets/image (594).png>)
+![](<.gitbook/assets/image (594) (1).png>)
 
-![](<.gitbook/assets/image (545).png>)
+![](<.gitbook/assets/image (545) (1).png>)
 
-![](<.gitbook/assets/image (525).png>)
+![](<.gitbook/assets/image (525) (1).png>)

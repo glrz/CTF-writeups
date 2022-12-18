@@ -10,7 +10,7 @@ I found this Cryptography challenge on [CTFtime](https://ctftime.org/team/151372
 
 It reads `Join us - but first, solve a challenge: https://forms.gle/o4mYdmpT6KTRc31M9`
 
-![](<.gitbook/assets/image (530).png>)
+![](<.gitbook/assets/image (530) (1).png>)
 
 I have been looking for a team to participate in CTF competitions since 2020 so this was a great opportunity. Furthermore, I wanted to challenge myself to see if I could solve their challenge!
 
@@ -30,7 +30,7 @@ I have officially joined the `Social Engineering Experts` CTF Team on 8 August 2
 
 ## Cryptography
 
-![](<.gitbook/assets/image (513).png>)
+![](<.gitbook/assets/image (513) (1).png>)
 
 ![](<.gitbook/assets/image (519).png>)
 
@@ -54,7 +54,7 @@ I scroll down till number 5 and realised it looked similar to the challenge here
 
 Next, I opened up [Sublime Text](https://www.sublimetext.com/) to edit the Python script.
 
-![](<.gitbook/assets/image (524).png>)
+![](<.gitbook/assets/image (524) (1).png>)
 
 The python script can be found below
 
@@ -88,6 +88,6 @@ Running the script would give me the flag
 
 ![](<.gitbook/assets/image (579).png>)
 
-![](<.gitbook/assets/image (595).png>)
+![](<.gitbook/assets/image (595) (1).png>)
 
 Flag: SocialEngineeringExperts{e4sy\_crypt0\_ch4ll3ng3\_46b4456c34b983f3be91e5f0c0679896434d6cf6b81a5e96efdc316578e99c22}

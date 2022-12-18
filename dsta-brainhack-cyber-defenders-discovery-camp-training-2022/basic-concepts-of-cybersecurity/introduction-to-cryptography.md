@@ -6,7 +6,7 @@ description: This topic consists of 3 challenges and I solved all of them.
 
 ## Intro to Cryptology
 
-![](<../../.gitbook/assets/image (699).png>)
+![](<../../.gitbook/assets/image (699) (1).png>)
 
 There are 5 pillars of information security: **Confidentiality, Integrity, Availability, Authenticity, and Non-repudiation**. `Integrity` is basically described in the challenge description.
 

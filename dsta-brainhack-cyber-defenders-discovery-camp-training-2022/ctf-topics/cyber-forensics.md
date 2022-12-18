@@ -70,7 +70,7 @@ Open the `flag.jpg` file and we would get the flag as well.
 
 ## Historian
 
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (261).png>)
 
 In the challenge, the challenge description mentioned `I hid a flag in chrome`. If we unlock the hint for this challenge, we would know that we need to `understand analysis of chrome history`.
 
@@ -108,7 +108,7 @@ I proceeded to download this file as Rich text format `.rtf`
 
 This time opening the file would give us the flag.
 
-![](<../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image (243).png>)
 
 ## Least Significant
 
@@ -191,7 +191,7 @@ We proceed to run the Python script
 
 Opening up the `flag.png` file gives us the flag.
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (242).png>)
 
 ## My Secret Folder
 
@@ -205,7 +205,7 @@ The challenge description mentioned `logical image`. These are already 2 big hin
 
 I opened up the file in `FTK imager, file -> add evidence item -> image file`
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (38) (1).png>)
 
 Next, we could see a `flag.jpg` file in the file list. Right click and export this file.
 
@@ -239,7 +239,7 @@ I decided to move on to [GHex](https://wiki.gnome.org/Apps/Ghex) on my Kali Linu
 
 At this point, I also tried [PCRT (PNG Check & Repair Tool)](https://github.com/sherlly/PCRT) but it did not work.
 
-![](<../../.gitbook/assets/image (81).png>)
+![](<../../.gitbook/assets/image (258).png>)
 
 Next, I ran [`pngcheck`](http://www.libpng.org/pub/png/apps/pngcheck.html)and it shows invalid image dimensions (0x0)
 
@@ -315,7 +315,7 @@ Generate the SHA1 of the string in terminal and we would get the flag.
 
 ## Wav Spec
 
-![](<../../.gitbook/assets/image (77).png>)
+![](<../../.gitbook/assets/image (251).png>)
 
 In this challenge, we were given a zip file that contains a `.wav` file.&#x20;
 

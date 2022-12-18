@@ -28,13 +28,13 @@ This challenge was an easy one. I solved it by decreasing the playback speed of 
 
 ![Flag part 2: SG{](<.gitbook/assets/image (315).png>)
 
-![Flag part 3: CFG](<.gitbook/assets/image (244).png>)
+![Flag part 3: CFG](<.gitbook/assets/image (247).png>)
 
 ![Flag part 4: \_4n1](<.gitbook/assets/image (374).png>)
 
-![Flag part 5: m4t1](<.gitbook/assets/image (264).png>)
+![Flag part 5: m4t1](.gitbook/assets/image.png)
 
-![Flag part 6: 0n}](<.gitbook/assets/image (235).png>)
+![Flag part 6: 0n}](<.gitbook/assets/image (250).png>)
 
 Combining 6 parts of the flag above, we will get the flag.
 
@@ -150,7 +150,7 @@ Flag: CTFSG{you\_see\_me\_in\_h1nds1ght\_tangled\_up\_with\_you\_all\_night}
 
 ## Chopsticks
 
-![](<.gitbook/assets/image (247).png>)
+![](<.gitbook/assets/image (256).png>)
 
 ![](<.gitbook/assets/image (217) (1).png>)
 
@@ -162,7 +162,7 @@ For this challenge, I decided to go against Pat and I won Pat in my first try!
 
 Here are the rules of the game
 
-![](<.gitbook/assets/image (204).png>)
+![](<.gitbook/assets/image (263).png>)
 
 I am starting with `Box A and Box B` while Pat is `Box C and Box D`
 
@@ -196,7 +196,7 @@ Then, Pat split its boxes from `1-3` to `2-2`
 
 Guess what, here I realised I could split my `2-3` back to `3-2`
 
-![](<.gitbook/assets/image (285) (1).png>)
+![](<.gitbook/assets/image (285).png>)
 
 Now, Pat attacks my box B with C
 
@@ -212,7 +212,7 @@ Now, Pat splits its boxes into `2-6`
 
 I saw this as a very good opportunity to eliminate on of its box. I attacked box D with A.
 
-![](<.gitbook/assets/image (269).png>)
+![](<.gitbook/assets/image (3).png>)
 
 Next, Pat attacked box A with C
 
@@ -257,11 +257,11 @@ My idea was to get my own boxes to a number high enough, but not that high such 
 
 And Pat was making similar moves as well, attacking C with D.
 
-![](<.gitbook/assets/image (248).png>)
+![](<.gitbook/assets/image (252).png>)
 
 At this point, I realised if I attacked any of Pat's boxes, that would give Pat more advantage. Pat could choose to split or possibly eliminate one of my boxes next turn. In this scenario, I chose to split `2-3` .
 
-![](<.gitbook/assets/image (245).png>)
+![](<.gitbook/assets/image (260).png>)
 
 Then, Pat attacked D with C, making it `3-5`
 
@@ -277,11 +277,11 @@ Now it seemed like I'm winning. I have 2 boxes and Pat is left with one. However
 
 I did not want to hit any of Pat's boxes, that could potentially increase his points and winning chances. So I went ahead to split my boxes `4-1`
 
-![](<.gitbook/assets/image (200) (1).png>)
+![](<.gitbook/assets/image (200).png>)
 
 Next, Pat attacked A with D, making my boxes `6-1`
 
-![](<.gitbook/assets/image (234) (1).png>)
+![](<.gitbook/assets/image (234).png>)
 
 In such a scenario, I could eliminate either box C or D with my box A. However, in the next turn, my box A will be eliminated, putting me into a losing position as I would be left with `box B: 1` and I would have no choice but to attack Pat and increase its chances of winning.
 
@@ -307,11 +307,11 @@ Indeed, Pat revived another box, splitting `2` into `1-1`
 
 I choose to split my box `5-2` now and wait for Pat to attack me.
 
-![](<.gitbook/assets/image (280) (1).png>)
+![](<.gitbook/assets/image (280).png>)
 
 But Pat did not attack me, it went to split `1-1`
 
-![](<.gitbook/assets/image (236) (1).png>)
+![](<.gitbook/assets/image (236).png>)
 
 I did not want to attack any of Pat's boxes anymore, that could increase its chances of winning. So I went ahead to split `4-3` now
 
@@ -319,7 +319,7 @@ I did not want to attack any of Pat's boxes anymore, that could increase its cha
 
 Then, Pat attacked A with C
 
-![](<.gitbook/assets/image (213) (1).png>)
+![](<.gitbook/assets/image (213).png>)
 
 I went on to split my boxes `4-4`
 

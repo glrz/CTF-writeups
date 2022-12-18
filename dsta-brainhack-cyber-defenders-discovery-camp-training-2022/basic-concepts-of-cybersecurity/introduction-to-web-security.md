@@ -32,11 +32,11 @@ If we go to inspect elements, `F12` on Google Chrome, we would notice a HTML cod
 
 We could change this `value` to `admin`
 
-![](<../../.gitbook/assets/image (715).png>)
+![](<../../.gitbook/assets/image (715) (1).png>)
 
 Next, we key in a random password and press submit and we will get the flag
 
-![](<../../.gitbook/assets/image (712).png>)
+![](<../../.gitbook/assets/image (712) (1).png>)
 
 An alternative solution is using [Burp Suite](https://portswigger.net/burp/communitydownload).
 

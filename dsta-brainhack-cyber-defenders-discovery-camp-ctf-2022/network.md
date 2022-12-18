@@ -2,11 +2,11 @@
 
 ## ARP Spoofing
 
-![](<../.gitbook/assets/image (68).png>)
+![](<../.gitbook/assets/image (233).png>)
 
 For this challenge, we were given a `arp.pcapng` file in the zip file.
 
-{% file src="../.gitbook/assets/arp.pcapng.zip" %}
+{% file src="../.gitbook/assets/arp.pcapng (1).zip" %}
 
 I first blooded this challenge, which meant that I was the first to solve this challenge out of the many other teams.
 
@@ -18,7 +18,7 @@ Next, we would notice in packet 3 that there is an indication of `Duplicate IP a
 
 The flag is source MAC address `30:24:a9:81:04:90`.
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../.gitbook/assets/image (244).png>)
 
 Flag: CDDC22{30:24:a9:81:04:90}
 
@@ -50,7 +50,7 @@ I had to use a hint here which helped me to solve the challenge.
 
 Now if we search up how to filter `HTTP Authorization header`, we would find that we could use `http.authorization`. If we look at the `authorization`, we would see that it is in Base64 and the credentials is the decoded Base64. If this is not obvious to you, you could test it out and try to decode the Base64 using an [online Base64 decoder](https://www.base64decode.org/).
 
-![](<../.gitbook/assets/image (52).png>)
+![](<../.gitbook/assets/image (241).png>)
 
 If we go to the last packet: `packet 60732` , we would see the `admin` login credentials.
 
@@ -64,7 +64,7 @@ Based on the packet information, we could tell that it uses [Basic access authen
 
 Based on this knowledge, we copy the Base64 Encoded string (as highlighted)
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (262).png>)
 
 Then decode the base64 using an [online Base64 decoder](https://www.base64decode.org/) and we get the credentials:
 
@@ -88,7 +88,7 @@ After we logged in, we could see a `flag.txt` file.
 
 Click on the file and we would be redirected to the `/flag.txt` path, which contains the flag.
 
-![](<../.gitbook/assets/image (93).png>)
+![](<../.gitbook/assets/image (249).png>)
 
 Flag: CDDC22{S0me\_Sh4rk5\_4r3\_k1nD\_ISNt\_1t?}
 
@@ -108,13 +108,13 @@ Actually I did not really need the hint to solve this challenge, I was just miss
 
 `snmpget -v1 -cpublic1 13.215.173.140 iso.3.6.1.2.1.1.1.0`
 
-![](<../.gitbook/assets/image (80).png>)
+![](<../.gitbook/assets/image (237).png>)
 
 Alternatively, we could also use this command to get the flag
 
 `snmpwalk -v1 cpublic1 13.215.173.140 iso.3.6.1.2.1.1.1.0`
 
-![](<../.gitbook/assets/image (161) (1).png>)
+![](<../.gitbook/assets/image (161).png>)
 
 Note that I am not exactly sure if the `.pcapng` file provided would be helpful in solving this challenge as I have limited experience in analyzing SNMP packets.
 
@@ -122,7 +122,7 @@ Flag: CDDC22{L34king\_SNMP\_C0mmunity\_$}
 
 ## WEP
 
-![](<../.gitbook/assets/image (156) (1).png>)
+![](<../.gitbook/assets/image (156).png>)
 
 For this challenge, we were given `wep.zip` file.
 
@@ -130,21 +130,21 @@ For this challenge, we were given `wep.zip` file.
 
 First, we unzip the zip file using `unzip` command. We would extract a `dictionary.txt` and `wepcrack.cap` file from the zip file.
 
-![](<../.gitbook/assets/image (188) (1).png>)
+![](<../.gitbook/assets/image (188).png>)
 
 I went to check the SSID from `Wireless > VLAN Traffic`
 
-![](<../.gitbook/assets/image (112).png>)
+![](<../.gitbook/assets/image (79).png>)
 
 ![](<../.gitbook/assets/image (101) (1).png>)
 
 Then, I tried to use `-a` mode to set attack mode to `WEP`
 
-![](<../.gitbook/assets/image (181) (1).png>)
+![](<../.gitbook/assets/image (181).png>)
 
 With the command seen below
 
-![](<../.gitbook/assets/image (195).png>)
+![](<../.gitbook/assets/image (34).png>)
 
 However, I realised all these was not needed since there was only 1 SSID.
 
@@ -152,13 +152,13 @@ We could just use this simple command with the dictionary txt file provided to c
 
 `aircrack-ng -w dictionary.txt wepcrack.cap`
 
-![](<../.gitbook/assets/image (194).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 Flag: CDDC22{Dr0ne\_WEP\_Cr@cking!!!}
 
 ## WiFi
 
-![](<../.gitbook/assets/image (132) (1).png>)
+![](<../.gitbook/assets/image (132).png>)
 
 For this challenge, we were given a `wpa_crack.zip` file containing a `wpa_crack.cap` file.
 
@@ -178,11 +178,11 @@ Some useful sites that helped me solve this challenge are
 
 With the knowledge above, we first convert the `.cap` file into `hash.hc22000`. This format will be readable by [`hashcat`](https://hashcat.net/hashcat/) later.
 
-![](<../.gitbook/assets/image (105).png>)
+![](<../.gitbook/assets/image (58).png>)
 
 After that's done we would get the session summary that the cap file has been processed
 
-![](<../.gitbook/assets/image (126).png>)
+![](<../.gitbook/assets/image (88).png>)
 
 Finally, we could use this command to crack the password
 
@@ -194,15 +194,15 @@ Finally, we could use this command to crack the password
 
 `2?d?d?d?d2?d?d` sets the 1st and 6th digit to `2` (we know this from challenge description) and `?d` represents digits
 
-![](<../.gitbook/assets/image (171) (1).png>)
+![](<../.gitbook/assets/image (171).png>)
 
 After we have executed the command, we could press `s` to view the status. In this case it estimated that this attack would take around 8 minutes.
 
-![](<../.gitbook/assets/image (139) (1).png>)
+![](<../.gitbook/assets/image (139).png>)
 
 After 6 minutes 33 seconds, we managed to crack the password: `23501268`.
 
-![](<../.gitbook/assets/image (119).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 If you are interested in my other writeup using hashcat, click [here](broken-reference).
 
