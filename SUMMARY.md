@@ -1,10 +1,9 @@
 # Table of contents
 
 * [2022 CTFs](README.md)
-  * [2022 CTFs](2022-ctfs/2022-ctfs/README.md)
-    * [GovTech STACK the Flags CTF 2022](2022-ctfs/2022-ctfs/govtech-stack-the-flags-ctf-2022.md)
-    * [SG Cyber Olympian 2nd Trial 2022](2022-ctfs/2022-ctfs/sg-cyber-olympian-2nd-trial-2022.md)
-    * [SekaiCTF 2022](2022-ctfs/2022-ctfs/sekaictf-2022.md)
+  * [GovTech STACK the Flags CTF 2022](2022-ctfs/govtech-stack-the-flags-ctf-2022.md)
+  * [SG Cyber Olympian 2nd Trial 2022](2022-ctfs/sg-cyber-olympian-2nd-trial-2022.md)
+  * [SekaiCTF 2022](2022-ctfs/sekaictf-2022.md)
 * [SIT N0H4TS Cyber League 2022](sit-n0h4ts-cyber-league-2022/README.md)
   * [MAJOR 1](sit-n0h4ts-cyber-league-2022/major-1.md)
   * [COMMUNITY MAJOR(SEETF)](sit-n0h4ts-cyber-league-2022/community-major-seetf.md)

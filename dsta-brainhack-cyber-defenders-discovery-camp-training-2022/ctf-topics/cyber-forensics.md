@@ -66,11 +66,11 @@ Save the file as `flag.jpg`
 
 Open the `flag.jpg` file and we would get the flag as well.
 
-![](<../../.gitbook/assets/image (69).png>)
+![](<../../.gitbook/assets/image (69) (1).png>)
 
 ## Historian
 
-![](<../../.gitbook/assets/image (51) (1).png>)
+![](<../../.gitbook/assets/image (51).png>)
 
 In the challenge, the challenge description mentioned `I hid a flag in chrome`. If we unlock the hint for this challenge, we would know that we need to `understand analysis of chrome history`.
 
@@ -82,7 +82,7 @@ First, we `cd` to change directory to `User Data`
 
 Next, I noticed there is a `history` file. If we run `strings` command on it, we could see a list of strings in `history`. I tried clicking into each link to check its contents, then I found this ctftime link which contained the flag at the end of the URL.
 
-![](<../../.gitbook/assets/image (40).png>)
+![](<../../.gitbook/assets/image (40) (1).png>)
 
 Alternatively, an easier way could be to `grep flag`, this would reduce the amount of data to analyze.
 
@@ -94,13 +94,13 @@ Alternatively, an easier way could be to `grep flag`, this would reduce the amou
 
 For this challenge, we were given a [Google docs](https://docs.google.com/document/d/1ZQ2bo2k28du3K7upbMHaU6Lo94GwcxYL/edit) word document in `.docx` format.
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (45) (1).png>)
 
 First thing I tried was to `CTRL+A` to check if there could be any hidden text in this page. However, I could not find anything.
 
 Next, I tried downloading this file in different formats. If we download it as `.txt` format, we would get some messages when we open the `.txt` file.
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (44) (1).png>)
 
 I tried `CTRL+A` again but do not see anything else in this file.
 
@@ -108,7 +108,7 @@ I proceeded to download this file as Rich text format `.rtf`
 
 This time opening the file would give us the flag.
 
-![](<../../.gitbook/assets/image (53) (1).png>)
+![](<../../.gitbook/assets/image (53).png>)
 
 ## Least Significant
 
@@ -132,7 +132,7 @@ Alternatively, we could use `StegoLSB` and run the command
 
 `stegolsb bruteforce least_significant.png`
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (74) (1).png>)
 
 Both tools would give us a Base64 encoded string, we know this from `=` appended at the back.
 
@@ -191,11 +191,11 @@ We proceed to run the Python script
 
 Opening up the `flag.png` file gives us the flag.
 
-![](<../../.gitbook/assets/image (58) (1).png>)
+![](<../../.gitbook/assets/image (58).png>)
 
 ## My Secret Folder
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (67) (1).png>)
 
 For this challenge, we were given a `.ad1` file.
 
@@ -205,7 +205,7 @@ The challenge description mentioned `logical image`. These are already 2 big hin
 
 I opened up the file in `FTK imager, file -> add evidence item -> image file`
 
-![](<../../.gitbook/assets/image (38) (1).png>)
+![](<../../.gitbook/assets/image (38).png>)
 
 Next, we could see a `flag.jpg` file in the file list. Right click and export this file.
 
@@ -215,7 +215,7 @@ Next, we could see a `flag.jpg` file in the file list. Right click and export th
 
 Once it has exported successfully, we open up `flag.jpg` and we would get the flag.
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (33) (1).png>)
 
 ## PNG File is Corrupted
 
@@ -239,7 +239,7 @@ I decided to move on to [GHex](https://wiki.gnome.org/Apps/Ghex) on my Kali Linu
 
 At this point, I also tried [PCRT (PNG Check & Repair Tool)](https://github.com/sherlly/PCRT) but it did not work.
 
-![](<../../.gitbook/assets/image (81) (1).png>)
+![](<../../.gitbook/assets/image (81).png>)
 
 Next, I ran [`pngcheck`](http://www.libpng.org/pub/png/apps/pngcheck.html)and it shows invalid image dimensions (0x0)
 
@@ -315,7 +315,7 @@ Generate the SHA1 of the string in terminal and we would get the flag.
 
 ## Wav Spec
 
-![](<../../.gitbook/assets/image (77) (1).png>)
+![](<../../.gitbook/assets/image (77).png>)
 
 In this challenge, we were given a zip file that contains a `.wav` file.&#x20;
 
@@ -331,7 +331,7 @@ Next, click on the `wav_spec` drop down list on the middle left and select `Spec
 
 Once it is changed to spectrogram mode, we could see the flag.
 
-![](<../../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (63) (1).png>)
 
 We could drag it down or change the settings to make it clearer.
 

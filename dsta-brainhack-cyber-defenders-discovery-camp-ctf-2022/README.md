@@ -14,7 +14,7 @@ I was placed 54/115 in the Uni Category with a score of 2350. The full scoreboar
 
 ## CERTIFICATE OF PARTICIPATION
 
-![](<../.gitbook/assets/image (165).png>)
+![](<../.gitbook/assets/image (165) (1).png>)
 
 In this competition, I solved at least 20 challenges and I would be doing a writeup for each of them. Solving 20 challenges from 7 different categories alone in this competition was no easy feat, considering the fact that I had solved 60 challenges in [DSTA BrainHack Cyber Defenders Discovery Camp Training 2022](https://gadiel-lau.gitbook.io/2022-writeups/dsta-brainhack-cyber-defenders-discovery-camp-training-2022) previously.
 

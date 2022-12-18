@@ -8,7 +8,7 @@ description: >-
 
 I participated with my initials `RZ` and finished `14/665` for this training.&#x20;
 
-![](<../.gitbook/assets/image (535) (1).png>)
+![](<../.gitbook/assets/image (535).png>)
 
 ![](<../.gitbook/assets/image (527).png>)
 

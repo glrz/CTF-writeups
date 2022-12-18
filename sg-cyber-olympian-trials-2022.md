@@ -42,13 +42,13 @@ I felt that I could have done much better in this selection trials. Most importa
 
 The challenges solved were
 
-![](<.gitbook/assets/image (256).png>)
+![](<.gitbook/assets/image (256) (1).png>)
 
 The trials started at 4.15pm but I only got my first solve at 4.47pm.. That is more than 30mins later. Yes... I had wasted 30 mins(refer to point number 2 and 3 above if you would like to know why). My last solve was at 5.40pm and the trials ended at 6.15pm. If you are wondering what happened during the last 30+ mins... refer to point number 4 above.
 
 ## Exeggcute Me
 
-![](<.gitbook/assets/image (222).png>)
+![](<.gitbook/assets/image (222) (1).png>)
 
 In this challenge, it attached a binary file and stated that there is a flag in it. For this we can run the following command `chmod 777` or `chmod + x` to enable execute permissions, then `./` to run the program.
 
@@ -58,7 +58,7 @@ Flag: c730f03e9fbf9fd58bf84a2028a0a21e
 
 ## Base 2^6
 
-![](<.gitbook/assets/image (298) (1).png>)
+![](<.gitbook/assets/image (298).png>)
 
 In this challenge, we are given a TXT file.&#x20;
 
@@ -74,17 +74,17 @@ Flag: cbad9ba9c6c4e1788427ffde69fa9d35
 
 ## Word Search
 
-![](<.gitbook/assets/image (232).png>)
+![](<.gitbook/assets/image (232) (1).png>)
 
 In this challenge, we can run the program using `./` and use `grep` to filter out the flag.
 
-![](<.gitbook/assets/image (202) (1).png>)
+![](<.gitbook/assets/image (202).png>)
 
 Flag: d39151bafaae1df6fc0ccde9817b0613
 
 ## Tallest Mountain
 
-![](<.gitbook/assets/image (210).png>)
+![](<.gitbook/assets/image (210) (1).png>)
 
 For this challenge, we are given a JPG image which shows a picture of Mount Everest upon opening it. (Nothing interesting here for solving the challenge)
 
@@ -114,7 +114,7 @@ We could use the `file` command to check the file type. Checking the file type, 
 
 ![](<.gitbook/assets/image (362).png>)
 
-![](<.gitbook/assets/image (224).png>)
+![](<.gitbook/assets/image (224) (1).png>)
 
 Flag: Cnegative!
 
@@ -124,13 +124,13 @@ Flag: Cnegative!
 
 In this challenge, we are given a JPG image of a `funny monkey`. My first thought is that this could be a steganography challenge.&#x20;
 
-![](<.gitbook/assets/image (221).png>)
+![](<.gitbook/assets/image (221) (1).png>)
 
 I could use my good old friend `stegoveritas` to help me here.
 
 ![](<.gitbook/assets/image (324).png>)
 
-![](<.gitbook/assets/image (297) (1).png>)
+![](<.gitbook/assets/image (297).png>)
 
 The flag can be seen in the `value` column.
 
@@ -152,7 +152,7 @@ For this challenge, we were given a PCAPNG file.&#x20;
 
 I opened the file in `Wireshark` to do further analysis.
 
-![](<.gitbook/assets/image (279).png>)
+![](<.gitbook/assets/image (279) (1).png>)
 
 In Wireshark, I could see the packets captured. First, I applied `tcp` filter to filter out the other unnecessary information. TCP allows me to view the network conversation and data exchanged between the source and destination networks.
 
@@ -164,7 +164,7 @@ After that, I will follow TCP Stream by right clicking on the packet, `Follow > 
 
 From here, I could see the messages exchanged between the source and destination, and the flag.
 
-![](<.gitbook/assets/image (268).png>)
+![](<.gitbook/assets/image (268) (1).png>)
 
 Flag: IknowHowToUseTelnet
 
@@ -184,7 +184,7 @@ According to the challenge, I supposed I had to figure out the password to login
 
 Seeing that there are many different protocols, I had to filter them again. By applying the telnet filter, I was able to only view data that are relevant.
 
-![](<.gitbook/assets/image (219).png>)
+![](<.gitbook/assets/image (219) (1).png>)
 
 I did a similar process like how I solved the previous challenge, that is to right click on the packet, `Follow > select TCP Stream`.
 
@@ -200,17 +200,17 @@ Flag: pepeveryhandsome
 
 ## Hidden File
 
-![](<.gitbook/assets/image (242) (1).png>)
+![](<.gitbook/assets/image (242).png>)
 
 I solved this challenge after the selection trials as I did not have time to attempt this challenge.. This challenge was in the `Hard` Category at 400 points. After solving it, I think this should be considered as `Medium` challenge at most.
 
 This challenge mentions a secret file is hidden in this binary. We could use `binwalk` to search for hidden files in the binary. Check out my other writeup [here](https://gadiel-lau.gitbook.io/2020-writeups/brixel-ctf-winter-edition-2020/steganography#doc-ception) where I used `binwalk` to solve.
 
-![](<.gitbook/assets/image (212).png>)
+![](<.gitbook/assets/image (212) (1).png>)
 
 From the previous image, we could see a `flag.txt` file in it. Lets extract it with `-e` option
 
-![](<.gitbook/assets/image (227).png>)
+![](<.gitbook/assets/image (227) (1).png>)
 
 Then, we could go to the directory storing `flag.txt`
 
@@ -218,11 +218,11 @@ Then, we could go to the directory storing `flag.txt`
 
 &#x20;and open it to read its contents
 
-![](<.gitbook/assets/image (225).png>)
+![](<.gitbook/assets/image (225) (1).png>)
 
 Alternatively, just use `cd` to change directory and `cat` command to read the contents
 
-![](<.gitbook/assets/image (203).png>)
+![](<.gitbook/assets/image (203) (1).png>)
 
 Flag: 7236a313709df0184dd34f4c59685f7e
 
@@ -270,11 +270,11 @@ If I run the command
 
 I will get the password for `admin_user`.
 
-![Password: cookie1](<.gitbook/assets/image (118).png>)
+![Password: cookie1](<.gitbook/assets/image (118) (1).png>)
 
 I could also include the `--show` option to display the cracked password.
 
-![](<.gitbook/assets/image (100).png>)
+![](<.gitbook/assets/image (100) (1).png>)
 
 Flag: cookie1
 
@@ -292,7 +292,7 @@ We could achieve this by running the command
 
 `unshadow /etc/passwd /etc/shadow > victims_pwd`
 
-![](<.gitbook/assets/image (179).png>)
+![](<.gitbook/assets/image (179) (1).png>)
 
 If I were to `cat` and read the contents of `victims_pwd`, I would realise at the bottom there's this line of text.
 
@@ -304,7 +304,7 @@ Next, we could run John the Ripper, with the crypt format to perform dictionary 
 
 `john --format=crypt --wordlist=usr/share/john/password.lst victims_pwd`
 
-![](<.gitbook/assets/image (143).png>)
+![](<.gitbook/assets/image (143) (1).png>)
 
 Additionally, we could simulate a process that is similar to some of the challenges here.&#x20;
 
@@ -312,7 +312,7 @@ First, create a user `steve` for testing on Kali:
 
 `useradd –m steve –G sudo –s /bin/bash`
 
-![](<.gitbook/assets/image (802) (1).png>)
+![](<.gitbook/assets/image (802).png>)
 
 Next, set password for victim on Kali :
 
@@ -340,7 +340,7 @@ Once `John the Ripper` has cracked the password, it will not do it again. It wil
 
 ## Packetie
 
-![](<.gitbook/assets/image (149).png>)
+![](<.gitbook/assets/image (149) (1).png>)
 
 Note that I solved this challenge after the competition. For this challenge, we were given a `packetie.pcapng` file.
 
@@ -356,7 +356,7 @@ Next, I could apply the `ftp-data` filter in Wireshark. I would see that there i
 
 I can proceed to right click, `Follow > TCP Steam`. Here if I scroll down, I could see the encrypted password of `packetie`.  If you recalled, in the previous [additional notes](https://gadiel-lau.gitbook.io/2022-writeups/sg-cyber-olympian-trials-2022#additional-part-that-is-similar-but-not-related-to-any-challenge), we have seen the `$y$` encryption algorithm before, this is `yescrypt`. We can save this file as `packetie`.
 
-![](<.gitbook/assets/image (173) (1).png>)
+![](<.gitbook/assets/image (173).png>)
 
 The saved file is shown below
 
@@ -364,10 +364,10 @@ The saved file is shown below
 
 Finally, we proceed to use John the Ripper with the crypt format and `password.lst` to perform dictionary attack on `packetie`. We would get the password for packetie: `packer`.
 
-![](<.gitbook/assets/image (141).png>)
+![](<.gitbook/assets/image (141) (1).png>)
 
 We could also use `--show` option to show the password.
 
-![](<.gitbook/assets/image (104).png>)
+![](<.gitbook/assets/image (104) (1).png>)
 
 Flag: packer

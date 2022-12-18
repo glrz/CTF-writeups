@@ -151,7 +151,7 @@ An alternative solution to find the 2nd part of the flag would be to use [GHunt]
 
 After installation, I could simply run the command `python ghunt.py email orca.atlantis@gmail.com` on my Command Prompt and I would get the [Google Maps link](https://www.google.com/maps/contrib/115760377201113977336/reviews) where Orca left a review.&#x20;
 
-![](<.gitbook/assets/image (504) (1).png>)
+![](<.gitbook/assets/image (504).png>)
 
 Clicking on the link would give us the 2nd part of the flag.
 
@@ -217,7 +217,7 @@ Flag: STANDCON22{W@RMUP\_lia00000}
 
 ## MemeDump
 
-![](<.gitbook/assets/image (158).png>)
+![](<.gitbook/assets/image (158) (1).png>)
 
 For this challenge, we were given a [google drive link](https://drive.google.com/file/d/1oR2iV5kub75hfSya91xjPiXs7cCBNbao/view) which contained a `memedump.raw` file. Note that I solved this challenge after the competition. Nevertheless, I thought this was quite an interesting challenge and decided to do a writeup.
 
@@ -459,9 +459,9 @@ Open the `1464.data` in [`GIMP`](https://www.gimp.org/).&#x20;
 
 After some trial and error, if we change the Image settings to `Offset: 192115874` `Width: 953` `Height: 910`, we will get the flag.
 
-![](<.gitbook/assets/image (120) (1).png>)
+![](<.gitbook/assets/image (120).png>)
 
-![](<.gitbook/assets/image (121) (1).png>)
+![](<.gitbook/assets/image (121).png>)
 
 Flag: STANDCON22{meme\_mem\_dump}
 
@@ -477,12 +477,12 @@ I would like to thank the organiser N0H4TS for the giftpack which contained pen,
 
 ## Gift pack & Lucky Draw Winner
 
-![Gift pack](<.gitbook/assets/image (566) (1).png>)
+![Gift pack](<.gitbook/assets/image (566).png>)
 
 ![Lucky Draw prize](<.gitbook/assets/image (537).png>)
 
-![Lucky Draw Prize Giving Ceremony](<.gitbook/assets/image (111).png>)
+![Lucky Draw Prize Giving Ceremony](<.gitbook/assets/image (111) (1).png>)
 
-![Venue was changed 1 day before...](<.gitbook/assets/image (128) (1).png>)
+![Venue was changed 1 day before...](<.gitbook/assets/image (128).png>)
 
 Pictures taken for this Prize Giving Ceremony can be found on [Instagram ](https://www.instagram.com/p/Cg1YSaTpt5o/?hl=en)and [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6960904737680486400/?updateEntityUrn=urn%3Ali%3Afs\_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6960904737680486400%29).

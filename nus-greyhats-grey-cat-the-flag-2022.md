@@ -164,7 +164,7 @@ I tried pressing `CTRL+A` on Notepad to see if there could be some possible ways
 
 Next, I opened it in my hex editor : [HxD](https://mh-nexus.de/en/hxd/), and found something interesting. Note that you can use any [online hex editor](https://hexed.it/) too. I noticed a bunch of dots and spaces in between from the decoded text.
 
-![](<.gitbook/assets/image (522) (1).png>)
+![](<.gitbook/assets/image (522).png>)
 
 My first thought is... could this be morse code? I typed out the dots and spaces manually onto a new Notepad file. This was quite time consuming and there is actually an easier way to solve this. Continue reading till the end to find out :)
 

@@ -10,7 +10,7 @@ description: This topic consists of 9 challenges and I solved 3/9 of them.
 
 For this challenge, we were given a `.cpp` file. In the cpp file, there is `whoami` function and `start` function.
 
-![](<../../.gitbook/assets/image (94) (1).png>)
+![](<../../.gitbook/assets/image (94).png>)
 
 ![](<../../.gitbook/assets/image (61) (1).png>)
 
@@ -20,7 +20,7 @@ In cpp, we use the `strcmp` function.
 
 If we generate the SHA1 of `strcmp` [here](http://www.sha1-online.com/), it would give us the flag.
 
-![](<../../.gitbook/assets/image (73) (1).png>)
+![](<../../.gitbook/assets/image (73).png>)
 
 ## Weird Section
 
@@ -44,7 +44,7 @@ In this case, we saved it to another file `weirdsection`.
 
 Next, we could load the file into[ IDA freeware](https://hex-rays.com/ida-free/) and we see the string : UPX\_IS\_EASY
 
-![](<../../.gitbook/assets/image (120).png>)
+![](<../../.gitbook/assets/image (285).png>)
 
 Finally, we generate the SHA1 of `UPX_IS_EASY` using [SHA1 online generator ](http://www.sha1-online.com/)and we will get the flag.
 
@@ -52,7 +52,7 @@ Finally, we generate the SHA1 of `UPX_IS_EASY` using [SHA1 online generator ](ht
 
 ## (Sharp)
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (55) (1).png>)
 
 In this challenges, it provided us with a [link](https://pelock.medium.com/reverse-engineering-tools-for-net-applications-a28275f185b4) with some possible tools we could use for .NET applications. We are also given a zip file.
 
@@ -64,4 +64,4 @@ I opened the file in `dotPeek`, expanded the application, scroll down and found 
 
 If we generate the SHA1 of the string using [SHA1 online generator](http://www.sha1-online.com/) and we would get the flag.
 
-![](<../../.gitbook/assets/image (82).png>)
+![](<../../.gitbook/assets/image (82) (1).png>)

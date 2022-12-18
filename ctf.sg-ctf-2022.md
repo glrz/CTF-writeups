@@ -6,7 +6,7 @@ description: CTF.SG CTF 2021 is a 24 hours CTF competition held from 12 Mar - 13
 
 I participated with the team name : etc2020 in this CTF competition. I solved 3 challenges - 1 sanity challenge and 2 MISC category challenges. 2 other challenges in the web category were solved by my online discord friend `Tensor`.&#x20;
 
-![](<.gitbook/assets/image (252).png>)
+![](<.gitbook/assets/image (252) (1).png>)
 
 Overall, this CTF was interesting. I enjoyed the experience and playing as a team. We achieved the position : 29/130 and I am pretty satisfied with that too.
 
@@ -28,13 +28,13 @@ This challenge was an easy one. I solved it by decreasing the playback speed of 
 
 ![Flag part 2: SG{](<.gitbook/assets/image (315).png>)
 
-![Flag part 3: CFG](<.gitbook/assets/image (244) (1).png>)
+![Flag part 3: CFG](<.gitbook/assets/image (244).png>)
 
 ![Flag part 4: \_4n1](<.gitbook/assets/image (374).png>)
 
 ![Flag part 5: m4t1](<.gitbook/assets/image (264).png>)
 
-![Flag part 6: 0n}](<.gitbook/assets/image (235) (1).png>)
+![Flag part 6: 0n}](<.gitbook/assets/image (235).png>)
 
 Combining 6 parts of the flag above, we will get the flag.
 
@@ -44,7 +44,7 @@ Flag: CTFSG{CFG\_4n1m4t10n}
 
 ## Insanity Check-in
 
-![](<.gitbook/assets/image (208).png>)
+![](<.gitbook/assets/image (208) (1).png>)
 
 This was solved after competition but I still decided to include it in. This was quite an interesting one. We were given a `Challenge.png` file which contains a QR code for this challenge.
 
@@ -62,13 +62,13 @@ So perhaps we could upload this QR on [ZXing Decoder Online](https://zxing.org/w
 
 Then, we copy the raw bytes data and paste it on CyberChef, offset the hex data(add 0 in front), and we will get the flag [here](https://gchq.github.io/CyberChef/#recipe=From\_Hex\('Auto'\)\&input=MDQzIDc2IDg3IDQ3IDQ3IDA3IDMzIGEyICAgZjIgZjcgNDYgNTYgZDcgMDYgNTcgMjYKMTcgNDcgNTcgMjYgNTcgMDYgMTcgMzcgICAzMiBlNiBlNiA0NiA5MiBkNiAxNyAwNgo5MiBlNiA3NiBmNyA2MiBlNyAzNiA3MiAgIGY2IGM2IGY2IDc2IDk2IGUyIGY1IDc0CjgzIDM1IDIzIDMyIGQ0IDY0IGMzIDQ0ICAgNzAgNDEgMTQgMzUgNDQgNjUgMzQgNzcKYjQgMzYgODMgMzYgMzYgYjYgNTYgNDMgICAxNiBlMiAxNyBkMCBlYyAxMSBlYyAxMQplYyAxMSBlYyAxMSBlYyAxMSA).
 
-![](<.gitbook/assets/image (226).png>)
+![](<.gitbook/assets/image (226) (1).png>)
 
 Flag: CTFSG{Ch3cked1n!}
 
 ## Wildest Dreams Part 2
 
-![](<.gitbook/assets/image (241).png>)
+![](<.gitbook/assets/image (241) (1).png>)
 
 In this challenge, we were provided with a challenge link and an attached php file.
 
@@ -144,15 +144,15 @@ For example, this query below would work too
 
 `/1989.php?i1=hello14916008992&i2=hello14943865304`
 
-![](<.gitbook/assets/image (267).png>)
+![](<.gitbook/assets/image (267) (1).png>)
 
 Flag: CTFSG{you\_see\_me\_in\_h1nds1ght\_tangled\_up\_with\_you\_all\_night}
 
 ## Chopsticks
 
-![](<.gitbook/assets/image (247) (1).png>)
+![](<.gitbook/assets/image (247).png>)
 
-![](<.gitbook/assets/image (217).png>)
+![](<.gitbook/assets/image (217) (1).png>)
 
 This challenge was an interesting one. I remember I used to play this `chopsticks` game with my friends back then. In the past, I figured out a 100% winning strategy to win chopsticks if I were to start first.
 
@@ -162,7 +162,7 @@ For this challenge, I decided to go against Pat and I won Pat in my first try!
 
 Here are the rules of the game
 
-![](<.gitbook/assets/image (204) (1).png>)
+![](<.gitbook/assets/image (204).png>)
 
 I am starting with `Box A and Box B` while Pat is `Box C and Box D`
 
@@ -192,15 +192,15 @@ Now, I was trying things out and decided to "skip" a turn by splitting `3-2` to 
 
 Then, Pat split its boxes from `1-3` to `2-2`
 
-![](<.gitbook/assets/image (209).png>)
+![](<.gitbook/assets/image (209) (1).png>)
 
 Guess what, here I realised I could split my `2-3` back to `3-2`
 
-![](<.gitbook/assets/image (285).png>)
+![](<.gitbook/assets/image (285) (1).png>)
 
 Now, Pat attacks my box B with C
 
-![](<.gitbook/assets/image (216).png>)
+![](<.gitbook/assets/image (216) (1).png>)
 
 At this point, I could split `2-5` or `5-2` but that wouldn't make any sense because Pat could easily eliminate the box with `5` in the next turn. Also, I could split `4-3` but Pat could eliminate the box with `4` in the next turn as well. Both scenarios would put me at the losing end. Thus, I attacked Pat's box C with box B.
 
@@ -208,7 +208,7 @@ At this point, I could split `2-5` or `5-2` but that wouldn't make any sense bec
 
 Now, Pat splits its boxes into `2-6`
 
-![](<.gitbook/assets/image (206).png>)
+![](<.gitbook/assets/image (206) (1).png>)
 
 I saw this as a very good opportunity to eliminate on of its box. I attacked box D with A.
 
@@ -220,7 +220,7 @@ Next, Pat attacked box A with C
 
 Finally, I attacked C with A, winning the game :)
 
-![](<.gitbook/assets/image (246).png>)
+![](<.gitbook/assets/image (246) (1).png>)
 
 Then Pat gave me the flag
 
@@ -257,11 +257,11 @@ My idea was to get my own boxes to a number high enough, but not that high such 
 
 And Pat was making similar moves as well, attacking C with D.
 
-![](<.gitbook/assets/image (248) (1).png>)
+![](<.gitbook/assets/image (248).png>)
 
 At this point, I realised if I attacked any of Pat's boxes, that would give Pat more advantage. Pat could choose to split or possibly eliminate one of my boxes next turn. In this scenario, I chose to split `2-3` .
 
-![](<.gitbook/assets/image (245) (1).png>)
+![](<.gitbook/assets/image (245).png>)
 
 Then, Pat attacked D with C, making it `3-5`
 
@@ -269,7 +269,7 @@ Then, Pat attacked D with C, making it `3-5`
 
 I saw this as good opportunity to eliminate Pat's box D, I attacked D with A.
 
-![](<.gitbook/assets/image (257).png>)
+![](<.gitbook/assets/image (257) (1).png>)
 
 Now it seemed like I'm winning. I have 2 boxes and Pat is left with one. However, the rules allowed the box to revive. That's what Pat did in this move, splitting from `3` to `1-2`
 
@@ -277,17 +277,17 @@ Now it seemed like I'm winning. I have 2 boxes and Pat is left with one. However
 
 I did not want to hit any of Pat's boxes, that could potentially increase his points and winning chances. So I went ahead to split my boxes `4-1`
 
-![](<.gitbook/assets/image (200).png>)
+![](<.gitbook/assets/image (200) (1).png>)
 
 Next, Pat attacked A with D, making my boxes `6-1`
 
-![](<.gitbook/assets/image (234).png>)
+![](<.gitbook/assets/image (234) (1).png>)
 
 In such a scenario, I could eliminate either box C or D with my box A. However, in the next turn, my box A will be eliminated, putting me into a losing position as I would be left with `box B: 1` and I would have no choice but to attack Pat and increase its chances of winning.
 
 Hence, the best move here would be to split. Here I split my boxes `4-3`
 
-![](<.gitbook/assets/image (231).png>)
+![](<.gitbook/assets/image (231) (1).png>)
 
 Pat was quite smart too, it split its boxes `1-2`, and waited for my move
 
@@ -303,15 +303,15 @@ Pat decided to split `2-5`, pretty good move, now box C is no longer 1.. which m
 
 Indeed, Pat revived another box, splitting `2` into `1-1`
 
-![](<.gitbook/assets/image (199).png>)
+![](<.gitbook/assets/image (199) (1).png>)
 
 I choose to split my box `5-2` now and wait for Pat to attack me.
 
-![](<.gitbook/assets/image (280).png>)
+![](<.gitbook/assets/image (280) (1).png>)
 
 But Pat did not attack me, it went to split `1-1`
 
-![](<.gitbook/assets/image (236).png>)
+![](<.gitbook/assets/image (236) (1).png>)
 
 I did not want to attack any of Pat's boxes anymore, that could increase its chances of winning. So I went ahead to split `4-3` now
 
@@ -319,11 +319,11 @@ I did not want to attack any of Pat's boxes anymore, that could increase its cha
 
 Then, Pat attacked A with C
 
-![](<.gitbook/assets/image (213).png>)
+![](<.gitbook/assets/image (213) (1).png>)
 
 I went on to split my boxes `4-4`
 
-![](<.gitbook/assets/image (223).png>)
+![](<.gitbook/assets/image (223) (1).png>)
 
 Then, Pat attacked D with C, making it `1-2`
 

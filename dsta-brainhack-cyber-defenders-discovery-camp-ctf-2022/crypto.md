@@ -2,7 +2,7 @@
 
 ## Vigenere
 
-![](<../.gitbook/assets/image (113).png>)
+![](<../.gitbook/assets/image (113) (1).png>)
 
 For this challenge, we are given a `VIGENERE_encrypt.txt` file in the zip file.
 
@@ -18,7 +18,7 @@ Furthermore, we had encountered such challenge before [here](https://gadiel-lau.
 
 To solve this, we simply use an [online Vigenere Cipher decoder](https://www.dcode.fr/vigenere-cipher), paste in the text and click `AUTOMATIC DECRYPTION`. The flag would appear decoded on the left.
 
-![](<../.gitbook/assets/image (117) (1).png>)
+![](<../.gitbook/assets/image (117).png>)
 
 Flag: CDDC22{v3ry\_simple\_4nd\_34sy\_crypt0\_ch4llenge}
 

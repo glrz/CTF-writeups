@@ -52,7 +52,7 @@ Then, we run the command `python3 RsaCtfTool.py -n (value) -e (value) --uncipher
 
 And we will get the flag
 
-![](<.gitbook/assets/image (275).png>)
+![](<.gitbook/assets/image (275) (1).png>)
 
 Flag: LNC2022{D0u91As\_R4m5eyEARTH616}
 
@@ -66,7 +66,7 @@ I found his Instagram account [here](https://www.instagram.com/cyberxgunner/). I
 
 ![](<.gitbook/assets/image (302).png>)
 
-![](<.gitbook/assets/image (207).png>)
+![](<.gitbook/assets/image (207) (1).png>)
 
 Here we could see `https://github.com/cybe`
 
@@ -82,11 +82,11 @@ Then, we click into his `superhero` repository, go to the [l0cation](https://git
 
 It will bring us to this page.
 
-![](<.gitbook/assets/image (274).png>)
+![](<.gitbook/assets/image (274) (1).png>)
 
 Clicking on [Update l0cation](https://github.com/cyberxsaurus/superhero/commit/8bb1bdb7ba2b11ed3e7f65c2dbb8246a0950db97) brings us to see the code where the flag was previously deleted.
 
-![](<.gitbook/assets/image (237).png>)
+![](<.gitbook/assets/image (237) (1).png>)
 
 Flag: LNC2022{Ih8HeR0E5}
 
@@ -98,7 +98,7 @@ For this challenge, using `grep` itself will not get us the flag.&#x20;
 
 We need to add the `-a` option and specify the pattern(i.e. LNC)
 
-![](<.gitbook/assets/image (273).png>)
+![](<.gitbook/assets/image (273) (1).png>)
 
 Flag: LNC2022{w3lc0me\__t0\__th3\_aBy$s}
 
@@ -126,7 +126,7 @@ Flag: LNC2022{SGSYLF}
 
 ## RiDdLe mE tHiS
 
-![](<.gitbook/assets/image (251).png>)
+![](<.gitbook/assets/image (251) (1).png>)
 
 In this challenge, we were given a .rar file.
 
@@ -134,7 +134,7 @@ We can use `binwalk` to extract a .txt file.
 
 However, opening the .txt file would look like there is a shift in characters. We could decode that [here](https://rot13.com/).
 
-![](<.gitbook/assets/image (250).png>)
+![](<.gitbook/assets/image (250) (1).png>)
 
 I could not guess what this is. But it was actually `will`, the password to open the protected rar file. I had to brute force the password since I didn't get it from the decoded message.
 
@@ -148,7 +148,7 @@ Here, I used the command
 
 Now, I used the password to `unrar e`, which would extract the rar file contents. However, the `are_u_the_night.rar` is password protected as well. Again, we follow the same steps above to crack the password.
 
-![Cracked password: time](<.gitbook/assets/image (214).png>)
+![Cracked password: time](<.gitbook/assets/image (214) (1).png>)
 
 Now, for the last part, we had another rar file I\__AM\_BATMAN.rar which is password protected again. I tried to crack the password with similar steps above but after 4 hours + it was not able to crack. I decided to stop here. The intended solution was to perform dictionary attack I think._
 
@@ -164,7 +164,7 @@ If we Google, we could find the Riddle [here](https://www.riddles.com/8026). The
 
 This time if we extract the rar file and `cat` the contents of `REDACTED.txt`, we would get the flag.
 
-![](<.gitbook/assets/image (239).png>)
+![](<.gitbook/assets/image (239) (1).png>)
 
 Flag: LNC2022{GrEAteSt\_DeTecTiVe}
 
@@ -232,17 +232,17 @@ Flag: LNC2022{763\*132ABD32C190##256791A}
 
 ## S3cretHERO
 
-![](<.gitbook/assets/image (265) (1).png>)
+![](<.gitbook/assets/image (265).png>)
 
 In this challenge we are given a zip file. Inside the zip file is a JPG password protected file.
 
 I ran `exiftool` and found the password here
 
-![](<.gitbook/assets/image (254).png>)
+![](<.gitbook/assets/image (254) (1).png>)
 
 If we use the password: i\__love_YUNOOOO, we would be able to extract the thor.jpg file.
 
-![](<.gitbook/assets/image (240).png>)
+![](<.gitbook/assets/image (240) (1).png>)
 
 We could extract the zip file now using `7z x` command. But there seems to be more hidden data in the jpg file extracted. We could use `binwalk` with `-e` option to extract the files. This would extract another empty file and zlib file from jpg file.
 
@@ -250,7 +250,7 @@ We could extract the zip file now using `7z x` command. But there seems to be mo
 
 If we navigate to the extracted folder and use `strings` command on zlib file, it will give us the flag.
 
-![](<.gitbook/assets/image (230).png>)
+![](<.gitbook/assets/image (230) (1).png>)
 
 Check out my previous writeups [here](https://gadiel-lau.gitbook.io/2022-writeups/sg-cyber-olympian-trials-2022#hidden-file) and [here](https://gadiel-lau.gitbook.io/2020-writeups/brixel-ctf-winter-edition-2020/steganography#doc-ception), where I used `binwalk` to solve challenges.&#x20;
 
@@ -284,15 +284,15 @@ Flag: LNC2022{doctor\_fxted}
 
 In this challenge, we were given a PNG image file.
 
-![](<.gitbook/assets/image (284) (1).png>)
+![](<.gitbook/assets/image (284).png>)
 
 I am assuming this is some traditional cipher which I've never seen before. I searched [here](https://www.dcode.fr/symbols-ciphers) for ciphers using symbols and found that this is called `Ogham Alphabet`
 
-![](<.gitbook/assets/image (276).png>)
+![](<.gitbook/assets/image (276) (1).png>)
 
 I could decode that image [here](https://www.dcode.fr/ogham-alphabet) by just pressing the symbols which matches the symbol here. I decode every symbol from top to bottom.
 
-![](<.gitbook/assets/image (270).png>)
+![](<.gitbook/assets/image (270) (1).png>)
 
 I would get the output `NEERGNEGNaRO`. The text looks reversed and I could reverse it [here](https://www.textreverse.com/). This would give me the flag after converting all to lowercase.
 
@@ -306,7 +306,7 @@ This challenge was not solved by any teams throughout the whole competition. I d
 
 In this challenge, we are given a .pcapng file. We could open `Wireshark` to analyze file.
 
-![](<.gitbook/assets/image (205).png>)
+![](<.gitbook/assets/image (205) (1).png>)
 
 We could go `File > Export Objects > HTTP`
 
@@ -314,7 +314,7 @@ We could go `File > Export Objects > HTTP`
 
 Save this TXT file: `whodis.txt`
 
-![](<.gitbook/assets/image (218) (1).png>)
+![](<.gitbook/assets/image (218).png>)
 
 Now, we go to `File > Export Objects > SMB`
 
@@ -330,13 +330,13 @@ If we try to unzip the extracted `hidden.zip`, we cannot unzip the hidden.png co
 
 Lets run `file` command to check, and indeed it is AES encrypted and requires password
 
-![](<.gitbook/assets/image (282).png>)
+![](<.gitbook/assets/image (282) (1).png>)
 
 We could try to brute force it using wordlist. The file `whodis.txt` extracted earlier might be useful.
 
 Use `cat` just to check contents in `whodis.txt`
 
-![](<.gitbook/assets/image (220).png>)
+![](<.gitbook/assets/image (220) (1).png>)
 
 Here we use the commands to crack the zip file:
 
@@ -352,7 +352,7 @@ Now, we can see the password for hidden png file using `john --show file` comman
 
 We unzip the zip file using `7z x` and paste the password in
 
-![](<.gitbook/assets/image (243).png>)
+![](<.gitbook/assets/image (243) (1).png>)
 
 This would give us a `hidden.png` file. However, the file is corrupted.
 
@@ -360,7 +360,7 @@ Here, I used ghex - GNOME Hex editor for files, which can be downloaded [here](h
 
 We can see that it's starting with all 0s in the header data, which shouldn’t be the case
 
-![](<.gitbook/assets/image (262).png>)
+![](<.gitbook/assets/image (262) (1).png>)
 
 Let’s fix this by changing it to its correct values. The PNG file signature could be checked [here](https://www.w3.org/TR/PNG-Rationale.html#R.PNG-file-signature).
 
@@ -368,11 +368,11 @@ Let’s fix this by changing it to its correct values. The PNG file signature co
 
 After fixing the data, we could press `CTRL+S` to save the data
 
-![](<.gitbook/assets/image (233) (1).png>)
+![](<.gitbook/assets/image (233).png>)
 
 Now, if we open the PNG file, we get a fake flag in reverse base 64
 
-![](<.gitbook/assets/image (228).png>)
+![](<.gitbook/assets/image (228) (1).png>)
 
 Here, we could guess that the data in PNG could be reversed as well. If we use `hexdump` command on the `hidden.png` file , we can search for reverse order LNC (i.e. CNL)
 

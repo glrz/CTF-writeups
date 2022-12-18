@@ -34,7 +34,7 @@ Alternatively, we could use the `gunzip` command to unzip the `gz` file first.
 
 Then use the `tar-xvf hello_there.tar` command to get the `hello_there.zip` file.
 
-![](<../.gitbook/assets/image (498) (1).png>)
+![](<../.gitbook/assets/image (498).png>)
 
 An easier alternative solution which I discovered later was to use the command
 
@@ -42,7 +42,7 @@ An easier alternative solution which I discovered later was to use the command
 
 This would extract the file, we specified an additional `z` option here because it is a .gz file&#x20;
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
 After we extract this zip file, we could run `strings` to check for readable strings. We would notice that there could be a `hello_there.txt` inside the zip file.
 

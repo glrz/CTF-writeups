@@ -16,6 +16,6 @@ There will be a series of challenges for Cybersecurity experts to complete in or
 
 ## Badge of Participation
 
-<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
 Verify the badge [here](https://api.badgr.io/public/assertions/cwkS6QjJRymj0JfKYnlsgA?identity\_\_email=gadiellaurz%40gmail.com).

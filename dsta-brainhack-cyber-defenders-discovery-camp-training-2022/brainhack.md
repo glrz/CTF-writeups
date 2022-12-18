@@ -16,16 +16,16 @@ The Easter Egg Game was actually easier compared to [last year BrainHack](https:
 
 After spending some time hunting for easter eggs, I finished 57/974 with 160 points.
 
-![](<../.gitbook/assets/image (86).png>)
+![](<../.gitbook/assets/image (86) (1).png>)
 
-![](<../.gitbook/assets/image (16) (1).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 ![](<../.gitbook/assets/image (75) (1).png>)
 
 
 
-![pretty cool hypercraft](<../.gitbook/assets/image (59).png>)
+![pretty cool hypercraft](<../.gitbook/assets/image (59) (1).png>)
 
 BrainHack sent me a Laptop Stand which is the swag reward for participating in the Easter Egg Game.
 
-![DSTA brainhack laptop stand](<../.gitbook/assets/image (89).png>)
+![DSTA brainhack laptop stand](<../.gitbook/assets/image (89) (1).png>)
