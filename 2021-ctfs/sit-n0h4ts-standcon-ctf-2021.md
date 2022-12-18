@@ -4,7 +4,7 @@ description: SIT N0H4TS STANDCON CTF 2021 is a CTF competition held from 24 - 25
 
 # SIT N0H4TS STANDCON CTF 2021
 
-![](<../.gitbook/assets/image (55).png>)
+![](<../.gitbook/assets/image (21).png>)
 
 This competition allowed up to 4 members to form a team but I participated solo in this CTF competition with the team name: Caelum.&#x20;
 

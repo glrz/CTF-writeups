@@ -1,15 +1,3 @@
 # Table of contents
 
-* [2021 CTFs](README.md)
-  * [Red Alpha Online Challenge](2021-ctfs/red-alpha-online-challenge.md)
-  * [CSIT The InfoSecurity Challenge (TISC) 2021](2021-ctfs/csit-the-infosecurity-challenge-tisc-2021.md)
-  * [SIT N0H4TS STANDCON CTF 2021](2021-ctfs/sit-n0h4ts-standcon-ctf-2021.md)
-  * [DSTA BrainHack Cyber Defenders Discovery Camp CTF 2021](2021-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2021.md)
-  * [DSTA BrainHack Cyber Defenders Discovery Camp Training 2021](2021-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2021/README.md)
-    * [BrainHack](2021-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2021/brainhack.md)
-  * [Securinets CTF Quals 2021](2021-ctfs/securinets-ctf-quals-2021.md)
-  * [LINE CTF 2021](2021-ctfs/line-ctf-2021.md)
-  * [CTF.SG CTF 2021](2021-ctfs/ctf.sg-ctf-2021.md)
-  * [LagNCrash Interpoly CTF 2021](2021-ctfs/lagncrash-interpoly-ctf-2021.md)
-  * [justCTF \[\*\] 2020](2021-ctfs/justctf-2020.md)
-  * [TetCTF 2021](2021-ctfs/tetctf-2021.md)
+* [🚩 Gadiel's CTF Writeups](README.md)

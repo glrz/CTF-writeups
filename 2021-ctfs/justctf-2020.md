@@ -12,13 +12,13 @@ For this CTF, I only solved one challenge which is the Sanity Check challenge.
 
 ## Sanity Check
 
-![](<../.gitbook/assets/image (96).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 Attached to the challenge description is a YouTube link [here](https://www.youtube.com/watch?v=CM3jcGsS0Po). It is a song called `Take That - Rule The World (Band Version)`. Perhaps we could check out the rules page?
 
 If we check the rules page and scroll down, we will see the flag in point number 8.
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 Flag: justCTF{something\_h3re!}
 

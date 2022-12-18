@@ -20,7 +20,7 @@ In this competition, I solved one challenge only. After facing huge delays and i
 
 ## CERTIFICATE OF PARTICIPATION
 
-![](<../.gitbook/assets/image (65).png>)
+![](<../.gitbook/assets/image (24).png>)
 
 ## Hidden Secret
 
@@ -29,11 +29,11 @@ For this challenge, it was web related but I lost the challenge description. Bas
 1. Navigate to the link provided and inspect the code.
 2. I realised one portion of JavaScript code in the JS file looks URL encoded, hence I copy paste the code into [CyberChef](https://gchq.github.io/CyberChef/) to decode it.
 
-![](<../.gitbook/assets/image (36).png>)
+![](<../.gitbook/assets/image (82).png>)
 
 3\. Once the string has been decoded, we can just print what the `String.fromCharCode` evaluates to with the browser’s console:&#x20;
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (34).png>)
 
 Flag: CDDC21{\_ De0bfu$cated-F!aG\_}
 
