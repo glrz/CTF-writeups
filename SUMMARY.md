@@ -1,3 +1,4 @@
 # Table of contents
 
-* [🚩 Gadiel's CTF Writeups](README.md)
+* [2023 CTFs](README.md)
+  * [IrisCTF 2023](2023-ctfs/irisctf-2023.md)
