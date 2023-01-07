@@ -14,6 +14,13 @@ Some of my CTFs position are not too good but I decided to include it just for d
 
 I am glad my passion for cybersecurity kept me going despite all these "setbacks". I constantly crave knowledge in cybersecurity and its unlikely that I will stop anytime soon. Overall, this journey has been a fruitful one and I hope for better things ahead.&#x20;
 
+## CTF Competitions/Challenges 2023
+
+| Name          | Category (Solo/Team) | Position |
+| ------------- | -------------------- | -------- |
+| IrisCTF 2023  | Open (Solo)          |          |
+|               |                      |          |
+
 ## CTF Competitions/Challenges 2022
 
 | Name                                                                                                                                                                             | Category (Solo/Team) | Position                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -53,13 +60,3 @@ I am glad my passion for cybersecurity kept me going despite all these "setbacks
 | [TetCTF 2021](https://gadiel-lau.gitbook.io/2021-writeups/tetctf-2021)                                                                                                 | Open (Solo)          | 183/519  |
 
 ## CTF Competitions/Challenges 2020
-
-| Name                                                                                                                        | Category (Solo/Team) | Position |
-| --------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------- |
-| [Brixel CTF Winter Edition 2020](https://gadiel-lau.gitbook.io/2020-writeups/brixel-ctf-winter-edition-2020)                | Open (Solo)          | 269/824  |
-| [VULNCON CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/vulncon-ctf-2020)                                            | Open (Solo)          | 300/442  |
-| [hxp CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/hxp-ctf-2020)                                                    | Open (Solo)          | 394/532  |
-| [GovTech STACK the Flags CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/govtech-stack-the-flags-ctf-2020)            | Poly/Uni (Team)      | 48/245   |
-| [GSCTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/gsctf-2020)                                                        | Open (Solo)          | 6/30     |
-| [CSIT The InfoSecurity Challenge (TISC) 2020](https://gadiel-lau.gitbook.io/2020-writeups/csit-infosecurity-challenge-2020) | Open (Solo)          | -        |
-|                                                                                                                             |                      |          |
