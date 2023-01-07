@@ -1,3 +1,3 @@
 # Table of contents
 
-* [🚩 Gadiel's CTF Writeups](README.md)
+* [2023 writeups 2023](README.md)
