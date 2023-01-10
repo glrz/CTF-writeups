@@ -64,7 +64,7 @@ I am glad my passion for cybersecurity kept me going despite all these "setbacks
 
 | Name                                                                                                                        | Category (Solo/Team) | Position |
 | --------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------- |
-| [Brixel CTF Winter Edition 2020](https://gadiel-lau.gitbook.io/2020-writeups/brixel-ctf-winter-edition-2020)                | Open (Solo)          | 269/824  |
+| [Brixel CTF Winter Edition 2020](https://gadiel-lau.gitbook.io/2020-writeups/brixel-ctf-winter-edition-2020)                | Open (Solo)          | 268/824  |
 | [VULNCON CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/vulncon-ctf-2020)                                            | Open (Solo)          | 300/442  |
 | [hxp CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/hxp-ctf-2020)                                                    | Open (Solo)          | 394/532  |
 | [GovTech STACK the Flags CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/govtech-stack-the-flags-ctf-2020)            | Poly/Uni (Team)      | 48/245   |
