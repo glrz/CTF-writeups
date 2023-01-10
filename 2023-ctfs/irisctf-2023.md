@@ -58,11 +58,11 @@ Flag: irisctf{welc0m3\_t0\_n3tw0rks}
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-This challenge was  under the `forensics` category and  I enjoyed solving it. This challenge was took most teams multiple  tries to solve it and I solved it before the hint and subsequent hints were released.
+This challenge was  under the `forensics` category and  I enjoyed solving it. This challenge took most teams multiple  tries to solve it and I solved it before the hint and subsequent hints were released.
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Hint: <a href="https://www.youtube.com/watch?v=rksaoaqt3JA">https://www.youtube.com/watch?v=rksaoaqt3JA</a></p></figcaption></figure>
 
-I was the 7th to solve this challenge and was quite satisfied even though I think I could have first-blooded this challenge if I woke up earlier to attempt the challenges and if I attempted this challenge first before any other  challenges.\
+I was the 7th to solve this challenge and was quite satisfied even though I think I could have first-blooded this challenge if I woke up earlier to attempt the challenges and if I attempted this challenge first before any other challenges.\
 
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
@@ -75,11 +75,11 @@ For this challenge, we were given a broken `.jpg` file. First, I tried to open i
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-To save this broken file, I will need to right click on the file and `Save Link As…`
+To save this broken file, I had to right click on the file and `Save Link As…`
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-Next, I proceeded to open up this  file on my hex editor : GHex. You could use any hex editor you prefer. If you want, you can find an online hex editor [here](https://hexed.it/).
+Next, I proceeded to open up this  file on my hex editor : GHex. You could use any hex editor you prefer. If you want, you could also find an online hex editor [here](https://hexed.it/).
 
 Opening the file in  hex  editor showed that the first few bytes are null bytes.&#x20;
 
@@ -91,7 +91,7 @@ If we scroll down till the end, we will see `FF D9`. Based on previous CTF exper
 
 If you do not have any experiences dealing with  `.jpg` files, you could also find useful resources online [here ](https://en.wikipedia.org/wiki/List\_of\_file\_signatures)and [here ](https://www.file-recovery.com/jpg-signature-format.htm)which covers the concepts  of file signatures. After understanding  the concept of  file signature, we can fix this broken file  easily.
 
-To fix this broken file, we simply change the first 2 bytes from `00 00` to `FF D8` as such
+To fix this broken file, we simply change the first 2 bytes from `00 00` to `FF D8`
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
@@ -99,17 +99,17 @@ Once we have successfully modified the starting bytes, we can save this file and
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Secret : exif_data_can_leak_a_lot_of_info</p></figcaption></figure>
 
-For other forensics challenge writeups that involved fixing of broken files, you may refer [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/csit-challenge-of-wits-2022), [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/sit-n0h4ts-standcon-ctf-2022#warmup-forensics) and [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2022/ctf-topics/cyber-forensics#png-file-is-corrupted).
+For other forensics challenges writeups that involved fixing of broken files, you may refer to my other writeups [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/csit-challenge-of-wits-2022), [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/sit-n0h4ts-standcon-ctf-2022#warmup-forensics) and [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2022/ctf-topics/cyber-forensics#png-file-is-corrupted).
 
 ### Part 2
 
-Now that we  have  the `secret` part of the flag, we are left with the `latitude`,`longitude`, `epochtime` and `serial`. If we had solved `Part 1` first, we would  get the hint  that `exiftool` can leak a lot of info. Alternatively, if we choose to do this part first, then we know that `exiftool` is a very useful tool that contains the metadata of the file.
+Now that we  have  the `secret` part of the flag, we are left with the `latitude`,`longitude`, `epochtime` and `serial`. If we had solved `Part 1` first, we would  get the hint  that `exiftool` can leak a lot of info. Alternatively, if we choose to do this part first, then we should already know that `exiftool` is a very useful tool that contains the metadata of the file.
 
 First, we can  find the `latitude` and `longitude` by  running `exiftool`.
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.
+We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.&#x20;
 
 <figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
@@ -121,17 +121,17 @@ To find the time this picture was taken,  we can use `exiftool` again.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-There is a tricky part here. This picture was taken in `USA California` and we will need to take the timezones into consideration to find the `epochtime`. Another thing to note is that in  some area like `USA  California`, the  timezone changes due to [Daylight Saving Time](https://www.timeanddate.com/time/zone/usa/los-angeles?year=2022).  At that point when the picture was taken, the timezone was  UTC/GMT -7.
+There is a tricky part here. This picture was taken in `USA California` and we will need to take the timezones into consideration to find the `epochtime`. Another thing to note is that in some area like `USA California` have timezone changes due to [Daylight Saving Time](https://www.timeanddate.com/time/zone/usa/los-angeles?year=2022).  At that point when the picture was taken, the timezone was  UTC/GMT -7.
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same  result.
+To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
 
 Finally, we can find the `serial number` using `exiftool` as well.
 
-&#x20;However, this  part tricked me a  bit because I overthinked. I  thought it was referring to the `Internal Serial Number` initially.&#x20;
+&#x20;However, this part tricked me a bit because I overthinked. I thought it was referring to the `Internal Serial Number` initially.&#x20;
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
