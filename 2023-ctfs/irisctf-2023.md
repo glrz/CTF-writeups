@@ -177,7 +177,7 @@ First, lets open this file in Wireshark to analyze the packets.
 
 In wireshark, we can see that the packets were all transmitted in layer 2, also known as the the data-link layer. This included 802.11 protocol packets which are part of the IEEE 802.1 set of LAN standards.
 
-We can apply the filter `eapol` to see the WiFi handshake. To read up more about the 4-way handshake, you can check out [here](https://www.wifi-professionals.com/2019/01/4-way-handshake). You could also check out this [detailed blog writeup](https://praneethwifi.in/2019/11/09/4-way-hand-shake-keys-generation-and-mic-verification/) on the 4-way handshake.
+We can apply the filter `eapol` to see the WiFi handshake. To read up more about the 4-way handshake, you can check out [here](https://www.wifi-professionals.com/2019/01/4-way-handshake). You could also check out this [detailed blog writeup](https://praneethwifi.in/2019/11/09/4-way-hand-shake-keys-generation-and-mic-verification/) on the 4-way handshake or this [CTF example ](https://ctf-wiki.mahaloz.re/misc/traffic/protocols/WIFI/)on how to crack the password  and decrypt the traffic.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
