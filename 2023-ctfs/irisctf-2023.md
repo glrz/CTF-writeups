@@ -20,7 +20,7 @@ I spent a few hours over the weekend trying out some of the challenges and manag
 
 ## &#x20;Sanity Check
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Like most CTFs which had a sanity check or welcome challenge, this CTF had one as well. It's basically a freebie or giveaway and to introduce the flag format to  participants.
 
@@ -203,7 +203,9 @@ Next, we go to IEEE 802.11 and edit the decryption key.
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-Once the key is entered, we will get the decrypted traffic in Wireshark. If we analyze these packets, we would see various packets  under the `TCP` protocol.&#x20;
+Once the key is entered, we will get the decrypted traffic in Wireshark.
+
+After the packets are decrypted, we can analyze these packets again. We would see various packets  under the `TCP` protocol.&#x20;
 
 We can filter it by `tcp.len > 0` to view the packets that contains payload or  data. From here, we will get the filtered `packet 20422`.
 
@@ -213,6 +215,29 @@ Finally, we can inspect the packet data which will give us the flag.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Check out my previous challenge writeup on WiFi [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2022/network#wifi). The challenge involved the use of `aircrack-ng` to perform dictionary attack as well, after I used `crunch` to create my own wordlist.
+Alternatively, we could use  [`airdecap-ng`](https://www.aircrack-ng.org/doku.php?id=airdecap-ng) to decrypt the WPA/WPA2 capture file. We can do so by running the following command:
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ airdecap-ng -e BobertsonNet -p billybob1 BobertsonNet.cap
+Total number of stations seen            5
+Total number of packets read         20980
+Total number of WEP data packets         0
+Total number of WPA data packets      2657
+Number of plaintext data packets         0
+Number of decrypted WEP  packets         0
+Number of corrupted WEP  packets         0
+Number of decrypted WPA  packets      1964
+Number of bad TKIP (WPA) packets         0
+Number of bad CCMP (WPA) packets         0
+```
+
+This will produce a `-dec.cap` file which is the decrypted/stripped version of the input file.
+
+Finally, running `strings` on the `-dec.cap`  file, and `grep` for iris would give us the flag
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Check out my previous challenge writeup on WiFi [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2022/network#wifi). It was a challenge which involved the use of `aircrack-ng` to perform dictionary attack as well, after I used `crunch` to create my own wordlist.
 
 Flag: irisctf{4ircr4ck\_g0\_brrrrrrrrrrrrrrr}
