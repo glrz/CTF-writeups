@@ -6,13 +6,13 @@ description: >-
 
 # IrisCTF 2023
 
-This CTF featured challenges in the disciplines of reverse engineering, binary exploitation, web exploitation, cryptography, radio frequency, networks, forensics, and more.&#x20;
+![](<../.gitbook/assets/image (3).png>)This CTF featured challenges in the disciplines of reverse engineering, binary exploitation, web exploitation, cryptography, radio frequency, networks, forensics, and more.&#x20;
 
 I participated solo in this CTF as team `TheCross` even though this CTF allowed unlimited team  members to be in a team. I wanted to try participating as solo because it has been quite some time since I participated as solo in a non-local CTF on [CTFtime](https://ctftime.org/event/1774). The last time I participated solo in non-local CTFs was in 2021. When I participated in these non-local CTFs: [TetCTF 2021](https://gadiel-lau.gitbook.io/2021-writeup/2021-ctfs/tetctf-2021), [justCTF \[\*\] 2020](https://gadiel-lau.gitbook.io/2021-writeup/2021-ctfs/justctf-2020), [LINE CTF 2021](https://gadiel-lau.gitbook.io/2021-writeup/2021-ctfs/line-ctf-2021) and [Securinets CTF Quals 2021](https://gadiel-lau.gitbook.io/2021-writeup/2021-ctfs/securinets-ctf-quals-2021), I remembered how I felt quite demoralized because I could only solve one challenge.
 
 Fast forward one year, I started to participate more actively in CTFs in the year 2022 and gained more confidence and experience in tackling CTF challenges. This time I took courage to participate in non-local CTF as solo again after more than a year. Eventually, I got 227/730 placing which is still not too bad I guess.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 I spent a few hours over the weekend trying out some of the challenges and managed to solve some challenges. I especially enjoyed the forensics challenge in this CTF  where I get to  learn  more about timezones and epochtime :) I solved a total of 5 challenges.
 
@@ -20,7 +20,7 @@ I spent a few hours over the weekend trying out some of the challenges and manag
 
 ## &#x20;Sanity Check
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Like most CTFs which had a sanity check or welcome challenge, this CTF had one as well. It's basically a freebie or giveaway and to introduce the flag format to  participants.
 
@@ -42,11 +42,11 @@ Flag: irisctf{d15c0rd\_c0nn3cts\_y0u\_t0\_0ur\_0rg4n1z3rs}
 
 For this challenge, we were  given a `.pcapng` file embedded  in zip. This challenge was  relatively easy and was the easiest challenge under  the `Network` category. Most teams managed to solve it in 1 try.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 I opened the extracted `.pcapng` file in Wireshark to inspect its packets and noticed there was a `babyshark.gif` file under the `HTTP`  protocol on  packet 133. This seemed interesting and so I proceeded to export this `HTTP` object. To extract this file, go to `File > Export Objects  >  HTTP ...`
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once the file is saved, we can open it and we  will  get the flag.
 
@@ -65,13 +65,17 @@ This challenge was  under the `forensics` category and  I enjoyed solving it. Th
 I was the 7th to solve this challenge and was quite satisfied even though I think I could have first-blooded this challenge if I woke up earlier to attempt the challenges and if I attempted this challenge first before any other challenges.\
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I will split it up into 2 parts, but solving this challenge is not sequential. This means that you could solve `Part 1` first then  `Part 2` and  vice versa.
 
 ### Part 1
 
-For this challenge, we were given a broken `.jpg` file. First, I tried to open it on  `Mozzila Firefox` browser  on  my VM and it produced some error.
+For this challenge, we were given a broken `.jpg` file.&#x20;
+
+{% file src="../.gitbook/assets/IMG_0917.jpg" %}
+
+First, I tried to open it on  `Mozzila Firefox` browser  on  my VM and it produced some error. If you try on other browser like `Google Chrome`, you may see a small white square instead.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -97,7 +101,7 @@ To fix this broken file, we simply change the first 2 bytes from `00 00` to `FF 
 
 Once we have successfully modified the starting bytes, we can save this file and open it in image viewer using the `eog` command. We will be greeted by this lovely image of a coyote, with the `secret` part of the flag shown above.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Secret : exif_data_can_leak_a_lot_of_info</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p>Secret : exif_data_can_leak_a_lot_of_info</p></figcaption></figure>
 
 For other forensics challenges writeups that involved fixing of broken files, you may refer to my other writeups [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/csit-challenge-of-wits-2022), [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/sit-n0h4ts-standcon-ctf-2022#warmup-forensics) and [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2022/ctf-topics/cyber-forensics#png-file-is-corrupted).
 
@@ -133,13 +137,13 @@ Finally, we can find the `serial number` using `exiftool` as well.
 
 &#x20;However, this part tricked me a bit because I overthinked. I thought it was referring to the `Internal Serial Number` initially.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 After reading the challenge description again, I discovered the  serial number can be found at the bottom of the camera and we could check the format of serial  number  [here](https://www.canon-europe.com/support/consumer\_products/where\_to\_find\_your\_serial\_number/).
 
 As I searched through the fields in `exiftool`, I found the  serial number.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>392075057288</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>392075057288</p></figcaption></figure>
 
 Piecing up all  parts of the flag will give us the flag.
 
@@ -158,3 +162,57 @@ We can easily solve this by copy pasting into CyberChef and will get the flag fr
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{struggling\_means\_youre\_learning\_thank\_you\_and\_happy\_hacking}
+
+## wi-the-fi
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, we were given a `.cap` file embedded in the `capture.zip`.
+
+{% file src="../.gitbook/assets/BobertsonNet.cap" %}
+
+I solved this challenge after the competition. Still decided to document it since I was very close to solve it during the CTF.
+
+First, lets open this file in Wireshark to analyze the packets.
+
+In wireshark, we can see that the packets were all transmitted in layer 2, also known as the the data-link layer. This included 802.11 protocol packets which are part of the IEEE 802.1 set of LAN standards.
+
+We can apply the filter `eapol` to see the WiFi handshake. To read up more about the 4-way handshake, you can check out [here](https://www.wifi-professionals.com/2019/01/4-way-handshake). You could also check out this [detailed blog writeup](https://praneethwifi.in/2019/11/09/4-way-hand-shake-keys-generation-and-mic-verification/) on the 4-way handshake.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+We can crack the password by using `Aircrack-ng` to perform dictionary attack.
+
+```
+$ aircrack-ng BobertsonNet.cap -w /usr/share/wordlists/rockyou.txt
+```
+
+After a few seconds, the password will be found : billybob1.&#x20;
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+We can use this key to decrypt the packets. To decrypt, we can follow the documentation [here](https://wiki.wireshark.org/HowToDecrypt802.11). Note  that we do not need all 4 eapol packets to be captured to crack the password as shown above, we could still crack the password with 3 out of 4 eapol packets.
+
+We can navigate `File > Edit > Preferences`
+
+&#x20;&#x20;
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Next, we go to IEEE 802.11 and edit the decryption key.
+
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
+Once the key is entered, we will get the decrypted traffic in Wireshark. If we analyze these packets, we would see various packets  under the `TCP` protocol.&#x20;
+
+We can filter it by `tcp.len > 0` to view the packets that contains payload or  data. From here, we will get the filtered `packet 20422`.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Finally, we can inspect the packet data which will give us the flag.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Check out my previous challenge writeup on WiFi [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2022/network#wifi). The challenge involved the use of `aircrack-ng` to perform dictionary attack as well, after I used `crunch` to create my own wordlist.
+
+Flag: irisctf{4ircr4ck\_g0\_brrrrrrrrrrrrrrr}
