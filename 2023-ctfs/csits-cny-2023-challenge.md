@@ -159,7 +159,9 @@ Now if we ran the `ls` command to check the files in the directory, we would see
 
 How could we look for the ADS which contains the flag? Going through almost 1000 of these files manually would probably not be the best idea and would be too time-consuming.&#x20;
 
-Since the secret message could be saved into the ADS using commands like `echo`,   we could try to `grep` for the flag. By using the `-r` option, we `grep` through all the files in the directory recursively and we are able to get the file name which contains the flag.\
+Since the secret message could be saved into the ADS using commands like `echo`,   we could try to `grep` for the flag. By using the `-r` option, we `grep` through all the files in the directory recursively and we are able to get the file name which contains the flag. Here's a pretty good [documentation](https://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/) on Finding a File Containing a Particular Text String In Linux Server.&#x20;
+
+Note that grep is a very powerful and useful tool. Some other instances where I used grep and specified different options such as `-a` or `-E` can be found [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/lagncrash-interpoly-ctf-2022#plumber) and [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/lagncrash-interpoly-ctf-2022#plumber).\
 
 
 ```
@@ -177,6 +179,8 @@ This would give us the stream name of the ADS where the flag can be found.\
 
 Stream name: hidden588
 
+You might also be interested in this [blog](https://tmairi.github.io/posts/extracting-alternate-data-streams-with-linux/) which is about Extracting Alternate Data Streams with Linux.
+
 Submitting the flag and stream name shows that it is the correct answer!\
 
 
@@ -184,7 +188,7 @@ Submitting the flag and stream name shows that it is the correct answer!\
 
 As a forensics enthusiast, I really enjoyed the process of solving this challenge. After attempting and solving this challenge, I learned more about ADS and how 7-zip could be vulnerable to hide malware. Malware within a 7-zip archive can be extracted without propagation of the MotW. 7-zip v15.14 _will_ add a MotW if we double-click an exe within an archive, but _not_ if we extract it first. The older 7-zip v9.2 _did not_ tag with MotW either way.
 
-Although this was my first time attempting a challenge on NTFS and ADS which I had no prior knowledge, I am glad I managed to quickly pick up the concepts and solved it within the same day the challenge was released. In fact, I solved this challenge within 45 minutes at first attempt :)
+Although this was my first time attempting a challenge on NTFS and ADS which I had no prior knowledge, I am glad I managed to quickly pick up the concepts and solved it within the same day the challenge was released. In fact, I solved this challenge within 30 minutes at first attempt :)
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
