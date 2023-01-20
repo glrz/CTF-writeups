@@ -14,7 +14,7 @@ For this year's challenge, I found it to be more interesting. On CSIT LinkedIn p
 
 <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-However, if we tried to scan the QR code at around 2-3 seconds into the video, it probably won't work because the QR code is still blurred. I managed to scan the QR code at the 4 seconds mark by using my phone to scan the QR code on my monitor screen. This leads me to the [challenge link](https://www.csit-events.sg/cny2023-easter-egg-challenge-huat-ah).
+However, if we tried to scan the QR code at around 2-3 seconds into the video, it probably won't work because the QR code is still blurred. I managed to scan the QR code at the 4 seconds mark by using my phone to scan it on my monitor screen, which leads me to the [challenge link](https://www.csit-events.sg/cny2023-easter-egg-challenge-huat-ah).
 
 We were presented with this challenge description and a challenge file.
 
@@ -84,7 +84,7 @@ We could paste this into [CyberChef](https://cyberchef.org/#recipe=From\_Base64\
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-We could copy the `Base64 encoded` string and paste it on `CyberChef` again to confirm the flag.\
+We could copy-paste the `Base64 encoded` string on `CyberChef` again to confirm the flag.\
 
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Q1NJVHskODg4X2hBUHBZX1kzQFJfMGZfckA4YjFUfQ==</p></figcaption></figure>
@@ -93,8 +93,7 @@ Flag: CSIT{$888\_hAPpY\_Y3@R\_0f\_r@8b1T}
 
 ## Part 2
 
-Moving on, we will need to find out the stream name of the ADS. After reading through the additional resources provided, I understood how ADS is created and we could simply append a colon `:` to the file name or path, followed by the stream name. Since the colon is a reserved character not allowed in a filename, it doesn’t conflict with existing file names.\
-
+Moving on, we will need to find out the stream name of the ADS. After reading through the additional resources provided, I understood how ADS is created and we could simply append a colon `:` to the file name or path, followed by the stream name. Since the colon is a reserved character not allowed in a filename, it doesn’t conflict with existing file names.
 
 Knowing this, we would need to find the stream name which is after the colon `:`
 
@@ -106,7 +105,7 @@ On Linux, we could use the `7z x` command to extract the file. Although we shoul
 special_hong_bao.7z: Windows imaging (WIM) image v1.13, reparse point fixup
 ```
 
-We can still extract it as such
+We can still extract it as such&#x20;
 
 ```
 ┌──(kali㉿kali)-[~/Downloads]
@@ -158,7 +157,7 @@ Now if we ran the `ls` command to check the files in the directory, we would see
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-How could we look for the ADS which contains the flag then? Going through almost 1000 of these files manually would probably not be the best idea.&#x20;
+How could we look for the ADS which contains the flag? Going through almost 1000 of these files manually would probably not be the best idea and would be too time-consuming.&#x20;
 
 Since the secret message could be saved into the ADS using commands like `echo`,   we could try to `grep` for the flag. By using the `-r` option, we `grep` through all the files in the directory recursively and we are able to get the file name which contains the flag.\
 
@@ -185,10 +184,10 @@ Submitting the flag and stream name shows that it is the correct answer!\
 
 As a forensics enthusiast, I really enjoyed the process of solving this challenge. After attempting and solving this challenge, I learned more about ADS and how 7-zip could be vulnerable to hide malware. Malware within a 7-zip archive can be extracted without propagation of the MotW. 7-zip v15.14 _will_ add a MotW if we double-click an exe within an archive, but _not_ if we extract it first. The older 7-zip v9.2 _did not_ tag with MotW either way.
 
-Although this is my first time attempting a challenge about NTFS and ADS which I had no prior knowledge, I am glad I managed to quickly pick up the concepts and solved it within the same day the challenge was released. In fact, I solved this challenge within 45 minutes at first attempt :)
+Although this was my first time attempting a challenge on NTFS and ADS which I had no prior knowledge, I am glad I managed to quickly pick up the concepts and solved it within the same day the challenge was released. In fact, I solved this challenge within 45 minutes at first attempt :)
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-After solving it, I got a digital badge! Looks awesome and I love Forensics! Looking forward to more of such challenges in the coming years.
+After solving it, I got a digital badge! This looked awesome and I love Forensics! Looking forward to more of such challenges in the coming years.
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
