@@ -10,13 +10,15 @@ Last year, CSIT also had a `CNY 2022 Easter Egg Challenge`. If I remembered corr
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-For this year's challenge, I found it to be more interesting and slightly more challenging. On CSIT LinkedIn page, we were presented with a short video of 7 seconds in the post. Taking a closer look, I saw that there was a QR Code appearing in the video at around 2-3 seconds mark. Shortly after, it disappears at around 5 seconds mark. Can you spot it?
+For this year's challenge, I found it to be more interesting and slightly more challenging. On CSIT LinkedIn page, we were presented with a short video of 7 seconds in the post. Taking a closer look, I saw that there was a QR Code that appeared in the video at around 2-3 seconds mark. Shortly after, it disappears at around 5 seconds mark.&#x20;
+
+Can you spot it?
 
 <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 However, if we tried to scan the QR code at around 2-3 seconds into the video, it probably won't work because the QR code is still blurred. I managed to scan the QR code at the 4 seconds mark by using my phone to scan it on my monitor screen, which leads me to the [challenge link](https://www.csit-events.sg/cny2023-easter-egg-challenge-huat-ah).
 
-We were presented with this challenge description and a challenge file.
+Upon reaching the challenge page, we were presented with the challenge description, some instructions and a challenge file.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -36,13 +38,11 @@ Example usage of ADS:&#x20;
 
 ·    [https://textslashplain.com/2016/04/04/downloads-and-the-mark-of-the-web/](https://textslashplain.com/2016/04/04/downloads-and-the-mark-of-the-web/)&#x20;
 
-The challenge provided us with some instructions, that is, to download the file, On Windows, use 7zip to extract the file and find the flag within the file. For this challenge, I decided to try another approach by solving it on my Kali Linux VM instead. This is probably the unintended solution and I'll split my writeup into 2 parts for this challenge.
+If we scroll up, the challenge provided us with some instructions, that is, to download the file, on Windows, use 7zip to extract the file and find the flag within the file. However, for this challenge, I decided to try another approach by solving it on my Kali Linux VM instead. This is probably the unintended solution and I'll split my writeup into 2 parts for this challenge.
 
 ## Part 1
 
 First, we could open this file in a simple text editor like Notepad to analyze its contents. Once we open the file in Notepad, we should notice that there are strings appended with `=` and `==`, which likely suggest that this could be `Base64 encoded.`
-
-&#x20;
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
