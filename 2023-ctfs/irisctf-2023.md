@@ -28,11 +28,11 @@ Flag: irisctf{w31c0m3\_t0\_1r15ctf\_2023}
 
 ## Discord
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a  discord link. Upon joining the discord server, the flag  can be found in one of  the channels, that is the `misc` channel. If we look closely beside the channel name at the top, we will see the flag displayed.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{d15c0rd\_c0nn3cts\_y0u\_t0\_0ur\_0rg4n1z3rs}
 
@@ -56,7 +56,7 @@ Flag: irisctf{welc0m3\_t0\_n3tw0rks}
 
 ## babyforens
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was  under the `forensics` category and  I enjoyed solving it. This challenge took most teams multiple  tries to solve it and I solved it before the hint and subsequent hints were released.
 
@@ -97,7 +97,7 @@ If you do not have any experiences dealing with  `.jpg` files, you could also fi
 
 To fix this broken file, we simply change the first 2 bytes from `00 00` to `FF D8`
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once we have successfully modified the starting bytes, we can save this file and open it in image viewer using the `eog` command. We will be greeted by this lovely image of a coyote, with the `secret` part of the flag shown above.
 
@@ -123,11 +123,11 @@ To find out more about unix time, read [here](https://en.wikipedia.org/wiki/Unix
 
 To find the time this picture was taken,  we can use `exiftool` again.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 There is a tricky part here. This picture was taken in `USA California` and we will need to take the timezones into consideration to find the `epochtime`. Another thing to note is that in some area like `USA California` have timezone changes due to [Daylight Saving Time](https://www.timeanddate.com/time/zone/usa/los-angeles?year=2022).  At that point when the picture was taken, the timezone was  UTC/GMT -7.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 
@@ -137,7 +137,7 @@ Finally, we can find the `serial number` using `exiftool` as well.
 
 &#x20;However, this part tricked me a bit because I overthinked. I thought it was referring to the `Internal Serial Number` initially.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 After reading the challenge description again, I discovered the  serial number can be found at the bottom of the camera and we could check the format of serial  number  [here](https://www.canon-europe.com/support/consumer\_products/where\_to\_find\_your\_serial\_number/).
 
@@ -179,7 +179,7 @@ In wireshark, we can see that the packets were all transmitted in layer 2, also 
 
 We can apply the filter `eapol` to see the WiFi handshake. To read up more about the 4-way handshake, you can check out [here](https://www.wifi-professionals.com/2019/01/4-way-handshake). You could also check out this [detailed blog writeup](https://praneethwifi.in/2019/11/09/4-way-hand-shake-keys-generation-and-mic-verification/) on the 4-way handshake or this [CTF example ](https://ctf-wiki.mahaloz.re/misc/traffic/protocols/WIFI/)on how to crack the password  and decrypt the traffic.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 We can crack the password by using `Aircrack-ng` to perform dictionary attack.
 
@@ -189,7 +189,7 @@ $ aircrack-ng BobertsonNet.cap -w /usr/share/wordlists/rockyou.txt
 
 After a few seconds, the password will be found : billybob1.&#x20;
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can use this key to decrypt the packets. To decrypt, we can follow the documentation [here](https://wiki.wireshark.org/HowToDecrypt802.11). Note  that we do not need all 4 eapol packets to be captured to crack the password as shown above, we could still crack the password with 3 out of 4 eapol packets.
 
@@ -209,11 +209,11 @@ After the packets are decrypted, we can analyze these packets again. We would se
 
 We can filter it by `tcp.len > 0` to view the packets that contains payload or  data. From here, we will get the filtered `packet 20422`.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we can inspect the packet data which will give us the flag.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could use  [`airdecap-ng`](https://www.aircrack-ng.org/doku.php?id=airdecap-ng) to decrypt the WPA/WPA2 capture file. We can do so by running the following command:
 
@@ -236,7 +236,7 @@ This will produce a `-dec.cap` file which is the decrypted/stripped version of t
 
 Finally, running `strings` on the `-dec.cap`  file, and `grep` for iris would give us the flag
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Check out my previous challenge writeup on WiFi [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2022/network#wifi). It was a challenge which involved the use of `aircrack-ng` to perform dictionary attack as well, after I used `crunch` to create my own wordlist.
 
