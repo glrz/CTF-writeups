@@ -6,7 +6,7 @@ description: >-
 
 # CSIT CNY 2023 Challenge
 
-Last year, CSIT also had a `CNY 2022 Easter Egg Challenge`. If I remembered correctly, that challenge was pretty easy and I solved it by using `Base64 decoder` after scanning a `QR Code`.
+Last year, CSIT also had a [`CNY 2022 Easter Egg Challenge`](https://www.linkedin.com/feed/update/urn:li:activity:6892384942458843136/). If I remembered correctly, that challenge was pretty easy and I solved it by using `Base64 decoder` after scanning a `QR Code`.
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
