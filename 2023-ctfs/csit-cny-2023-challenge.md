@@ -40,6 +40,8 @@ Example usage of ADS:&#x20;
 
 If we scroll up, the challenge provided us with some instructions, that is, to download the file, on Windows, use 7zip to extract the file and find the flag within the file. However, for this challenge, I decided to try another approach by solving it on my Kali Linux VM instead. This is probably the unintended solution and I'll split my writeup into 2 parts for this challenge.
 
+Note that solving this challenge is not sequential. This means that you could solve for `Part 1` first then  `Part 2` and  vice versa.
+
 ## Part 1
 
 First, we could open this file in a simple text editor like Notepad to analyze its contents. Once we open the file in Notepad, we should notice that there are strings appended with `=` and `==`, which likely suggest that this could be `Base64 encoded.`
