@@ -194,6 +194,6 @@ Although this was my first time attempting a challenge on NTFS and ADS which I h
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-After solving it, I got a digital badge! This looked awesome and I love Forensics! Looking forward to more of such challenges in the coming years.
+After solving it, I got a digital badge which looked awesome! Looking forward to more of such challenges in the coming years.
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
