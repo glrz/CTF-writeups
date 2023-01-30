@@ -20,7 +20,7 @@ However, if we tried to scan the QR code at around 2-3 seconds into the video, i
 
 Upon reaching the challenge page, we were presented with the challenge description, some instructions and a challenge file.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../.gitbook/assets/special_hong_bao.7z" %}
 
@@ -89,7 +89,7 @@ We could paste this into [CyberChef](https://cyberchef.org/#recipe=From\_Base64\
 We could copy-paste the `Base64 encoded` string on `CyberChef` again to confirm the flag.\
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Q1NJVHskODg4X2hBUHBZX1kzQFJfMGZfckA4YjFUfQ==</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Q1NJVHskODg4X2hBUHBZX1kzQFJfMGZfckA4YjFUfQ==</p></figcaption></figure>
 
 Flag: CSIT{$888\_hAPpY\_Y3@R\_0f\_r@8b1T}
 
@@ -178,6 +178,11 @@ This would give us the stream name of the ADS where the flag can be found.\
 
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+Alternatively, we could also use a tool like [ADS Manager](https://dmitrybrant.com/adsmanager) to search through those with `size` greater than 5, since most of the ADS size were `5` and those that are greater likely suggest that there are hidden messages. From here, we could decode the `Base64` encoded string and get the flag as well.\
+
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Stream name: hidden588
 
