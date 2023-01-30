@@ -159,7 +159,7 @@ Now if we ran the `ls` command to check the files in the directory, we would see
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-How could we look for the ADS which contains the flag? Going through almost 1000 of these files manually would probably not be the best idea and would be too time-consuming.&#x20;
+How could we look for the ADS which contains the flag? Going through and reading the contents of all 1000 of alternate streams manually in Linux would probably not be the best idea and would be too time-consuming.&#x20;
 
 Since the secret message could be saved into the ADS using commands like `echo`,   we could try to `grep` for the flag. By using the `-r` option, we `grep` through all the files in the directory recursively and we are able to get the file name which contains the flag. Here's a pretty good [documentation](https://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/) on Finding a File Containing a Particular Text String In Linux Server.&#x20;
 
