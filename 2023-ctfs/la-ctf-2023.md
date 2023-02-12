@@ -10,7 +10,7 @@ More information about the event can be found [here](https://ctftime.org/event/1
 
 For this CTF, I participated with team [`Social Engineering Expert`](https://ctftime.org/team/151372) and we obtained&#x20;
 
-I managed to solve quite a number of challenges in categories such as MISC(OSINT, Forensics) and Cryptography.
+I managed to dedicate some time during the weekend to solve quite a number of challenges in categories such as MISC(OSINT, Forensics) and Cryptography.
 
 Overall, I enjoyed this CTF and learned more about how data could be "extracted" from hidden sheets in `Google docs` despite having view only access and no permissions to make a copy of  the file. These challenges helped me to think critically and improved my problem-solving skills.
 
