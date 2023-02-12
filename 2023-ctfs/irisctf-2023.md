@@ -16,7 +16,7 @@ Fast forward one year, I started to participate more actively in CTFs in the yea
 
 I spent a few hours over the weekend trying out some of the challenges and managed to solve some challenges. I especially enjoyed the forensics challenge in this CTF  where I get to  learn  more about timezones and epochtime :) I solved a total of 5 challenges.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;Sanity Check
 
@@ -38,7 +38,7 @@ Flag: irisctf{d15c0rd\_c0nn3cts\_y0u\_t0\_0ur\_0rg4n1z3rs}
 
 ## babyshark
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were  given a `.pcapng` file embedded  in zip. This challenge was  relatively easy and was the easiest challenge under  the `Network` category. Most teams managed to solve it in 1 try.
 
@@ -46,11 +46,11 @@ For this challenge, we were  given a `.pcapng` file embedded  in zip. This chall
 
 I opened the extracted `.pcapng` file in Wireshark to inspect its packets and noticed there was a `babyshark.gif` file under the `HTTP`  protocol on  packet 133. This seemed interesting and so I proceeded to export this `HTTP` object. To extract this file, go to `File > Export Objects  >  HTTP ...`
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once the file is saved, we can open it and we  will  get the flag.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{welc0m3\_t0\_n3tw0rks}
 
@@ -77,11 +77,11 @@ For this challenge, we were given a broken `.jpg` file.&#x20;
 
 First, I tried to open it on  `Mozzila Firefox` browser  on  my VM and it produced some error. If you try on other browser like `Google Chrome`, you may see a small white square instead.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 To save this broken file, I had to right click on the file and `Save Link As…`
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, I proceeded to open up this  file on my hex editor : GHex. You could use any hex editor you prefer. If you want, you could also find an online hex editor [here](https://hexed.it/).
 
@@ -91,13 +91,13 @@ Opening the file in  hex  editor showed that the first few bytes are null bytes.
 
 If we scroll down till the end, we will see `FF D9`. Based on previous CTF experiences, we know that this is the trailer bytes for `.jpg` files. This gives us the idea that we are probably dealing with a `.jpg`  file.
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you do not have any experiences dealing with  `.jpg` files, you could also find useful resources online [here ](https://en.wikipedia.org/wiki/List\_of\_file\_signatures)and [here ](https://www.file-recovery.com/jpg-signature-format.htm)which covers the concepts  of file signatures. After understanding  the concept of  file signature, we can fix this broken file  easily.
 
 To fix this broken file, we simply change the first 2 bytes from `00 00` to `FF D8`
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once we have successfully modified the starting bytes, we can save this file and open it in image viewer using the `eog` command. We will be greeted by this lovely image of a coyote, with the `secret` part of the flag shown above.
 
@@ -111,7 +111,7 @@ Now that we  have  the `secret` part of the flag, we are left with the `latitude
 
 First, we can  find the `latitude` and `longitude` by  running `exiftool`.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.&#x20;
 
@@ -131,7 +131,7 @@ There is a tricky part here. This picture was taken in `USA California` and we w
 
 To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
 
 Finally, we can find the `serial number` using `exiftool` as well.
 
@@ -143,7 +143,7 @@ After reading the challenge description again, I discovered the  serial number c
 
 As I searched through the fields in `exiftool`, I found the  serial number.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>392075057288</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>392075057288</p></figcaption></figure>
 
 Piecing up all  parts of the flag will give us the flag.
 
@@ -155,17 +155,17 @@ Flag: irisctf{37.74\_-119.59\_1661619896\_392075057288\_exif\_data\_can\_leak\_a
 
 This challenge is a survey form which mainly questioned our experience on  this CTF.  After the survey is submitted, the flag is encodded in `Base64`.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can easily solve this by copy pasting into CyberChef and will get the flag from the output after decoding the `Base64`.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{struggling\_means\_youre\_learning\_thank\_you\_and\_happy\_hacking}
 
 ## wi-the-fi
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.cap` file embedded in the `capture.zip`.
 
@@ -179,7 +179,7 @@ In wireshark, we can see that the packets were all transmitted in layer 2, also 
 
 We can apply the filter `eapol` to see the WiFi handshake. To read up more about the 4-way handshake, you can check out [here](https://www.wifi-professionals.com/2019/01/4-way-handshake). You could also check out this [detailed blog writeup](https://praneethwifi.in/2019/11/09/4-way-hand-shake-keys-generation-and-mic-verification/) on the 4-way handshake or this [CTF example ](https://ctf-wiki.mahaloz.re/misc/traffic/protocols/WIFI/)on how to crack the password  and decrypt the traffic.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can crack the password by using `Aircrack-ng` to perform dictionary attack.
 
@@ -197,11 +197,11 @@ We can navigate `File > Edit > Preferences`
 
 &#x20;&#x20;
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, we go to IEEE 802.11 and edit the decryption key.
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once the key is entered, we will get the decrypted traffic in Wireshark.
 
@@ -209,7 +209,7 @@ After the packets are decrypted, we can analyze these packets again. We would se
 
 We can filter it by `tcp.len > 0` to view the packets that contains payload or  data. From here, we will get the filtered `packet 20422`.
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we can inspect the packet data which will give us the flag.
 
@@ -236,7 +236,7 @@ This will produce a `-dec.cap` file which is the decrypted/stripped version of t
 
 Finally, running `strings` on the `-dec.cap`  file, and `grep` for iris would give us the flag
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Check out my previous challenge writeup on WiFi [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2022/network#wifi). It was a challenge which involved the use of `aircrack-ng` to perform dictionary attack as well, after I used `crunch` to create my own wordlist.
 
