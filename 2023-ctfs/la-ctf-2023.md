@@ -8,7 +8,7 @@ description: >-
 
 More information about the event can be found [here](https://ctftime.org/event/1732).
 
-For this CTF, I participated with team `Social Engineering Expert` and we obtained&#x20;
+For this CTF, I participated with team [`Social Engineering Expert`](https://ctftime.org/team/151372) and we obtained&#x20;
 
 I managed to solve quite a number of challenges in categories such as MISC(OSINT, Forensics) and Cryptography.
 
