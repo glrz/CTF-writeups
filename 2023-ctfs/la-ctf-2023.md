@@ -8,7 +8,9 @@ description: >-
 
 More information about the event can be found [here](https://ctftime.org/event/1732).
 
-For this CTF, I participated with team [`Social Engineering Expert`](https://ctftime.org/team/151372) and we obtained&#x20;
+For this CTF, I participated with team [`Social Engineering Expert`](https://ctftime.org/team/151372) and we obtained the position of `8/980` teams. Pretty satisfied with the results and definitely learned a lot from interacting with my teammates as well.
+
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 I managed to dedicate some time during the weekend to solve quite a number of challenges in categories such as MISC(OSINT, Forensics) and Cryptography.
 
@@ -16,7 +18,7 @@ Overall, I enjoyed this CTF and learned more about how data could be "extracted"
 
 ## discord
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was similar to previous `Welcome` or `Sanity Check` types of challenges, where the flag could be found easily. The challenge is mainly for us to familiarize with the flag format.&#x20;
 
@@ -49,7 +51,7 @@ I tried following the blog, by going to `View` > `Hidden sheets`. However, this 
 If I were to go to bottom right and try to view the flag sheet, it would not work as well.\
 
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 While searching online, I found this [YouTube video ](https://www.youtube.com/watch?v=FOs-LjXw2Q0)which briefly covered the use of `Find and Replace` function to search for hidden data in hidden sheets.
 
@@ -87,7 +89,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +127,7 @@ For example, here I am specifying to search the hidden `flag` sheet on Cell `T1`
 
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
@@ -180,7 +182,43 @@ By joining all the values above from `A1` to `AR1`, we will get the flag. Essent
 After solving it, I did try specifying a range from `A1 to AR1` using Regex to see if it's possible to search through all the cells in the range sequentially so that it would be much faster. However, this did not work.\
 
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Partially broken which did not work</p></figcaption></figure>
+
+This process of finding the flag by searching in each individual cell was quite tedious. After the competition, I found an alternative way which was much easier.&#x20;
+
+By running this script, it can be solved in [Google Apps Script](https://www.google.com/script/start/).
+
+```javascript
+function myFunction() {
+  const sheet = SpreadsheetApp.openById("1OYx3lCccLKYgOvzxkRZ5-vAwCn3mOvGUvB4AdnSbcZ4");
+  const sheets = sheet.getSheets();
+  const secret = sheets.find(x => x.getName() == "flag");
+  console.log(secret.getDataRange().getValues().map(l => l.join("")).join("\n"));
+}
+```
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+The last method which I found to solve this challenge was to use [IMPORTRANGE function](https://support.google.com/a/users/answer/9308940?hl=en) to import data from another Google Sheet.
+
+First, we should create an empty spreadsheet.\
+Next, we enter the `URL` for the Google Sheet that we want the data imported and specify the range in an empty cell as such\
+
+
+```
+=importrange("https://docs.google.com/spreadsheets/d/1OYx3lCccLKYgOvzxkRZ5-vAwCn3mOvGUvB4AdnSbcZ4","flag!A1:AR1")
+```
+
+I found a [YouTube Video](https://www.youtube.com/watch?v=5S7laJS9meU) that was quite useful in explaining this.
+
+By using this `importrange` function, we will see the flag printed in the first row horizontally.\
+
+
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+Next, we could copy the cells from `A1` to `AR1` and paste it in CyberChef. There will  be some space in between but we can use  the `find and replace` [recipe](https://cyberchef.org/#recipe=Find\_/\_Replace\(%7B'option':'Regex','string':'%5Ct'%7D,'',true,false,true,false\)\&input=bAlhCWMJdAlmCXsJSAkxCWQJZAkzCW4JXwkmCV8JcAlyCU8JdAkzCWMJVAkzCUQJXwk1CWgJMwkzCVQJNQlfCUEJcgkzCV8JbgkzCTEJdAloCTMJcgl9) to get the flag.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: lactf{H1dd3n\_&\_prOt3cT3D\_5h33T5\_Ar3\_n31th3r}
 
@@ -618,7 +656,7 @@ However, this was not the flag. I guess one could possibly search for possible h
 
 For me, I just searched for `where carey nachenberg hiked to` and found this [site](https://www.tickettailor.com/events/peaksprofessorsatucla/792649).
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 Upon browsing the site, I can see that it mentioned `We'll stop at Skull Rock to take in the views`. That was the flag, the location was at `Skull Rock`.
 
