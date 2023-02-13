@@ -93,7 +93,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
@@ -597,6 +597,89 @@ lactf{3V1L_817_3xf1l7R4710N_4_7H3_W1N_51D43c8000034d0c}
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
+An alternative approach would be to get the hint from the challenge description. From the challenge  description, it mentioned that `those UDP traffics are abided by RFC 3514.`
+
+I found [this](https://dbpedia.org/page/Evil\_bit) which explained about evil bit.
+
+`The evil bit is a fictional IPv4 packet header field proposed in RFC 3514, a humorous April Fools' Day RFC from 2003 authored by Steve Bellovin. The RFC recommended that the last remaining unused bit, the "Reserved Bit" in the IPv4 packet header, be used to indicate whether a packet had been sent with malicious intent, thus making computer security engineering an easy problem – simply ignore any messages with the evil bit set and trust the rest.`
+
+If we take a look at [RFC 3514](https://www.ietf.org/rfc/rfc3514.txt):
+
+```
+[...]
+2. Syntax
+
+   The high-order bit of the IP fragment offset field is the only unused
+   bit in the IP header.  Accordingly, the selection of the bit position
+   is not left to IANA.
+
+
+
+
+
+Bellovin                     Informational                      [Page 1]
+
+RFC 3514          The Security Flag in the IPv4 Header      1 April 2003
+
+
+   The bit field is laid out as follows:
+
+             0
+            +-+
+            |E|
+            +-+
+
+   Currently-assigned values are defined as follows:
+
+   0x0  If the bit is set to 0, the packet has no evil intent.  Hosts,
+        network elements, etc., SHOULD assume that the packet is
+        harmless, and SHOULD NOT take any defensive measures.  (We note
+        that this part of the spec is already implemented by many common
+        desktop operating systems.)
+
+   0x1  If the bit is set to 1, the packet has evil intent.  Secure
+        systems SHOULD try to defend themselves against such packets.
+        Insecure systems MAY chose to crash, be penetrated, etc.
+[...]
+```
+
+With the above information, if the IP "reserved bit" is set to 1 (0x1), it is an evil packet.&#x20;
+
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+Hence, to extract the flag, we need to find all the packets that have the Reserved bit `Not set.`
+
+To do so, we can use `Tshark`, a command line version of `Wireshark`.
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ tshark -r EBE.pcap -Y "ip.flags.rb == 0x0" -T fields -e data | xxd -r -p
+lactf{3V1L_817_3xf1l7R4710N_4_7H3_W1N_51D43c8000034d0c} 
+```
+
+Alternatively, we could also use `Scapy` and filter those that have reserved bits not set as such\
+
+
+```
+from scapy.all import *
+
+# Load the pcap file
+packets = rdpcap("EBE.pcap")
+
+# Filter the packets to only include those sent from source IP 10.0.1.10 to destination IP 10.0.1.5 over UDP with reserved bits not set (0x0)
+filtered_packets = [pkt for pkt in packets if pkt.haslayer(UDP) and pkt[IP].src == "10.0.1.10" and pkt[IP].dst == "10.0.1.5" and (pkt[IP].flags & 0x7) == 0]
+
+# Extract the payload of each filtered packet and concatenate into a single string
+payloads = b''.join([bytes(pkt[UDP].payload) for pkt in filtered_packets])
+
+# Decode the concatenated payloads as ASCII text
+text = payloads.decode('ascii')
+
+print(text)
+```
+
 Flag: lactf{3V1L\_817\_3xf1l7R4710N\_4\_7H3\_W1N\_51D43c8000034d0c}
 
 ## rolling in the mud
@@ -683,7 +766,7 @@ If we look closely, `Part 1` of the flag could be found at the top in the descri
 
 For flag part two, I used `CTRL+F` to search through the form and found it under one of the options for `favourite challenge(s)`.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Flag Part Two: very_helpful</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (2).png" alt=""><figcaption><p>Flag Part Two: very_helpful</p></figcaption></figure>
 
 Combining these two parts of the flag, with the final flag at the end of the feedback form, we get the complete flag.
 
