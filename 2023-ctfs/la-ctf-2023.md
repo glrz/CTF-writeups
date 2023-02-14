@@ -163,7 +163,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
@@ -173,7 +173,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
@@ -771,3 +771,224 @@ For flag part two, I used `CTRL+F` to search through the form and found it under
 Combining these two parts of the flag, with the final flag at the end of the feedback form, we get the complete flag.
 
 lactf{i\_give\_my\_very\_helpful\_feedback\_and\_i\_actually\_submitted}
+
+## a hacker's note
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, it was under the misc category, most likely a Forensics challenge from the challenge description. I partially solved this during the competition but nonetheless decided to include it for documentation purposes.\
+
+
+We were given a zip file for this challenge.
+
+{% file src="../.gitbook/assets/hackers-drive.dd.zip" %}
+
+FIrst, lets unzip this file.
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ unzip hackers-drive.dd.zip 
+Archive:  hackers-drive.dd.zip
+  inflating: hackers-drive.dd
+```
+
+Upon unzipping the file, we get the `hackers-drive.dd` file. The `.dd` file suggest that this is likely a disk  image file.
+
+We can run the `file` command to check the file type. As we can see, this file has been encrypted as stated in the challenge description as well.
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ file hackers-drive.dd
+hackers-drive.dd: LUKS encrypted file, ver 1 [twofish, cbc-plain, sha1] UUID: 456aa573-ab59-4146-a2f3-874a808b9c08
+```
+
+From the challenge description, we know that the organization uses password in the format of `hacker###` (hacker + 3 digits).
+
+With this information, we can construct a wordlist using `Crunch`. This will effectively  generate the wordlist: `hacklist` with the words ranging from `hacker000` to `hacker999`.
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ crunch 9 9 -t hacker%%% -o hacklist               
+Crunch will now generate the following amount of data: 10000 bytes
+0 MB
+0 GB
+0 TB
+0 PB
+Crunch will now generate the following number of lines: 1000 
+
+crunch: 100% completed generating output
+```
+
+For more information on how to use `Crunch`, you could also check out my other [writeup ](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2022/network#wifi)where I used crunch to solve a challenge.
+
+After the `hacklist` has been generated, we can use `hashcat` to perform a dictionary attack by using the `hacklist`.
+
+Note  that  `-m 14600` sets the mode to `LUKS`. The cracked password is : `hacker765`.
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ hashcat -m 14600 hackers-drive.dd hacklist 
+hashcat (v6.2.5) starting
+
+OpenCL API (OpenCL 3.0 PoCL 3.0+debian  Linux, None+Asserts, RELOC, LLVM 13.0.1, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+============================================================================================================================================
+* Device #1: pthread-11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz, 2921/5907 MB (1024 MB allocatable), 2MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+* Slow-Hash-SIMD-LOOP
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory required for this attack: 0 MB
+
+Dictionary cache hit:
+* Filename..: hacklist
+* Passwords.: 1000
+* Bytes.....: 10000
+* Keyspace..: 1000
+
+hackers-drive.dd:hacker765                                
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 14600 (LUKS)
+Hash.Target......: hackers-drive.dd
+Time.Started.....: Sat Feb 11 08:51:16 2023 (4 secs)
+Time.Estimated...: Sat Feb 11 08:51:20 2023 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Base.......: File (hacklist)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:      232 H/s (14.44ms) @ Accel:64 Loops:1024 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests
+Progress.........: 768/1000 (76.80%)
+Rejected.........: 0/768 (0.00%)
+Restore.Point....: 640/1000 (64.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:1024-1085
+Candidate.Engine.: Device Generator
+Candidates.#1....: hacker640 -> hacker767
+Hardware.Mon.#1..: Util: 98%
+
+Started: Sat Feb 11 08:51:16 2023
+Stopped: Sat Feb 11 08:51:21 2023
+```
+
+From here, we can find out more information about the `.dd`  file.
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ cryptsetup luksDump hackers-drive.dd
+LUKS header information for hackers-drive.dd
+
+Version:        1
+Cipher name:    twofish
+Cipher mode:    cbc-plain
+Hash spec:      sha1
+Payload offset: 4096
+MK bits:        256
+MK digest:      ef 65 75 d0 72 2f 19 65 ad 19 06 88 06 23 79 f5 54 21 de 64 
+MK salt:        43 b8 26 2c a8 34 4e 77 45 f3 c7 3d a3 2a 15 22 
+                42 0b 69 46 72 a8 d1 99 0a 33 18 a7 4d 3a 5c ac 
+MK iterations:  136000
+UUID:           456aa573-ab59-4146-a2f3-874a808b9c08
+
+Key Slot 0: ENABLED
+  Iterations:           1086
+  Salt:                 d6 78 a6 ea 22 07 0a b7 21 7c 79 79 ab d8 b8 25 
+                         f4 62 b0 55 bf af 55 26 43 4c f2 ba 7f 91 4c cb 
+  Key material offset:  8
+  AF stripes:                  4000
+Key Slot 1: DISABLED
+Key Slot 2: DISABLED
+Key Slot 3: DISABLED
+Key Slot 4: DISABLED
+Key Slot 5: DISABLED
+Key Slot 6: DISABLED
+Key Slot 7: DISABLED
+```
+
+From here, we could decrypt the file as such\
+
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ sudo cryptsetup -v luksOpen hackers-drive.dd data
+[sudo] password for kali: 
+Enter passphrase for hackers-drive.dd: 
+Key slot 0 unlocked.
+Command successful.
+```
+
+Next,  we could mount it to our system by clicking on the  `18MB  Volume`.
+
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+
+We could then run the `ls -la` command to list  all the files, including hidden or temporary files.
+
+&#x20;
+
+```
+┌──(kali㉿kali)-[/media/kali/ed1c79a8-8148-4ce2-b482-91334a211dc9]
+└─$ ls -la
+total 24
+drwxr-xr-x  7 kali steve  1024 Jan 15 21:38 .
+drwxr-x---+ 3 root root   4096 Feb 14 02:18 ..
+-rw-------  1 kali steve   190 Jan 15 21:38 .bash_history
+drwxr-xr-x  3 kali steve  1024 Jan 15 20:06 .config
+drwx------  2 kali steve  1024 Jan 15 20:09 .emacs.d
+drwxr-xr-x  7 kali steve  1024 Jan 15 20:12 encrypted-notes
+drwxr-xr-x  3 kali steve  1024 Jan 15 19:50 .local
+drwx------  2 root root  12288 Jan 15 21:37 lost+found
+-rw-r--r--  1 kali steve   150 Jan 15 20:35 note_to_self.txt
+-rw-------  1 kali steve   705 Jan 15 20:33 .sqlite_history
+```
+
+Next, I read the contents  in `.bash_history`
+
+```
+┌──(kali㉿kali)-[/media/kali/ed1c79a8-8148-4ce2-b482-91334a211dc9]
+└─$ cat .bash_history  
+joplin
+cd .config/joplin
+ls -lah
+sqlite3 database.sqlite 
+ls
+ls -lah
+cat database.sqlite | grep lactf
+cd ..
+cd ..
+ls
+ls -lah
+nano note_to_self.txt
+ls -lah
+ls
+zerofree /dev/mapper/notes
+exit
+```
+
+I realised that it was using [Joplin](https://joplinapp.org/), an open-source note taking app.&#x20;
+
+I proceeded into the `.config/joplin` directory and  tried to grep for the flag like what I had seen in the `.bash_history`.
+
+However, it looked like the flag was jumbled up and I could not dicipher the flag from here.\
+
+
+```
+┌──(kali㉿kali)-[/media/kali/ed1c79a8-8148-4ce2-b482-91334a211dc91/.config/joplin]
+└─$ cat database.sqlite| grep -a lactf
+3ncryp71onc4ch3dinfolactf       p422word2s3cur3ecert�n0 113
+3ncryp71onc4ch3dinfolactf       p422word2s3cur3ecertyo40 20infosec@0 26infosecert
+```
+
+At this point, I was quite close to the flag, but did not continue further as I had dedicated too much time on this challenge. If you are interested in how to solve this, you could check out one pretty good writeup that I found [here](https://github.com/dreeSec/la-ctf-2023/blob/master/LA-CTF-2023.md#misca-hackers-notes).
+
+Flag: lactf{S3cUr3\_yOUR\_C4cH3D\_3nCRYP71On\_P422woRD2}
