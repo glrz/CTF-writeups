@@ -14,7 +14,7 @@ Some of my CTFs position are not too good but I decided to include it just for d
 
 I am glad my passion for cybersecurity kept me going despite all these "setbacks". I constantly crave knowledge in cybersecurity and its unlikely that I will stop anytime soon. Overall, this journey has been a fruitful one and I hope for better things ahead.
 
-Please do not hesitate to contact me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.com) for any cyber-related inquiries or discussions!
+I welcome you to contact me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.com) for any inquiries or discussions pertaining to cybersecurity, or if you are interested in participating in the upcoming CTF events together.
 
 ## CTF Competitions/Challenges 2023
 
