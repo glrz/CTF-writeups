@@ -16,11 +16,11 @@ I am glad my passion for cybersecurity kept me going despite all these "setbacks
 
 I welcome you to contact me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.com) for any inquiries or discussions pertaining to cybersecurity, or if you are interested in participating in the upcoming CTF events together.
 
-## CTF Competitions/Challenges 2023
+## [CTF Competitions/Challenges 2023](https://gadiel-lau.gitbook.io/2023-writeups/)
 
 <table><thead><tr><th>Name</th><th>Category (Solo/Team)</th><th>Position</th><th data-hidden></th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td><a href="https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/la-ctf-2023">LA CTF 2023</a></td><td>Open (Team)</td><td>8/980</td><td></td></tr><tr><td><a href="https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/csit-cny-2023-challenge">CSIT CNY 2023 Challenge</a></td><td>Open (Solo)</td><td>-</td><td></td></tr><tr><td><a href="https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/irisctf-2023">IrisCTF 2023</a></td><td>Open (Solo)</td><td>227/730</td><td></td></tr></tbody></table>
 
-## CTF Competitions/Challenges 2022
+## [CTF Competitions/Challenges 2022](https://gadiel-lau.gitbook.io/2022-writeups/)
 
 | Name                                                                                                                                                                             | Category (Solo/Team) | Position                                                                                                                                                                                                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ I welcome you to contact me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.
 | [SG Cyber Olympian Trials 2022](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/sg-cyber-olympian-trials-2022)                                                             | Open (Solo)          | <p><a href="https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/sg-cyber-olympian-trials-2022/trial-1">Trial 1</a>: 41/54<br><a href="https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/sg-cyber-olympian-trials-2022/trial-2">Trial 2</a>: 19/52</p>                                                                                                                                          |
 | [AIS3 EOF CTF 2022](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/ais3-eof-ctf-2022)                                                                                     | Open (Team)          | 22/25                                                                                                                                                                                                                                                                                                                                                                                                |
 
-## CTF Competitions/Challenges 2021
+## [CTF Competitions/Challenges 2021](https://gadiel-lau.gitbook.io/2021-writeups/)
 
 | Name                                                                                                                                                                   | Category (Solo/Team) | Position |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------- |
@@ -58,7 +58,7 @@ I welcome you to contact me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.
 | [justCTF \[\*\] 2020](https://gadiel-lau.gitbook.io/2021-writeups/justctf-2020)                                                                                        | Open (Solo)          | 401/804  |
 | [TetCTF 2021](https://gadiel-lau.gitbook.io/2021-writeups/tetctf-2021)                                                                                                 | Open (Solo)          | 183/519  |
 
-## CTF Competitions/Challenges 2020
+## [CTF Competitions/Challenges 2020](https://gadiel-lau.gitbook.io/2020-writeup/)
 
 | Name                                                                                                                        | Category (Solo/Team) | Position |
 | --------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------- |
