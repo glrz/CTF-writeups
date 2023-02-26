@@ -8,11 +8,9 @@ description: >-
 
 A capture the flag (CTF) competition is a kind of cybersecurity competition designed to challenge participants to solve computer security problems or/and capture and defend computer systems.
 
-I started developing an interest in cybersecurity in the year 2020 and started practicing solving cybersecurity challenges [here](https://play.picoctf.org/practice) and [here](https://cybertalents.com/). Participating in CTF competitions and cybersecurity related challenges became my hobby and through these experiences, it has improved my cybersecurity skills. This is an overview of the CTF competitions I've participated in since 2020. As I do not have a fixed team to participate in CTF competitions with, I participated in most of the CTFs as 'solo' and participated in a few CTFs with different teams. Those indicated as solo means it was an individual's effort (i.e. I've solved all the challenges by myself in the competitions or challenges).
+My interest in cybersecurity started in 2020, and since then, I have been practicing by solving cybersecurity challenges and participating in CTF competitions. This has become a hobby of mine and has significantly improved my cybersecurity skills. Although I usually participated in these events as a solo player, I also joined a few teams. For documentation purposes, I included some CTFs in which my position wasn't great, but my focus is primarily on the learning process and my takeaways from these experiences. While I may feel disappointed at times for not solving more challenges, my passion for cybersecurity keeps me going.
 
-Some of my CTFs position are not too good but I decided to include it just for documentation purposes only. Normally when I play CTFs, I try to focus more on the learning process and my takeaway through these CTFs experiences instead of the position I'm getting. However, sometimes I might still feel a little disheartened from the results and not solving more challenges in the CTFs.
-
-I am glad my passion for cybersecurity kept me going despite all these "setbacks". I constantly crave knowledge in cybersecurity and its unlikely that I will stop anytime soon. Overall, this journey has been a fruitful one and I hope for better things ahead.
+I am constantly seeking knowledge in cybersecurity and don't plan on stopping anytime soon. Overall, this journey has been fruitful, and I am hopeful for what's to come in the future.
 
 I welcome you to contact me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.com) for any inquiries or discussions pertaining to cybersecurity, or if you are interested in participating in the upcoming CTF events together.
 
