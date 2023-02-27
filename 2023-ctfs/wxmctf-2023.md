@@ -1,5 +1,7 @@
 ---
-description: This CTF was held from 1 Mar - 14 Mar 2023.
+description: >-
+  This CTF was held from 1 Mar - 14 Mar 2023, hosted by MGCI and WLMAC. This
+  contest was organized by WLMAC's Cybersecurity club and MGCI's CTF club.
 ---
 
 # WxMCTF 2023
