@@ -123,7 +123,7 @@ I changed the Search from `All sheets` to `Specific Range`. Using the `regex`, a
 
 For example, here I am specifying to search the hidden `flag` sheet on Cell `T1` for the alphanumeric character. I get the result which is a value of `3`.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
@@ -131,7 +131,7 @@ For example, here I am specifying to search the hidden `flag` sheet on Cell `T1`
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
@@ -197,7 +197,7 @@ function myFunction() {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 The last method which I found to solve this challenge was to use [IMPORTRANGE function](https://support.google.com/a/users/answer/9308940?hl=en) to import data from another Google Sheet.
 
@@ -703,7 +703,7 @@ Hence, I tried rotating this image and I got this. Now, this looked more like th
 
 I proceeded to decode it manually [here](https://www.dcode.fr/pigpen-cipher). After selecting all the characters manually and matching it with the image, I will get the following result.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 I then converted the flag to all small letters in `Word` using the `SHIFT+F3` shortcut, which gives me the flag.
 
@@ -774,7 +774,7 @@ lactf{i\_give\_my\_very\_helpful\_feedback\_and\_i\_actually\_submitted}
 
 ## a hacker's note
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the misc category, most likely a Forensics challenge from the challenge description. I partially solved this during the competition but nonetheless decided to include it for documentation purposes.\
 

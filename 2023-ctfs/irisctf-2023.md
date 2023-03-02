@@ -12,7 +12,7 @@ I participated solo in this CTF as team `TheCross` even though this CTF allowed 
 
 Fast forward one year, I started to participate more actively in CTFs in the year 2022 and gained more confidence and experience in tackling CTF challenges. This time I took courage to participate in non-local CTF as solo again after more than a year. Eventually, I got 227/730 placing which is still not too bad I guess.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I spent a few hours over the weekend trying out some of the challenges and managed to solve some challenges. I especially enjoyed the forensics challenge in this CTF  where I get to  learn  more about timezones and epochtime :) I solved a total of 5 challenges.
 
@@ -137,7 +137,7 @@ Finally, we can find the `serial number` using `exiftool` as well.
 
 &#x20;However, this part tricked me a bit because I overthinked. I thought it was referring to the `Internal Serial Number` initially.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 After reading the challenge description again, I discovered the  serial number can be found at the bottom of the camera and we could check the format of serial  number  [here](https://www.canon-europe.com/support/consumer\_products/where\_to\_find\_your\_serial\_number/).
 
