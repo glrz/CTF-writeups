@@ -18,7 +18,7 @@ Overall, I enjoyed this CTF and learned more about how data could be "extracted"
 
 ## discord
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was similar to previous `Welcome` or `Sanity Check` types of challenges, where the flag could be found easily. The challenge is mainly for us to familiarize with the flag format.&#x20;
 
@@ -103,7 +103,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
@@ -161,7 +161,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
