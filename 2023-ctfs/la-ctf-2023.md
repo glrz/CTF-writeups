@@ -81,7 +81,7 @@ Next, the fifth letter of the flag, which is `f` was found on Cell `E1`.
 
 The next character which is `{` was found on Cell `F1`.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 At this point, we would probably have realized that the flag is very likely to be hidden horizontally on the first row of the sheet, with each letter on a cell, since it goes from A1, B1, C1 ... F1.
 
@@ -119,7 +119,7 @@ I saw that the `Find and Replace` function allowed the use of `regular expressio
 
 I changed the Search from `All sheets` to `Specific Range`. Using the `regex`, and specifying the search to search for those missing cells, I was able to find the other duplicated characters that I was missing.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (2).png" alt=""><figcaption></figcaption></figure>
 
 For example, here I am specifying to search the hidden `flag` sheet on Cell `T1` for the alphanumeric character. I get the result which is a value of `3`.
 
@@ -129,23 +129,23 @@ For example, here I am specifying to search the hidden `flag` sheet on Cell `T1`
 
 <figure><img src="../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`, I targeted cells `AA1` to `AR1` individually. I already knew the last cell would likely be `AR1` from the closing brace found earlier.
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
@@ -229,7 +229,7 @@ Flag: lactf{H1dd3n\_&\_prOt3cT3D\_5h33T5\_Ar3\_n31th3r}
 For this challenge, it was in the misc category and likely to be network forensics related. First, we could open the `.pcap` file in `Wireshark` and analyze its contents. Upon opening in Wireshark, we would see a bunch of `UDP` packets.\
 
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (3).png" alt=""><figcaption></figcaption></figure>
 
 We could get the header checksum for all these packets using a simple script that uses `Scapy`.&#x20;
 
@@ -691,7 +691,7 @@ For this challenge, it was under the `crypto` category. Upon reading the first f
 We were give a `cipher.png` file. Upon opening it, we get this image.\
 
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 This looked similar to `PigPen cipher`. However, I quickly noticed something was quite off, that is this image looked inverted or rather rotated. How did I know? The opening and closing braces gave it away. We can see on the top-left that it starts with the opening brace which does not quite make any sense.\
 
@@ -774,7 +774,7 @@ lactf{i\_give\_my\_very\_helpful\_feedback\_and\_i\_actually\_submitted}
 
 ## a hacker's note
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the misc category, most likely a Forensics challenge from the challenge description. I partially solved this during the competition but nonetheless decided to include it for documentation purposes.\
 

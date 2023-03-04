@@ -18,7 +18,7 @@ I spent some time tackling these challenges and found most of the challenges whi
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Super straightforward, a challenge to get participants to familiarize with the flag format, just copy paste and submit the flag.
 
@@ -26,13 +26,13 @@ Flag: wxmctf{welcome\_2023}
 
 ## PROPRIETARY EOL
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was under the forensics category, also a relatively simple challenge. I first-blooded this challenge within seconds.
 
 First, we could check the file type by running the `file` command.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 
 This confirmed that it was a [`PCX` ](https://en.wikipedia.org/wiki/PCX)file. We could then open this file in `GIMP`.
 
@@ -60,12 +60,12 @@ Flag: CTF{digital\_archaeology\_42}
 
 ## The Maze
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 This was an easy web challenge. First, lets click on the link provided in the challenge description. Upon clicking it, we will be redirected to this site.\
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 If we noticed, at the bottom it indicated that this is `Room 1` and the flag is at `room 0`. If we tried clicking on any of the 3 numbers, it would just bring us to another room but not room 0.
 
@@ -100,13 +100,13 @@ Based on the source code, we can tell that it changes to a different room by usi
 
 As such, if we navigate to the URL: [https://weba.jonathanw.dev:3001/room/0](https://weba.jonathanw.dev:3001/room/0), we will get the flag at the bottom.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: wxmctf{J5\_d0EsnT\_L13\_bUT\_urL\_m1Ght}
 
 ## Natural Selection
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the `Reverse Engineering` category. I seldom get any solves in this category due to my lack of knowledge and experience in this area.
 

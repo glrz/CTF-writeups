@@ -32,7 +32,7 @@ Flag: irisctf{w31c0m3\_t0\_1r15ctf\_2023}
 
 For this challenge, we were given a  discord link. Upon joining the discord server, the flag  can be found in one of  the channels, that is the `misc` channel. If we look closely beside the channel name at the top, we will see the flag displayed.
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{d15c0rd\_c0nn3cts\_y0u\_t0\_0ur\_0rg4n1z3rs}
 
@@ -42,7 +42,7 @@ Flag: irisctf{d15c0rd\_c0nn3cts\_y0u\_t0\_0ur\_0rg4n1z3rs}
 
 For this challenge, we were  given a `.pcapng` file embedded  in zip. This challenge was  relatively easy and was the easiest challenge under  the `Network` category. Most teams managed to solve it in 1 try.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I opened the extracted `.pcapng` file in Wireshark to inspect its packets and noticed there was a `babyshark.gif` file under the `HTTP`  protocol on  packet 133. This seemed interesting and so I proceeded to export this `HTTP` object. To extract this file, go to `File > Export Objects  >  HTTP ...`
 
@@ -77,7 +77,7 @@ For this challenge, we were given a broken `.jpg` file.&#x20;
 
 First, I tried to open it on  `Mozzila Firefox` browser  on  my VM and it produced some error. If you try on other browser like `Google Chrome`, you may see a small white square instead.
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To save this broken file, I had to right click on the file and `Save Link As…`
 
@@ -151,7 +151,7 @@ Flag: irisctf{37.74\_-119.59\_1661619896\_392075057288\_exif\_data\_can\_leak\_a
 
 ## Exit Survey
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge is a survey form which mainly questioned our experience on  this CTF.  After the survey is submitted, the flag is encodded in `Base64`.
 
