@@ -8,7 +8,7 @@ description: >-
 
 Last year, CSIT also had a [`CNY 2022 Easter Egg Challenge`](https://www.linkedin.com/feed/update/urn:li:activity:6892384942458843136/). If I remembered correctly, that challenge was pretty easy and I solved it by using `Base64 decoder` after scanning a `QR Code`.
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this year's challenge, I found it to be more interesting and slightly more challenging. On CSIT LinkedIn page, we were presented with a short video of 7 seconds in the post. Taking a closer look, I saw that there was a QR Code that appeared in the video at around 2-3 seconds mark. Shortly after, it disappears at around 5 seconds mark.&#x20;
 

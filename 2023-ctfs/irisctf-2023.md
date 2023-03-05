@@ -209,11 +209,11 @@ After the packets are decrypted, we can analyze these packets again. We would se
 
 We can filter it by `tcp.len > 0` to view the packets that contains payload or  data. From here, we will get the filtered `packet 20422`.
 
-<figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we can inspect the packet data which will give us the flag.
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could use  [`airdecap-ng`](https://www.aircrack-ng.org/doku.php?id=airdecap-ng) to decrypt the WPA/WPA2 capture file. We can do so by running the following command:
 

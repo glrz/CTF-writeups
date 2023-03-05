@@ -22,7 +22,7 @@ Flag: kalmar{i\_have\_read\_the\_rules\_and\_each\_player\_has\_their\_own\_acco
 
 ## sewing-waste-and-agriculture-leftovers
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `swaal.pcap.gz` file.
 
@@ -42,7 +42,7 @@ This will show stream 0.
 
 We can increment the stream at the bottom right.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
@@ -50,11 +50,11 @@ After going through a few streams, we should be able to see that the flag is hid
 
 If we continue to browse through the `Streams`, we will be able to get more alphanumeric characters to form the flag.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
@@ -62,7 +62,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,3 +84,104 @@ Of course, there are better ways to solve this, by using a simple script to extr
 
 Flag: kalmar{if\_4t\_first\_you\_d0nt\_succeed\_maybe\_youre\_us1ng\_udp}
 
+## cards
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, we were given a `cards.pcap.gz` file.
+
+{% file src="../.gitbook/assets/cards.pcap.gz" %}
+
+Similar to the previous challenge, we can use the `gunzip` command to get the `cards.pcap` file.
+
+Next, we'll use Wireshark to further inspect the packets.
+
+In Wireshark, we can go to `Statistics > Protocol Hierarchy` to check the `Protocols` involved in this capture file.&#x20;
+
+We will see that there are `TCP` and `FTP` protocols.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+For your information, `FTP` uses two `TCP` connections to transfer files from local machine to remote server.
+
+1. Control connection (Port 21) - For sending control information like passwords
+2. Data connection (Port 20) - For sending real data files
+
+If we filter the packets by `ftp`, we will see that there is some transfer of data by right clicking the packet and `Follow > TCP Stream`.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+If we go through the TCP Streams, we will notice that there is a CWD number which changes in each stream.
+
+We will also notice that the flag starts to print out in a scrambled version from Stream 79 to Stream 158.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Basically, the flag is ordered by the `CWD` which we can find from the FTP stream. We will then need to correlate the FTP stream (port 21) with the binary data stream (some other TCP port). By using this Python script that uses `Scapy`, we can get the flag after some manual reordering.
+
+```python
+from scapy.all import *
+import re
+
+pcap = rdpcap("cards.pcap")
+sPortToCwd = {}
+
+cwdAndChar = []
+
+for p in pcap:
+    if p.haslayer(TCP) and p[TCP].payload:
+        payload = p[TCP].payload.load.decode()
+    
+        if "CWD" in payload:
+            cwdNum = int(payload.split(" ")[1])
+            sPortToCwd[p[TCP].sport] = cwdNum
+
+for p in pcap:
+    if p.haslayer(TCP) and p[TCP].payload:
+        payload = p[TCP].payload.load.decode()
+
+        if "Switching to Binary" in payload:
+            cwdNum = sPortToCwd[p[TCP].dport]
+
+        if len(payload) == 1:
+            cwdAndChar.append((cwdNum, payload))
+
+print("".join(x[1] for x in sorted(cwdAndChar, key=lambda x: x[0])))python
+```
+
+Flag: kalmar{shuffle\_shuff1e\_can\_you\_k33p\_tr4ck\_of\_where\_th3\_cards\_are\_shuffl3d\_n0w}
+
+## lleHSyniT!
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+This final challenge I solved was in the medium category but surprisingly I found it to be easier than the previous two challenges. I most likely solved it using an unintended approach.
+
+In this challenge, we were given a `challenge.tar` file.
+
+{% file src="../.gitbook/assets/challenge.tar" %}
+
+We could extract the files as such
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ tar -xvf challenge.tar 
+capture.pcap
+proc.dmp
+```
+
+First, I opened the `pcap` file to analyze the packets. However, I did not find much information to be useful, so I moved on to do some static analysis on the `.dmp` file.
+
+By running the `strings` command, I was able to roughly see what was going on in the process dump. As I scrolled through the `strings`, I found the flag which happened to be under the `password` portion.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Alternatively, I could have just `grep` for the flag as such
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ strings proc.dmp | grep kalmar
+password:kalmar{My_F4v0r1t3_G4m3_1s_Cobalt_Strike:gL0b4l_0p3r4t0rs}
+```
+
+Flag: kalmar{My\_F4v0r1t3\_G4m3\_1s\_Cobalt\_Strike:gL0b4l\_0p3r4t0rs}

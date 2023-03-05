@@ -57,7 +57,7 @@ While searching online, I found this [YouTube video ](https://www.youtube.com/wa
 
 I proceeded to try this by going to `Edit > Find and replace`. Alternatively, we could use the keyboard shortcut: `CTRL+H`.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (2).png" alt=""><figcaption></figcaption></figure>
 
 Next, I tried to Find `L` which is the first letter for the flag, since the flag format is `lactf{}`. Indeed, I was able to find this value in the hidden sheet under Cell `A1`.
 
@@ -218,7 +218,7 @@ By using this `importrange` function, we will see the flag printed in the first 
 
 Next, we could copy the cells from `A1` to `AR1` and paste it in CyberChef. There will  be some space in between but we can use  the `find and replace` [recipe](https://cyberchef.org/#recipe=Find\_/\_Replace\(%7B'option':'Regex','string':'%5Ct'%7D,'',true,false,true,false\)\&input=bAlhCWMJdAlmCXsJSAkxCWQJZAkzCW4JXwkmCV8JcAlyCU8JdAkzCWMJVAkzCUQJXwk1CWgJMwkzCVQJNQlfCUEJcgkzCV8JbgkzCTEJdAloCTMJcgl9) to get the flag.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: lactf{H1dd3n\_&\_prOt3cT3D\_5h33T5\_Ar3\_n31th3r}
 
