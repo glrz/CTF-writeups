@@ -6,7 +6,7 @@ description: The competition took place on 3 Mar - 5 Mar 2023.
 
 This year's competition featured a variety of categories including pwn, crypto, web, rev, forensics, and misc.
 
-I participated with team `Social Engineering Expert` and we obtained
+I participated with team `Social Engineering Expert` and we obtained the position of 23/905 teams.
 
 I was able to allocate some time to tackle a couple of challenges and successfully solved them.
 
@@ -80,7 +80,26 @@ Alternatively, we could copy paste each stream on a new line on a text editor li
 
 <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-Of course, there are better ways to solve this, by using a simple script to extract the UDP stream and check if an alphanumeric character is present in the previous stream. If it is present, do nothing, else it will replace the `.` with an alphanumeric character found in the current stream. This check will loop through the UDP streams until the flag is eventually formed.
+Of course, there are better ways to solve this, by using a simple script to extract the UDP stream and check if an alphanumeric character is present in the previous stream. If it is present, do nothing, else it will replace the `.` with an alphanumeric character found in the current stream. This check will loop through the UDP streams until the flag is eventually formed.&#x20;
+
+```python
+from scapy.all import *
+
+packets = rdpcap('swaal.pcap')
+udp_data = b''.join(pkt.load for pkt in packets)
+segments = udp_data.split(b'\n')
+
+flag = {}
+for s in segments:
+    pattern = re.compile(rb'[a-z0-9}{_]')
+    matches = pattern.finditer(s)
+
+    for m in matches:
+        flag[m.start()] = m.group()
+
+flag = dict(sorted(flag.items())).values()
+print(b''.join(flag).decode())
+```
 
 Flag: kalmar{if\_4t\_first\_you\_d0nt\_succeed\_maybe\_youre\_us1ng\_udp}
 
@@ -183,5 +202,19 @@ Alternatively, I could have just `grep` for the flag as such
 └─$ strings proc.dmp | grep kalmar
 password:kalmar{My_F4v0r1t3_G4m3_1s_Cobalt_Strike:gL0b4l_0p3r4t0rs}
 ```
+
+The intended solution was decrypting cobaltstrike traffic as such:
+
+```bash
+# Ref: https://blog.didierstevens.com/2021/04/26/quickpost-decrypting-cobalt-strike-traffic/
+$ data=$(tshark -r capture.pcap -Y http.request.method==POST -Tfields -e data | tail -1)
+$ cs-extract-key.py -c $data proc.dmp
+$ cs-parse-traffic.py -k 24a0f5e701439f460d52ef4810f592f3:3c4267894c6fee7a5aaa4d13e0289051 capture.pcap -e
+$ cat payload-61ca2f3dc9212781c983f9e13a99be08.vir
+```
+
+Basically, cobaltstrike memory to extract key then parse http beacon.
+
+You can also read up more [here](https://isc.sans.edu/diary/Decrypting+Cobalt+Strike+Traffic+With+Keys+Extracted+From+Process+Memory/28006).
 
 Flag: kalmar{My\_F4v0r1t3\_G4m3\_1s\_Cobalt\_Strike:gL0b4l\_0p3r4t0rs}
