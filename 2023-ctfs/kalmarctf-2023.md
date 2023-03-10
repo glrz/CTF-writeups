@@ -128,13 +128,13 @@ For your information, `FTP` uses two `TCP` connections to transfer files from lo
 
 If we filter the packets by `ftp`, we will see that there is some transfer of data by right clicking the packet and `Follow > TCP Stream`.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we go through the TCP Streams, we will notice that there is a CWD number which changes in each stream.
 
 We will also notice that the flag starts to print out in a scrambled version from Stream 79 to Stream 158.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Basically, the flag is ordered by the `CWD` which we can find from the FTP stream. We will then need to correlate the FTP stream (port 21) with the binary data stream (some other TCP port). By using this Python script that uses `Scapy`, we can get the flag after some manual reordering.
 
@@ -193,7 +193,7 @@ First, I opened the `pcap` file to analyze the packets. However, I did not find 
 
 By running the `strings` command, I was able to roughly see what was going on in the process dump. As I scrolled through the `strings`, I found the flag which happened to be under the `password` portion.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, I could have just `grep` for the flag as such
 

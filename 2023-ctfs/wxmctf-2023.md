@@ -215,3 +215,13 @@ print("That's (totally) not the flag!" if input() == "wxmctf{3x3c_sh3n4n1g4n5}" 
 ```
 
 Flag: wxmctf{3x3c\_sh3n4n1g4n5}
+
+## Survey
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+A simple survey challenge which I first blooded haha. Simply give feedback for the CTF and at the end of the survey, the flag is given.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Flag: wxmctf{supported\_by\_digitalocean}
