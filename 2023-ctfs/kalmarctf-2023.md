@@ -8,6 +8,8 @@ This year's competition featured a variety of categories including pwn, crypto, 
 
 I participated with team `Social Engineering Expert` and we obtained the position of 23/905 teams.
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 I was able to allocate some time to tackle a couple of challenges and successfully solved them.
 
 ## Sanity Check

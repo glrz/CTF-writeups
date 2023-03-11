@@ -84,7 +84,7 @@ Flag: utflag{meh-netcats-cooler}
 
 ## A Network Problem - Part 2
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it took me an hour or so to solve it because I did not realize that there was an update where the smb port was moved. Additionally, I was also not familiar with solving challenges related to `SMB`.&#x20;
 
@@ -229,7 +229,7 @@ smb: \shares\OfficeFun\JaysCats\> exit
 
 However, it was just a cat image with no flag given upon viewing it.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (6).png" alt=""><figcaption></figcaption></figure>
 
 At first, I thought.. could it be some kind of steganography challenge where the flag is hidden in this image? However, after noting that this was a network category challenge, I thought that I might be overthinking it.
 
