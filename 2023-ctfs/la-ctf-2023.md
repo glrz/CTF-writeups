@@ -739,7 +739,7 @@ However, this was not the flag. I guess one could possibly search for possible h
 
 For me, I just searched for `where carey nachenberg hiked to` and found this [site](https://www.tickettailor.com/events/peaksprofessorsatucla/792649).
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Upon browsing the site, I can see that it mentioned `We'll stop at Skull Rock to take in the views`. That was the flag, the location was at `Skull Rock`.
 

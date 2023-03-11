@@ -222,6 +222,6 @@ Flag: wxmctf{3x3c\_sh3n4n1g4n5}
 
 A simple survey challenge which I first blooded haha. Simply give feedback for the CTF and at the end of the survey, the flag is given.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: wxmctf{supported\_by\_digitalocean}
