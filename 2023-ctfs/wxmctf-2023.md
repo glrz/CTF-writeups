@@ -26,7 +26,7 @@ Flag: wxmctf{welcome\_2023}
 
 ## PROPRIETARY EOL
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was under the forensics category, also a relatively simple challenge. I first-blooded this challenge within seconds.
 
@@ -218,7 +218,7 @@ Flag: wxmctf{3x3c\_sh3n4n1g4n5}
 
 ## Survey
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 A simple survey challenge which I first blooded haha. Simply give feedback for the CTF and at the end of the survey, the flag is given.
 

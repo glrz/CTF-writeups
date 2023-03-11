@@ -109,7 +109,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 Finally, I searched for the ending brace `}` for the flag which was found in Cell `AR1`.
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (2).png" alt=""><figcaption></figcaption></figure>
 
 If I were to join all the information gathered above based on the alphabet or cell sequence, I would get: `lactf{H1d3n_prO5}`.  However, this was not the flag.
 
@@ -119,7 +119,7 @@ I saw that the `Find and Replace` function allowed the use of `regular expressio
 
 I changed the Search from `All sheets` to `Specific Range`. Using the `regex`, and specifying the search to search for those missing cells, I was able to find the other duplicated characters that I was missing.
 
-<figure><img src="../.gitbook/assets/image (33) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For example, here I am specifying to search the hidden `flag` sheet on Cell `T1` for the alphanumeric character. I get the result which is a value of `3`.
 
@@ -149,9 +149,9 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 

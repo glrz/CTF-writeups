@@ -32,7 +32,7 @@ First, we could extract the `.pcap` file using the `gunzip` command.
 
 Next, we can open this `.pcap` file in Wireshark. We will realize that all the packets are `UDP`.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 To further explore the data transmitted, we can select the first packet, right click and `Follow -> UDP stream`.&#x20;
 
@@ -58,7 +58,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -78,7 +78,7 @@ We could use a text editor like `Notepad` to replace each `.` with the alphanume
 
 Alternatively, we could copy paste each stream on a new line on a text editor like `Sublime Text` to see the sequence better and form the flag eventually.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (2).png" alt=""><figcaption></figcaption></figure>
 
 Of course, there are better ways to solve this, by using a simple script to extract the UDP stream and check if an alphanumeric character is present in the previous stream. If it is present, do nothing, else it will replace the `.` with an alphanumeric character found in the current stream. This check will loop through the UDP streams until the flag is eventually formed.&#x20;
 
@@ -105,7 +105,7 @@ Flag: kalmar{if\_4t\_first\_you\_d0nt\_succeed\_maybe\_youre\_us1ng\_udp}
 
 ## cards
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `cards.pcap.gz` file.
 
@@ -119,7 +119,7 @@ In Wireshark, we can go to `Statistics > Protocol Hierarchy` to check the `Proto
 
 We will see that there are `TCP` and `FTP` protocols.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 For your information, `FTP` uses two `TCP` connections to transfer files from local machine to remote server.
 
@@ -134,7 +134,7 @@ If we go through the TCP Streams, we will notice that there is a CWD number whic
 
 We will also notice that the flag starts to print out in a scrambled version from Stream 79 to Stream 158.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (5).png" alt=""><figcaption></figcaption></figure>
 
 Basically, the flag is ordered by the `CWD` which we can find from the FTP stream. We will then need to correlate the FTP stream (port 21) with the binary data stream (some other TCP port). By using this Python script that uses `Scapy`, we can get the flag after some manual reordering.
 
@@ -172,7 +172,7 @@ Flag: kalmar{shuffle\_shuff1e\_can\_you\_k33p\_tr4ck\_of\_where\_th3\_cards\_are
 
 ## lleHSyniT!
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 This final challenge I solved was in the medium category but surprisingly I found it to be easier than the previous two challenges. I most likely solved it using an unintended approach.
 
