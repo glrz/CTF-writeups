@@ -14,7 +14,7 @@ I was pretty satisfied with the results and ranking in general because I managed
 
 ## Dry Run
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was pretty easy and straightforward.
 
@@ -78,7 +78,7 @@ Once, we use `netcat` to connect to the server and port number, we will get the 
 
 netcat (often abbreviated to nc) is a computer networking utility for reading from and writing to network connections using TCP or UDP. The command is designed to be a dependable back-end that can be used directly or easily driven by other programs and scripts.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: utflag{meh-netcats-cooler}
 
@@ -253,3 +253,15 @@ utflag{out-of-c0ntrol-access}
 ```
 
 Flag: utflag{out-of-c0ntrol-access}
+
+## Half-time Survey
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+If we click on the Google Forms link, we will be able to access the survey.
+
+Upon completion of the survey, the flag will be presented.
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Flag: utctf{h4ck\_h4ck\_h4ck}

@@ -51,7 +51,7 @@ I tried following the blog, by going to `View` > `Hidden sheets`. However, this 
 If I were to go to bottom right and try to view the flag sheet, it would not work as well.\
 
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 While searching online, I found this [YouTube video ](https://www.youtube.com/watch?v=FOs-LjXw2Q0)which briefly covered the use of `Find and Replace` function to search for hidden data in hidden sheets.
 
@@ -69,7 +69,7 @@ Next, I tried to find the next letter, which is `a`. I found it in the flag shee
 
 Next, I moved on to the third letter for the flag, which is `c`. I found it at Cell `C1`.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (3).png" alt=""><figcaption></figcaption></figure>
 
 Next, the fourth letter of the flag, which is `t` was found on Cell `D1`.
 
@@ -703,7 +703,7 @@ Hence, I tried rotating this image and I got this. Now, this looked more like th
 
 I proceeded to decode it manually [here](https://www.dcode.fr/pigpen-cipher). After selecting all the characters manually and matching it with the image, I will get the following result.
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 I then converted the flag to all small letters in `Word` using the `SHIFT+F3` shortcut, which gives me the flag.
 
