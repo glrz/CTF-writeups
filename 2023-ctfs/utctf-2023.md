@@ -292,15 +292,88 @@ There was another similar image posted in the `memes` channel as well.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-An easier way would be to search for the challenge creator username on Discord to find the messages posted by him.
+However, even though this image was similar, with the same filename, it did not contain the flag.
+
+If we ran `StegoVeritas` and try to read the contents found in `StegHide`, we would  realize it's not the flag.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ stegoveritas notlikeduck.jpg
+Running Module: SVImage
++------------------+------+
+|   Image Format   | Mode |
++------------------+------+
+| JPEG (ISO 10918) | RGB  |
++------------------+------+
+Found something with StegHide: /home/kali/Downloads/results/steghide_38229acdc709a52e42f90b841e640675.bin
+Running Module: MultiHandler
+
+Exif
+====
++---------------------+--------------------------------------+
+| key                 | value                                |
++---------------------+--------------------------------------+
+| SourceFile          | /home/kali/Downloads/notlikeduck.jpg |
+| ExifToolVersion     | 12.44                                |
+| FileName            | notlikeduck.jpg                      |
+| Directory           | /home/kali/Downloads                 |
+| FileSize            | 7.3 kB                               |
+| FileModifyDate      | 2023:03:12 23:52:26-04:00            |
+| FileAccessDate      | 2023:03:12 23:52:43-04:00            |
+| FileInodeChangeDate | 2023:03:12 23:52:26-04:00            |
+| FilePermissions     | -rw-r--r--                           |
+| FileType            | JPEG                                 |
+| FileTypeExtension   | jpg                                  |
+| MIMEType            | image/jpeg                           |
+| ExifByteOrder       | Big-endian (Motorola, MM)            |
+| ImageWidth          | 112                                  |
+| ImageHeight         | 112                                  |
+| EncodingProcess     | Baseline DCT, Huffman coding         |
+| BitsPerSample       | 8                                    |
+| ColorComponents     | 3                                    |
+| YCbCrSubSampling    | YCbCr4:4:4 (1 1)                     |
+| ImageSize           | 112x112                              |
+| Megapixels          | 0.013                                |
++---------------------+--------------------------------------+
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+Found something worth keeping!
+JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=0], baseline, precision 8, 112x112, components 3
+                                                                                                                    
+┌──(kali㉿kali)-[~/Downloads]
+└─$ cat /home/kali/Downloads/results/steghide_38229acdc709a52e42f90b841e640675.bin
+
+This is not the flag  
+```
+
+An easier way to find the image would be to search for the challenge creator username on Discord to find the messages posted by him.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Note: Only these two images were `.jpg` files. There were several other `psyduck` that looked like image files but they were just Discord stickers.
+Note: Only two images were `.jpg` files. There were several other `psyduck` that looked like image files but they were just Discord stickers.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-We can download the psyduck image and run `StegoVeritas` which would find something in `StegHide`.
+We can download the psyduck image in the `general` channel that contained the flag and run `StegoVeritas` which would find something in `StegHide`.
 
 Reading the contents found in `StegHide` would give us the flag.
 
