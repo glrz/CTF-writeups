@@ -4,6 +4,8 @@ description: UTCTF 2023 was held from 11 Mar - 13 Mar 2023.
 
 # UTCTF 2023
 
+More information about the event can be found [here](https://ctftime.org/event/1919).
+
 For this CTF competition, I dedicated a few hours to solve some challenges. I managed to quickly pick up new tools like `smbclient` and `smbmap` to solve a network challenge.&#x20;
 
 I participated solo with team name: `T34M1`. The last time I participated solo with this same team name was in 2020/2021.&#x20;
