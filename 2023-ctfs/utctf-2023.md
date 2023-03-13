@@ -8,9 +8,17 @@ For this CTF competition, I dedicated a few hours to solve some challenges. I ma
 
 I participated solo with team name: `T34M1`. The last time I participated solo with this same team name was in 2020/2021.&#x20;
 
-I obtained the position:
+The scoreboard is shown below.
 
-I was pretty satisfied with the results and ranking in general because I managed to solve more challenges and obtained a better ranking as compared to when I first started out playing CTFs in 2020 and 2021.
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+A total of 5 challenges were solved.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+I was pretty satisfied with the results in general because I managed to solve more challenges as compared to when I first started out playing most of the non-local CTFs in 2020 and 2021.
 
 ## Dry Run
 
@@ -64,7 +72,7 @@ Alternatively, we could load this file into a software like `IDA Freeware`.
 
 Once we have loaded the file, we could use the keyboard shortcut `SHIFT+F12` to search for the strings in this executable. Then, we can use `CTRL+F` to find the flag.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: utflag{string\_theory\_is\_a\_cosmological\_theory\_based\_on\_the\_existence\_of\_cosmic\_strings}
 
@@ -84,7 +92,7 @@ Flag: utflag{meh-netcats-cooler}
 
 ## A Network Problem - Part 2
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it took me an hour or so to solve it because I did not realize that there was an update where the smb port was moved. Additionally, I was also not familiar with solving challenges related to `SMB`.&#x20;
 
@@ -229,7 +237,7 @@ smb: \shares\OfficeFun\JaysCats\> exit
 
 However, it was just a cat image with no flag given upon viewing it.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 At first, I thought.. could it be some kind of steganography challenge where the flag is hidden in this image? However, after noting that this was a network category challenge, I thought that I might be overthinking it.
 
@@ -256,12 +264,116 @@ Flag: utflag{out-of-c0ntrol-access}
 
 ## Half-time Survey
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (4).png" alt=""><figcaption></figcaption></figure>
 
 If we click on the Google Forms link, we will be able to access the survey.
 
 Upon completion of the survey, the flag will be presented.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: utctf{h4ck\_h4ck\_h4ck}
+
+## Insanity Check Redux
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+This challenge was under the forensics category and I solved it after the competition.
+
+I thought it was quite interesting so I decided to do a short writeup on it.&#x20;
+
+First, if we navigated to the Discord server - `General` channel, we would realize that there was an admin who posted some message with an image before the competition started.
+
+This image might just look like a Discord sticker to many and if we did not click on it, we would not have known that it was a `.jpg` image.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+There was another similar image posted in the `memes` channel as well.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+An easier way would be to search for the challenge creator username on Discord to find the messages posted by him.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Note: Only these two images were `.jpg` files. There were several other `psyduck` that looked like image files but they were just Discord stickers.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+We can download the psyduck image and run `StegoVeritas` which would find something in `StegHide`.
+
+Reading the contents found in `StegHide` would give us the flag.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ file notlikeduck.jpg 
+notlikeduck.jpg: JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=0], baseline, precision 8, 112x112, components 3
+                                                                                                                  
+┌──(kali㉿kali)-[~/Downloads]
+└─$ stegoveritas notlikeduck.jpg 
+Running Module: SVImage
++------------------+------+
+|   Image Format   | Mode |
++------------------+------+
+| JPEG (ISO 10918) | RGB  |
++------------------+------+
+Found something with StegHide: /home/kali/Downloads/results/steghide_06a52537dafef525f0ce60cbd19ad078.bin
+Running Module: MultiHandler
+
+Exif
+====
++---------------------+--------------------------------------+
+| key                 | value                                |
++---------------------+--------------------------------------+
+| SourceFile          | /home/kali/Downloads/notlikeduck.jpg |
+| ExifToolVersion     | 12.44                                |
+| FileName            | notlikeduck.jpg                      |
+| Directory           | /home/kali/Downloads                 |
+| FileSize            | 7.3 kB                               |
+| FileModifyDate      | 2023:03:12 21:53:16-04:00            |
+| FileAccessDate      | 2023:03:12 21:53:24-04:00            |
+| FileInodeChangeDate | 2023:03:12 21:53:16-04:00            |
+| FilePermissions     | -rw-r--r--                           |
+| FileType            | JPEG                                 |
+| FileTypeExtension   | jpg                                  |
+| MIMEType            | image/jpeg                           |
+| ExifByteOrder       | Big-endian (Motorola, MM)            |
+| ImageWidth          | 112                                  |
+| ImageHeight         | 112                                  |
+| EncodingProcess     | Baseline DCT, Huffman coding         |
+| BitsPerSample       | 8                                    |
+| ColorComponents     | 3                                    |
+| YCbCrSubSampling    | YCbCr4:4:4 (1 1)                     |
+| ImageSize           | 112x112                              |
+| Megapixels          | 0.013                                |
++---------------------+--------------------------------------+
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+WARNING:StegoVeritas:Modules:Multi:Analysis:Exif:Exif outpat already exists, modifying.
+Found something worth keeping!
+JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=0], baseline, precision 8, 112x112, components 3
+                                                                                                                  
+┌──(kali㉿kali)-[~/Downloads]
+└─$ cat /home/kali/Downloads/results/steghide_06a52537dafef525f0ce60cbd19ad078.bin
+
+utflag{again_and_again_and_again}                                                         
+```
+
+Flag: utflag{again\_and\_again\_and\_again} &#x20;

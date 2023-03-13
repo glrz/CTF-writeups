@@ -8,7 +8,7 @@ This year's competition featured a variety of categories including pwn, crypto, 
 
 I participated with team `Social Engineering Expert` and we obtained the position of 23/905 teams.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 I was able to allocate some time to tackle a couple of challenges and successfully solved them.
 
@@ -18,7 +18,7 @@ I was able to allocate some time to tackle a couple of challenges and successful
 
 This challenge was super straightfoward. If we navigate to the `Rules` section and scroll down, we would find the flag. Alternatively, we could search for `kalmar{` as well.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: kalmar{i\_have\_read\_the\_rules\_and\_each\_player\_has\_their\_own\_account}
 
@@ -44,7 +44,7 @@ This will show stream 0.
 
 We can increment the stream at the bottom right.
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +56,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
@@ -130,7 +130,7 @@ For your information, `FTP` uses two `TCP` connections to transfer files from lo
 
 If we filter the packets by `ftp`, we will see that there is some transfer of data by right clicking the packet and `Follow > TCP Stream`.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 If we go through the TCP Streams, we will notice that there is a CWD number which changes in each stream.
 
@@ -174,7 +174,7 @@ Flag: kalmar{shuffle\_shuff1e\_can\_you\_k33p\_tr4ck\_of\_where\_th3\_cards\_are
 
 ## lleHSyniT!
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 This final challenge I solved was in the medium category but surprisingly I found it to be easier than the previous two challenges. I most likely solved it using an unintended approach.
 
@@ -195,7 +195,7 @@ First, I opened the `pcap` file to analyze the packets. However, I did not find 
 
 By running the `strings` command, I was able to roughly see what was going on in the process dump. As I scrolled through the `strings`, I found the flag which happened to be under the `password` portion.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, I could have just `grep` for the flag as such
 

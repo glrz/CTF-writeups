@@ -175,7 +175,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (2).png" alt=""><figcaption><p><br></p></figcaption></figure>
 
 By joining all the values above from `A1` to `AR1`, we will get the flag. Essentially, I could have used `Regex` to target Cell `A1` to `AR1` from the beginning to solve this challenge faster.&#x20;
 

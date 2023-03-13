@@ -67,7 +67,7 @@ This challenge was  under the `forensics` category and  I enjoyed solving it. Th
 I was the 7th to solve this challenge and was quite satisfied even though I think I could have first-blooded this challenge if I woke up earlier to attempt the challenges and if I attempted this challenge first before any other challenges.\
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I will split it up into 2 parts, but solving this challenge is not sequential. This means that you could solve `Part 1` first then  `Part 2` and  vice versa.
 
