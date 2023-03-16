@@ -12,7 +12,7 @@ Intended for students of all experience types, the challenges are designed with 
 
 Although this Capture the Flag (CTF) event permitted teams of up to four individuals, I chose to compete independently to both relish and enhance my proficiency in tackling these challenges.
 
-I participated as an individual with the username `glrz01` and placed
+I participated as an individual with the username `glrz01` and placed 112/244. The scoreboard can be found [here](https://ctftime.org/event/1911).
 
 I spent some time tackling these challenges and found most of the challenges which I solved to be pretty easy and straightforward.
 
