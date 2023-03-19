@@ -1,6 +1,7 @@
 # Table of contents
 
 * [2023 CTFs](README.md)
+  * [WolvCTF 2023](2023-ctfs/wolvctf-2023.md)
   * [b01lers CTF](2023-ctfs/b01lers-ctf.md)
   * [PicoCTF 2023](2023-ctfs/picoctf-2023.md)
   * [UTCTF 2023](2023-ctfs/utctf-2023.md)
