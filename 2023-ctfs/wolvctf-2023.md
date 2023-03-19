@@ -16,3 +16,5 @@ I solved challenges in the Beginner, Misc and Forensics category.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+Fun Fact: I actually did not plan to participate in this CTF. However, after I solved b01lers CTF's switcheroo challenge, I had already created an account and team on the WolvCTF platform. Hence, I decided to spend some time attempting the challenges.
+
