@@ -16,9 +16,9 @@ The scoreboard is shown below.
 
 A total of 5 challenges were solved.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
 I was pretty satisfied with the results in general because I managed to solve more challenges as compared to when I first started out playing most of the non-local CTFs in 2020 and 2021.
 
@@ -74,7 +74,7 @@ Alternatively, we could load this file into a software like `IDA Freeware`.
 
 Once we have loaded the file, we could use the keyboard shortcut `SHIFT+F12` to search for the strings in this executable. Then, we can use `CTRL+F` to find the flag.
 
-<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: utflag{string\_theory\_is\_a\_cosmological\_theory\_based\_on\_the\_existence\_of\_cosmic\_strings}
 
@@ -369,11 +369,11 @@ This is not the flag
 
 An easier way to find the image would be to search for the challenge creator username on Discord to find the messages posted by him.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Note: Only two images were `.jpg` files. There were several other `psyduck` that looked like image files but they were just Discord stickers.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can download the psyduck image in the `general` channel that contained the flag and run `StegoVeritas` which would find something in `StegHide`.
 

@@ -8,7 +8,7 @@ This year's competition featured a variety of categories including pwn, crypto, 
 
 I participated with team `Social Engineering Expert` and we obtained the position of 23/905 teams.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 I was able to allocate some time to tackle a couple of challenges and successfully solved them.
 
@@ -40,7 +40,7 @@ To further explore the data transmitted, we can select the first packet, right c
 
 This will show stream 0.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can increment the stream at the bottom right.
 
@@ -56,7 +56,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
@@ -121,7 +121,7 @@ In Wireshark, we can go to `Statistics > Protocol Hierarchy` to check the `Proto
 
 We will see that there are `TCP` and `FTP` protocols.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 For your information, `FTP` uses two `TCP` connections to transfer files from local machine to remote server.
 

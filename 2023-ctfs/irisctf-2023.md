@@ -67,7 +67,7 @@ This challenge was  under the `forensics` category and  I enjoyed solving it. Th
 I was the 7th to solve this challenge and was quite satisfied even though I think I could have first-blooded this challenge if I woke up earlier to attempt the challenges and if I attempted this challenge first before any other challenges.\
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I will split it up into 2 parts, but solving this challenge is not sequential. This means that you could solve `Part 1` first then  `Part 2` and  vice versa.
 
@@ -125,11 +125,11 @@ To find out more about unix time, read [here](https://en.wikipedia.org/wiki/Unix
 
 To find the time this picture was taken,  we can use `exiftool` again.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 There is a tricky part here. This picture was taken in `USA California` and we will need to take the timezones into consideration to find the `epochtime`. Another thing to note is that in some area like `USA California` have timezone changes due to [Daylight Saving Time](https://www.timeanddate.com/time/zone/usa/los-angeles?year=2022).  At that point when the picture was taken, the timezone was  UTC/GMT -7.
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 

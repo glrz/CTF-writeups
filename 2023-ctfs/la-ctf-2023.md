@@ -77,7 +77,7 @@ Next, the fourth letter of the flag, which is `t` was found on Cell `D1`.
 
 Next, the fifth letter of the flag, which is `f` was found on Cell `E1`.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 The next character which is `{` was found on Cell `F1`.
 
