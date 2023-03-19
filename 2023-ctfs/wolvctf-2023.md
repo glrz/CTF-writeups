@@ -10,6 +10,8 @@ The challenges range from beginner to medium in difficulty. The challenge catego
 
 More details can be found [here](https://ctftime.org/event/1866).
 
+I participated as solo with my last name initials `RZ` and team name `RZ` as well.&#x20;
+
 I solved challenges in the Beginner, Misc and Forensics category.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
