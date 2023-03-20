@@ -30,11 +30,11 @@ Flag: irisctf{w31c0m3\_t0\_1r15ctf\_2023}
 
 ## Discord
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a  discord link. Upon joining the discord server, the flag  can be found in one of  the channels, that is the `misc` channel. If we look closely beside the channel name at the top, we will see the flag displayed.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{d15c0rd\_c0nn3cts\_y0u\_t0\_0ur\_0rg4n1z3rs}
 
@@ -157,7 +157,7 @@ Flag: irisctf{37.74\_-119.59\_1661619896\_392075057288\_exif\_data\_can\_leak\_a
 
 This challenge is a survey form which mainly questioned our experience on  this CTF.  After the survey is submitted, the flag is encodded in `Base64`.
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can easily solve this by copy pasting into CyberChef and will get the flag from the output after decoding the `Base64`.
 

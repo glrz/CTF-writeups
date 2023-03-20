@@ -31,7 +31,7 @@ From there, we will notice that there is an ongoing thread.
 
 If we clicked on it, we can see an active thread which displayed part of the flag.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once we click into this thread, we will get the full flag :)
 
@@ -107,7 +107,7 @@ Before we can do that, we need to remember to encode it in `Base64` first, as se
 
 We can do that using `CyberChef`.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 This gives us the output: `ZGVidWcuaHRtbA==`
 
@@ -172,12 +172,12 @@ We can get the `Base64` of `./flag.txt` from [CyberChef](https://cyberchef.org/#
 
 Once we append this to the link, we will get the flag upon reaching the site: [http://ctf.b01lers.com:5115/Li9mbGFnLnR4dA==](http://ctf.b01lers.com:5115/Li9mbGFnLnR4dA==)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could also use `Burp Suite`, use the proxy and turn on interceptor. Once the packet is captured, we can send it to repeater and change the `GET` to `/Li9mbGFnLnR4dA==`.
 
 Similarly, we would obtain the flag after sending the request. As we can see, the flag is obtained in the response.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: bctf{h4d\_fun\_w1th\_my\_l4st\_m1nut3\_w4rmuP????!}

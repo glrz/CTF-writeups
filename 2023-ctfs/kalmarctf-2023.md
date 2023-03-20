@@ -8,13 +8,13 @@ This year's competition featured a variety of categories including pwn, crypto, 
 
 I participated with team `Social Engineering Expert` and we obtained the position of 23/905 teams.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 I was able to allocate some time to tackle a couple of challenges and successfully solved them.
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was super straightfoward. If we navigate to the `Rules` section and scroll down, we would find the flag. Alternatively, we could search for `kalmar{` as well.
 
@@ -24,7 +24,7 @@ Flag: kalmar{i\_have\_read\_the\_rules\_and\_each\_player\_has\_their\_own\_acco
 
 ## sewing-waste-and-agriculture-leftovers
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `swaal.pcap.gz` file.
 
@@ -40,13 +40,13 @@ To further explore the data transmitted, we can select the first packet, right c
 
 This will show stream 0.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can increment the stream at the bottom right.
 
 <figure><img src="../.gitbook/assets/image (4) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 After going through a few streams, we should be able to see that the flag is hidden in each stream, with some alphanumeric characters appearing in some streams, while not in others. These alphanumeric characters will replace the `.` to form the final flag.
 
@@ -60,7 +60,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +70,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 By stream 12, we should be able to get the flag. Note that stream 12 also contains 2 lines, each line shows parts of the flag.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (3).png" alt=""><figcaption></figcaption></figure>
 
 We could use a text editor like `Notepad` to replace each `.` with the alphanumeric character for every stream.
 
@@ -130,7 +130,7 @@ For your information, `FTP` uses two `TCP` connections to transfer files from lo
 
 If we filter the packets by `ftp`, we will see that there is some transfer of data by right clicking the packet and `Follow > TCP Stream`.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we go through the TCP Streams, we will notice that there is a CWD number which changes in each stream.
 

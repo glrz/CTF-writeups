@@ -61,7 +61,7 @@ I proceeded to try this by going to `Edit > Find and replace`. Alternatively, we
 
 Next, I tried to Find `L` which is the first letter for the flag, since the flag format is `lactf{}`. Indeed, I was able to find this value in the hidden sheet under Cell `A1`.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (3).png" alt=""><figcaption></figcaption></figure>
 
 Next, I tried to find the next letter, which is `a`. I found it in the flag sheet again, this time under Cell `B1`.
 
@@ -77,11 +77,11 @@ Next, the fourth letter of the flag, which is `t` was found on Cell `D1`.
 
 Next, the fifth letter of the flag, which is `f` was found on Cell `E1`.
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 The next character which is `{` was found on Cell `F1`.
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 At this point, we would probably have realized that the flag is very likely to be hidden horizontally on the first row of the sheet, with each letter on a cell, since it goes from A1, B1, C1 ... F1.
 
@@ -99,7 +99,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
@@ -151,7 +151,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (32) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
@@ -173,7 +173,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (19) (2).png" alt=""><figcaption><p><br></p></figcaption></figure>
 

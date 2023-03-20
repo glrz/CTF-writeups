@@ -18,7 +18,7 @@ I spent some time tackling these challenges and found most of the challenges whi
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Super straightforward, a challenge to get participants to familiarize with the flag format, just copy paste and submit the flag.
 
@@ -218,7 +218,7 @@ Flag: wxmctf{3x3c\_sh3n4n1g4n5}
 
 ## Survey
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 A simple survey challenge which I first blooded haha. Simply give feedback for the CTF and at the end of the survey, the flag is given.
 
@@ -304,7 +304,7 @@ Compressed: 22213510
 
 Once we extracted the files, we will get a  `p1c7ur3.jpg` file with an image of a skeleton stegosaurus.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 This most likely suggest that this is a steganography challenge. By running `StegoVeritas`, we are able to obtain some useful information.
 
@@ -509,7 +509,7 @@ Compressed: 21820282
 
 In stage three, the file given is `broken.png`. Opening it on hex editor showed that there were multiple bytes that were incorrect and needed fixing.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The headers can be replaced as follows:
 
@@ -525,7 +525,7 @@ Once they are replaced, the `.png` file will be fixed.
 
 We can then open the image in image viewer using the `eog` command
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 This is a statue with a toga in a box, implying the use of Caesar Box Cipher on the text below. We can decrypt this in [CyberChef](https://cyberchef.org/#recipe=Caesar\_Box\_Cipher\(4\)To\_Lower\_case\(\)\&input=VlZWQjMxMTBORENDMTExMQ).
 

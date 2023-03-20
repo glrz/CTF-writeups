@@ -12,7 +12,7 @@ I participated solo with team name: `T34M1`. The last time I participated solo w
 
 The scoreboard is shown below.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 A total of 5 challenges were solved.
 
@@ -30,7 +30,7 @@ For this challenge, it was pretty easy and straightforward.
 
 To join the Discord server, we will first need to go back to the main page to find the link.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
 
 Upon clicking the `Discord`, we will get the invite link which will allow us access to the server.
 
@@ -40,7 +40,7 @@ Once we enter the server, we will need to press the `tick` icon to indicate that
 
 After the access to other channels is granted, we can navigate to the `announcements` channel and look under `Pinned Messages` to get the flag.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: utflag{welc0me\_to\_utctf!}
 
@@ -94,7 +94,7 @@ Flag: utflag{meh-netcats-cooler}
 
 ## A Network Problem - Part 2
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it took me an hour or so to solve it because I did not realize that there was an update where the smb port was moved. Additionally, I was also not familiar with solving challenges related to `SMB`.&#x20;
 
@@ -239,7 +239,7 @@ smb: \shares\OfficeFun\JaysCats\> exit
 
 However, it was just a cat image with no flag given upon viewing it.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 At first, I thought.. could it be some kind of steganography challenge where the flag is hidden in this image? However, after noting that this was a network category challenge, I thought that I might be overthinking it.
 
@@ -278,7 +278,7 @@ Flag: utctf{h4ck\_h4ck\_h4ck}
 
 ## Insanity Check Redux
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was under the forensics category and I solved it after the competition.
 
@@ -369,11 +369,11 @@ This is not the flag
 
 An easier way to find the image would be to search for the challenge creator username on Discord to find the messages posted by him.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Note: Only two images were `.jpg` files. There were several other `psyduck` that looked like image files but they were just Discord stickers.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can download the psyduck image in the `general` channel that contained the flag and run `StegoVeritas` which would find something in `StegHide`.
 
