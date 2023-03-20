@@ -228,7 +228,7 @@ Flag: wxmctf{supported\_by\_digitalocean}
 
 ## Zip Gauntlet
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (5).png" alt=""><figcaption></figcaption></figure>
 
 I did not solve this challenge during the CTF, but I solved it after. I found that this challenge was pretty interesting as it included different stages of forensics challenges.&#x20;
 
@@ -521,7 +521,7 @@ The headers can be replaced as follows:
 
 Once they are replaced, the `.png` file will be fixed.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (6).png" alt=""><figcaption></figcaption></figure>
 
 We can then open the image in image viewer using the `eog` command
 
@@ -529,7 +529,7 @@ We can then open the image in image viewer using the `eog` command
 
 This is a statue with a toga in a box, implying the use of Caesar Box Cipher on the text below. We can decrypt this in [CyberChef](https://cyberchef.org/#recipe=Caesar\_Box\_Cipher\(4\)To\_Lower\_case\(\)\&input=VlZWQjMxMTBORENDMTExMQ).
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 This gives us the password: `v3n1v1d1v1c1b0c1`which can be used to extract the contents of `stage_four.zip`.
 

@@ -288,7 +288,7 @@ First, if we navigated to the Discord server - `General` channel, we would reali
 
 This image might just look like a Discord sticker to many and if we did not click on it, we would not have known that it was a `.jpg` image.
 
-<figure><img src="../.gitbook/assets/image (3) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 There was another similar image posted in the `memes` channel as well.
 
