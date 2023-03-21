@@ -107,6 +107,14 @@ This will give us the flag after we send this request.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
+Alternatively, we could use the following `curl` command to get the flag
+
+```bash
+┌──(kali㉿kali)-[~]
+└─$ curl -X put https://charlotte-tlejfksioa-ul.a.run.app/super-secret-route-nobody-will-guess
+wctf{y0u_h4v3_b33n_my_fr13nd___th4t_1n_1t53lf_1s_4_tr3m3nd0u5_th1ng}   
+```
+
 Flag: wctf{y0u\_h4v3\_b33n\_my\_fr13nd\_\_\_th4t\_1n\_1t53lf\_1s\_4\_tr3m3nd0u5\_th1ng}
 
 ## baby-re
