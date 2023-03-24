@@ -139,7 +139,7 @@ For example, here I am specifying to search the hidden `flag` sheet on Cell `T1`
 
 <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`, I targeted cells `AA1` to `AR1` individually. I already knew the last cell would likely be `AR1` from the closing brace found earlier.
 
@@ -229,7 +229,7 @@ Flag: lactf{H1dd3n\_&\_prOt3cT3D\_5h33T5\_Ar3\_n31th3r}
 For this challenge, it was in the misc category and likely to be network forensics related. First, we could open the `.pcap` file in `Wireshark` and analyze its contents. Upon opening in Wireshark, we would see a bunch of `UDP` packets.\
 
 
-<figure><img src="../.gitbook/assets/image (20) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 We could get the header checksum for all these packets using a simple script that uses `Scapy`.&#x20;
 

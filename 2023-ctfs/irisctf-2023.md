@@ -14,7 +14,7 @@ I wanted to try participating as solo because it has been quite some time since 
 
 Fast forward one year, I started to participate more actively in CTFs in the year 2022 and gained more confidence and experience in tackling CTF challenges. This time I took courage to participate in non-local CTF as solo again after more than a year. Eventually, I got 227/730 placing which is still not too bad I guess.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I spent a few hours over the weekend trying out some of the challenges and managed to solve some challenges. I especially enjoyed the forensics challenge in this CTF  where I get to  learn  more about timezones and epochtime :) I solved a total of 5 challenges.
 
@@ -52,7 +52,7 @@ I opened the extracted `.pcapng` file in Wireshark to inspect its packets and no
 
 Once the file is saved, we can open it and we  will  get the flag.
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{welc0m3\_t0\_n3tw0rks}
 
@@ -211,7 +211,7 @@ After the packets are decrypted, we can analyze these packets again. We would se
 
 We can filter it by `tcp.len > 0` to view the packets that contains payload or  data. From here, we will get the filtered `packet 20422`.
 
-<figure><img src="../.gitbook/assets/image (4) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we can inspect the packet data which will give us the flag.
 

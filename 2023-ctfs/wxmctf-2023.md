@@ -43,7 +43,7 @@ This confirmed that it was a [`PCX` ](https://en.wikipedia.org/wiki/PCX)file. We
 
 Opening it in GIMP, we would be able to see the flag.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could also open the file using `ImageMagick` as such:
 

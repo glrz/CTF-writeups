@@ -66,7 +66,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 <figure><img src="../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (3).png" alt=""><figcaption></figcaption></figure>
 
 By stream 12, we should be able to get the flag. Note that stream 12 also contains 2 lines, each line shows parts of the flag.
 

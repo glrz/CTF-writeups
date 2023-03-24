@@ -8,7 +8,7 @@ description: >-
 
 Last year, CSIT also had a [`CNY 2022 Easter Egg Challenge`](https://www.linkedin.com/feed/update/urn:li:activity:6892384942458843136/). If I remembered correctly, that challenge was pretty easy and I solved it by using `Base64 decoder` after scanning a `QR Code`.
 
-<figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this year's challenge, I found it to be more interesting and slightly more challenging. On CSIT LinkedIn page, we were presented with a short video of 7 seconds in the post. Taking a closer look, I saw that there was a QR Code that appeared in the video at around 2-3 seconds mark. Shortly after, it disappears at around 5 seconds mark.&#x20;
 
@@ -84,7 +84,7 @@ SHVhdCBBaCEgVW5mb3J0dW5hdGVseSB0aGUgZmxhZyBpcyBub3QgaGVyZS4gTWF5YmUgdGhlIGZsYWcg
 We could paste this into [CyberChef](https://cyberchef.org/#recipe=From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)\&input=UTFOSlZDQnBjeUJoSUhSbFkyZ2dZV2RsYm1ONUlIVnVaR1Z5SUUxSlRrUkZSaUIwYUdGMElHaGhjbTVsYzNObGN5QmpkWFIwYVc1bkxXVmtaMlVnWkdsbmFYUmhiQ0IwWldOb2JtOXNiMmRwWlhNZ2RHOGdiV1ZsZENCVGFXNW5ZWEJ2Y21VbmN5QnpaV04xY21sMGVTQnVaV1ZrY3k0PQpRMU5KVkNCemRYQndiM0owY3lCdVlYUnBiMjVoYkNCelpXTjFjbWwwZVNCdGFYTnphVzl1Y3lCemRXTm9JR0Z6SUdONVltVnlJR1JsWm1WdVkyVXNJR052ZFc1MFpYSXRkR1Z5Y205eWFYTnRMQ0JoYm1RZ1kyOTFiblJsY2kxb2IzTjBhV3hsSUdsdVptOXliV0YwYVc5dUlHOXdaWEpoZEdsdmJuTXUKUTFOSlZIc2tPRGc0WDJoQlVIQlpYMWt6UUZKZk1HWmZja0E0WWpGVWZRPT0KVkdobElHMWxjM05oWjJWeklHRnVaQ0JtYkdGbklHRnlaU0JsYm1OdlpHVmtJSFZ6YVc1bklHSmhjMlUyTkNFPQpTSFZoZENCQmFDRWdRMU5KVkNCM2FYTm9aWE1nZVc5MUlHRWdjSEp2YzNCbGNtOTFjeUI1WldGeUlHOW1JSFJvWlNCU1lXSmlhWFFoClExTkpWQ2R6SUhSbFkyZ2dabTlqZFhNZ1lYSmxZWE1nYVc1amJIVmtaU0JEZVdKbGNuTmxZM1Z5YVhSNUxDQlRiMlowZDJGeVpTQkZibWRwYm1WbGNtbHVaeXdnUkdGMFlTQkJibUZzZVhScFkzTWdZVzVrSUVOc2IzVmtJRWx1Wm5KaGMzUnlkV04wZFhKbElHRnVaQ0JUWlhKMmFXTmxjeTQ9CmFIUjBjSE02THk5bGJpNTNhV3RwY0dWa2FXRXViM0puTDNkcGEya3ZPRGd4WHlobWFXeHRLUT09ClNIVmhkQ0JCYUNFZ1ZXNW1iM0owZFc1aGRHVnNlU0IwYUdVZ1pteGhaeUJwY3lCdWIzUWdhR1Z5WlM0Z1RXRjVZbVVnZEdobElHWnNZV2NnWm05eWJXRjBJSGRwYkd3Z2FHVnNjQ0I1YjNVZ2IzVjBQdz09) and would get the following decoded output. If we look closely, we have found the flag in the bunch of decoded message. The flag is in `CSIT {...}` format as given by the hint in the challenge textbox placeholder.\
 
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 We could copy-paste the `Base64 encoded` string on `CyberChef` again to confirm the flag.\
 

@@ -24,7 +24,7 @@ Fun Fact: I actually did not plan to participate in this CTF. However, after I s
 
 For this challenge, it provided a link to the Discord server. Once we navigate to the `rules` channel, we will be able to see the flag beside the channel name.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: wctf{w3lc0m3\_t0\_w0lvctf\_2023}
 
@@ -38,7 +38,7 @@ Flag: wctf{M41z3\_4nd\_Blu3}
 
 ## Charlotte's Web
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 We are given a link to this challenge. First, lets check out the source code of this site.
 
@@ -105,7 +105,7 @@ Accept-Language: en-US,en;q=0.9
 
 This will give us the flag after we send this request.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could use the following `curl` command to get the flag
 
@@ -359,11 +359,11 @@ We can right click on the packet, `Follow > TCP Stream` and increment the stream
 
 &#x20;Before saving this image, we need to change `Show data as: ASCII` to `RAW`
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can then save this file as `flag.jpg` and view it.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can see an image of a `Stegosaurus` and `Shark` which likely indicates that this is a `steganography` challenge and the shark is likely indicating `Wireshark` which we had previously used to extract this image.
 

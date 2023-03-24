@@ -12,7 +12,7 @@ I participated in the CTF with a new team: `TeamHalfDay` and new folks who are c
 
 I am under the team members with the username: `rz--`.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this CTF, we spent some time tackling various challenges from different categories according to our expertise and managed to obtain the rank: `256/6483.` I would consider my expertise in the forensics category, hence I attempted most challenges from that category.
 
@@ -44,7 +44,7 @@ First, we could open the `.pcap` file in Wireshark to futher analyze the packets
 
 Next, if we right click on the first packet, `Follow > TCP Stream`, and increment the stream to `stream 4`, we will be able to see the flag in plaintext.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, an easier and faster way could be to use `strings` to search for string text in the capture file and use `grep` to find the flag format
 
@@ -89,7 +89,7 @@ Flag: HTB{p0w3rsh3ll\_Cr4dl3s\_c4n\_g3t\_th3\_j0b\_d0n3}
 
 ## Extraterrestrial Persistence
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.sh` file embedded in the zip file.
 
