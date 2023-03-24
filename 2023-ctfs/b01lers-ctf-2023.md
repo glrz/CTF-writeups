@@ -31,7 +31,7 @@ From there, we will notice that there is an ongoing thread.
 
 If we clicked on it, we can see an active thread which displayed part of the flag.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Once we click into this thread, we will get the full flag :)
 

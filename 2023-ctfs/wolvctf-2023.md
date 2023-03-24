@@ -14,7 +14,7 @@ I participated as solo with my last name initials `RZ` and team name `RZ` as wel
 
 I solved challenges in the Beginner, Misc and Forensics category.
 
-<figure><img src="../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fun Fact: I actually did not plan to participate in this CTF. However, after I solved [b01lers CTF's switcheroo](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/b01lers-ctf-2023#switcheroo) challenge, I had already created an account and team on the WolvCTF platform. Hence, I decided to spend some time attempting the challenges.
 
@@ -24,7 +24,7 @@ Fun Fact: I actually did not plan to participate in this CTF. However, after I s
 
 For this challenge, it provided a link to the Discord server. Once we navigate to the `rules` channel, we will be able to see the flag beside the channel name.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: wctf{w3lc0m3\_t0\_w0lvctf\_2023}
 
@@ -209,7 +209,7 @@ Flag: wctf{W3lc0me\_t0\_C0stc0\_I\_L0v3\_Y0u!}
 
 ## We Will Rock You
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 First, we could download the file provided and check the file type by running the `file` command.
 
@@ -270,7 +270,7 @@ Flag: wctf{m1cH1g4n\_4\_3v3R}
 
 ## yowhatsthepassword
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `Python` file.
 
@@ -347,7 +347,7 @@ We could first open this file in `Wireshark` to analyze the packets further.
 
 Once we have opened the file, we can go to `Statistics > Protocol Hierarchy` to check the protocols used in the network capture. We can  see that there's some `FTP Data` packets which looked pretty interesting.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (4).png" alt=""><figcaption></figcaption></figure>
 
 If we filter by `ftp-data`, we will notice a `epicfight.jpg` file being sent.
 
@@ -375,7 +375,7 @@ Note that this would only work in the newer versions of Wireshark. Previously,  
 
 We can save the image and view it as well.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (6).png" alt=""><figcaption></figcaption></figure>
 
 To extract the hidden information in this image, we can use `StegHide` to help us. By running the following command, we extracted a `hidden.txt` file.&#x20;
 

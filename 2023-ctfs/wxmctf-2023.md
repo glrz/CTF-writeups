@@ -509,7 +509,7 @@ Compressed: 21820282
 
 In stage three, the file given is `broken.png`. Opening it on hex editor showed that there were multiple bytes that were incorrect and needed fixing.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 The headers can be replaced as follows:
 
