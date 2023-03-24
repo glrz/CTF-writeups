@@ -8,7 +8,7 @@ It featured challenges from 10 different categories like pwn, forensics, misc, r
 
 <figure><img src="../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
-I participated in the CTF with a new team: `TeamHalfDay` and new folks who are currently serving in NS. I was recently invited to their team on CTFtime where they are more commonly known as team [`youtiaos`](https://ctftime.org/team/194864)``
+I participated in the CTF with a new team: `TeamHalfDay` which mainly consist of new folks who are currently serving in NS. I was recently invited to their team on CTFtime where they are more commonly known as team [`youtiaos`](https://ctftime.org/team/194864)``
 
 I am under the team members with the username: `rz--`.
 
