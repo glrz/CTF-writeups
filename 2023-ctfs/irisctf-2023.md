@@ -238,7 +238,7 @@ This will produce a `-dec.cap` file which is the decrypted/stripped version of t
 
 Finally, running `strings` on the `-dec.cap`  file, and `grep` for iris would give us the flag
 
-<figure><img src="../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Check out my previous challenge writeup on WiFi [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-ctf-2022/network#wifi). It was a challenge which involved the use of `aircrack-ng` to perform dictionary attack as well, after I used `crunch` to create my own wordlist.
 

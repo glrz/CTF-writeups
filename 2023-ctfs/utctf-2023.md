@@ -12,7 +12,7 @@ I participated solo with team name: `T34M1`. The last time I participated solo w
 
 The scoreboard is shown below.
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 A total of 5 challenges were solved.
 

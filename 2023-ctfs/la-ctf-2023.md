@@ -18,7 +18,7 @@ Overall, I enjoyed this CTF and learned more about how data could be "extracted"
 
 ## discord
 
-<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was similar to previous `Welcome` or `Sanity Check` types of challenges, where the flag could be found easily. The challenge is mainly for us to familiarize with the flag format.&#x20;
 
