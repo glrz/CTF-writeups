@@ -44,7 +44,7 @@ First, we could open the `.pcap` file in Wireshark to futher analyze the packets
 
 Next, if we right click on the first packet, `Follow > TCP Stream`, and increment the stream to `stream 4`, we will be able to see the flag in plaintext.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, an easier and faster way could be to use `strings` to search for string text in the capture file and use `grep` to find the flag format
 
