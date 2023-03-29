@@ -17,7 +17,7 @@ Surprisingly, the `sanity check` challenge had fewer solves than `switcheroo` ch
 
 ## sanity check
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a link to the Discord server.&#x20;
 

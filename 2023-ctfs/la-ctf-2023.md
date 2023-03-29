@@ -27,7 +27,7 @@ In this case, the flag was in the Discord server. Upon joining the server, we co
 
 <figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: lactf{i\_joined\_discord\_and\_read\_the\_faq}
 

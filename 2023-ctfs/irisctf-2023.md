@@ -58,7 +58,7 @@ Flag: irisctf{welc0m3\_t0\_n3tw0rks}
 
 ## babyforens
 
-<figure><img src="../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was  under the `forensics` category and  I enjoyed solving it. This challenge took most teams multiple  tries to solve it and I solved it before the hint and subsequent hints were released.
 
@@ -113,7 +113,7 @@ Now that we  have  the `secret` part of the flag, we are left with the `latitude
 
 First, we can  find the `latitude` and `longitude` by  running `exiftool`.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.&#x20;
 
@@ -181,7 +181,7 @@ In wireshark, we can see that the packets were all transmitted in layer 2, also 
 
 We can apply the filter `eapol` to see the WiFi handshake. To read up more about the 4-way handshake, you can check out [here](https://www.wifi-professionals.com/2019/01/4-way-handshake). You could also check out this [detailed blog writeup](https://praneethwifi.in/2019/11/09/4-way-hand-shake-keys-generation-and-mic-verification/) on the 4-way handshake or this [CTF example ](https://ctf-wiki.mahaloz.re/misc/traffic/protocols/WIFI/)on how to crack the password  and decrypt the traffic.
 
-<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can crack the password by using `Aircrack-ng` to perform dictionary attack.
 

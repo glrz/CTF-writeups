@@ -32,7 +32,7 @@ Flag: HTB{l3t\_th3\_tr3asur3\_hunt1ng\_b3g1n!}
 
 ## Plaintext Tleasure
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the forensics category. We were given a zip file with a `.pcap` file in it.
 

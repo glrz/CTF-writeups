@@ -46,7 +46,7 @@ Flag: utflag{welc0me\_to\_utctf!}
 
 ## Reading List
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `readingList` file.
 
@@ -272,7 +272,7 @@ If we click on the Google Forms link, we will be able to access the survey.
 
 Upon completion of the survey, the flag will be presented.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: utctf{h4ck\_h4ck\_h4ck}
 

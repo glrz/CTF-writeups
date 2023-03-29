@@ -54,7 +54,7 @@ Alternatively, we could also open the file using `ImageMagick` as such:
 
 Similarly, we would get the flag for the challenge.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: CTF{digital\_archaeology\_42}
 

@@ -30,7 +30,7 @@ Flag: wctf{w3lc0m3\_t0\_w0lvctf\_2023}
 
 ## Switcheroo
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 As previously mentioned, I solved the[ b01lersCTF's switcheroo](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/b01lers-ctf-2023#switcheroo) challenge and obtained the flag from there. It was pretty interesting that these two different CTFs swapped their flags.&#x20;
 
@@ -147,7 +147,7 @@ Flag: wctf{Oh10\_Stat3\_1s\_Smelly!}
 
 ## baby-pwn
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given 2 files. The first file `baby-pwn` is the file which runs the program. The second file `baby-pwn.c` is the source code written in `C` language.
 
