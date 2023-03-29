@@ -62,7 +62,7 @@ If we continue to browse through the `Streams`, we will be able to get more alph
 
 <figure><img src="../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -76,7 +76,7 @@ We could use a text editor like `Notepad` to replace each `.` with the alphanume
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (3).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could copy paste each stream on a new line on a text editor like `Sublime Text` to see the sequence better and form the flag eventually.
 

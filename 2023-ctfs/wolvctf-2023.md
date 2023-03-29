@@ -20,11 +20,11 @@ Fun Fact: I actually did not plan to participate in this CTF. However, after I s
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it provided a link to the Discord server. Once we navigate to the `rules` channel, we will be able to see the flag beside the channel name.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: wctf{w3lc0m3\_t0\_w0lvctf\_2023}
 
@@ -339,7 +339,7 @@ Flag: wctf{ywtp}
 
 ## Dino Trading
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the forensics category and we were given a `.pcapng` file.
 
@@ -363,7 +363,7 @@ We can right click on the packet, `Follow > TCP Stream` and increment the stream
 
 We can then save this file as `flag.jpg` and view it.
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can see an image of a `Stegosaurus` and `Shark` which likely indicates that this is a `steganography` challenge and the shark is likely indicating `Wireshark` which we had previously used to extract this image.
 

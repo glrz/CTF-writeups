@@ -16,7 +16,7 @@ The scoreboard is shown below.
 
 A total of 5 challenges were solved.
 
-<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +36,7 @@ Upon clicking the `Discord`, we will get the invite link which will allow us acc
 
 Once we enter the server, we will need to press the `tick` icon to indicate that we have read the rules and to have access to other channels.
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (2).png" alt=""><figcaption></figcaption></figure>
 
 After the access to other channels is granted, we can navigate to the `announcements` channel and look under `Pinned Messages` to get the flag.
 
@@ -278,7 +278,7 @@ Flag: utctf{h4ck\_h4ck\_h4ck}
 
 ## Insanity Check Redux
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was under the forensics category and I solved it after the competition.
 

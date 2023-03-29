@@ -172,12 +172,12 @@ We can get the `Base64` of `./flag.txt` from [CyberChef](https://cyberchef.org/#
 
 Once we append this to the link, we will get the flag upon reaching the site: [http://ctf.b01lers.com:5115/Li9mbGFnLnR4dA==](http://ctf.b01lers.com:5115/Li9mbGFnLnR4dA==)
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could also use `Burp Suite`, use the proxy and turn on interceptor. Once the packet is captured, we can send it to repeater and change the `GET` to `/Li9mbGFnLnR4dA==`.
 
 Similarly, we would obtain the flag after sending the request. As we can see, the flag is obtained in the response.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: bctf{h4d\_fun\_w1th\_my\_l4st\_m1nut3\_w4rmuP????!}

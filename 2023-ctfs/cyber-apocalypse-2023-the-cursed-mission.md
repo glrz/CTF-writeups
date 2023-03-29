@@ -20,7 +20,7 @@ For this CTF, we spent some time tackling various challenges from different cate
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Similar to previous CTF competiions, there's a sanity check challenge for this event as well.
 
@@ -63,7 +63,7 @@ Flag: HTB{th3s3\_4l13ns\_st1ll\_us3\_HTTP}
 
 ## Alien Cradle
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a zip file as well. In the zip file, we will find a `.ps1` file.
 
@@ -89,7 +89,7 @@ Flag: HTB{p0w3rsh3ll\_Cr4dl3s\_c4n\_g3t\_th3\_j0b\_d0n3}
 
 ## Extraterrestrial Persistence
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.sh` file embedded in the zip file.
 
@@ -138,7 +138,7 @@ Flag: HTB{th3s3\_4l13nS\_4r3\_s00000\_b4s1c}
 
 ## Roten
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.cap` file embedded in the zip file.
 

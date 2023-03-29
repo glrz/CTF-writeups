@@ -48,7 +48,7 @@ For this challenge, we were  given a `.pcapng` file embedded  in zip. This chall
 
 I opened the extracted `.pcapng` file in Wireshark to inspect its packets and noticed there was a `babyshark.gif` file under the `HTTP`  protocol on  packet 133. This seemed interesting and so I proceeded to export this `HTTP` object. To extract this file, go to `File > Export Objects  >  HTTP ...`
 
-<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once the file is saved, we can open it and we  will  get the flag.
 
@@ -62,7 +62,7 @@ Flag: irisctf{welc0m3\_t0\_n3tw0rks}
 
 This challenge was  under the `forensics` category and  I enjoyed solving it. This challenge took most teams multiple  tries to solve it and I solved it before the hint and subsequent hints were released.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Hint: <a href="https://www.youtube.com/watch?v=rksaoaqt3JA">https://www.youtube.com/watch?v=rksaoaqt3JA</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p>Hint: <a href="https://www.youtube.com/watch?v=rksaoaqt3JA">https://www.youtube.com/watch?v=rksaoaqt3JA</a></p></figcaption></figure>
 
 I was the 7th to solve this challenge and was quite satisfied even though I think I could have first-blooded this challenge if I woke up earlier to attempt the challenges and if I attempted this challenge first before any other challenges.\
 

@@ -46,7 +46,7 @@ Note that solving this challenge is not sequential. This means that you could so
 
 First, we could open this file in a simple text editor like Notepad to analyze its contents. Once we open the file in Notepad, we should notice that there are strings appended with `=` and `==`, which likely suggest that this could be `Base64 encoded.`
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could run `strings` command on UNIX and we would get these strings output as well.\
 ┌──(kali㉿kali)-\[\~/Downloads]

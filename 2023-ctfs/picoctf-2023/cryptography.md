@@ -128,12 +128,12 @@ Flag: picoCTF{read\_mycert\_27442dba}
 
 We can download the `encrypted.txt` file which showed some string that looked like it was rotated. We can use the common `ROT13` to decode it. However, this would not give us the flag.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we increase the `amount` to 18, we will get the flag.
 
 Note that we can use the `ROT13 Brute Force` to determine the correct `amount`.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: picoCTF{r0tat1on\_d3crypt3d\_9985b7db}

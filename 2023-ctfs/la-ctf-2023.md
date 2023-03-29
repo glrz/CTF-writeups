@@ -103,7 +103,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
@@ -149,7 +149,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (32) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (17) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -647,7 +647,7 @@ With the above information, if the IP "reserved bit" is set to 1 (0x1), it is an
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (3).png" alt=""><figcaption></figcaption></figure>
 
 Hence, to extract the flag, we need to find all the packets that have the Reserved bit `Not set.`
 
