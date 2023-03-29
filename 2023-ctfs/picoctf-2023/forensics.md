@@ -2,11 +2,11 @@
 
 ## hideme
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (7).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.png` file. Viewing the file would show an image of `PicoCTF`.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 I ran `exiftool` but could not find any useful information.
 
@@ -33,7 +33,7 @@ I used the `-e` option to extract the `flag.png` and opened the image.
 └─$ eog flag.png
 ```
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
 
 However, the top of the image looked slighly cut off. I checked the height and width in exiftool and it was the same in the hex editor.&#x20;
 
@@ -53,7 +53,7 @@ for i in range(3000):
             print('hex:', hex(i), hex(j))
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (8).png" alt=""><figcaption></figcaption></figure>
 
 Even though the top of the image was slightly cut off, I was still able to get the flag nonetheless.&#x20;
 
@@ -360,7 +360,7 @@ At first glance, I noticed that the flag could have been splitted. Additionally,
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 I copied those interesting strings down which gave the following
 
@@ -398,7 +398,7 @@ Flag: picoCTF{R34DING\_LOKd\_fil56\_succ3ss\_1b40c358}
 
 ## MSB
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.png` image.
 

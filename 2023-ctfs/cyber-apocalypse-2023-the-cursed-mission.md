@@ -26,7 +26,7 @@ Similar to previous CTF competiions, there's a sanity check challenge for this e
 
 Upon joining the Discord server, we can see the flag announced in the `announcement` channel.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: HTB{l3t\_th3\_tr3asur3\_hunt1ng\_b3g1n!}
 

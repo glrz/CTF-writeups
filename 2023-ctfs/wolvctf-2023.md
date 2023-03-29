@@ -119,7 +119,7 @@ Flag: wctf{y0u\_h4v3\_b33n\_my\_fr13nd\_\_\_th4t\_1n\_1t53lf\_1s\_4\_tr3m3nd0u5\
 
 ## baby-re
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `baby-re` file.
 
@@ -147,7 +147,7 @@ Flag: wctf{Oh10\_Stat3\_1s\_Smelly!}
 
 ## baby-pwn
 
-<figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given 2 files. The first file `baby-pwn` is the file which runs the program. The second file `baby-pwn.c` is the source code written in `C` language.
 
@@ -209,7 +209,7 @@ Flag: wctf{W3lc0me\_t0\_C0stc0\_I\_L0v3\_Y0u!}
 
 ## We Will Rock You
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 First, we could download the file provided and check the file type by running the `file` command.
 
@@ -355,7 +355,7 @@ If we filter by `ftp-data`, we will notice a `epicfight.jpg` file being sent.
 
 We can right click on the packet, `Follow > TCP Stream` and increment the stream until we  see the file transfer content.
 
-<figure><img src="../.gitbook/assets/image (2) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;Before saving this image, we need to change `Show data as: ASCII` to `RAW`
 
