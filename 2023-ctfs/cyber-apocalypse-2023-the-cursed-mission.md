@@ -83,7 +83,7 @@ We can use this [CyberChef recipe](https://cyberchef.org/#recipe=Find\_/\_Replac
 2. Find `+` string and replace
 3. Find `` and replace
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: HTB{p0w3rsh3ll\_Cr4dl3s\_c4n\_g3t\_th3\_j0b\_d0n3}
 
