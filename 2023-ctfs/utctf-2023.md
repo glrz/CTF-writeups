@@ -24,7 +24,7 @@ I was pretty satisfied with the results in general because I managed to solve mo
 
 ## Dry Run
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was pretty easy and straightforward.
 
@@ -88,7 +88,7 @@ Once, we use `netcat` to connect to the server and port number, we will get the 
 
 netcat (often abbreviated to nc) is a computer networking utility for reading from and writing to network connections using TCP or UDP. The command is designed to be a dependable back-end that can be used directly or easily driven by other programs and scripts.
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: utflag{meh-netcats-cooler}
 

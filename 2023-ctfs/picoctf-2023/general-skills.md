@@ -10,7 +10,7 @@ However, if we tried to search for the flag using `CTRL+F` shortcut, we will not
 
 I had to scroll down somewhere near the bottom to see the flag.
 
-<figure><img src="../../.gitbook/assets/image (4) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, an easier way could be to view the source code and search for the flag.
 
@@ -30,7 +30,7 @@ Flag: picoCTF{Petya}
 
 ## repetitions
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can download the `enc_flag` file.
 
@@ -62,7 +62,7 @@ Flag: picoCTF{base64\_n3st3d\_dic0d!n8\_d0wnl04d3d\_c8d94c0d}
 
 ## chrono
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can `ssh` as `picoplayer` into the server using  the given `port number`.
 
@@ -161,7 +161,7 @@ Flag: picoCTF{uS1ng\_v1m\_3dit0r\_3dd6dcf4}
 
 ## useless
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 Similar to previous challenges, I had to `ssh` into the server
 

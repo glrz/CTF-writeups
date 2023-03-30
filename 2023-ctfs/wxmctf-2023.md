@@ -65,7 +65,7 @@ Flag: CTF{digital\_archaeology\_42}
 This was an easy web challenge. First, lets click on the link provided in the challenge description. Upon clicking it, we will be redirected to this site.\
 
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 If we noticed, at the bottom it indicated that this is `Room 1` and the flag is at `room 0`. If we tried clicking on any of the 3 numbers, it would just bring us to another room but not room 0.
 

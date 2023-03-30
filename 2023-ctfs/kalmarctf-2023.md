@@ -34,7 +34,7 @@ First, we could extract the `.pcap` file using the `gunzip` command.
 
 Next, we can open this `.pcap` file in Wireshark. We will realize that all the packets are `UDP`.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 To further explore the data transmitted, we can select the first packet, right click and `Follow -> UDP stream`.&#x20;
 

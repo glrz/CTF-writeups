@@ -46,12 +46,12 @@ Next, I went online to search for a way to unhide protected sheets in Google doc
 
 I tried following the blog, by going to `View` > `Hidden sheets`. However, this did not work either since we only had `view only` permissions.
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 
 If I were to go to bottom right and try to view the flag sheet, it would not work as well.\
 
 
-<figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 While searching online, I found this [YouTube video ](https://www.youtube.com/watch?v=FOs-LjXw2Q0)which briefly covered the use of `Find and Replace` function to search for hidden data in hidden sheets.
 
@@ -87,7 +87,7 @@ At this point, we would probably have realized that the flag is very likely to b
 
 However, I soon realized that by searching each character on the keyboard, it was not able to tell me whether there were duplicates of the character in another cell. Using this method of searching, I was only able to find a few other characters of the flag.&#x20;
 
-<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -95,7 +95,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
@@ -105,7 +105,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
 Finally, I searched for the ending brace `}` for the flag which was found in Cell `AR1`.
 
@@ -133,7 +133,7 @@ For example, here I am specifying to search the hidden `flag` sheet on Cell `T1`
 
 <figure><img src="../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -595,7 +595,7 @@ Running this script will give us the flag.\
 lactf{3V1L_817_3xf1l7R4710N_4_7H3_W1N_51D43c8000034d0c}
 ```
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57) (1).png" alt=""><figcaption></figcaption></figure>
 
 An alternative approach would be to get the hint from the challenge description. From the challenge  description, it mentioned that `those UDP traffics are abided by RFC 3514.`
 
@@ -645,7 +645,7 @@ RFC 3514          The Security Flag in the IPv4 Header      1 April 2003
 
 With the above information, if the IP "reserved bit" is set to 1 (0x1), it is an evil packet.&#x20;
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (30) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -699,7 +699,7 @@ This looked similar to `PigPen cipher`. However, I quickly noticed something was
 Hence, I tried rotating this image and I got this. Now, this looked more like the encoded flag.\
 
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 
 I proceeded to decode it manually [here](https://www.dcode.fr/pigpen-cipher). After selecting all the characters manually and matching it with the image, I will get the following result.
 
@@ -733,7 +733,7 @@ With this information, I went to `Google` to search for  `Carey Nachenberg`, and
 
 I also saw that he was climbing the `Santa Monica Mountain`.
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 However, this was not the flag. I guess one could possibly search for possible hiking routes from `Santa Monica Mountains` but it would probably take quite some time to find the flag using `Google maps`.
 
@@ -743,7 +743,7 @@ For me, I just searched for `where carey nachenberg hiked to` and found this [si
 
 Upon browsing the site, I can see that it mentioned `We'll stop at Skull Rock to take in the views`. That was the flag, the location was at `Skull Rock`.
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: lactf{skull\_rock}
 
