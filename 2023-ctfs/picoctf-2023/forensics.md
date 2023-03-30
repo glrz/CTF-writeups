@@ -398,7 +398,7 @@ Flag: picoCTF{R34DING\_LOKd\_fil56\_succ3ss\_1b40c358}
 
 ## MSB
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (7).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.png` image.
 
