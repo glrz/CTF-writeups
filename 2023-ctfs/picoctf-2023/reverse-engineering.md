@@ -94,6 +94,8 @@ First, lets unzip the file.
 
 There were way too many files extracted, hence I won't be pasting all the extracted contents here.
 
+Initially, I thought I could use an[ online APK decompiler](http://www.javadecompilers.com/apk) to search for the flag manually. However, I realized that this process will be very time-consuming.
+
 How I solved it was to go to the extracted directory which contained two other sub-directories, ran the `grep` command with `-r` option to search recursively within the two sub-directories for the keyword `pico`.
 
 ```bash
