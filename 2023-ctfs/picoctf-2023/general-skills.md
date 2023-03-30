@@ -10,7 +10,7 @@ However, if we tried to search for the flag using `CTRL+F` shortcut, we will not
 
 I had to scroll down somewhere near the bottom to see the flag.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (5).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, an easier way could be to view the source code and search for the flag.
 
@@ -22,7 +22,7 @@ Flag: picoCTF{h34rd\_und3r5700d\_4ck\_cba1c711}
 
 
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (11).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we could simply `Google` the transaction address and we would come across this [link](https://qz.com/1016525/the-petya-ransomware-cyberattack-has-earned-hackers-20k-less-than-wannacry-in-its-first-24-hours) which tells us the malware name.
 
