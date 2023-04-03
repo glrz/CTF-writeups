@@ -1,6 +1,7 @@
 # Table of contents
 
 * [2023 CTFs](README.md)
+  * [RITSEC CTF 2023](2023-ctfs/ritsec-ctf-2023.md)
   * [Cyber Apocalypse 2023 - The Cursed Mission](2023-ctfs/cyber-apocalypse-2023-the-cursed-mission.md)
   * [WolvCTF 2023](2023-ctfs/wolvctf-2023.md)
   * [b01lers CTF 2023](2023-ctfs/b01lers-ctf-2023.md)
