@@ -14,7 +14,7 @@ I had to scroll down somewhere near the bottom to see the flag.
 
 Alternatively, an easier way could be to view the source code and search for the flag.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (6).png" alt=""><figcaption></figcaption></figure>
 
 Flag: picoCTF{h34rd\_und3r5700d\_4ck\_cba1c711}
 
@@ -56,7 +56,7 @@ aGkKYlRrelZERldUMkpzUWxWTlJYTkxDZz09Cg==
 
 We can copy paste this into [CyberChef](https://cyberchef.org/#recipe=From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)) and `Base64` decode it six times, which gives us the flag. The need to decode multiple times can probably be inferred from the challenge name `repetitions`.
 
-<figure><img src="../../.gitbook/assets/image (5) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: picoCTF{base64\_n3st3d\_dic0d!n8\_d0wnl04d3d\_c8d94c0d}
 
@@ -100,7 +100,7 @@ Flag: picoCTF{Sch3DUL7NG\_T45K3\_L1NUX\_1d781160}
 
 ## Permissions
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
 
 Similar to the previous challenge, we can `ssh` into the server as such
 

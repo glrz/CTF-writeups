@@ -2,7 +2,7 @@
 
 ## Reverse
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a binary executable file. To verify this, we can use the `file` command.
 
@@ -25,7 +25,7 @@ Flag: picoCTF{3lf\_r3v3r5ing\_succe55ful\_8108250b}
 
 ## Safe Opener 2
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we  were given a `.class` file which contained compiled Java class data.
 
@@ -86,7 +86,7 @@ Flag: picoCTF{SAf3\_0p3n3rr\_y0u\_solv3d\_it\_ccb5525e}
 
 ## timer
 
-<figure><img src="../../.gitbook/assets/image (3) (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file.
 
@@ -117,7 +117,7 @@ Flag: picoCTF{t1m3r\_r3v3rs3d\_succ355fully\_17496}
 
 ## Ready Gladiator 0
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (12).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I connected to the server and it automatically ran the `redcode`
 
@@ -207,7 +207,7 @@ Flag: picoCTF{h3r0\_t0\_z3r0\_4m1r1gh7\_a220a377}
 
 ## Ready Gladiator 1
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I searched online for a [simple warrior](https://corewar-docs.readthedocs.io/en/latest/corewar/warriors/) named 'Dwarf'.
 

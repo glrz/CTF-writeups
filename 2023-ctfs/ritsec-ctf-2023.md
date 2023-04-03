@@ -6,23 +6,29 @@ description: RITSEC CTF 2023 was held from 1 Apr - 3 Apr 2023.
 
 RITSEC CTF 2023 is a security-focused competition that featured the following categories: BIN\PWN, Crypto, Reversing, Forensics, Web, Misc, and more.
 
-I participated in the CTF with team `youtiaos` with my username `RZ`.
+More information can be found [here](https://ctftime.org/event/1860).
 
+I participated in the CTF with team [`youtiaos`](https://ctftime.org/team/194864) with my username `RZ`.
 
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 I spent some time enjoying some of the simpler challenges during the weekend. I solved challenges in the `Introduction`, `Chandi Bot`, `Reversing` and `Steganography` categories.
 
 ## Intro
 
-
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was similar to the challenges I solved [here ](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/irisctf-2023#discord)and [here](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/wolvctf-2023#sanity-check).
 
 Upon joining the discord server and navigating the the `rules` channel, we can see the flag displayed beside the top of the channel header.
 
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+
 Flag: RS{!flag}
 
 ## Chandi Bot 2
+
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 There were a series of Chandi Bot challenges in the `Chandi Bot` category and I solved one of them. I found that this was pretty interesting and different from usual CTFs as they created a discord bot specifically for the challenges.
 
@@ -30,7 +36,13 @@ For this challenge, I navigated to the `Chandi Bot` channel on Discord.
 
 Next, I tested the possible `commands` which I can issue to the bot on the server by typing `/` on the chat.
 
-I was then presented with a few of the `FREQUENTLY USED` functions. One of them was `/flag` and issuing this command on the server would get the flag from the bot.
+I was then presented with a few of the `FREQUENTLY USED` functions. One of them was `/flag` &#x20;
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Issuing the `/flag` command on the server would get the flag from the bot.
+
+<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{HMMM\_WHAT\_ARE\_YOU\_LOOKING\_AT}
 
@@ -38,9 +50,13 @@ Flag: RS{HMMM\_WHAT\_ARE\_YOU\_LOOKING\_AT}
 
 ## Weird
 
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
 For this challenge, we were given a `blank.png` file.
 
 First, we could open this in image viewer and we would see that it's just a blank image.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Since the challenge was in the `steganography` category, I ran my favourite stego tool: `stegoveritas` as usual
 
@@ -304,11 +320,17 @@ PNG image data, 600 x 600, 8-bit/color RGBA, non-interlaced
 
 ```
 
-I navigated to the `results` directory which contained several images of different contrast extracted. One of the image: `blank.png_Blue_0.png` contained the flag. By viewing the image, I was presented with the flag.
+I navigated to the `results` directory which contained several images of different contrast extracted. One of the image: `blank.png_Blue_0.png` contained the flag.&#x20;
+
+By viewing the image, I was presented with the flag.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{Th4t5\_w4cky\_m4n}
 
 ## Cats At Play
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the `reversing` category.
 
