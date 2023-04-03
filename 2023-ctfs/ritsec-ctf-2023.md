@@ -312,4 +312,29 @@ Flag: RS{Th4t5\_w4cky\_m4n}
 
 For this challenge, it was under the `reversing` category.
 
-First,
+First, we could run the `file` command to check the file type. Next, we could try to `grep` the flag format. Note that we need to specify the `-a` option to process the binary file as if it were text.
+
+Also note that this would only work for simple `reverse` challenges like this.
+
+As we can see, the flag can be seen somewhere in the middle of the chunk of text.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ file meow.exe 
+meow.exe: PE32 executable (console) Intel 80386, for MS Windows
+                                                                                                                    
+┌──(kali㉿kali)-[~/Downloads]
+└─$ grep RS{ meow.exe             
+grep: meow.exe: binary file matches
+
+┌──(kali㉿kali)-[~/Downloads]
+└─$ grep -a RS{ meow.exe
+�▒�(�4�H�X�j�t�������������(�:�N�d�v������������UnhandledExceptionFilterqSetUnhandledExceptionFilter▒GetCurrentProcess�TerminateProcess�IsProcessorFeaturePresentOQueryPerformanceCounteretCurrentProcessIdGetCurrentThreadId�GetSystemTimeAsFileTimefInitializeSListHead�IsDebuggerPresent�GetStartupInfoW{GetModuleHandleWKERNEL32.dll�RtlUnwinddGetLastError4SetLastError4EnterCriticalSection�LeaveCriticalSectionDeleteCriticalSectionbInitializeCriticalSectionAndSpinCount�TlsAlloc�TlsGetValue�TlsSetValue�TlsFree�FreeLibrary�GetProcAddress�LoadLibraryExWdRaiseException�GetStdHandleWriteFilewGetModuleFileNameWaExitProcesszGetModuleHandleExW�GetCommandLineA�GetCommandLineWHHeapAllocLHeapFree�CompareStringW�LCMapStringWQGetFileTypexFindClose~FindFirstFileExW�FindNextFileW�IsValidCodePage�GetACP�GetOEMCP�GetCPInfo�MultiByteToWideCharWideCharToMultiByte:GetEnvironmentStringsW�FreeEnvironmentStringsWSetEnvironmentVariableWNSetStdHandle�GetStringTypeW�GetProcessHeap�FlushFileBuffersGetConsoleOutputCP�GetConsoleModeOGetFileSizeEx%SetFilePointerExQHeapSizeOHeapReAlloc�CloseHandle�CreateFileWWriteConsoleW
+                                                        DecodePointer⠀⠀⠀⠀⠀⠀⠀⠙⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢺⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⣾⢡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢢⡀⠀⠀RS{C4tsL1keStr1ng5}⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣷⡦⠀⠀⠀⠀⢰⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠃⣠⣾⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣆⠀⠀⠀⣾⣿⣿⣿⣷⠄⠀⠰⠤⣀⠀⠀⣴⣿⣿⡇°. •* .°•⁎⁺˳✧༚☆*⠀⠀⠀⠀⠀⠀⠀⠀⠃⢺⣿⣿⣿⣿⡄⠀⠀⣿⣿⢿⣿⣿⣦⣦⣦⣶⣼⣭⣼⣿⣿⣿⠇  ∧,,,∧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⣷⡆⠂⣿⣿⣞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀(  • · • )⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢙⣿⣿⣿⣿⣷⠸⣿⣿⣿⣿⣿⣿⠟⠻⣿⣿⣿⣿⡿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⢿⣿⣿⣿⣿⡄⣿⣿⣿⣿⣿⣿⡀⢀⣿⣿⣿⣿⠀⢸⣿⣿⠅⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⢐⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁/    > >☆ meow!⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⡀⣠⣾⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡔       /\___/\
+
+```
+
+Another similar challenge where I used `grep -a` can be found [here](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/lagncrash-interpoly-ctf-2022#plumber).
+
+Flag: RS{C4tsL1keStr1ng5}
+
