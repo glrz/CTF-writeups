@@ -86,7 +86,7 @@ Flag: picoCTF{SAf3\_0p3n3rr\_y0u\_solv3d\_it\_ccb5525e}
 
 ## timer
 
-<figure><img src="../../.gitbook/assets/image (3) (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file.
 

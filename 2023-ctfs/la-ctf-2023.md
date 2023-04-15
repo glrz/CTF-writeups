@@ -733,7 +733,7 @@ With this information, I went to `Google` to search for  `Carey Nachenberg`, and
 
 I also saw that he was climbing the `Santa Monica Mountain`.
 
-<figure><img src="../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 However, this was not the flag. I guess one could possibly search for possible hiking routes from `Santa Monica Mountains` but it would probably take quite some time to find the flag using `Google maps`.
 
@@ -743,7 +743,7 @@ For me, I just searched for `where carey nachenberg hiked to` and found this [si
 
 Upon browsing the site, I can see that it mentioned `We'll stop at Skull Rock to take in the views`. That was the flag, the location was at `Skull Rock`.
 
-<figure><img src="../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: lactf{skull\_rock}
 

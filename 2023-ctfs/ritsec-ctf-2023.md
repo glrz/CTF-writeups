@@ -10,7 +10,7 @@ More information can be found [here](https://ctftime.org/event/1860).
 
 I participated in the CTF with team [`youtiaos`](https://ctftime.org/team/194864) with my username `RZ`.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (6).png" alt=""><figcaption></figcaption></figure>
 
 I spent some time enjoying some of the simpler challenges during the weekend. I solved challenges in the `Introduction`, `Chandi Bot`, `Reversing` and `Steganography` categories.
 
@@ -22,7 +22,7 @@ For this challenge, it was similar to the challenges I solved [here ](https://ga
 
 Upon joining the discord server and navigating the the `rules` channel, we can see the flag displayed beside the top of the channel header.
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{!flag}
 
@@ -42,7 +42,7 @@ I was then presented with a few of the `FREQUENTLY USED` functions. One of them 
 
 Issuing the `/flag` command on the server would get the flag from the bot.
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{HMMM\_WHAT\_ARE\_YOU\_LOOKING\_AT}
 
@@ -56,7 +56,7 @@ For this challenge, we were given a `blank.png` file.
 
 First, we could open this in image viewer and we would see that it's just a blank image.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (9).png" alt=""><figcaption></figcaption></figure>
 
 Since the challenge was in the `steganography` category, I ran my favourite stego tool: `stegoveritas` as usual
 
@@ -324,13 +324,13 @@ I navigated to the `results` directory which contained several images of differe
 
 By viewing the image, I was presented with the flag.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{Th4t5\_w4cky\_m4n}
 
 ## Cats At Play
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (13).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the `reversing` category.
 
