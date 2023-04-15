@@ -10,7 +10,7 @@ Participants will need to solve a diverse range of cybersecurity challenges, inc
 
 The first two days of the CTF (14 & 15 April) will be conducted virtually, while the last day of the CTF (16 April) will be conducted F2F, where only the top 25 teams will have the opportunity to physically participate and attempt to solve the final wave of challenges within the specified time limit.
 
-I joined solo in this event and was later grouped together with a teammate - Lim jinkai, who coincidentally happened to be playing CTFs occasionally in team [youtiaos ](https://ctftime.org/team/194864)as well. I previously participated in CTFs with team youtiaos [here ](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/cyber-apocalypse-2023-the-cursed-mission)and [here](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/ritsec-ctf-2023).
+This competition allowed up to 4 members in a team. I joined solo in this event and was later grouped together with a teammate - Lim jinkai, who coincidentally happened to be playing CTFs occasionally in team [youtiaos ](https://ctftime.org/team/194864)as well. I previously participated in CTFs with team youtiaos [here ](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/cyber-apocalypse-2023-the-cursed-mission)and [here](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/ritsec-ctf-2023).
 
 This time, we were in the team: `Final Hour`. We played this CTF for fun under the open category and obtained the position 13/86. I was quite satisfied with this result and the number of challenges I solved during the CTF.
 
