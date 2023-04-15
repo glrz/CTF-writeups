@@ -14,19 +14,19 @@ I joined solo in this event and was later grouped together with a teammate - Lim
 
 This time, we were in the team: `Final Hour`. We played this CTF for fun under the open category and obtained the position 13/86. I was quite satisfied with this result and the number of challenges I solved during the CTF.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Team profile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Team profile</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Personal profile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Personal profile</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>Scoreboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Scoreboard</p></figcaption></figure>
 
 Since we were in the open category, we were not eligible to attend the physical event on 16 April and not eligible for prizes. Thus, we decided to enjoy this CTF and agreed to spend our points on various hints because we were not competing to win.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 We solved a total of 32 challenges. Out of the 32 challenges, I solved 20 of them. These challenges can be found listed below.
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 The challenges I solved were from the categories: `Misc`, `Forensics`, `Crypto`, `Osint`, `Web`, and `Reverse`.
 
