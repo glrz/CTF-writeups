@@ -63,7 +63,7 @@ Flag: HTB{th3s3\_4l13ns\_st1ll\_us3\_HTTP}
 
 ## Alien Cradle
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a zip file as well. In the zip file, we will find a `.ps1` file.
 

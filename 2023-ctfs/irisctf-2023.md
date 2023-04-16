@@ -22,7 +22,7 @@ I spent a few hours over the weekend trying out some of the challenges and manag
 
 ## &#x20;Sanity Check
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Like most CTFs which had a sanity check or welcome challenge, this CTF had one as well. It's basically a freebie or giveaway and to introduce the flag format to  participants.
 
@@ -44,7 +44,7 @@ Flag: irisctf{d15c0rd\_c0nn3cts\_y0u\_t0\_0ur\_0rg4n1z3rs}
 
 For this challenge, we were  given a `.pcapng` file embedded  in zip. This challenge was  relatively easy and was the easiest challenge under  the `Network` category. Most teams managed to solve it in 1 try.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I opened the extracted `.pcapng` file in Wireshark to inspect its packets and noticed there was a `babyshark.gif` file under the `HTTP`  protocol on  packet 133. This seemed interesting and so I proceeded to export this `HTTP` object. To extract this file, go to `File > Export Objects  >  HTTP ...`
 
@@ -67,7 +67,7 @@ This challenge was  under the `forensics` category and  I enjoyed solving it. Th
 I was the 7th to solve this challenge and was quite satisfied even though I think I could have first-blooded this challenge if I woke up earlier to attempt the challenges and if I attempted this challenge first before any other challenges.\
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I will split it up into 2 parts, but solving this challenge is not sequential. This means that you could solve `Part 1` first then  `Part 2` and  vice versa.
 
@@ -113,7 +113,7 @@ Now that we  have  the `secret` part of the flag, we are left with the `latitude
 
 First, we can  find the `latitude` and `longitude` by  running `exiftool`.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.&#x20;
 
@@ -133,7 +133,7 @@ There is a tricky part here. This picture was taken in `USA California` and we w
 
 To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
 
 Finally, we can find the `serial number` using `exiftool` as well.
 

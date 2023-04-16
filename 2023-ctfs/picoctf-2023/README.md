@@ -12,7 +12,7 @@ I was eligible in the global and undergraduate students scoreboard.
 
 <figure><img src="../../.gitbook/assets/image (7) (7).png" alt=""><figcaption><p>Global Scoreboard</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Undergraduate students scoreboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Undergraduate students scoreboard</p></figcaption></figure>
 
 I spent the first few days attempting the challenges and was pretty satisfied with the number of challenges I solved. I solved a total of 24 challenges in different categories such as Binary Exploitation, Cryptography, Forensics, General Skills, Reverse Engineering and Web Exploitation. I am glad I managed to learn some new skills which helped me solve these challenges.&#x20;
 
@@ -30,7 +30,7 @@ The challenges solved summary can be found below
 
 <figure><img src="../../.gitbook/assets/image (2) (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
