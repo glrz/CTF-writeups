@@ -113,7 +113,7 @@ Now that we  have  the `secret` part of the flag, we are left with the `latitude
 
 First, we can  find the `latitude` and `longitude` by  running `exiftool`.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.&#x20;
 
@@ -133,7 +133,7 @@ There is a tricky part here. This picture was taken in `USA California` and we w
 
 To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
 
 Finally, we can find the `serial number` using `exiftool` as well.
 

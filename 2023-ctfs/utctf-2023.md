@@ -373,7 +373,7 @@ An easier way to find the image would be to search for the challenge creator use
 
 Note: Only two images were `.jpg` files. There were several other `psyduck` that looked like image files but they were just Discord stickers.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can download the psyduck image in the `general` channel that contained the flag and run `StegoVeritas` which would find something in `StegHide`.
 
