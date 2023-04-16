@@ -8,6 +8,7 @@
     * [Osint](2023-ctfs/lag-and-crash-3.0/osint.md)
     * [Web](2023-ctfs/lag-and-crash-3.0/web.md)
     * [Reverse](2023-ctfs/lag-and-crash-3.0/reverse.md)
+  * [DSTA Brainhack Challenge 2023 - Cyber](2023-ctfs/dsta-brainhack-challenge-2023-cyber.md)
   * [RITSEC CTF 2023](2023-ctfs/ritsec-ctf-2023.md)
   * [Cyber Apocalypse 2023 - The Cursed Mission](2023-ctfs/cyber-apocalypse-2023-the-cursed-mission.md)
   * [WolvCTF 2023](2023-ctfs/wolvctf-2023.md)
