@@ -12,7 +12,7 @@ This challenge idea would be quite common in the basic `PWN/binary exploitation`
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Notice that for the previous 3 choices, A and B will not grant us access to the BrainHack's website. This  is a typo  on their side and they have corrected it later. The corrected version showed all choices in lower case.
+Notice that for the previous 3 choices, A and B will not grant us access to the BrainHack's website. This was a typo on DSTA side and they have corrected it later. The corrected version showed all choices in lower case.
 
 <figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
