@@ -89,7 +89,7 @@ Next, I proceeded to open up this  file on my hex editor : GHex. You could use a
 
 Opening the file in  hex  editor showed that the first few bytes are null bytes.&#x20;
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we scroll down till the end, we will see `FF D9`. Based on previous CTF experiences, we know that this is the trailer bytes for `.jpg` files. This gives us the idea that we are probably dealing with a `.jpg`  file.
 

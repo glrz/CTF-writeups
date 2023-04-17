@@ -2,7 +2,7 @@
 
 ## The Password
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a website link.
 

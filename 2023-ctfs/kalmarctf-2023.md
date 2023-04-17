@@ -80,7 +80,7 @@ We could use a text editor like `Notepad` to replace each `.` with the alphanume
 
 Alternatively, we could copy paste each stream on a new line on a text editor like `Sublime Text` to see the sequence better and form the flag eventually.
 
-<figure><img src="../.gitbook/assets/image (33) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Of course, there are better ways to solve this, by using a simple script to extract the UDP stream and check if an alphanumeric character is present in the previous stream. If it is present, do nothing, else it will replace the `.` with an alphanumeric character found in the current stream. This check will loop through the UDP streams until the flag is eventually formed.&#x20;
 

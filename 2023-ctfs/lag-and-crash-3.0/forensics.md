@@ -678,3 +678,82 @@ LNC2023{M3TaD@tA!@!}
 ```
 
 Flag: LNC2023{M3TaD@tA!@!}
+
+## Blind
+
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, we were given a `.gif` file. I was close to solving this challenge during the competition and solved it slightly after the competition.&#x20;
+
+If we run the `file` command, it would indicate that its a GIF image data.
+
+```
+┌──(kali㉿kali)-[~/Downloads]
+└─$ file blind.gif  
+blind.gif: GIF image data, version 87a, 2586 x
+```
+
+However, somethings quite off here. This file seemed to be corrupted or broken and cannot be opened.
+
+If we analyze it in a hex editor, we would see that the magic bytes are correct, but the bytes after it are not bytes that we should see in a GIF image data file.
+
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+
+`IHDR`, `sRGB`, `pHYs`, `IDAT` indicates that it could likely be a `.png` file instead. Checking the trailing bytes also showed that it matched with what a `.png` file would have.
+
+We could download a sample PNG file [here](https://file-examples.com/index.php/sample-images-download/sample-png-download/) to compare the magic bytes and replace it with the correct values.
+
+Alternatively, we could search up the magic bytes for file signature as well.
+
+Note that we should NOT just change it on the right side of hex editor i.e. Add in .PNG on the right like this.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+The above will not work. We will need to fix the bytes to the correct values like this
+
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+Now that we have the magic bytes fixed, we can save it as a `.png` file and view the image.
+
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Part 1 : LNC2023{       Part 3 : wrong}</p></figcaption></figure>
+
+However, in this image, it looked like we had part 1 and part 3 of the flag, but not part 2 of the flag.
+
+This was where I stopped during the competition. After the competition, I realized that part 2 of the flag could actually be seen after I ran `stegoveritas`.
+
+If we navigate to the `results` directory, we will see various images with different colour, contrast etc.
+
+```
+┌──(kali㉿kali)-[~/Downloads/results]
+└─$ ls
+exif                                 flag.png_enhance_sharpness_50.png   flag.png_Median.png
+flag.png_autocontrast.png            flag.png_enhance_sharpness_-75.png  flag.png_Min.png
+flag.png_Blue_0.png                  flag.png_enhance_sharpness_75.png   flag.png_Mode.png
+flag.png_Blue_1.png                  flag.png_equalize.png               flag.png_Red_0.png
+flag.png_Blue_2.png                  flag.png_Find_Edges.png             flag.png_Red_1.png
+flag.png_Blue_3.png                  flag.png_GaussianBlur.png           flag.png_Red_2.png
+flag.png_Blue_4.png                  flag.png_grayscale.png              flag.png_Red_3.png
+flag.png_Blue_5.png                  flag.png_Green_0.png                flag.png_Red_4.png
+flag.png_Blue_6.png                  flag.png_Green_1.png                flag.png_Red_5.png
+flag.png_Blue_7.png                  flag.png_Green_2.png                flag.png_Red_6.png
+flag.png_blue_plane.png              flag.png_Green_3.png                flag.png_Red_7.png
+flag.png_Edge-enhance_More.png       flag.png_Green_4.png                flag.png_red_plane.png
+flag.png_Edge-enhance.png            flag.png_Green_5.png                flag.png_Sharpen.png
+flag.png_enhance_sharpness_-100.png  flag.png_Green_6.png                flag.png_Smooth.png
+flag.png_enhance_sharpness_100.png   flag.png_Green_7.png                flag.png_solarized.png
+flag.png_enhance_sharpness_-25.png   flag.png_green_plane.png            keepers
+flag.png_enhance_sharpness_25.png    flag.png_inverted.png
+flag.png_enhance_sharpness_-50.png   flag.png_Max.png
+```
+
+In one of them, we could slightly see part 2 of the flag at the bottom.
+
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+Alternatively, we could open the original image that we fixed earlier in an image editing software like `gimp` and change its hue / brightness settings.
+
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Part 2 : guessiwas</p></figcaption></figure>
+
+By combining the three parts of the flag we obtained earlier, we will get the flag.
+
+Flag: LNC2023{guessiwaswrong}

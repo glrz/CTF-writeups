@@ -80,7 +80,7 @@ Flag: utflag{string\_theory\_is\_a\_cosmological\_theory\_based\_on\_the\_existe
 
 ## A Network Problem - Part 1
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (3).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was very easy and can be solved in no time.
 

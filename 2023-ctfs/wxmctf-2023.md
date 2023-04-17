@@ -60,7 +60,7 @@ Flag: CTF{digital\_archaeology\_42}
 
 ## The Maze
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
 
 This was an easy web challenge. First, lets click on the link provided in the challenge description. Upon clicking it, we will be redirected to this site.\
 

@@ -135,7 +135,7 @@ For example, here I am specifying to search the hidden `flag` sheet on Cell `T1`
 
 <figure><img src="../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (29) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
@@ -159,11 +159,11 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (10) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
@@ -930,7 +930,7 @@ Command successful.
 
 Next,  we could mount it to our system by clicking on the  `18MB  Volume`.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 We could then run the `ls -la` command to list  all the files, including hidden or temporary files.
 
