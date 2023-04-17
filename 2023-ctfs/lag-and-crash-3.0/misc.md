@@ -120,3 +120,37 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Flag: LNC2023{H1nds3ght}
 
+## Tennis Rookie
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, I solved it after the compeitition. It was actually using `Racket` lang.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+If we netcat into the server, we would see this shell like interface
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ nc nc.lagncra.sh 8008
+Welcome to Racket v7.2.
+> 
+```
+
+Using these two commands, we can open the flag file and key file
+
+> (read-line (open-input-file "/flag"))
+>
+> (read-line (open-input-file "/key"))
+
+```bash
+> (read-line (open-input-file "/flag"))   
+"XLE2023{zuhj_hv_jnhksm_ogsrg_nrnybitkx_rdc_czx_elxxkj_cuut}"
+> (read-line (open-input-file "/key"))
+"MYCOMPUTERLAGGINGANDCRASHINGFR"
+> 
+```
+
+We can then decode this as `Vigenere Cipher` using [CyberChef](https://cyberchef.org/#recipe=Vigen%C3%A8re\_Decode\('MYCOMPUTERLAGGINGANDCRASHINGFR'\)\&input=WExFMjAyM3t6dWhqX2h2X2puaGtzbV9vZ3NyZ19ucm55Yml0a3hfcmRjX2N6eF9lbHh4a2pfY3V1dH0).&#x20;
+
+Flag: LNC2023{lisp\_or\_scheme\_based\_languages\_are\_all\_pretty\_cool}

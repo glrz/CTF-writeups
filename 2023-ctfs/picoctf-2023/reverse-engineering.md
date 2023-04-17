@@ -25,7 +25,7 @@ Flag: picoCTF{3lf\_r3v3r5ing\_succe55ful\_8108250b}
 
 ## Safe Opener 2
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we  were given a `.class` file which contained compiled Java class data.
 

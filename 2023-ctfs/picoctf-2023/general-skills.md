@@ -2,7 +2,7 @@
 
 ## Rules 2023
 
-<figure><img src="../../.gitbook/assets/image (3) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we could navigate to the rules page.
 
