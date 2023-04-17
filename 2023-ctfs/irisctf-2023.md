@@ -89,7 +89,7 @@ Next, I proceeded to open up this  file on my hex editor : GHex. You could use a
 
 Opening the file in  hex  editor showed that the first few bytes are null bytes.&#x20;
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we scroll down till the end, we will see `FF D9`. Based on previous CTF experiences, we know that this is the trailer bytes for `.jpg` files. This gives us the idea that we are probably dealing with a `.jpg`  file.
 
@@ -113,7 +113,7 @@ Now that we  have  the `secret` part of the flag, we are left with the `latitude
 
 First, we can  find the `latitude` and `longitude` by  running `exiftool`.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.&#x20;
 
@@ -215,7 +215,7 @@ We can filter it by `tcp.len > 0` to view the packets that contains payload or  
 
 Finally, we can inspect the packet data which will give us the flag.
 
-<figure><img src="../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could use  [`airdecap-ng`](https://www.aircrack-ng.org/doku.php?id=airdecap-ng) to decrypt the WPA/WPA2 capture file. We can do so by running the following command:
 

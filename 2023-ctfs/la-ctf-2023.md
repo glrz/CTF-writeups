@@ -99,7 +99,7 @@ However, I soon realized that by searching each character on the keyboard, it wa
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
@@ -145,7 +145,7 @@ After I had all the alphanumeric characters gathered from cell `A1` to cell `Z1`
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 

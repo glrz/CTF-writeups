@@ -38,7 +38,7 @@ Next, I tested the possible `commands` which I can issue to the bot on the serve
 
 I was then presented with a few of the `FREQUENTLY USED` functions. One of them was `/flag` &#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Issuing the `/flag` command on the server would get the flag from the bot.
 
@@ -56,7 +56,7 @@ For this challenge, we were given a `blank.png` file.
 
 First, we could open this in image viewer and we would see that it's just a blank image.
 
-<figure><img src="../.gitbook/assets/image (3) (9) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (9).png" alt=""><figcaption></figcaption></figure>
 
 Since the challenge was in the `steganography` category, I ran my favourite stego tool: `stegoveritas` as usual
 
@@ -324,7 +324,7 @@ I navigated to the `results` directory which contained several images of differe
 
 By viewing the image, I was presented with the flag.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{Th4t5\_w4cky\_m4n}
 
