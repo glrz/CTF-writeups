@@ -24,12 +24,12 @@ Since we were in the open category, we were not eligible to attend the physical 
 
 <figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-We solved a total of 32 challenges. Out of the 32 challenges, I solved 20 of them. The challenges I solved can be found listed below.
+We solved a total of 32 challenges. Out of the 32 challenges, I solved 20 of them myself. The challenges I solved can be found listed below.
 
 <figure><img src="../../.gitbook/assets/image (50) (3).png" alt=""><figcaption></figcaption></figure>
 
 The challenges I solved were from the categories: `Misc`, `Forensics`, `Crypto`, `Osint`, `Web`, and `Reverse`.
 
-I will be splitting these challenges into their respective categories.
+I will be splitting these challenges into their respective categories. I also included some challenges which I solved after the competition and some which I discussed with my teammate.
 
 You may want to check out my previous year Lag and Crash writeups in [2021 ](https://gadiel-lau.gitbook.io/2021-writeup/2021-ctfs/lagncrash-interpoly-ctf-2021)and [2022 ](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/lagncrash-interpoly-ctf-2022)as well :)
