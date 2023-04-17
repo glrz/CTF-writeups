@@ -82,7 +82,7 @@ krxlXGU{zgyzhs_xizxp_03w8uvvu}
 
 Decoding it on [dCode ](https://www.dcode.fr/atbash-cipher)will give us the flag.
 
-<figure><img src="../../.gitbook/assets/image (20) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: picoCTF{atbash\_crack\_03d8feef}
 
@@ -124,11 +124,11 @@ Flag: picoCTF{read\_mycert\_27442dba}
 
 ## rotation
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (4).png" alt=""><figcaption></figcaption></figure>
 
 We can download the `encrypted.txt` file which showed some string that looked like it was rotated. We can use the common `ROT13` to decode it. However, this would not give us the flag.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 If we increase the `amount` to 18, we will get the flag.
 

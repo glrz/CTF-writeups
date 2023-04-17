@@ -521,7 +521,7 @@ The headers can be replaced as follows:
 
 Once they are replaced, the `.png` file will be fixed.
 
-<figure><img src="../.gitbook/assets/image (7) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can then open the image in image viewer using the `eog` command
 

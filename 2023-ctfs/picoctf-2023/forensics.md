@@ -69,7 +69,7 @@ First, we could open it in `Wireshark` to analyze the packets.
 
 There were quite a number of packets to analyze.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 So I thought.. why not let me try this quick "hack", where I can quickly search for the flag in these packet. By using `strings` on the pcap file and `grep` to search for the flag format, I was able to get the flag.
 
@@ -356,7 +356,7 @@ At first glance, I noticed that the flag could have been splitted. Additionally,
 
 <figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 

@@ -316,7 +316,7 @@ Flag: LNC2023{annoyingwave}
 
 For this challenge we were given a `flag.jpg` file and I was third  to solve the challenge.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 First, if we run the `file` command, we would see that this is not a jpg image file but rather a ASCII text file, similar to the previous  `Slay The Robot` challenge.
 
@@ -356,7 +356,7 @@ Flag: LNC2023{eX1enSL0N1sF8n}
 
 ## Base Madness
 
-<figure><img src="../../.gitbook/assets/image (5) (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (7).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given two files, 1 `.txt` file and another `.zip` file.
 
@@ -446,7 +446,7 @@ Flag: LNC2023{ayaka\_is\_key}
 
 ## Incompetent
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file and I was the first to solve it.
 
@@ -513,7 +513,7 @@ If we open it in hex editor, we would see a string that looks like a japanese ph
 └─$ ghex password.docx
 ```
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 We can use the Password: `kimiwadekinaiko` to unzip the `.7z` file and this will extract a new directory.
 
@@ -604,7 +604,7 @@ Flag: LNC2023{konoyodeichibandekinaiko}
 
 For this challenge, we were given a `.jpg` image file and I was the first to solve it.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 First, lets open this image in image viewer.
 
@@ -667,7 +667,7 @@ b'TE5DMjAyM3tNM1RhREB0QSFAIX0='
 
 From here we could use an online tool like CyberChef to decode the `Base64` which gives us the flag`.`
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could decode it directly in the terminal (which is what I prefer and usually do).
 

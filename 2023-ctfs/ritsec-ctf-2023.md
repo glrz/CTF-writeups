@@ -38,7 +38,7 @@ Next, I tested the possible `commands` which I can issue to the bot on the serve
 
 I was then presented with a few of the `FREQUENTLY USED` functions. One of them was `/flag` &#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Issuing the `/flag` command on the server would get the flag from the bot.
 
@@ -324,7 +324,7 @@ I navigated to the `results` directory which contained several images of differe
 
 By viewing the image, I was presented with the flag.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{Th4t5\_w4cky\_m4n}
 

@@ -107,7 +107,7 @@ Before we can do that, we need to remember to encode it in `Base64` first, as se
 
 We can do that using `CyberChef`.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 This gives us the output: `ZGVidWcuaHRtbA==`
 
@@ -178,6 +178,6 @@ Alternatively, we could also use `Burp Suite`, use the proxy and turn on interce
 
 Similarly, we would obtain the flag after sending the request. As we can see, the flag is obtained in the response.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: bctf{h4d\_fun\_w1th\_my\_l4st\_m1nut3\_w4rmuP????!}

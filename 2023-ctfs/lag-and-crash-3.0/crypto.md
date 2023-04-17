@@ -2,7 +2,7 @@
 
 ## Noise
 
-<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given two `.wav` files.
 
@@ -27,7 +27,7 @@ In audacity, I simply adjusted some of the `Stetrogram settings` to get a cleare
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As we already know, the short dashes represent `.` and longer dashes represents `-` in morse code. I then decoded it manually using [CyberChef](https://cyberchef.org/#recipe=From\_Morse\_Code\('Space','Line%20feed'\)\&input=Li0uLiAtLiAtLi0uIC4uLS0tIC0tLS0tIC4uLS0tIC4uLi0tIC4tLiAuLSAtLi4gLi4gLS0tIC4tLSAuLSAuLi4tIC4gLi4gLS4gLSAuIC4tLiAuLi0uIC4gLi0uIC4gLS4gLS4tLiAu).
 
@@ -37,7 +37,7 @@ Flag: LNC2023{RADIOWAVEINTERFERENCE}
 
 ## 2030
 
-<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 This was probably one of the harder crypto challenges (as compared to other challenges) which I solved.
 
@@ -93,7 +93,7 @@ Running Module: SVImage
                                                                             b'\xaa\xaa\xaa\xaa'
 ```
 
-<figure><img src="../../.gitbook/assets/image (6) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 However, this was just a red herring. To get the flag, we simply run `strings` and `grep` for the flag format.
 
@@ -148,7 +148,7 @@ Flag: LNC2023{DETERMINED}
 
 ## Zig Zag
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 As the challenge name suggested, this is Rail fence (zigzag) Cipher.
 
@@ -158,7 +158,7 @@ Flag: LNC2023{thiswasquiteobvious}
 
 ## Ancient Pokémon
 
-<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.png` image file.
 
@@ -170,7 +170,7 @@ Ancient_Pokemon.png: PNG image data, 600 x 531, 8-bit/color RGBA, non-interlaced
 
 First, I opened this image in image viewer.
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 This looked like some kind of symbol cipher. We could search it up on [dcode](https://www.dcode.fr/symbols-ciphers) and we would find that this is `Pokemon unown alphabet`. We could also infer from the challenge description which mentioned `Unown`.
 
@@ -190,7 +190,7 @@ Flag: LNC2023{iwanttobetheverybest}
 
 ## You Don't Know About Us
 
-<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (6).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given this encoded string in the challenge description.
 
@@ -198,7 +198,7 @@ For this challenge, we were given this encoded string in the challenge descripti
 
 We can copy paste this into CyberChef which would suggest that it's `Base32` encoded.
 
-<figure><img src="../../.gitbook/assets/image (5) (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can decode it as `Base32` on [CyberChef ](https://cyberchef.org/#recipe=From\_Base32\('A-Z2-7%3D',false\)\&input=SlpVV0daSkFPUlpIU0lESU9WV1dDM1JCRUJLR1EyTFRFQlVYR0lEVU5CU1NBWUxET1IyV0MzQkFNVlhHRzMzRU1WU0NBM0xGT05aV0M0M0hNVTVBVVFTRUtNWkRBTVJUUE4yR1dZM1NPUlZXRzRUNQ)and we would get what seemed like the flag, but with a shift of characters.
 
@@ -206,7 +206,7 @@ We can decode it as `Base32` on [CyberChef ](https://cyberchef.org/#recipe=From\
 
 Finally, we could add `ROT13 Brute Force` to the [CyberChef recipe](https://cyberchef.org/#recipe=From\_Base32\('A-Z2-7%3D',false\)ROT13\_Brute\_Force\(true,true,false,100,0,true,''\)\&input=SlpVV0daSkFPUlpIU0lESU9WV1dDM1JCRUJLR1EyTFRFQlVYR0lEVU5CU1NBWUxET1IyV0MzQkFNVlhHRzMzRU1WU0NBM0xGT05aV0M0M0hNVTVBVVFTRUtNWkRBTVJUUE4yR1dZM1NPUlZXRzRUNQ), which will give us the flag.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Flag: LNC2023{dumbdumb}
 

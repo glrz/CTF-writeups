@@ -20,7 +20,7 @@ However, if we tried to scan the QR code at around 2-3 seconds into the video, i
 
 Upon reaching the challenge page, we were presented with the challenge description, some instructions and a challenge file.
 
-<figure><img src="../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../.gitbook/assets/special_hong_bao.7z" %}
 
@@ -157,7 +157,7 @@ Compressed: 66593
 Now if we ran the `ls` command to check the files in the directory, we would see a bunch of ADS.\
 
 
-<figure><img src="../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 How could we look for the ADS which contains the flag? Going through and reading the contents of all 1000 of alternate streams manually in Linux would probably not be the best idea and would be too time-consuming.&#x20;
 
