@@ -89,7 +89,7 @@ We could paste this into [CyberChef](https://cyberchef.org/#recipe=From\_Base64\
 We could copy-paste the `Base64 encoded` string on `CyberChef` again to confirm the flag.\
 
 
-<figure><img src="../.gitbook/assets/image (1) (3) (1) (1).png" alt=""><figcaption><p>Q1NJVHskODg4X2hBUHBZX1kzQFJfMGZfckA4YjFUfQ==</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption><p>Q1NJVHskODg4X2hBUHBZX1kzQFJfMGZfckA4YjFUfQ==</p></figcaption></figure>
 
 Flag: CSIT{$888\_hAPpY\_Y3@R\_0f\_r@8b1T}
 

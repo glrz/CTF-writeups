@@ -12,7 +12,7 @@ description: >-
 
 For this challenge, we were given a `Flag.jpg` file and I was the first to solve it.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (4).png" alt=""><figcaption></figcaption></figure>
 
 As the challenge name suggested, there could be files embedded within.
 
@@ -312,7 +312,7 @@ Flag: LNC2023{annoyingwave}
 
 ## Survival's Message
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge we were given a `flag.jpg` file and I was third  to solve the challenge.
 
@@ -667,7 +667,7 @@ b'TE5DMjAyM3tNM1RhREB0QSFAIX0='
 
 From here we could use an online tool like CyberChef to decode the `Base64` which gives us the flag`.`
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could decode it directly in the terminal (which is what I prefer and usually do).
 

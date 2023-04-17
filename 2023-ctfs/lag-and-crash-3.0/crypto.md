@@ -2,7 +2,7 @@
 
 ## Noise
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (6).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given two `.wav` files.
 
@@ -27,7 +27,7 @@ In audacity, I simply adjusted some of the `Stetrogram settings` to get a cleare
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As we already know, the short dashes represent `.` and longer dashes represents `-` in morse code. I then decoded it manually using [CyberChef](https://cyberchef.org/#recipe=From\_Morse\_Code\('Space','Line%20feed'\)\&input=Li0uLiAtLiAtLi0uIC4uLS0tIC0tLS0tIC4uLS0tIC4uLi0tIC4tLiAuLSAtLi4gLi4gLS0tIC4tLSAuLSAuLi4tIC4gLi4gLS4gLSAuIC4tLiAuLi0uIC4gLi0uIC4gLS4gLS4tLiAu).
 
@@ -107,7 +107,7 @@ Flag: LNC2023{w45\_x0r\_fun?}
 
 ## Hope
 
-<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we are given a `.txt` file.
 
@@ -158,7 +158,7 @@ Flag: LNC2023{thiswasquiteobvious}
 
 ## Ancient Pokémon
 
-<figure><img src="../../.gitbook/assets/image (3) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (9).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.png` image file.
 
@@ -206,7 +206,7 @@ We can decode it as `Base32` on [CyberChef ](https://cyberchef.org/#recipe=From\
 
 Finally, we could add `ROT13 Brute Force` to the [CyberChef recipe](https://cyberchef.org/#recipe=From\_Base32\('A-Z2-7%3D',false\)ROT13\_Brute\_Force\(true,true,false,100,0,true,''\)\&input=SlpVV0daSkFPUlpIU0lESU9WV1dDM1JCRUJLR1EyTFRFQlVYR0lEVU5CU1NBWUxET1IyV0MzQkFNVlhHRzMzRU1WU0NBM0xGT05aV0M0M0hNVTVBVVFTRUtNWkRBTVJUUE4yR1dZM1NPUlZXRzRUNQ), which will give us the flag.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: LNC2023{dumbdumb}
 

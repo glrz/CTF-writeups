@@ -122,11 +122,11 @@ Flag: LNC2023{H1nds3ght}
 
 ## Tennis Rookie
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I solved it after the compeitition. It was actually using `Racket` lang.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 If we netcat into the server, we would see this shell like interface
 
