@@ -69,7 +69,7 @@ First, we could open it in `Wireshark` to analyze the packets.
 
 There were quite a number of packets to analyze.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 So I thought.. why not let me try this quick "hack", where I can quickly search for the flag in these packet. By using `strings` on the pcap file and `grep` to search for the flag format, I was able to get the flag.
 
@@ -341,7 +341,7 @@ Flag: picoCTF{WilhelmZwalina}
 
 ## FindAndOpen
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.pcap` file.
 
@@ -354,7 +354,7 @@ First, I opened it in `Wireshark` to further analyze what's going on.
 
 At first glance, I noticed that the flag could have been splitted. Additionally, I also noticed some interesting strings which looked encoded.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -375,7 +375,7 @@ I copied these strings in `CyberChef` and used the following [recipe](https://cy
 
 This would give us what seemed like a partial flag.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 I used this as the password to unlock the `.zip` file provided and managed to unzipped it.
 

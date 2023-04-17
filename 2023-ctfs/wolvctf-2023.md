@@ -20,7 +20,7 @@ Fun Fact: I actually did not plan to participate in this CTF. However, after I s
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it provided a link to the Discord server. Once we navigate to the `rules` channel, we will be able to see the flag beside the channel name.
 
@@ -30,7 +30,7 @@ Flag: wctf{w3lc0m3\_t0\_w0lvctf\_2023}
 
 ## Switcheroo
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 As previously mentioned, I solved the[ b01lersCTF's switcheroo](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/b01lers-ctf-2023#switcheroo) challenge and obtained the flag from there. It was pretty interesting that these two different CTFs swapped their flags.&#x20;
 
@@ -351,7 +351,7 @@ Once we have opened the file, we can go to `Statistics > Protocol Hierarchy` to 
 
 If we filter by `ftp-data`, we will notice a `epicfight.jpg` file being sent.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can right click on the packet, `Follow > TCP Stream` and increment the stream until we  see the file transfer content.
 
@@ -359,7 +359,7 @@ We can right click on the packet, `Follow > TCP Stream` and increment the stream
 
 &#x20;Before saving this image, we need to change `Show data as: ASCII` to `RAW`
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can then save this file as `flag.jpg` and view it.
 
@@ -371,7 +371,7 @@ Alternatively, we could also go to `File > Export Objects > FTP - DATA` to extra
 
 Note that this would only work in the newer versions of Wireshark. Previously,  I was using Wireshark ver 3.6 and it did not provide the option to export objects from FTP-DATA.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can save the image and view it as well.
 

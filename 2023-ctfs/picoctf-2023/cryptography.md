@@ -2,13 +2,13 @@
 
 ## HideToSee
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given an image file.
 
 Upon opening the image, it showed the typical image of an `atbash cipher`.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 From the challenge title, it was probably referring to `Steghide`.&#x20;
 
@@ -82,7 +82,7 @@ krxlXGU{zgyzhs_xizxp_03w8uvvu}
 
 Decoding it on [dCode ](https://www.dcode.fr/atbash-cipher)will give us the flag.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: picoCTF{atbash\_crack\_03d8feef}
 

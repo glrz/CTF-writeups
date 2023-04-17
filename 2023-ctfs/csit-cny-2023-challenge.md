@@ -177,7 +177,7 @@ Note that here I was trying to grep `Q1NJVHs` which is basically the `Base64 enc
 This would give us the stream name of the ADS where the flag can be found.\
 
 
-<figure><img src="../.gitbook/assets/image (20) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could also use a tool like [ADS Manager](https://dmitrybrant.com/adsmanager) to search through those with `size` greater than 5, since most of the ADS size were `5` and those that are greater likely suggest that there are hidden messages. From here, we could decode the `Base64` encoded string and get the flag as well.\
 

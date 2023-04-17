@@ -17,7 +17,7 @@ Surprisingly, the `sanity check` challenge had fewer solves than `switcheroo` ch
 
 ## sanity check
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a link to the Discord server.&#x20;
 
@@ -107,7 +107,7 @@ Before we can do that, we need to remember to encode it in `Base64` first, as se
 
 We can do that using `CyberChef`.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This gives us the output: `ZGVidWcuaHRtbA==`
 

@@ -2,7 +2,7 @@
 
 ## Invisibility
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was pretty easy and straightforward.
 
@@ -15,7 +15,7 @@ I opened the `.txt` file in a text editor like `Sublime Text`&#x20;
 
 I pressed `CTRL + A` which showed a bunch of dot and dashes. This likely implied that it is `morse code`.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 We could manually type out these and paste it into [CyberChef ](https://cyberchef.org/#recipe=From\_Morse\_Code\('Space','Line%20feed'\)Remove\_whitespace\(true,true,true,true,true,false\)\&input=Li0tLS0KLS4KLi4uLQouLS0tLQouLi4KLi0tLS0KLS4uLgouLS0tLQouIAotLi0uCi0tLS0tCi0uLgouLi4tLSAKCgogICAJCgogCQkJCQoKICAgCgogCQkJCQoKCSAgIAoKIAkJCQkKCiAKCgkgCSAKCgkJCQkJCgoJICAKCiAgIAkJCgogCQkJCQoKCSAgIAoKIAkJCQkKCiAKCgkgCSAKCgkJCQkJCgoJICAKCiAgIAkJ)to get the flag.
 
@@ -25,7 +25,7 @@ Flag: LNC2023{1NV1S1B1EC0D3}
 
 ## Swiftly
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 We were given a `.gif` file. We could open this `.gif` file and see that there are various QR codes that changed upon transition.
 
@@ -97,7 +97,7 @@ Flag: LNC2023{Are\_y0u\_FaSt\_En0ugh\_4\_th1s}
 
 ## Hindsight
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a bunch of text with the flag hidden in it.&#x20;
 

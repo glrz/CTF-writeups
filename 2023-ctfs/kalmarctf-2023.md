@@ -14,7 +14,7 @@ I was able to allocate some time to tackle a couple of challenges and successful
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was super straightfoward. If we navigate to the `Rules` section and scroll down, we would find the flag. Alternatively, we could search for `kalmar{` as well.
 
@@ -195,7 +195,7 @@ First, I opened the `pcap` file to analyze the packets. However, I did not find 
 
 By running the `strings` command, I was able to roughly see what was going on in the process dump. As I scrolled through the `strings`, I found the flag which happened to be under the `password` portion.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, I could have just `grep` for the flag as such
 

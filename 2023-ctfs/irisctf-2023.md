@@ -14,7 +14,7 @@ I wanted to try participating as solo because it has been quite some time since 
 
 Fast forward one year, I started to participate more actively in CTFs in the year 2022 and gained more confidence and experience in tackling CTF challenges. This time I took courage to participate in non-local CTF as solo again after more than a year. Eventually, I got 227/730 placing which is still not too bad I guess.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I spent a few hours over the weekend trying out some of the challenges and managed to solve some challenges. I especially enjoyed the forensics challenge in this CTF  where I get to  learn  more about timezones and epochtime :) I solved a total of 5 challenges.
 
@@ -117,7 +117,7 @@ First, we can  find the `latitude` and `longitude` by  running `exiftool`.
 
 We can simply copy paste these values in Google and get the latitude and  longitude in decimal form: `37.74_-119.59`. We can also see the  location where this image was taken.&#x20;
 
-<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, we can proceed to find the  `epochtime`.  The `epochtime` is the number of seconds since 01/01/1970 UTC 00:00:00, also known as `unix time`. It is `UTC` which  is also `GMT +0.`
 
@@ -133,7 +133,7 @@ There is a tricky part here. This picture was taken in `USA California` and we w
 
 To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
 
 Finally, we can find the `serial number` using `exiftool` as well.
 
@@ -153,15 +153,15 @@ Flag: irisctf{37.74\_-119.59\_1661619896\_392075057288\_exif\_data\_can\_leak\_a
 
 ## Exit Survey
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge is a survey form which mainly questioned our experience on  this CTF.  After the survey is submitted, the flag is encodded in `Base64`.
 
-<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can easily solve this by copy pasting into CyberChef and will get the flag from the output after decoding the `Base64`.
 
-<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: irisctf{struggling\_means\_youre\_learning\_thank\_you\_and\_happy\_hacking}
 
@@ -191,7 +191,7 @@ $ aircrack-ng BobertsonNet.cap -w /usr/share/wordlists/rockyou.txt
 
 After a few seconds, the password will be found : billybob1.&#x20;
 
-<figure><img src="../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can use this key to decrypt the packets. To decrypt, we can follow the documentation [here](https://wiki.wireshark.org/HowToDecrypt802.11). Note  that we do not need all 4 eapol packets to be captured to crack the password as shown above, we could still crack the password with 3 out of 4 eapol packets.
 
@@ -199,7 +199,7 @@ We can navigate `File > Edit > Preferences`
 
 &#x20;&#x20;
 
-<figure><img src="../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, we go to IEEE 802.11 and edit the decryption key.
 
