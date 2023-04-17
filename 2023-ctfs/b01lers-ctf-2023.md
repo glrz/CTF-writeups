@@ -107,7 +107,7 @@ Before we can do that, we need to remember to encode it in `Base64` first, as se
 
 We can do that using `CyberChef`.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This gives us the output: `ZGVidWcuaHRtbA==`
 

@@ -44,7 +44,7 @@ First, we could open the `.pcap` file in Wireshark to futher analyze the packets
 
 Next, if we right click on the first packet, `Follow > TCP Stream`, and increment the stream to `stream 4`, we will be able to see the flag in plaintext.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, an easier and faster way could be to use `strings` to search for string text in the capture file and use `grep` to find the flag format
 
@@ -83,7 +83,7 @@ We can use this [CyberChef recipe](https://cyberchef.org/#recipe=Find\_/\_Replac
 2. Find `+` string and replace
 3. Find   and replace
 
-<figure><img src="../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: HTB{p0w3rsh3ll\_Cr4dl3s\_c4n\_g3t\_th3\_j0b\_d0n3}
 

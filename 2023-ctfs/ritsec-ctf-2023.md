@@ -324,7 +324,7 @@ I navigated to the `results` directory which contained several images of differe
 
 By viewing the image, I was presented with the flag.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: RS{Th4t5\_w4cky\_m4n}
 
