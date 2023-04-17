@@ -14,9 +14,9 @@ This competition allowed up to 4 members in a team. I joined solo in this event 
 
 This time, we were in the team: `Final Hour`. We played this CTF for fun under the open category and obtained the position `12/86`. I was quite satisfied with this result and the number of challenges I solved during the CTF.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Team profile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (5).png" alt=""><figcaption><p>Team profile</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Personal profile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (4).png" alt=""><figcaption><p>Personal profile</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Scoreboard</p></figcaption></figure>
 
@@ -26,7 +26,7 @@ Since we were in the open category, we were not eligible to attend the physical 
 
 We solved a total of 32 challenges. Out of the 32 challenges, I solved 20 of them. The challenges I solved can be found listed below.
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50) (3).png" alt=""><figcaption></figcaption></figure>
 
 The challenges I solved were from the categories: `Misc`, `Forensics`, `Crypto`, `Osint`, `Web`, and `Reverse`.
 

@@ -8,7 +8,7 @@ description: >-
 
 ## Embedment
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (7).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `Flag.jpg` file and I was the first to solve it.
 
@@ -312,7 +312,7 @@ Flag: LNC2023{annoyingwave}
 
 ## Survival's Message
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge we were given a `flag.jpg` file and I was third  to solve the challenge.
 
@@ -356,13 +356,13 @@ Flag: LNC2023{eX1enSL0N1sF8n}
 
 ## Base Madness
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (7).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given two files, 1 `.txt` file and another `.zip` file.
 
 I was third to solve this challenge.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (8).png" alt=""><figcaption></figcaption></figure>
 
 First, lets read the contents of the `.txt` file. We can see that it is encoded and appended with `=`. This could suggest that it could be `Base64` encoded.
 
@@ -450,7 +450,7 @@ Flag: LNC2023{ayaka\_is\_key}
 
 For this challenge, we were given a `.zip` file and I was the first to solve it.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 First,  lets unzip this file.
 
@@ -513,7 +513,7 @@ If we open it in hex editor, we would see a string that looks like a japanese ph
 └─$ ghex password.docx
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can use the Password: `kimiwadekinaiko` to unzip the `.7z` file and this will extract a new directory.
 
@@ -600,7 +600,7 @@ Flag: LNC2023{konoyodeichibandekinaiko}
 
 ## Destroyed
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (8).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.jpg` image file and I was the first to solve it.
 
@@ -608,7 +608,7 @@ For this challenge, we were given a `.jpg` image file and I was the first to sol
 
 First, lets open this image in image viewer.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (5).png" alt=""><figcaption></figcaption></figure>
 
 This looked like any other ordinary images. Based on previous CTF experience, this could be a `steganography` challenge.&#x20;
 
