@@ -707,7 +707,7 @@ Alternatively, we could search up the magic bytes for file signature as well.
 
 Note that we should NOT just change it on the right side of hex editor i.e. Add in .PNG on the right like this.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The above will not work. We will need to fix the bytes to the correct values like this
 

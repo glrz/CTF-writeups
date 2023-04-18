@@ -27,7 +27,7 @@ In audacity, I simply adjusted some of the `Stetrogram settings` to get a cleare
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As we already know, the short dashes represent `.` and longer dashes represents `-` in morse code. I then decoded it manually using [CyberChef](https://cyberchef.org/#recipe=From\_Morse\_Code\('Space','Line%20feed'\)\&input=Li0uLiAtLiAtLi0uIC4uLS0tIC0tLS0tIC4uLS0tIC4uLi0tIC4tLiAuLSAtLi4gLi4gLS0tIC4tLSAuLSAuLi4tIC4gLi4gLS4gLSAuIC4tLiAuLi0uIC4gLi0uIC4gLS4gLS4tLiAu).
 

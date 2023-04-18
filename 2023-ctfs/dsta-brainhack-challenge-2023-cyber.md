@@ -10,7 +10,7 @@ The challenge concept was mainly about buffer overflow and vulnerable functions 
 
 This challenge idea would be quite common in the basic `PWN/binary exploitation` category. However, this challenge does not require us to PWN or perform binary exploitation. It is more about understanding the concept of it and selecting the correct answer in the MCQ.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Notice that for the previous 3 choices, A and B will not grant us access to the BrainHack's website. This was a typo on DSTA side and they have corrected it later. The corrected version showed all choices in lower case.
 
@@ -22,7 +22,9 @@ Option B will grant us access due to `strcmp`  function which fulfilled the if s
 
 Option C will cause [buffer overflow](https://owasp.org/www-community/vulnerabilities/Buffer\_Overflow) as it has 16 characters. Char password\[15] can only take in 15 characters. Anything more than that causes buffer overflow, which also cause it to execute and launch BrainHack's website.
 
-In the code given, it was using vulnerable C functions  such as `gets` and `strcmp`. These vulnerable functions can lead to buffer overflow. More information about vulnerable C functions can be found [here](https://infosecwriteups.com/common-c-vulnerabilities-b84777e071b9).
+In the code given, it was using vulnerable C functions  such as `gets` and `strcmp`. These vulnerable functions can lead to buffer overflow. Hackers exploit buffer overflows to infiltrate networks and take control of systems.
+
+More information about vulnerable C functions can be found [here](https://infosecwriteups.com/common-c-vulnerabilities-b84777e071b9).
 
 For beginners who are not familiar with this concept or C functions, you could also try out typing the code manually and compiling it.
 
@@ -71,6 +73,8 @@ C:\Users\Gadiel\Desktop\Extracurricular\DSTA\Cyber Quiz - buff overflow concept>
  Enter the password:m
 ```
 
-After testing out the application, option B and C will grant access to BrainHack's website,  while option A will not.
+After testing out the application, option B and C will grant access to BrainHack's website, while option A will not.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Answer: A
