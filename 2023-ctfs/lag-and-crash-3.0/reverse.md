@@ -2,7 +2,7 @@
 
 ## Baby Shark
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (10).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.pcapng` file.
 
