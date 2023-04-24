@@ -61,7 +61,7 @@ Flag: picoCTF{Hiddinng\_An\_imag3\_within\_@n\_ima9e\_6f0d0103}
 
 ## PcapPoisoning
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.pcap` file.
 
@@ -83,7 +83,7 @@ Flag: picoCTF{P64P\_4N4L7S1S\_SU55355FUL\_b9e1bc54}
 
 ## who is it
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can download the `.eml` email file.
 
@@ -185,7 +185,7 @@ QW1vdW50OiAgJDEsMDAwLDAwMAo=
 
 We can copy paste this into [MxTOOLBOX email header analyzer](https://mxtoolbox.com/EmailHeaders.aspx).
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (4).png" alt=""><figcaption></figcaption></figure>
 
 This would give us the `IP address` of the mail server which was blacklisted.
 

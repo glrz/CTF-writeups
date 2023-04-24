@@ -36,4 +36,4 @@ You may want to check out my previous year Lag and Crash writeups in [2021 ](htt
 
 After this event, they issued a badge for the participants. You may want to take a look at the badge I obtained [here](https://badgr.com/public/assertions/yuZtWRNkS36X-Reb4gnM2Q?action=download). Note that even though I was among the top 25 teams, I did not qualify to get the separate badge for Top 25 teams because I participated in the open category.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>

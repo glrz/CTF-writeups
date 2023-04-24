@@ -292,7 +292,7 @@ This image might just look like a Discord sticker to many and if we did not clic
 
 There was another similar image posted in the `memes` channel as well.
 
-<figure><img src="../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 However, even though this image was similar, with the same filename, it did not contain the flag.
 
