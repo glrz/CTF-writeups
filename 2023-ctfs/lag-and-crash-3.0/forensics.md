@@ -842,4 +842,6 @@ Once we open the password protected PDF file, we are presented with the flag.
 
 <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
+You might want to check out a very detailed writeup by a friend [here](https://flagthecapture.blogspot.com/2023/04/ctf-writeup-lnc-2023-licensed-forensics.html) where he used another tool: `Autopsy` to solve it.
+
 Flag: LNC2023{ou7of51ght\_outofm1nd}
