@@ -844,4 +844,6 @@ Once we open the password protected PDF file, we are presented with the flag.
 
 You might want to check out a very detailed writeup by a friend [here](https://flagthecapture.blogspot.com/2023/04/ctf-writeup-lnc-2023-licensed-forensics.html) where he used another tool: `Autopsy` to solve it.
 
+For simpler and more detailed forensics challenges which I solved using FTK Imager, you might want to check out my previous writeups in [GSCTF 2020](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/gsctf-2020#imaging) and [CDDC 2022 training](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2022/ctf-topics/cyber-forensics#my-secret-folder).
+
 Flag: LNC2023{ou7of51ght\_outofm1nd}
