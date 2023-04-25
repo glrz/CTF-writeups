@@ -83,7 +83,7 @@ Flag: picoCTF{P64P\_4N4L7S1S\_SU55355FUL\_b9e1bc54}
 
 ## who is it
 
-<figure><img src="../../.gitbook/assets/image (25) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can download the `.eml` email file.
 
@@ -185,7 +185,7 @@ QW1vdW50OiAgJDEsMDAwLDAwMAo=
 
 We can copy paste this into [MxTOOLBOX email header analyzer](https://mxtoolbox.com/EmailHeaders.aspx).
 
-<figure><img src="../../.gitbook/assets/image (30) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 This would give us the `IP address` of the mail server which was blacklisted.
 
@@ -358,7 +358,7 @@ At first glance, I noticed that the flag could have been splitted. Additionally,
 
 <figure><img src="../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

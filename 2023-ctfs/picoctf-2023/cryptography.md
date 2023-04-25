@@ -118,7 +118,7 @@ yIjuh37qqClf+2I=
 
 We can decode this in `CyberChef` to get the flag
 
-<figure><img src="../../.gitbook/assets/image (24) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: picoCTF{read\_mycert\_27442dba}
 

@@ -71,7 +71,7 @@ Flag: bctf{h3110\_w0r1d\_g1f7\_fr0m\_7h3\_b01ler\_s1d3}
 
 ## warmup
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the web category and we were provided with a link.
 
@@ -79,7 +79,7 @@ If we navigate to the link: [http://ctf.b01lers.com:5115/](http://ctf.b01lers.co
 
 Notice there is a string that looked like `Base64 encoded` after the `/`
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (78) (1).png" alt=""><figcaption></figcaption></figure>
 
 First, lets take a look at the source code.
 
@@ -121,7 +121,7 @@ Once again, we can get the `Base64` of app.py through [`CyberChef`](https://cybe
 
 This gives us the output: `YXBwLnB5` and we can browse to [http://ctf.b01lers.com:5115/YXBwLnB5](http://ctf.b01lers.com:5115/YXBwLnB5)
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (79) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we check out the source code, we can see that there is `flag.txt`.
 
@@ -162,7 +162,7 @@ If we were to get the `Base64` of `flag.txt` in [CyberChef](https://cyberchef.or
 
 However, navigating to the link: [http://ctf.b01lers.com:5115/ZmxhZy50eHQ=](http://ctf.b01lers.com:5115/ZmxhZy50eHQ=) showed that the file is blocked.
 
-<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (77) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we take a closer look at the source code again, we will be able to understand how the file is opened and read.
 

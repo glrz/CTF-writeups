@@ -760,7 +760,7 @@ Flag: LNC2023{guessiwaswrong}
 
 ## Licensed Forensics
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a[ GDrive Link](https://drive.google.com/file/d/12dN8gxb653xAJsEzXQp3eZMXxIWkhMjI/view?usp=sharing) which leads us to download a Suspect\_Image.E01 file. Note that I solved this challenge shortly after the competition.
 
@@ -808,13 +808,13 @@ It also mentioned that the password is backed up somewhere else and the virtual 
 
 Now, if we looked further into `Windows > System32 > Config`, which is where the registry files are usually located in, we would find some information about `VMware.inc` if we do a quick search in FTK Imager on the file `SOFTWARE.FileSlack` using the `CTRL+F` shortcut.
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (4).png" alt=""><figcaption></figcaption></figure>
 
 If we manually searched through and scroll down near the bottom, we would see a `pastebin` link.
 
 Alternatively, in this file, if we searched for `pastebin`, we would find a unique pastebin link. We should always keep in mind that information could be hidden in any files(including text files, image files etc.) or any links(including GDrive link, pastebin link etc.)
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -822,7 +822,7 @@ If you are interested in other forensics challenges which implemented the use of
 
 Back to this challenge, once we obtain the unique pastebin link: [https://pastebin.com/F6j80vMC](https://pastebin.com/F6j80vMC), we will be redirected to this site upon visiting the link.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
 
 >
 >
@@ -836,11 +836,11 @@ This looked like its the second part of the password, where those denoted as `*`
 
 Using this password, we will be able to view the PDF content that was password protected previously in `flag.zip`.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once we open the password protected PDF file, we are presented with the flag.
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (4).png" alt=""><figcaption></figcaption></figure>
 
 You might want to check out a very detailed writeup by a friend [here](https://flagthecapture.blogspot.com/2023/04/ctf-writeup-lnc-2023-licensed-forensics.html) where he used another tool: `Autopsy` to solve it.
 

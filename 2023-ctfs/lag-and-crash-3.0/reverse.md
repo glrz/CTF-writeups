@@ -113,6 +113,6 @@ From the above strings, we could see some interesting hexadecimal.
 
 We could change it from hex to ascii and we would get `Base64` encoded string. Finally, we could decode the `Base64` encoded message. All these can be done in CyberChef to obtain the flag.
 
-<figure><img src="../../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: LNC2023{r35uRRect10n}

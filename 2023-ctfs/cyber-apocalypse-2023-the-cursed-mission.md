@@ -16,7 +16,7 @@ I am under the team members with the username: `rz--`.
 
 For this CTF, we spent some time tackling various challenges from different categories according to our expertise and managed to obtain the rank: `256/6483.` I would consider my expertise in the forensics category, hence I attempted most challenges from that category.
 
-<figure><img src="../.gitbook/assets/image (3) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Sanity Check
 
