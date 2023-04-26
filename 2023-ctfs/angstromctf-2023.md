@@ -18,11 +18,11 @@ Overall, I was quite satisfied to be able to solve challenges in the `Web` categ
 
 ## Celeste Speedrunning Assosiation
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a link. Upon visiting the link, we will see the following page.
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80) (2).png" alt=""><figcaption></figcaption></figure>
 
 First, we can try to play around and navigate to the `/play` page.
 
@@ -32,7 +32,7 @@ If we append `/play` to the URL, we will be redirected to another page.
 
 From here, we can try to press the button and see what it does. This redirects us to another `/submit` page.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (4).png" alt=""><figcaption></figcaption></figure>
 
 It seems like we are not getting much information from this. So, lets run this in `Burp Suite` to get a better idea on how the requests are being sent over to the server.
 
@@ -54,7 +54,7 @@ Flag: actf{wait\_until\_farewell\_speedrun}
 
 ## Celeste Tunneling Association
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (4).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a link and a source code.
 
@@ -109,7 +109,7 @@ Similarly, we can start `Burp Suite`, turn on interceptor and forward the reques
 
 As we forward the first request, we can send it to the repeater, similar to what we did in the previous challenge.
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (79) (2).png" alt=""><figcaption></figcaption></figure>
 
 If we read the source code carefully, we can probably tell that it would return the flag if the `host` have the value : `SECRET_SITE`, and we know that `SECRET_SITE` was previously assigned with the value `flag.local`.
 

@@ -210,3 +210,291 @@ Finally, we could add `ROT13 Brute Force` to the [CyberChef recipe](https://cybe
 
 Flag: LNC2023{dumbdumb}
 
+## Multilinguistic
+
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, we were given a `.zip` file. Note that I solved this shortly after the competition.
+
+First, we could verify the zip file and unzip it to see its contents.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ file Secret.zip 
+Secret.zip: Zip archive data, at least v2.0 to extract, compression method=deflate
+                                                                                                                   
+┌──(kali㉿kali)-[~/Downloads]
+└─$ 7z x Secret.zip 
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,2 CPUs 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (806C1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 95533 bytes (94 KiB)
+
+Extracting archive: Secret.zip
+--
+Path = Secret.zip
+Type = zip
+Physical Size = 95533
+
+Everything is Ok
+
+Files: 2
+Size:       95388
+Compressed: 95533
+```
+
+Once we unzipped it, we have a new directory: `zomb-phish`. Lets go into the directory and check its contents.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads]
+└─$ cd zomb-phish 
+                                                                                                                   
+┌──(kali㉿kali)-[~/Downloads/zomb-phish]
+└─$ ls
+blublub.txt
+```
+
+We can see a `.txt` file, lets read its contents.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish]
+└─$ cat blublub.txt 
+iisiiiisiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiioddddddddoiiiiiiiiiiiiioddddddoiiioddddddddddddoiiiioiiiiiiiiodddddddddddddoiiiiiiiiiioiiiiiiiiiodddddddddddddddddddo                     
+```
+
+We are presented with a string, but what could this be? If we refer back to the challenge description and directory name, it mentioned Zomb-phish. This is actually referring to the `Deadfish language`.
+
+We could decode this in [dCode](https://www.dcode.fr/deadfish-language).
+
+This gives us the output: merlocgoblub which is also the password for the next zip file.
+
+<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+
+If we run `ls` with the `-la` option we can see the zip file `.-.7z`
+
+We could unzip it using the password obtained earlier
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish]
+└─$ ls -la
+total 176
+drwx------ 2 kali kali  4096 Apr 26 06:17 .
+drwxr-xr-x 6 kali kali 69632 Apr 26 06:17 ..
+-rw-r--r-- 1 kali kali 95218 Nov  1 12:38 .-.7z
+-rw-r--r-- 1 kali kali   170 Nov  1 12:35 blublub.txt
+                                                                                                                   
+┌──(kali㉿kali)-[~/Downloads/zomb-phish]
+└─$ 7z x .-.7z     
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,2 CPUs 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (806C1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 95218 bytes (93 KiB)
+
+Extracting archive: .-.7z
+--
+Path = .-.7z
+Type = 7z
+Physical Size = 95218
+Headers Size = 226
+Method = LZMA2:17 7zAES
+Solid = +
+Blocks = 1
+
+    
+Enter password (will not be echoed):
+Everything is Ok    
+
+Folders: 1
+Files: 2
+Size:       100962
+Compressed: 95218
+```
+
+Now we could navigate into the new directory `.-` and see its contents. We would find a `.txt` and `.7z` file in there.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish]
+└─$ ls -la
+total 180
+drwx------ 3 kali kali  4096 Apr 26 06:19 .
+drwx------ 2 kali kali  4096 Nov  1 00:37 .-
+drwxr-xr-x 6 kali kali 69632 Apr 26 06:17 ..
+-rw-r--r-- 1 kali kali 95218 Nov  1 12:38 .-.7z
+-rw-r--r-- 1 kali kali   170 Nov  1 12:35 blublub.txt
+                                                                                                                   
+┌──(kali㉿kali)-[~/Downloads/zomb-phish]
+└─$ cd .-          
+                                                                                                                   
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-]
+└─$ ls    
+ dido.txt  'd@n(e.7z'
+```
+
+Lets check out the `.txt` content
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-]
+└─$ cat dido.txt   
+- .... . / ... -.-.{ .-. --- .-.. .-.. / --- ..-. / --- .-. .. --. .. -. / -- --- .-. ... . / -.-. --- -.. . / .. ... / .- / -- . - .... --- -.. / ..- ... . -.. / .. -. / - . .-.. . -.-. --- -- -- ..- -. .. -.-. .- - .. --- -. / - --- / . -. -.-. --- -.{. . / - . -..- - / -.-. .... .- .-. .- -.-. - . .-. ... / .- ... / ... - .- -. -.. .- .-. -.. .. --.. . -.. / ... . –{.- ..- . -. -.-. . ... / --- ..-. / - .-- --- / -.. .. ..-. ..-. . .-. . -. - / ... .. --. -. .- .-.. / -.. ..- .-. .- - .. --- -. ... --..-- / -.-. .- .-.. .-.. . -.. / -.. --- - ... / .- -. -.. / -.. .- ..{. .... . ... --..-- / --- .-. / -.. .. - ... / .- -. -.. {/ -.. .- .... ... .-.-.- / -- --- .-. ... . / -.-. --- -.. . / .. ... / -. .- -- . -.. / .- ..-. - .] .-. / ... .- -- ..- . .-.. / -- --- .-. ... .] --..-- / --- -. ]{. / --- ..-. / -] .... . / .. -]. ...- . -. - --- .-. ... / -]-- ..-. / - .]... . / - . .]-.. . --. .-. .]- .--. ...]. .-.-.- / .. -. - . .-. -. .]- - .. --- -. .- .-.. / -- --- .-. ... . / -.-. -]-- -.. . / . -. -.-. ---{ -].. . ...] / - .... . / ..--- -.]... / -... .- ... .. -.-. / .-..] .- - .. -. / .-.. . - - . .-]. ... / .- / - .... .{-. --- ..- --. ].... / --.. --..-- / --- -. . / .- ]-.-. -.-. . -.] - . -.. / .-.. {.- - .]. -. / .-.. . - - . .-. / -.--. . -.--.- ]--..-- / - .... . / .- .-. ].- -... .. -.-. / -. ..-] -- . .-. .- .-.. ... -]-..-- / .- -. -.. / .- / ... -- ].- .-.. .-.. / ... . - / --- ..-.] / .—{. ..- -. -.-. - ..- .- - .. --- -. / .- {-. -.. / .--. .-. --- -.-. . -.. ..- .-. .- .-.. /] ...{ .. --. -. .- .-.. ... / -.--. .--. .-. --]- ... .. --. -. ... -.--.- .-.-.- / - .... . .-. .{ / .. ..]. / -. --- / -.. .. ... - .. -. -.-. - .. --- -. / -..]. . - .-- .{ . -. / ..- .--. .--. . .-. / .- -. -.. / .-..] --- .-- . .-. / -.-. .{- ... . / .]-.. . - - . .-. ... .-.-.- / . ].- -.-. .... / -- --{- .-. ... . / -.-. --- ]-.. . / ... -.-- -- -... --- .-.. / .. ... / ..-. --- ].-. -- . {-.. / -... -.-- / .- / ... . --.- ..- . -. -.-. . / --{- ..-. ]/ -.. .. - ... / .- -. -.. / -.. .- .... ]... .-.-.- / - .... . / -.. .. - / {-.. ..- .-]. .- - .. --- -. / .. ... / - .... . / -... .- ... .. -.-. / ..- -. .]. - / --- ..-. / - .. -- . / -- . .- ..{]. ..- .-. . -- . -. - / .. -. / -- -]-- .-. ... . / -.-. --- -.. . / - .-. .- -. ...{ -- .. ... ... .. --- -. .-.-].- / - .... . / -.. ..- .-. .- - .. –- -. / --- ..-. / .- / -.. .- .... / .. ... / - .... .-. . . / - ].. -- . ... / - .... . / -.. ..- .-. .- {- .. --- -. / --- ..-. / .- / -.. .. - .-.-.- / . .- -.-]. .... / -{.. .. - / --- .-. / -.. .- .... / .-- .. - .... .. -. / .- -. / . -. -.-. --- -.. . -..] / -.-. .... .{- .-. .- -.-. - . .-. / .. ... / ..-. --- .-.{. .-.. --- .-- . -.. / -... -.-- / .- / .--. . .-. .. --- -.. / {-]-- ..-. / ... .. --. -. .- .-.. / .- -... ... . -. -.-. . --..-- / -.-. .- .-.. .-.. . -.. / .- / ... .—{. ].- -.-. . --..-- / . --.- ..- .- .-.. / - --- / - .... . / -.. .. - / -.. ..- .-. .- - {.. --- -. .-.-.- / - .... . / .-.. . - ]- . .-. ... / --- ..-.{ / .- / .-- --- .-. -.. / .- .-. . / ... . ].--. .- .-. .- - . -.. / -.{.. -.-- / .- / ... .--. .- -.-. . / --- ..-. / -.. ..- .-. .- - .. --- -. / . --.- ..- .- .-.. / - --- / - .]... .-. . . / -.. .. {- ... --..-- / .- -. -.. / .-- --- .-. -.. ... / .- .-. .] / ... {. .--. .- .-. .- - . -.. / -... -.-- / .- / ... .--. .- -.-. . / . --.- .].- .- .-.. / - --- /{ ... . ...- . -. / -.. .. - ... .-.-.- / ..- -. - .. .-.. /{ .---- ----. ....- ----.] --..-- / .-- --- .-. -.. ... / .-- . .-. . / ...{ . .--. .- .-. .- - . -.. / -... -.-- / .- / ... .-{-. .- -.-. . / . --.- ]..- .- .-.. / - --- / ..-. .. ...- . / -.. .. - ... .-.-.- / -- --- {.-. ... . / -.-. --- -.. . / -.-. .- -. / -... . / -- ].{ -- --- .-. .. --.. . -.. / .- -. -.. / ... . -. - / .. -. / .- / ..-. --- .-]. -- / .--. . .-{. -.-. . .--. - ..] -... .-.. . / - --- / - {.... . / .... ..- -- .- -. / ... . -. ... . ... --..-- / . .-.-.- --. .-.-.]- / ...- .. .- / ... --- ..- -. -.. /{ .-- .- ...- . ... / --- .-. / ...{- .. ... .. -... .-.. . / .-.. .. --. ].... - --..-- / ... ..- -.-. .... / - .... .- - / .. - / -.-. .- {-. / -... . / -.. .. .-. . -.-. - .-.. -.-- / .. -. - . .-. .--. .]-. . –{ . -.. / -... -.-- / .--. . .-. ... --- -. ... / - .-. .- .. -. . -.. / .. -. / - .... . / ... -.- .. .{-.. ].-.. .-.-.- / -- --- .-. ... . / -.-{. -]-- -.. . / .. ... / ..- ... ..- .- .-.. .-.. ]-.-- / - .-. .- -. ... -- .. - - . -.. / -... -.-- / ]--- -. {-....- --- ..-. ..-. / -.- . -.-- .. -. --. / --- ..-. / .- -. /{ .. -. ..-. --- .-. -- .- - .. --- -. -...].- -.-. .- .-. .-. -.-- .. -. --. / -- . -.. .. ..- -- / ... ..{- -.-. .... / .- ... / . .-.. . -.-. - .-. .. -.-. /{ -.-. ..- .-. .-. . -. - --]..-- / .-. .- -.. .. --- / .-- .- ...- . ... --..{-- / ...- .. ... .. -... .-.. . / .-.. .. --. .... - --..-- / --- .-. / ... --- ..- -. -.. /] .-- .- ...- . ... .-.-.- / - .... . / -.-.{ ..- .-. .-. . -. - / --- .-. / .-- .- ...- . / .. ... / {.--. .-. . ... . -.] - / -.. ..- .-. .. -. --. / - .... . / - .. -- . / .--. . .-. .. --- -.. / ---{ ..-. / - .... . / -.. .. - / --- .-. / -.. .- ..{.. / .- -. -.. / .- -... ]... . -. - / -.. ..- .-. .. -. --. / - .... . / - .. –{- . / -... . - .-- . . -. / -.. .. - ... / .- -. -.. / -.. .- {.... ... .-.-.- / ... .. -. -.-. . / -- .- -. -.-- / -. .- - ..- .-. .- .-.. / .-.. .- -. --. ..- .- --. . ]..{. / ..- ... . / -- --- .-. . / - .... .- -. / - .... . / ..{--- -.... / .-.. . - - .] .-. ... / --- ..-. / - .... . / .-.{. .- - .. -. / .- .-.. .--. .... .- -... . - --{..-- / -- --- .-. .].. . / .- .-.. .--. .... .- -... . - ... / .... .- ...- . / -... . . -. / -.. . ...- . .-.. --- .--. {. -.. / ..-. --- .-. / - .... –{-- ... . / .-].. .- -. --. ..- .- --. . ... --..-- / .-.. .- .-. --. . .-.. -.-- / -... -.-- / - .-. .-{ -. ... .-.. .. - . .-. .- - .. ---{ -. / --- ..-. / . -..]- .. ... - .. -. --. / -.-. --- -.. . ... .-.-.- / - --- / .. -. -.-. .-. . .- ... . / - .... . / . ..-. .{.-. .. -.-. .. . -. -.-. -.-- /] --- ..-. / . -.[ -.-. --- -.. .. -. --. --..-- / -- --- .-. ... . / -.-. --- -.. . / .-- .- ... / -.. . ... .. --. -. .] -.. / ... –{- / - .... .- - / - .... . / .-.. . -. --. - ....{ / --- ..-. / . .- -.-. ...]. / ... -.-- -- -... --- .-.. / .. ... / .- .--. .--. .-. --- -..- .. –{ .- - . .-.. -.-- / .. -. ...- . .-.{ ... . / - --- / - .... . / ..-. ].-. . --.- ..- . -. -.-. -.-- / --- ..-. / --- -.-. -.-. ..{- .-. .-. . ]-. -.-. . / --- ..-. / - .... . / -.-{. .... .- .-. .- -.-. - . .-. / - .... .- - / .. - / .-. . .--. .-. . ... . {-. - ... / .. -. / - ]. -..- - / --- ..-. / - .... . / . -. --. .-.. .. ... .... / .-.. .- -{. --. ..- .- --. . .-.-.- / - .... ..- ...] / - .... . / -- --- ... - / -.-. --- -- -- --- -. / .-.. . - - . .-. / .. -. / {. -. --. .-.. .. ... .... --..-- /] - .... . / .-.. . - - . .-. / . --..-- / .... .- ... / - ....{ . / ... .... --- .-. - . ... - / -.-. --- -.. . ---... / .- / ... .. -. --. .{-.. . /] -.. .. - .-.-.- / -... . -.-. .- ..- ... . / - .... . / -- --- .-. ... . / -.-. {--- -.. . / . .-.. . -- . -. - ... / .- .-. . ]/ ... .--. . -.-. {.. ..-. .. . -.. / -... -.-- / .--. .-. --- .--. --- .-. - .. --- -. / .-. .- - .... . .-{. / ]- .... .- -. / ... .--. . -.-. .. ..-. .. -.-. / - .. -- . / -.. ..- .-. .- - .. --- -. ... --..-- / - .... . / -.-. --- -.]. . / .. ... / ..- ... ..- {.- .-.. .-.. -.-- / - .-. .- -. ... -- .. - - . -.. / .- - / - .... . / .... .. –{-. .... . ... - / .-. .- - . / - .... .- - / - ].... . / .-. . -.-. . {.. ...- . .-. / .. ... / -.-. .- .--. .- -... .-.. . / ---{ ..-. / -.. . -.-. ---] -.. .. -. --. .-.-.- / -- --- .-. ... . / -.-. {--- -.. . / - .-. .- -. ... -- .. ... ... .. --- -. / .-. .- - . / -.--. ... .--. . . -.. -.--.- / .. ... / ... .--. .{ -.-. .. ..-. .. . -.. / .. -. / -]-. .-. --- ..- .--. ... /{ .--. . .-. / -- .. -. ..- - . --..-- / -.-. --- -- -- --- -. .-.. -.-- / .-. . ..-. . .-. .]-. . -.. / - --- / .- ... / .-- --- .-. -.. .{.. / .--. . .-. / -- .. -. ..- - . .-.-.- / - .... . ... . / .. -. ..-. --- .-. -- .- - ..] --- -. / .- .-. . / -. --- - / ..- ..{. . ..-. ..- .-.. .-.. .-.-.- / - .... . / .--. .- ... ...[ .-- --- .-. -.. / .. ... ---... ]/ -.. .. -.. .- .... -.. .. -.. .. -.. .- .... -.. .. -.. .- .... -.. .. -.. .- .... -.. ..           
+```
+
+This looked like `Morse Code` and we could decode it using CyberChef which would give us the password if we scroll down to the bottom of the decoded output
+
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Password: DIDAHDIDIDAHDIDAHDIDAHDI</p></figcaption></figure>
+
+Lets use this password to unzip the `d@n(e.7z`
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-]
+└─$ 7z x d@n\(e.7z 
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,2 CPUs 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (806C1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 92743 bytes (91 KiB)
+
+Extracting archive: d@n(e.7z
+--
+Path = d@n(e.7z
+Type = 7z
+Physical Size = 92743
+Headers Size = 231
+Method = LZMA2:96k 7zAES
+Solid = +
+Blocks = 1
+
+    
+Enter password (will not be echoed):
+Everything is Ok        
+
+Folders: 1
+Files: 2
+Size:       93501
+Compressed: 92743
+```
+
+Similarly, we would go into the new directory extracted, and check its contents.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-]
+└─$ cd d@n\(e 
+                                                                                                                   
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-/d@n(e]
+└─$ ls    
+colour.7z  Runes.png
+```
+
+We could see a `.png` file so lets try to view it in image viewer.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-/d@n(e]
+└─$ eog Runes.png
+```
+
+<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+
+Of course, I quickly recognised this as `dancing men cipher` because I've solved a challenge on this in [GSCTF 2020](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/gsctf-2020#just-dance).
+
+I decoded it manually in dCode which gave me the following output
+
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+Removed the new line to get the whole passphrase
+
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+The password is : `wewillmakethemgetschwifty` and we can use this to unzip our next zip file.
+
+Similarly, I'll check its contents. We can find a `.7z` and `.docx` file in the directory.
+
+```bash
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-/d@n(e]
+└─$ 7z x colour.7z 
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,2 CPUs 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (806C1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 17854 bytes (18 KiB)
+
+Extracting archive: colour.7z
+--
+Path = colour.7z
+Type = 7z
+Physical Size = 17854
+Headers Size = 238
+Method = LZMA2:24k 7zAES
+Solid = +
+Blocks = 1
+
+    
+Enter password (will not be echoed):
+Everything is Ok        
+
+Folders: 1
+Files: 2
+Size:       22372
+Compressed: 17854
+┌──(kali㉿kali)-[~/Downloads/zomb-phish/.-/d@n(e]
+└─$ cd colour 
+                                                                                                                   
+┌──(kali㉿kali)-[~/…/zomb-phish/.-/d@n(e/colour]
+└─$ ls 
+final.7z  RGB.docx
+```
+
+A `.docx` file is like a zip file, so we could unzip it and check its contents.
+
+```bash
+┌──(kali㉿kali)-[~/…/zomb-phish/.-/d@n(e/colour]
+└─$ 7z x RGB.docx 
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,2 CPUs 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (806C1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 22046 bytes (22 KiB)
+
+Extracting archive: RGB.docx
+--
+Path = RGB.docx
+Type = zip
+Physical Size = 22046
+
+Everything is Ok
+
+Files: 24
+Size:       88346
+Compressed: 22046
+
+┌──(kali㉿kali)-[~/…/.-/d@n(e/colour/word]
+└─$ ls
+document.xml  fontTable.xml  media  _rels  settings.xml  styles.xml  theme  webSettings.xml
+```
+
+If we explored the `/word/media` directory, we would find a bunch of `.png` images.
+
+```bash
+┌──(kali㉿kali)-[~/…/.-/d@n(e/colour/word]
+└─$ cd media 
+                                                                                                                   
+┌──(kali㉿kali)-[~/…/d@n(e/colour/word/media]
+└─$ ls
+image10.png  image12.png  image1.png  image3.png  image5.png  image7.png  image9.png
+image11.png  image13.png  image2.png  image4.png  image6.png  image8.png
+```
+
+If we open up one of these images, we would see this
+
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+The other images are similar and they are actually `hexahue`
+
+We could decode the `hexahue` in [dCode](https://www.dcode.fr/hexahue-cipher), which will give us the password for the final zip file.
+
+Finally, we could use this password to go into the extracted directory and read the flag.

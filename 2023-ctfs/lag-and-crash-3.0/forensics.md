@@ -752,7 +752,7 @@ In one of them, we could slightly see part 2 of the flag at the bottom.
 
 Alternatively, we could open the original image that we fixed earlier in an image editing software like `gimp` and change its hue / brightness settings.
 
-<figure><img src="../../.gitbook/assets/image (29) (3).png" alt=""><figcaption><p>Part 2 : guessiwas</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1).png" alt=""><figcaption><p>Part 2 : guessiwas</p></figcaption></figure>
 
 By combining the three parts of the flag we obtained earlier, we will get the flag.
 
@@ -760,7 +760,7 @@ Flag: LNC2023{guessiwaswrong}
 
 ## Licensed Forensics
 
-<figure><img src="../../.gitbook/assets/image (25) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a[ GDrive Link](https://drive.google.com/file/d/12dN8gxb653xAJsEzXQp3eZMXxIWkhMjI/view?usp=sharing) which leads us to download a Suspect\_Image.E01 file. Note that I solved this challenge shortly after the competition.
 
@@ -770,13 +770,13 @@ First, we could load this disk image file into FTK imager.&#x20;
 
 Next, we further analyze the different partitions. There are a few partitions and only one of them is of our interest, that is, the basic data partition \[2439MB].
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3).png" alt=""><figcaption></figcaption></figure>
 
 As we further analyze and expand the partition in the evidence tree, we will find an interesting `Secret_Documents` folder.
 
 In this folder, we will see a total of six files. Of which, only `Note.txt` and `flag.zip` looked like it contained useful information to solve this challenge.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
 
 If we read the `Note.txt`, it will give us some information about the password to the secret folder, most likely referring to `flag.zip`.
 
@@ -808,15 +808,15 @@ It also mentioned that the password is backed up somewhere else and the virtual 
 
 Now, if we looked further into `Windows > System32 > Config`, which is where the registry files are usually located in, we would find some information about `VMware.inc` if we do a quick search in FTK Imager on the file `SOFTWARE.FileSlack` using the `CTRL+F` shortcut.
 
-<figure><img src="../../.gitbook/assets/image (27) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 If we manually searched through and scroll down near the bottom, we would see a `pastebin` link.
 
 Alternatively, in this file, if we searched for `pastebin`, we would find a unique pastebin link. We should always keep in mind that information could be hidden in any files(including text files, image files etc.) or any links(including GDrive link, pastebin link etc.)
 
-<figure><img src="../../.gitbook/assets/image (24) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 If you are interested in other forensics challenges which implemented the use of pastebin into the challenge, check out my previous writeup where I solved [GovTech STACK the Flags CTF 2020 - Voices in the head](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/govtech-stack-the-flags-ctf-2020/forensics#voices-in-the-head).
 

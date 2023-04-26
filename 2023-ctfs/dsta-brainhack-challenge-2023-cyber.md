@@ -10,7 +10,7 @@ The challenge concept was mainly about buffer overflow and vulnerable functions 
 
 This challenge idea would be quite common in the basic `PWN/binary exploitation` category. However, this challenge does not require us to PWN or perform binary exploitation. It is more about understanding the concept of it and selecting the correct answer in the MCQ.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 Notice that for the previous 3 choices, A and B will not grant us access to the BrainHack's website. This was a typo on DSTA side and they have corrected it later. The corrected version showed all choices in lower case.
 
@@ -75,6 +75,6 @@ C:\Users\Gadiel\Desktop\Extracurricular\DSTA\Cyber Quiz - buff overflow concept>
 
 After testing out the application, option B and C will grant access to BrainHack's website, while option A will not.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (3).png" alt=""><figcaption></figcaption></figure>
 
 Answer: A
