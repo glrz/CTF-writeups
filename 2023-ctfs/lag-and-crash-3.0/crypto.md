@@ -497,4 +497,53 @@ The other images are similar and they are actually `hexahue`
 
 We could decode the `hexahue` in [dCode](https://www.dcode.fr/hexahue-cipher), which will give us the password for the final zip file.
 
+The  password is : `W3WILL7URN7H3MR4INB0W`.
+
 Finally, we could use this password to go into the extracted directory and read the flag.
+
+```bash
+┌──(kali㉿kali)-[~/…/zomb-phish/.-/d@n(e/colour]
+└─$ 7z x final.7z
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,2 CPUs 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (806C1),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 326 bytes (1 KiB)
+
+Extracting archive: final.7z
+--
+Path = final.7z
+Type = 7z
+Physical Size = 326
+Headers Size = 198
+Method = LZMA2:12 7zAES
+Solid = -
+Blocks = 1
+
+    
+Enter password (will not be echoed):
+Everything is Ok       
+
+Folders: 1
+Files: 1
+Size:       123
+Compressed: 326
+                                                                                                                   
+┌──(kali㉿kali)-[~/…/zomb-phish/.-/d@n(e/colour]
+└─$ ls
+'[Content_Types].xml'   docProps   final   final.7z   _rels   RGB.docx   word
+                                                                                                                   
+┌──(kali㉿kali)-[~/…/zomb-phish/.-/d@n(e/colour]
+└─$ cd final 
+                                                                                                                   
+┌──(kali㉿kali)-[~/…/.-/d@n(e/colour/final]
+└─$ ls
+flag.txt
+                                                                                                                   
+┌──(kali㉿kali)-[~/…/.-/d@n(e/colour/final]
+└─$ cat flag.txt 
+Secret meeting at ksahbmwnasd for plans on human testing at 1.2868° N, 103.8545° E. Entry code is LNC2023{h0m4N_m0t471oN}                
+```
+
+Flag: LNC2023{h0m4N\_m0t471oN} &#x20;
