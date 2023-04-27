@@ -491,7 +491,7 @@ image11.png  image13.png  image2.png  image4.png  image6.png  image8.png
 
 If we open up one of these images, we would see this
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (3).png" alt=""><figcaption></figcaption></figure>
 
 The other images are similar and they are actually `hexahue`
 
