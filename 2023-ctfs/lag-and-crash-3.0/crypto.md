@@ -148,7 +148,7 @@ Flag: LNC2023{DETERMINED}
 
 ## Zig Zag
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 As the challenge name suggested, this is Rail fence (zigzag) Cipher.
 
@@ -496,6 +496,12 @@ If we open up one of these images, we would see this
 The other images are similar and they are actually `hexahue`
 
 We could decode the `hexahue` in [dCode](https://www.dcode.fr/hexahue-cipher), which will give us the password for the final zip file.
+
+However, I'm not too sure why for some reason there was only 13 png images found in `/word/media`. By right, there should be 21 images.
+
+If we just open it as a Word document, we will be able to see the full hexahue.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 The  password is : `W3WILL7URN7H3MR4INB0W`.
 

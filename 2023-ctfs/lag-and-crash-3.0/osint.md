@@ -49,7 +49,7 @@ Flag: LNC2023{NL-LR 70003-03/07\_RET42976}
 
 ## The Man With No Name
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a website link.
 
