@@ -289,3 +289,59 @@ picoCTF{1mp_1n_7h3_cr055h41r5_0b0942be}
 ```
 
 Flag: picoCTF{1mp\_1n\_7h3\_cr055h41r5\_0b0942be}
+
+## Ready Gladiator 2
+
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, I solved it after the competition.&#x20;
+
+After some Google search, I found that the best passive defense against an imp is known as an imp-gate. The imp-gate is an instruction that decrements some static location prior to the first code instruction of the warrior.
+
+We can use the following code in `imp.red` to send to the server and get the flag
+
+```
+;redcode
+;name imp
+;assert 1
+
+warrior          ; some attack code here
+jmp warrior,<-10 ; decrement relative position -10
+
+end
+```
+
+Once we send this code to the server, we will get the flag.
+
+```bash
+┌──(kali㉿kali)-[~]
+└─$ nc saturn.picoctf.net 59101 < imp.red
+;redcode
+;name imp
+;assert 1
+
+warrior          ; some attack code here
+jmp warrior,<-10 ; decrement relative position -10
+
+end
+Submit your warrior: (enter 'end' when done)
+
+Warrior1:
+;redcode
+;name imp
+;assert 1
+
+warrior          ; some attack code here
+jmp warrior,<-10 ; decrement relative position -10
+
+end
+
+Rounds: 100
+Warrior 1 wins: 100
+Warrior 2 wins: 0
+Ties: 0
+You did it!
+picoCTF{d3m0n_3xpung3r_47037b25}
+```
+
+Flag: picoCTF{d3m0n\_3xpung3r\_47037b25}

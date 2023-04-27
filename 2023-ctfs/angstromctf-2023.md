@@ -6,7 +6,7 @@ description: ångstromCTF 2023 was held from 22 Apr - 27 Apr 2023.
 
 In this CTF, I participated with team [youtiaos](https://ctftime.org/team/194864) and we achieved the position: `33/1301`.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (5).png" alt=""><figcaption></figcaption></figure>
 
 The scoreboard can be found on [CTFtime ](https://ctftime.org/event/1859)or on[ ångstromCTF website](https://2023.angstromctf.com/scoreboard).
 
