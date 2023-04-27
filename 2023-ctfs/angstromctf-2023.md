@@ -4,7 +4,9 @@ description: ångstromCTF 2023 was held from 22 Apr - 27 Apr 2023.
 
 # ångstromCTF 2023
 
-In this CTF, I participated with team [youtiaos](https://ctftime.org/team/194864) and we achieved the position:&#x20;
+In this CTF, I participated with team [youtiaos](https://ctftime.org/team/194864) and we achieved the position: `33/1301`.
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 The scoreboard can be found on [CTFtime ](https://ctftime.org/event/1859)or on[ ångstromCTF website](https://2023.angstromctf.com/scoreboard).
 
@@ -28,7 +30,7 @@ First, we can try to play around and navigate to the `/play` page.
 
 If we append `/play` to the URL, we will be redirected to another page.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (4).png" alt=""><figcaption></figcaption></figure>
 
 From here, we can try to press the button and see what it does. This redirects us to another `/submit` page.
 

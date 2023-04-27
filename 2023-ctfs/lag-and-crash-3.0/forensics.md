@@ -840,7 +840,7 @@ Using this password, we will be able to view the PDF content that was password p
 
 Once we open the password protected PDF file, we are presented with the flag.
 
-<figure><img src="../../.gitbook/assets/image (30) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 You might want to check out a very detailed writeup by a friend [here](https://flagthecapture.blogspot.com/2023/04/ctf-writeup-lnc-2023-licensed-forensics.html) where he used another tool: `Autopsy` to solve it.
 
