@@ -503,6 +503,10 @@ If we just open it as a Word document, we will be able to see the full hexahue.
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+We could decode this manually, but an easier way would be to copy and paste it into the decoder.
+
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+
 The  password is : `W3WILL7URN7H3MR4INB0W`.
 
 Finally, we could use this password to go into the extracted directory and read the flag.
