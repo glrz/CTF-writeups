@@ -266,3 +266,262 @@ Authors
 ```
 
 Flag: picoCTF{us3l3ss\_ch4ll3ng3\_3xpl0it3d\_1155}
+
+## Special
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+I solved this challenge shortly after the competition when I had some free time to attempt it.
+
+For this challenge, we could first ssh into the `special` shell using the credentials given.
+
+In this shell, most of the linux commands have been changed to random English words.
+
+We could try using `;` to perform command injection. However, it seemed like we could only use `ls` after the semicolon to list the directories present.
+
+```bash
+Special$ whoami;
+Whoami; 
+sh: 1: Whoami: not found
+Special$ whoami;ls
+Whoami;ls 
+sh: 1: Whoami: not found
+blargh
+Special$ whoami;cd blargh
+Whoami;cd large 
+sh: 1: Whoami: not found
+sh: 1: cd: can't cd to large
+Special$ whoami; grep pico
+Whoami; grew pico 
+sh: 1: Whoami: not found
+sh: 1: grew: not found
+Special$ whoami;ls;cd blargh
+Whoami;ls;cd large 
+sh: 1: Whoami: not found
+blargh
+sh: 1: cd: can't cd to large
+```
+
+From here, we could use the `python3` command after the semicolon to open the python IDLE. We can then import the `os` module and execute the commands to read the flag.
+
+```bash
+Special$ ls;python3
+Ls;python3 
+sh: 1: Ls: not found
+Python 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> os.system('ls')
+blargh
+0
+>>> os.system('cd blargh')
+0
+>>> os.system('ls')
+blargh
+0
+>>> os.chdir('blargh')
+>>> os.system('ls')
+flag.txt
+0
+>>> os.system('cat flag.txt')
+picoCTF{5p311ch3ck_15_7h3_w0r57_3befb794}0
+>>> 
+```
+
+An alternative easier solution is to `grep` recursively on the directory for the flag format `pico` in Python IDLE
+
+```bash
+Special$ ls;python3
+Ls;python3 
+sh: 1: Ls: not found
+Python 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> os.system('grep -r pico')
+blargh/flag.txt:picoCTF{5p311ch3ck_15_7h3_w0r57_3befb794}
+0h
+```
+
+I discovered there were other solutions to solve this challenge as well, without the use of Python IDLE. For example, we could use certain commands when issued within quotation marks.
+
+Hence, we could `grep` recursively like this as well
+
+```bash
+Special$ 'grep' '-r' pico
+'grep' '-r' pico 
+blargh/flag.txt:picoCTF{5p311ch3ck_15_7h3_w0r57_3befb794}
+```
+
+Flag: picoCTF{5p311ch3ck\_15\_7h3\_w0r57\_3befb794}
+
+## Specialer
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+This challenge was similar to the previous challenge - `Special` and I solved it after the competition as well.
+
+First, we could ssh into the server with the credentials given once we `launch instance`.
+
+Next, we will try some commands and play around with the syntax like what we did previously.
+
+We could try running `compgen -c` to see what commands we could use
+
+```bash
+Specialer$ compgen -c
+if
+then
+else
+elif
+fi
+case
+esac
+for
+select
+while
+until
+do
+done
+in
+function
+time
+{
+}
+!
+[[
+]]
+coproc
+.
+:
+[
+alias
+bg
+bind
+break
+builtin
+caller
+cd
+command
+compgen
+complete
+compopt
+continue
+declare
+dirs
+disown
+echo
+enable
+eval
+exec
+exit
+export
+false
+fc
+fg
+getopts
+hash
+help
+history
+jobs
+kill
+let
+local
+logout
+mapfile
+popd
+printf
+pushd
+pwd
+read
+readarray
+readonly
+return
+set
+shift
+shopt
+source
+suspend
+test
+times
+trap
+true
+type
+typeset
+ulimit
+umask
+unalias
+unset
+wait
+bash
+```
+
+This would list out the various commands available to use in the shell. However, if we would like a better view sorted in alphabetical order, we could press the tab key twice.
+
+```bash
+Specialer$ 
+!          bind       compopt    elif       fc         if         printf     shift      true       while
+./         break      continue   else       fg         in         pushd      shopt      type       {
+:          builtin    coproc     enable     fi         jobs       pwd        source     typeset    }
+[          caller     declare    esac       for        kill       read       suspend    ulimit     
+[[         case       dirs       eval       function   let        readarray  test       umask      
+]]         cd         disown     exec       getopts    local      readonly   then       unalias    
+alias      command    do         exit       hash       logout     return     time       unset      
+bash       compgen    done       export     help       mapfile    select     times      until      
+bg         complete   echo       false      history    popd       set        trap       wait  
+```
+
+We can see that we can use commands such as `cd` and `echo` which could be useful to help us solve this challenge.
+
+I used the `cd` command and pressed the tab key twice which showed the available directories that I could change directory to
+
+```bash
+Specialer$ cd 
+.hushlogin  .profile    abra/       ala/        sim/  
+```
+
+If we take a look again at the commands avaialbe to use, we would see that we cannot use `cat` or other common file-viewing commands to view the contents of a file. Furthermore, we cannot use `grep` to search for the flag. However, we could still use `echo`.
+
+In this case, we could view the file contents using the syntax: `echo "$(<filename)"`
+
+```bash
+Specialer$ echo "$(<.hushlogin)"
+
+Specialer$ echo "$(<.profile)"
+export PS1='Specialer$ '
+```
+
+These does not contain the flag, so we shall proceed to look into the other directories.
+
+In `abra`, there were 2 txt files.
+
+```bash
+Specialer$ cd abra
+Specialer$ cd cada
+cadabra.txt   cadaniel.txt  
+```
+
+We could read the contents using the `echo` command. However, no flags are found here.
+
+```bash
+Specialer$ echo "$(<cadabra.txt)"
+Nothing up my sleeve!
+Specialer$ echo "$(<cadaniel.txt)"
+Yes, I did it! I really did it! I'm a true wizard!
+```
+
+We move on to the next directory `ala/` where we will find the flag.
+
+```bash
+Specialer$ cd ..
+Specialer$ cd abra/
+Specialer$ cd ..
+Specialer$ cd ala/
+Specialer$ cd 
+kazam.txt  mode.txt   
+Specialer$ echo "$(<kazam.txt)"
+return 0 picoCTF{y0u_d0n7_4ppr3c1473_wh47_w3r3_d01ng_h3r3_a8567b6f}
+Specialer$ 
+```
+
+Flag: picoCTF{y0u\_d0n7\_4ppr3c1473\_wh47\_w3r3\_d01ng\_h3r3\_a8567b6f}
