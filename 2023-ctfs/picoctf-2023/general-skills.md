@@ -358,7 +358,7 @@ Flag: picoCTF{5p311ch3ck\_15\_7h3\_w0r57\_3befb794}
 
 ## Specialer
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (7).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was similar to the previous challenge - `Special` and I solved it after the competition as well.
 
