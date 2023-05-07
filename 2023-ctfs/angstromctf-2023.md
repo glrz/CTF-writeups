@@ -24,7 +24,7 @@ Overall, I was quite satisfied to be able to solve challenges in the `Web` categ
 
 For this challenge, we were given a link. Upon visiting the link, we will see the following page.
 
-<figure><img src="../.gitbook/assets/image (80) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 First, we can try to play around and navigate to the `/play` page.
 

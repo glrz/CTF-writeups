@@ -1,6 +1,7 @@
 # Table of contents
 
 * [2023 CTFs](README.md)
+  * [WaniCTF 2023](2023-ctfs/wanictf-2023.md)
   * [ångstromCTF 2023](2023-ctfs/angstromctf-2023.md)
   * [Lag and Crash 3.0](2023-ctfs/lag-and-crash-3.0/README.md)
     * [Misc](2023-ctfs/lag-and-crash-3.0/misc.md)

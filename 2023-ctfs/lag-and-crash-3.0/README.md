@@ -40,4 +40,4 @@ After this event, they issued a badge for the participants. You may want to take
 
 ## Certificate of Participation
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (7).png" alt=""><figcaption></figcaption></figure>

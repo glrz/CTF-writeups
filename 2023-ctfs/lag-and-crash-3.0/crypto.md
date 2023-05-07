@@ -212,7 +212,7 @@ Flag: LNC2023{dumbdumb}
 
 ## Multilinguistic
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file. Note that I solved this shortly after the competition.
 
@@ -270,7 +270,7 @@ We could decode this in [dCode](https://www.dcode.fr/deadfish-language).
 
 This gives us the output: merlocgoblub which is also the password for the next zip file.
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80) (2).png" alt=""><figcaption></figcaption></figure>
 
 If we run `ls` with the `-la` option we can see the zip file `.-.7z`
 
@@ -406,7 +406,7 @@ I decoded it manually in dCode which gave me the following output
 
 Removed the new line to get the whole passphrase
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (4).png" alt=""><figcaption></figcaption></figure>
 
 The password is : `wewillmakethemgetschwifty` and we can use this to unzip our next zip file.
 
