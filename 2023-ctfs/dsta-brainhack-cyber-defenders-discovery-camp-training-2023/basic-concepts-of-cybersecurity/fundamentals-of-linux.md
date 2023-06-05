@@ -174,7 +174,7 @@ Flag: 1cae3c98d4f321517c45a971740484a7
 
 ## Basic Quiz
 
-<figure><img src="../../../.gitbook/assets/image (80) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I did not really understand the first question at first. It used `composed by` which made me think that it was asking for the person who created Linux.
 

@@ -158,7 +158,7 @@ Flag: LNC2023{thiswasquiteobvious}
 
 ## Ancient Pokémon
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.png` image file.
 
@@ -206,7 +206,7 @@ We can decode it as `Base32` on [CyberChef ](https://cyberchef.org/#recipe=From\
 
 Finally, we could add `ROT13 Brute Force` to the [CyberChef recipe](https://cyberchef.org/#recipe=From\_Base32\('A-Z2-7%3D',false\)ROT13\_Brute\_Force\(true,true,false,100,0,true,''\)\&input=SlpVV0daSkFPUlpIU0lESU9WV1dDM1JCRUJLR1EyTFRFQlVYR0lEVU5CU1NBWUxET1IyV0MzQkFNVlhHRzMzRU1WU0NBM0xGT05aV0M0M0hNVTVBVVFTRUtNWkRBTVJUUE4yR1dZM1NPUlZXRzRUNQ), which will give us the flag.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: LNC2023{dumbdumb}
 

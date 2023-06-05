@@ -304,7 +304,7 @@ Compressed: 22213510
 
 Once we extracted the files, we will get a  `p1c7ur3.jpg` file with an image of a skeleton stegosaurus.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This most likely suggest that this is a steganography challenge. By running `StegoVeritas`, we are able to obtain some useful information.
 

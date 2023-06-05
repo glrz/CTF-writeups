@@ -667,7 +667,7 @@ b'TE5DMjAyM3tNM1RhREB0QSFAIX0='
 
 From here we could use an online tool like CyberChef to decode the `Base64` which gives us the flag`.`
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could decode it directly in the terminal (which is what I prefer and usually do).
 
@@ -836,7 +836,7 @@ This looked like its the second part of the password, where those denoted as `*`
 
 Using this password, we will be able to view the PDF content that was password protected previously in `flag.zip`.
 
-<figure><img src="../../.gitbook/assets/image (3) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once we open the password protected PDF file, we are presented with the flag.
 

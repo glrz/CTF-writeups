@@ -2,7 +2,7 @@
 
 ## Windows Class 1 <a href="#modal_title" id="modal_title"></a>
 
-<figure><img src="../../../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a series of questions in a Google Forms.
 

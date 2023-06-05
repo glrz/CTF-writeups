@@ -125,7 +125,7 @@ To find out more about unix time, read [here](https://en.wikipedia.org/wiki/Unix
 
 To find the time this picture was taken,  we can use `exiftool` again.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 There is a tricky part here. This picture was taken in `USA California` and we will need to take the timezones into consideration to find the `epochtime`. Another thing to note is that in some area like `USA California` have timezone changes due to [Daylight Saving Time](https://www.timeanddate.com/time/zone/usa/los-angeles?year=2022).  At that point when the picture was taken, the timezone was  UTC/GMT -7.
 
@@ -133,13 +133,13 @@ There is a tricky part here. This picture was taken in `USA California` and we w
 
 To get  the `epochtime`, we need to add 7 hours to the original time seen in `exiftool`. Then, we could use an  [online epoch converter ](https://www.epochconverter.com/) to get the `epochtime` or use [CyberChef](https://cyberchef.org/#recipe=To\_UNIX\_Timestamp\('Seconds%20\(s\)',true,true\)\&input=U2F0IDI3IEF1Z3VzdCAyMDIyIDE3OjA0OjU2IEdNVAo) to achieve the same result.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>epochtime: 1661619896</p></figcaption></figure>
 
 Finally, we can find the `serial number` using `exiftool` as well.
 
 &#x20;However, this part tricked me a bit because I overthinked. I thought it was referring to the `Internal Serial Number` initially.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After reading the challenge description again, I discovered the  serial number can be found at the bottom of the camera and we could check the format of serial  number  [here](https://www.canon-europe.com/support/consumer\_products/where\_to\_find\_your\_serial\_number/).
 

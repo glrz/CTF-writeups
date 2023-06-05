@@ -16,7 +16,7 @@ I spent some time enjoying some of the simpler challenges during the weekend. I 
 
 ## Intro
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was similar to the challenges I solved [here ](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/irisctf-2023#discord)and [here](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/wolvctf-2023#sanity-check).
 

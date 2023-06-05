@@ -97,7 +97,7 @@ Flag: LNC2023{Are\_y0u\_FaSt\_En0ugh\_4\_th1s}
 
 ## Hindsight
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a bunch of text with the flag hidden in it.&#x20;
 

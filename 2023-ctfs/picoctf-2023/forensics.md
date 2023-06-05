@@ -360,7 +360,7 @@ At first glance, I noticed that the flag could have been splitted. Additionally,
 
 <figure><img src="../../.gitbook/assets/image (32) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I copied those interesting strings down which gave the following
 

@@ -61,7 +61,7 @@ We can browse to the website and see many different pages and posts content.
 
 There's a page which prompts us for password to enter. I guess the flag could be in here. But what is the password?
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we notice in previous pages, there is one thing in common. That is the postal code number appears on every page at the bottom.
 

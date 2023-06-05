@@ -2,7 +2,7 @@
 
 ## malware class 2 <a href="#modal_title" id="modal_title"></a>
 
-<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `PDF file` which contained the following
 
