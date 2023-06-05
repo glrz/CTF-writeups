@@ -124,4 +124,6 @@ Simply type ' or 1=1# in username and Login would give us the flag.
 
 <figure><img src="../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
+This challenge was also similar to [CDDC training 2022](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2022/basic-concepts-of-cybersecurity/introduction-to-web-security#web-security-3).
+
 Flag : 065354fc55d82ca723c345cb4f8918ac
