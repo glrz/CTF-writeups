@@ -135,13 +135,13 @@ Flag: bd6ed675ab5e64c9e5130772969eff83
 
 ## #2 Intermediate terminal practice
 
-<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (65) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given two files, a png file and a txt file.
 
 Opening up the txt file, we see this
 
-<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (77) (2).png" alt=""><figcaption></figcaption></figure>
 
 For the png file, we will see this
 

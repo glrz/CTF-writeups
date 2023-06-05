@@ -6,7 +6,7 @@
       * [Fundamentals of Cybersecurity](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/fundamentals-of-cybersecurity.md)
       * [Fundamentals of Linux](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/fundamentals-of-linux.md)
       * [Fundamentals of Windows](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/fundamentals-of-windows.md)
-      * [Copy of Copy of Untitled](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/copy-of-copy-of-untitled.md)
+      * [Introduction to Networking](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/introduction-to-networking.md)
       * [Copy of Copy of Copy of Untitled](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/copy-of-copy-of-copy-of-untitled.md)
       * [Copy of Copy of Copy of Copy of Untitled](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/copy-of-copy-of-copy-of-copy-of-untitled.md)
       * [Copy of Copy of Copy of Copy of Copy of Untitled](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/copy-of-copy-of-copy-of-copy-of-copy-of-untitled.md)

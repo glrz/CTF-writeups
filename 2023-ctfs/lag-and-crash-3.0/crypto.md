@@ -501,7 +501,7 @@ However, I'm not too sure why for some reason there was only 13 png images found
 
 If we just open it as a Word document, we will be able to see the full hexahue.
 
-<figure><img src="../../.gitbook/assets/image (65) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We could decode this manually, but an easier way would be to copy and paste it into the decoder, that is, to `CTRL+A` on the word documents and `CTRL+C` to copy and `CTRL+V` to paste on [dCode](https://www.dcode.fr/hexahue-cipher).
 

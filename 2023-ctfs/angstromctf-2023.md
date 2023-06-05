@@ -20,7 +20,7 @@ Overall, I was quite satisfied to be able to solve challenges in the `Web` categ
 
 ## Celeste Speedrunning Assosiation
 
-<figure><img src="../.gitbook/assets/image (25) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a link. Upon visiting the link, we will see the following page.
 
@@ -50,7 +50,7 @@ Next, I tried changing this value to a negative value like `-0.1`. However, the 
 
 Finally, I tried to change the value to a very large number like `1000000000000000000` and it gave me the flag in the response section after I sent the request.
 
-<figure><img src="../.gitbook/assets/image (77) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (77) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: actf{wait\_until\_farewell\_speedrun}
 
@@ -62,7 +62,7 @@ For this challenge, we were given a link and a source code.
 
 First, lets check out the link.
 
-<figure><img src="../.gitbook/assets/image (32) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, we can go through the source code.
 

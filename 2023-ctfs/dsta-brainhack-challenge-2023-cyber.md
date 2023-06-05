@@ -75,6 +75,6 @@ C:\Users\Gadiel\Desktop\Extracurricular\DSTA\Cyber Quiz - buff overflow concept>
 
 After testing out the application, option B and C will grant access to BrainHack's website, while option A will not.
 
-<figure><img src="../.gitbook/assets/image (28) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: A

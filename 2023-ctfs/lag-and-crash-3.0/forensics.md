@@ -681,7 +681,7 @@ Flag: LNC2023{M3TaD@tA!@!}
 
 ## Blind
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.gif` file. I was close to solving this challenge during the competition and solved it slightly after the competition.&#x20;
 
@@ -760,7 +760,7 @@ Flag: LNC2023{guessiwaswrong}
 
 ## Licensed Forensics
 
-<figure><img src="../../.gitbook/assets/image (25) (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a[ GDrive Link](https://drive.google.com/file/d/12dN8gxb653xAJsEzXQp3eZMXxIWkhMjI/view?usp=sharing) which leads us to download a Suspect\_Image.E01 file. Note that I solved this challenge shortly after the competition.
 
