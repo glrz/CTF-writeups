@@ -212,7 +212,7 @@ Flag: LNC2023{dumbdumb}
 
 ## Multilinguistic
 
-<figure><img src="../../.gitbook/assets/image (29) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file. Note that I solved this shortly after the competition.
 
@@ -270,7 +270,7 @@ We could decode this in [dCode](https://www.dcode.fr/deadfish-language).
 
 This gives us the output: merlocgoblub which is also the password for the next zip file.
 
-<figure><img src="../../.gitbook/assets/image (80) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we run `ls` with the `-la` option we can see the zip file `.-.7z`
 
@@ -501,7 +501,7 @@ However, I'm not too sure why for some reason there was only 13 png images found
 
 If we just open it as a Word document, we will be able to see the full hexahue.
 
-<figure><img src="../../.gitbook/assets/image (65) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 We could decode this manually, but an easier way would be to copy and paste it into the decoder, that is, to `CTRL+A` on the word documents and `CTRL+C` to copy and `CTRL+V` to paste on [dCode](https://www.dcode.fr/hexahue-cipher).
 

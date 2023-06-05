@@ -752,7 +752,7 @@ In one of them, we could slightly see part 2 of the flag at the bottom.
 
 Alternatively, we could open the original image that we fixed earlier in an image editing software like `gimp` and change its hue / brightness settings.
 
-<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1).png" alt=""><figcaption><p>Part 2 : guessiwas</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Part 2 : guessiwas</p></figcaption></figure>
 
 By combining the three parts of the flag we obtained earlier, we will get the flag.
 
@@ -770,7 +770,7 @@ First, we could load this disk image file into FTK imager.&#x20;
 
 Next, we further analyze the different partitions. There are a few partitions and only one of them is of our interest, that is, the basic data partition \[2439MB].
 
-<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As we further analyze and expand the partition in the evidence tree, we will find an interesting `Secret_Documents` folder.
 

@@ -292,7 +292,7 @@ Flag: picoCTF{1mp\_1n\_7h3\_cr055h41r5\_0b0942be}
 
 ## Ready Gladiator 2
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I solved it after the competition.&#x20;
 

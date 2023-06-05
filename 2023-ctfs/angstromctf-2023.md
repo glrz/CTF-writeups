@@ -6,7 +6,7 @@ description: ångstromCTF 2023 was held from 22 Apr - 27 Apr 2023.
 
 In this CTF, I participated with team [youtiaos](https://ctftime.org/team/194864) and we achieved the position: `33/1301`.
 
-<figure><img src="../.gitbook/assets/image (30) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 The scoreboard can be found on [CTFtime ](https://ctftime.org/event/1859)or on[ ångstromCTF website](https://2023.angstromctf.com/scoreboard).
 
@@ -24,7 +24,7 @@ Overall, I was quite satisfied to be able to solve challenges in the `Web` categ
 
 For this challenge, we were given a link. Upon visiting the link, we will see the following page.
 
-<figure><img src="../.gitbook/assets/image (80) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 First, we can try to play around and navigate to the `/play` page.
 
@@ -50,7 +50,7 @@ Next, I tried changing this value to a negative value like `-0.1`. However, the 
 
 Finally, I tried to change the value to a very large number like `1000000000000000000` and it gave me the flag in the response section after I sent the request.
 
-<figure><img src="../.gitbook/assets/image (77) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (77) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: actf{wait\_until\_farewell\_speedrun}
 

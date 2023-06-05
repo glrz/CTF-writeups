@@ -20,7 +20,7 @@ Flag: 1da67d97d656b83385abfdef59ddca83
 
 A simple quiz with basic cyber security  questions. We could simply use CHATGPT to solve this.
 
-<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (65) (3).png" alt=""><figcaption></figcaption></figure>
 
 Convert all to lowercase and  to MD5.
 
