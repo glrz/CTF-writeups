@@ -816,7 +816,7 @@ Alternatively, in this file, if we searched for `pastebin`, we would find a uniq
 
 <figure><img src="../../.gitbook/assets/image (24) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you are interested in other forensics challenges which implemented the use of pastebin into the challenge, check out my previous writeup where I solved [GovTech STACK the Flags CTF 2020 - Voices in the head](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/govtech-stack-the-flags-ctf-2020/forensics#voices-in-the-head).
 

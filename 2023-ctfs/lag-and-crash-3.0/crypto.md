@@ -406,7 +406,7 @@ I decoded it manually in dCode which gave me the following output
 
 Removed the new line to get the whole passphrase
 
-<figure><img src="../../.gitbook/assets/image (25) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 The password is : `wewillmakethemgetschwifty` and we can use this to unzip our next zip file.
 
@@ -491,7 +491,7 @@ image11.png  image13.png  image2.png  image4.png  image6.png  image8.png
 
 If we open up one of these images, we would see this
 
-<figure><img src="../../.gitbook/assets/image (27) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 The other images are similar and they are actually `hexahue`
 
