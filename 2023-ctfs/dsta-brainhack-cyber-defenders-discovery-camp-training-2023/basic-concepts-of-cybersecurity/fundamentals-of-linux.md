@@ -2,7 +2,7 @@
 
 ## #1 Intermediate terminal practice
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30) (4).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a piece of `C` code.
 
@@ -145,7 +145,7 @@ Opening up the txt file, we see this
 
 For the png file, we will see this
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29) (3).png" alt=""><figcaption></figcaption></figure>
 
 However, I did not find the two pieces of  information above to be too useful. Instead, my approach to solve this challenge was similar to the previous challenge.
 

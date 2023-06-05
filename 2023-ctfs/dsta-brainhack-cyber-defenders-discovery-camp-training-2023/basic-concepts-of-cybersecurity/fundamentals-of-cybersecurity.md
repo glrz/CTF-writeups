@@ -2,7 +2,7 @@
 
 ## Welcome
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (7).png" alt=""><figcaption></figcaption></figure>
 
 This challenge is very straightforward. Similar to previous year CDDC training, most challenges required us to have the flag in MD5 hash format. We can get the MD5 from the bash terminal as such
 

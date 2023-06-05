@@ -697,7 +697,7 @@ However, somethings quite off here. This file seemed to be corrupted or broken a
 
 If we analyze it in a hex editor, we would see that the magic bytes are correct, but the bytes after it are not bytes that we should see in a GIF image data file.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (4).png" alt=""><figcaption></figcaption></figure>
 
 `IHDR`, `sRGB`, `pHYs`, `IDAT` indicates that it could likely be a `.png` file instead. Checking the trailing bytes also showed that it matched with what a `.png` file would have.
 
@@ -752,7 +752,7 @@ In one of them, we could slightly see part 2 of the flag at the bottom.
 
 Alternatively, we could open the original image that we fixed earlier in an image editing software like `gimp` and change its hue / brightness settings.
 
-<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Part 2 : guessiwas</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Part 2 : guessiwas</p></figcaption></figure>
 
 By combining the three parts of the flag we obtained earlier, we will get the flag.
 
@@ -770,7 +770,7 @@ First, we could load this disk image file into FTK imager.&#x20;
 
 Next, we further analyze the different partitions. There are a few partitions and only one of them is of our interest, that is, the basic data partition \[2439MB].
 
-<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As we further analyze and expand the partition in the evidence tree, we will find an interesting `Secret_Documents` folder.
 
@@ -816,7 +816,7 @@ Alternatively, in this file, if we searched for `pastebin`, we would find a uniq
 
 <figure><img src="../../.gitbook/assets/image (24) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (4) (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4) (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you are interested in other forensics challenges which implemented the use of pastebin into the challenge, check out my previous writeup where I solved [GovTech STACK the Flags CTF 2020 - Voices in the head](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/govtech-stack-the-flags-ctf-2020/forensics#voices-in-the-head).
 
@@ -840,7 +840,7 @@ Using this password, we will be able to view the PDF content that was password p
 
 Once we open the password protected PDF file, we are presented with the flag.
 
-<figure><img src="../../.gitbook/assets/image (30) (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 You might want to check out a very detailed writeup by a friend [here](https://flagthecapture.blogspot.com/2023/04/ctf-writeup-lnc-2023-licensed-forensics.html) where he used another tool: `Autopsy` to solve it.
 

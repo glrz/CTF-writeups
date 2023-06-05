@@ -212,7 +212,7 @@ Flag: LNC2023{dumbdumb}
 
 ## Multilinguistic
 
-<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file. Note that I solved this shortly after the competition.
 

@@ -10,7 +10,7 @@ This was my first time participating in PicoCTF competition. I participated as s
 
 I was eligible in the global and undergraduate students scoreboard.
 
-<figure><img src="../../.gitbook/assets/image (1) (4) (2) (1).png" alt=""><figcaption><p>Global Scoreboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4) (2) (1) (1).png" alt=""><figcaption><p>Global Scoreboard</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (27) (3) (2).png" alt=""><figcaption><p>Undergraduate students scoreboard</p></figcaption></figure>
 

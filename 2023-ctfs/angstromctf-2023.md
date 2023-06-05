@@ -30,7 +30,7 @@ First, we can try to play around and navigate to the `/play` page.
 
 If we append `/play` to the URL, we will be redirected to another page.
 
-<figure><img src="../.gitbook/assets/image (30) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 From here, we can try to press the button and see what it does. This redirects us to another `/submit` page.
 
