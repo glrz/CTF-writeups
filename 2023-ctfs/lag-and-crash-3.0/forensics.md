@@ -836,7 +836,7 @@ This looked like its the second part of the password, where those denoted as `*`
 
 Using this password, we will be able to view the PDF content that was password protected previously in `flag.zip`.
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once we open the password protected PDF file, we are presented with the flag.
 

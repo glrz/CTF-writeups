@@ -12,7 +12,7 @@ The scoreboard can be found on [CTFtime ](https://ctftime.org/event/1859)or on[ 
 
 I managed to dedicate some time during the weekend and solved two of the web challenges.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 I usually go for challenges in the `Misc`, `Forensics` or `Osint`  categories. However, in this CTF, I joined a bit later and my teammates already solved most of the `Misc` challenges. This CTF did not have any challenges in the `Forensics` or `Osint` category.
 
@@ -24,7 +24,7 @@ Overall, I was quite satisfied to be able to solve challenges in the `Web` categ
 
 For this challenge, we were given a link. Upon visiting the link, we will see the following page.
 
-<figure><img src="../.gitbook/assets/image (80) (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 First, we can try to play around and navigate to the `/play` page.
 
@@ -40,7 +40,7 @@ It seems like we are not getting much information from this. So, lets run this i
 
 In Burp Suite, make sure to turn on interceptor. Once we forward the request, we will see the following.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (14).png" alt=""><figcaption></figcaption></figure>
 
 It looked like there's some value assigned to `start`.&#x20;
 

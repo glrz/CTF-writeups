@@ -270,7 +270,7 @@ We could decode this in [dCode](https://www.dcode.fr/deadfish-language).
 
 This gives us the output: merlocgoblub which is also the password for the next zip file.
 
-<figure><img src="../../.gitbook/assets/image (80) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we run `ls` with the `-la` option we can see the zip file `.-.7z`
 
