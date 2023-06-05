@@ -248,7 +248,7 @@ If we view `FLAG.png` in image viewer, we would see the flag in image.
 └─$ eog FLAG.png
 ```
 
-<figure><img src="../.gitbook/assets/image (80) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could load it into `Autopsy` and we will find the flag there as well.
 
