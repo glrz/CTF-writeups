@@ -10,9 +10,9 @@ This was my first time participating in PicoCTF competition. I participated as s
 
 I was eligible in the global and undergraduate students scoreboard.
 
-<figure><img src="../../.gitbook/assets/image (1) (4) (2).png" alt=""><figcaption><p>Global Scoreboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4) (2) (1).png" alt=""><figcaption><p>Global Scoreboard</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (27) (3).png" alt=""><figcaption><p>Undergraduate students scoreboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (3) (2).png" alt=""><figcaption><p>Undergraduate students scoreboard</p></figcaption></figure>
 
 I spent the first few days attempting the challenges and was pretty satisfied with the number of challenges I solved. I solved a total of 24 challenges in different categories such as Binary Exploitation, Cryptography, Forensics, General Skills, Reverse Engineering and Web Exploitation. I am glad I managed to learn some new skills which helped me solve these challenges.&#x20;
 

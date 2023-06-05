@@ -212,7 +212,7 @@ Flag: LNC2023{dumbdumb}
 
 ## Multilinguistic
 
-<figure><img src="../../.gitbook/assets/image (29) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file. Note that I solved this shortly after the competition.
 
@@ -344,7 +344,7 @@ Lets check out the `.txt` content
 
 This looked like `Morse Code` and we could decode it using CyberChef which would give us the password if we scroll down to the bottom of the decoded output
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Password: DIDAHDIDIDAHDIDAHDIDAHDI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (4).png" alt=""><figcaption><p>Password: DIDAHDIDIDAHDIDAHDIDAHDI</p></figcaption></figure>
 
 Lets use this password to unzip the `d@n(e.7z`
 
@@ -406,7 +406,7 @@ I decoded it manually in dCode which gave me the following output
 
 Removed the new line to get the whole passphrase
 
-<figure><img src="../../.gitbook/assets/image (25) (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The password is : `wewillmakethemgetschwifty` and we can use this to unzip our next zip file.
 
@@ -491,7 +491,7 @@ image11.png  image13.png  image2.png  image4.png  image6.png  image8.png
 
 If we open up one of these images, we would see this
 
-<figure><img src="../../.gitbook/assets/image (27) (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 The other images are similar and they are actually `hexahue`
 
@@ -501,7 +501,7 @@ However, I'm not too sure why for some reason there was only 13 png images found
 
 If we just open it as a Word document, we will be able to see the full hexahue.
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65) (3).png" alt=""><figcaption></figcaption></figure>
 
 We could decode this manually, but an easier way would be to copy and paste it into the decoder, that is, to `CTRL+A` on the word documents and `CTRL+C` to copy and `CTRL+V` to paste on [dCode](https://www.dcode.fr/hexahue-cipher).
 

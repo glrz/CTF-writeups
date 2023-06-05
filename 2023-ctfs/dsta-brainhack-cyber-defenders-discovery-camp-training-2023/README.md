@@ -10,13 +10,13 @@ I participated in the DSTA Brainhack Cyber Defenders Discovery Camp (CDDC) train
 
 I attempted several challenges in the first few days and maintained `1st` position on the scoreboard for both `Uni` and `Overall` ranking for the first four days.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Day 1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Day 1</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Day 2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (3).png" alt=""><figcaption><p>Day 2</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Day 3</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (4).png" alt=""><figcaption><p>Day 3</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption><p>Day 4</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>Day 4</p></figcaption></figure>
 
 Subsequently, I did not commit much to this training because I had other more important commitments.
 
@@ -24,9 +24,9 @@ After the training, my uni ranking was   and my overall ranking was   .
 
 I solved a total of `42/78` challenges from `Basic Concepts of Cybersecurity` and `CTF Topics` and the progress of each category can be seen from the progress circle chart below.
 
-<figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Overall, I felt that this training was quite useful in helping me learn new concepts in cybersecurity and tackle new challenges. I managed to apply new skills to solve challenges in areas such us `OSINT`, `Network Security` and `Cyber Forensics` under `CTF Topics`. However, it could have been better in various aspects.&#x20;
 

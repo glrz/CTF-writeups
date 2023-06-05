@@ -1,7 +1,10 @@
 # Table of contents
 
 * [2023 CTFs](README.md)
-  * [DSTA BrainHack Cyber Defenders Discovery Camp Training 2023](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023.md)
+  * [DSTA BrainHack Cyber Defenders Discovery Camp Training 2023](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/README.md)
+    * [Basic Concepts of Cybersecurity](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/README.md)
+      * [Fundamentals of Cybersecurity](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/fundamentals-of-cybersecurity.md)
+    * [Copy of Page 1](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/copy-of-page-1.md)
   * [WaniCTF 2023](2023-ctfs/wanictf-2023.md)
   * [ångstromCTF 2023](2023-ctfs/angstromctf-2023.md)
   * [Lag and Crash 3.0](2023-ctfs/lag-and-crash-3.0/README.md)

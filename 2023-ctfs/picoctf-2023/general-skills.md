@@ -269,7 +269,7 @@ Flag: picoCTF{us3l3ss\_ch4ll3ng3\_3xpl0it3d\_1155}
 
 ## Special
 
-<figure><img src="../../.gitbook/assets/image (4) (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 I solved this challenge shortly after the competition when I had some free time to attempt it.
 
@@ -358,7 +358,7 @@ Flag: picoCTF{5p311ch3ck\_15\_7h3\_w0r57\_3befb794}
 
 ## Specialer
 
-<figure><img src="../../.gitbook/assets/image (4) (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was similar to the previous challenge - `Special` and I solved it after the competition as well.
 

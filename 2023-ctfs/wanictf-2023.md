@@ -8,13 +8,13 @@ description: >-
 
 I participated in this CTF with team `youtiaos` and we obtained the ranking: `10/840`. Scoreboard can be found on [CTFtime](https://ctftime.org/event/1988).
 
-<figure><img src="../.gitbook/assets/image (25) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 I managed to spend some time during the weekend to solve some beginner forensic challenges.
 
 ## whats\_happening
 
-<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file.
 
@@ -256,7 +256,7 @@ Alternatively, we could load it into `Autopsy` and we will find the flag there a
 
 Note that when creating a new case in Autopsy, we will have to load it as `Unallocated Space Image File`
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (7).png" alt=""><figcaption></figcaption></figure>
 
 Interested in another challenge where I used `Autopsy` to solve? Check out my previous more detailed writeup [here](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/brixel-ctf-winter-edition-2020/forensics#lost-evidence).
 
@@ -264,7 +264,7 @@ Flag: FLAG{n0th1ng\_much}
 
 ## Just\_MP4
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file as well.
 
