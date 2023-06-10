@@ -8,19 +8,19 @@ description: >-
 
 ## Length of Plain text and Cipher text
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 125
 
 ## dggnbh
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 At first glance, this looked like `Enigma Machine`. I have previously solved a similar challenge [here](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/gsctf-2020#crypto-war).
 
 Similarly, we can use [cryptii](https://cryptii.com/pipes/enigma-machine) to solve it. Key in the values accordingly and we will get the flag.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 Flag: bigbrotheriswatchingyou
 
@@ -32,7 +32,7 @@ Flag: 4
 
 ## Modular operation
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it can be done using Euler’s theorem by hand manually.
 
@@ -48,23 +48,23 @@ We can add them up and mod p again
 
 Note that this is done using a `TeXit` bot in Discord that uses `WolframAlpha` to solve.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 39
 
 ## ECC
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we could simply search up : `ecc point addition calculator`
 
 Input the values respectively starting from curve, field, all the way to values of Q.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 Add up `R1` and `R2` manually and we will get the flag.
 
@@ -74,7 +74,7 @@ Flag: 50
 
 ## Attack
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given poorly generated, vulnerable RSA public key and a ciphertext of a message encrypted with that public key. Our objective is to decrypt the ciphertext.
 

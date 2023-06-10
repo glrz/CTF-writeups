@@ -80,7 +80,7 @@ We will then get the following full image:
 
 Next, we can do a reverse image search [here](https://www.duplichecker.com/reverse-image-search.php) which gives us the location.
 
-<figure><img src="../../../.gitbook/assets/image (86) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (86) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Finally, get the MD5 hash value to get the flag.
 
@@ -92,7 +92,7 @@ Finally, get the MD5 hash value to get the flag.
 
 ## Find me, if you can.
 
-<figure><img src="../../../.gitbook/assets/image (51) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it provided what seemed like a username tag: `@RansomVault.` I thought that this could be a Telegram username or channel.
 
@@ -435,7 +435,7 @@ Among the pictures, I saw the words `THEORY Final Edition` which looked like an 
 
 Next, it was quite easy to find her Twitter once we know her name.
 
-<figure><img src="../../../.gitbook/assets/image (81) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Since the challenge asked for `Twitter ID`, I searched up tools to find her Twitter ID [here ](https://www.codeofaninja.com/tools/find-twitter-id/)and [here](https://tweeterid.com/).&#x20;
 
@@ -459,7 +459,7 @@ Next, I found that she has two dogs or chihuahuas to be exact. I also found this
 
 Lastly, I found the password number which was one of her songs.
 
-<figure><img src="../../../.gitbook/assets/image (82) (2).png" alt=""><figcaption><p>486</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82) (2) (1).png" alt=""><figcaption><p>486</p></figcaption></figure>
 
 Combining all the above information found and getting the MD5 hash value would give us the flag.
 

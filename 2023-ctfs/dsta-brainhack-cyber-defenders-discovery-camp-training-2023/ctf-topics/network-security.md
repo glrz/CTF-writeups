@@ -6,7 +6,7 @@
 
 For this challenge, we were given an image. This looked like a series of bytes which we normally see in a packet.
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can take a look at the IP packet.
 
@@ -76,11 +76,11 @@ In Wireshark, we can filter by
 
 From here, we are able to see the keystrokes captured under HID Data.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51) (3).png" alt=""><figcaption></figcaption></figure>
 
 Next, `CTRL+A` to select all packets and go to `File > Export Specified Packets`
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (63) (4).png" alt=""><figcaption></figcaption></figure>
 
 Save the filename of the exported packets as  `keystrokes.pcapng`
 
@@ -743,7 +743,7 @@ For this challenge, we need to find the opened ports in a packet capture file.
 
 There are many ports to check. One way we could do the checking is to apply filter on the destination ports, by right clicking and `Apply as filter > Selected`.
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (85) (3).png" alt=""><figcaption></figcaption></figure>
 
 Change `tcp.dstport == {port number}` to `tcp.port == {port number}`
 
@@ -751,7 +751,7 @@ From here, we could try different port numbers
 
 We can see that port 21 is closed.
 
-<figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (86) (2).png" alt=""><figcaption></figcaption></figure>
 
 Port 22, which is the port for SSH is open. There is full TCP handshake, SYN, SYN-ACK, ACK.
 
@@ -1024,7 +1024,7 @@ However,  instead of getting 10 correct answers consecutively to get the flag, w
 
 Initially, I  tried a different approach by using CHATGPT. However, after around 19 rounds, I got one incorrect.
 
-<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82) (2).png" alt=""><figcaption></figcaption></figure>
 
 I decided to go back to the old school method by using this subnet calculator: [https://www.calculator.net/ip-subnet-calculator.html](https://www.calculator.net/ip-subnet-calculator.html)
 
