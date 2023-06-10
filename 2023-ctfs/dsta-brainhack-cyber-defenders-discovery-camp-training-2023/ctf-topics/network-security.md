@@ -6,7 +6,7 @@
 
 For this challenge, we were given an image. This looked like a series of bytes which we normally see in a packet.
 
-<figure><img src="../../../.gitbook/assets/image (81) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can take a look at the IP packet.
 
@@ -30,7 +30,7 @@ For this challenge, it is slightly similar to the previous challenge. We were gi
 
 &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57) (3).png" alt=""><figcaption></figcaption></figure>
 
 However, we will not be dealing with IP packet now, but rather [TCP](https://en.wikipedia.org/wiki/Transmission\_Control\_Protocol).
 
@@ -68,7 +68,7 @@ For this challenge, I unlocked the hint: USB keyboard.
 
 In this case, we are given a packet capture file of USB keyboard.
 
-<figure><img src="../../../.gitbook/assets/image (38) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 In Wireshark, we can filter by
 
@@ -565,7 +565,7 @@ Flag: 7f37b1af11faa23608c7c0a7aef10fa3
 
 ## Insiders
 
-<figure><img src="../../../.gitbook/assets/image (55) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.pcap` file.
 
@@ -579,7 +579,7 @@ Next, I checked if leaked file could be transferred by HTTPS which uses SSL.
 
 As I  looked further  into the packets, the cipher suite used was `ECDHE`, which meant that the data cannot be decrypted because the session keys are not derived from private key.
 
-<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (83) (2).png" alt=""><figcaption></figcaption></figure>
 
 At this point, I unlocked a hint which pointed to ICMP:
 
@@ -613,7 +613,7 @@ We previously filtered by `icmp`. Now, we can `CTRL+A` to select all packets and
 
 Next, we will launch `Scapy`.
 
-<figure><img src="../../../.gitbook/assets/image (84) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 In scapy, we can view the first packet and we will see that it has PDF with version 1.7 showed as well.
 
@@ -697,7 +697,7 @@ Before  I unlocked the hint, I followed the `UDP` stream. However, I did not fin
 
 Next, I followed the `TCP` stream. In the first few streams, I thought that the value of `h` was the  info hash. I later realized it's not.
 
-<figure><img src="../../../.gitbook/assets/image (39) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
@@ -1024,7 +1024,7 @@ However,  instead of getting 10 correct answers consecutively to get the flag, w
 
 Initially, I  tried a different approach by using CHATGPT. However, after around 19 rounds, I got one incorrect.
 
-<figure><img src="../../../.gitbook/assets/image (82) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 I decided to go back to the old school method by using this subnet calculator: [https://www.calculator.net/ip-subnet-calculator.html](https://www.calculator.net/ip-subnet-calculator.html)
 

@@ -2,7 +2,7 @@
 
 ## Zip series 2
 
-<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file.
 
@@ -303,7 +303,7 @@ We can see `please decrypt me 4f0f59a1d8c85e97dc6e52a03ebf617342443cc602b83c2da9
 
 In [CyberChef](https://cyberchef.org/#recipe=RC4\(%7B'option':'UTF8','string':'Jennis\_This\_is\_our\_secret123\_XXD'%7D,'Hex','Hex'\)From\_Hex\('None'\)\&input=NGYwZjU5YTFkOGM4NWU5N2RjNmU1MmEwM2ViZjYxNzM0MjQ0M2NjNjAyYjgzYzJkYTk3ZDBhZGYzYzcyY2JlMg), we can use this input: `4f0f59a1d8c85e97dc6e52a03ebf617342443cc602b83c2da97d0adf3c72cbe2`,  with the following passphrase: `Jennis_This_is_our_secret123_XXD`
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (3).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we could use this simple Python script to decrypt it.
 
@@ -371,11 +371,11 @@ Compressed: 140975147
 
 In Kali Linux VM, we can use `SQLite database browser` to view the database.
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (63) (3).png" alt=""><figcaption></figcaption></figure>
 
 We load the following `com.android.providers.contacts/databases/contacts2.db`
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81) (2).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, I used the `sqlite3` command to view the table and its contents.
 

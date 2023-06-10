@@ -2,7 +2,7 @@
 
 ## Simple Search
 
-<figure><img src="../../../.gitbook/assets/image (55) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can go to GitHub and type `user:sanjawa` into the search bar.
 
@@ -32,7 +32,7 @@ Flag: 489b14d0c1bdeb037327f3fe6291bf8a
 
 ## BF..?
 
-<figure><img src="../../../.gitbook/assets/image (63) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (63) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.txt` file.
 
@@ -124,7 +124,7 @@ First, we could open this up in `Tor` browser.
 
 If we view the source code, we would see that it mentioned backup is extremely important under  the comments.
 
-<figure><img src="../../../.gitbook/assets/image (84) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Additionally, if we go to the `server-status`: [http://y7dxireflp5yxffv4z4c2jqsyinx2jtcsezqrn3bv6deif6z24ugd2ad.onion/server-status/](http://y7dxireflp5yxffv4z4c2jqsyinx2jtcsezqrn3bv6deif6z24ugd2ad.onion/server-status/)
 
@@ -195,7 +195,7 @@ Slot	Total megabytes transferred this slot
 
 We can navigate to the `/backup` directory
 
-<figure><img src="../../../.gitbook/assets/image (38) (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, go into the onion\_service folder.
 
@@ -203,7 +203,7 @@ Next, go into the onion\_service folder.
 
 In the `hostname` file, can see the flag string.
 
-<figure><img src="../../../.gitbook/assets/image (83) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (83) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Get the MD5 hash value for the flag.
 
@@ -304,7 +304,7 @@ However, it took too long to crack with `proxychains.`
 
 At this point, I  unlocked the hint.
 
-<figure><img src="../../../.gitbook/assets/image (39) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This hint was  actually very useful  compared to the other challenges hints I unlocked. Now that we know the first 2 digits of the password, we could craft a new password list that is much smaller in size, which will allow us to crack the password faster.
 
@@ -435,13 +435,13 @@ Among the pictures, I saw the words `THEORY Final Edition` which looked like an 
 
 Next, it was quite easy to find her Twitter once we know her name.
 
-<figure><img src="../../../.gitbook/assets/image (81) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Since the challenge asked for `Twitter ID`, I searched up tools to find her Twitter ID [here ](https://www.codeofaninja.com/tools/find-twitter-id/)and [here](https://tweeterid.com/).&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (10) (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (11) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 There was another site [here ](https://twiteridfinder.com/)which gave the same Twitter ID: `62755629`.
 
@@ -459,7 +459,7 @@ Next, I found that she has two dogs or chihuahuas to be exact. I also found this
 
 Lastly, I found the password number which was one of her songs.
 
-<figure><img src="../../../.gitbook/assets/image (82) (2) (1).png" alt=""><figcaption><p>486</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82) (2) (1) (1).png" alt=""><figcaption><p>486</p></figcaption></figure>
 
 Combining all the above information found and getting the MD5 hash value would give us the flag.
 
@@ -471,7 +471,7 @@ Combining all the above information found and getting the MD5 hash value would g
 
 ## I’d like to hire you.
 
-<figure><img src="../../../.gitbook/assets/image (57) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given this link: [https://ibb.co/TvqfwG8](https://ibb.co/TvqfwG8)
 

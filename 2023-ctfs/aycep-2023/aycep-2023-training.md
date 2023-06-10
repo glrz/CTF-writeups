@@ -36,7 +36,7 @@ Flag: W3lc0m3\_@dv3n+ur3r$
 
 <figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +70,7 @@ Flag: W3lc0m3\_@dv3n+ur3r$
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
@@ -571,3 +571,52 @@ We can use [CyberChef](https://cyberchef.org/#recipe=From\_Binary\('Space',8\)Fr
 Flag: THUS-SPOKE-ZARATHUSTRA
 
 ## Misc
+
+### Messy Desk
+
+<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, we were given an image.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+If we zoom in, we will be able to see the flag.
+
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+
+Flag: s0\_m3ssY!
+
+### Rene Descartes
+
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, we were given a link. Upon clicking the link, we are redirected to the website.
+
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+
+First, lets view the source code. If we scroll down, we would see the flag commented  out.
+
+<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+
+Alternatively, we can `CTRL+F` to search for `<!--` which represents comments in HTML
+
+<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+
+Flag: I\_th!nk\_th4r4f0r4\_I\_@m
+
+### Key Pad
+
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+For this challenge, we were given a series of numbers or code.
+
+There's also an attached image.
+
+<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+
+We could decode this as [Multi-tap Phone (SMS)](https://www.dcode.fr/multitap-abc-cipher) to get the flag.
+
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+
+Flag: AYCEP
+

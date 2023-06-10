@@ -26,7 +26,7 @@ Flag: bigbrotheriswatchingyou
 
 ## Number of primes
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 4
 
