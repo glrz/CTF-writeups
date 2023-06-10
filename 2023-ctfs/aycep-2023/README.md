@@ -4,15 +4,15 @@ The Advanced Youth Cyber Exploration Programme (AYCEP) is an online cybersecurit
 
 This year's AYCEP training bootcamp will take place on the 6th of June 2023. The top 60 participants of the bootcamp will be invited to compete in the CTF finale physically at the ASEAN – Singapore Cybersecurity Centre for Excellence (ASCCE) on 7th June 2023.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (6).png" alt=""><figcaption></figcaption></figure>
 
 I participated in the training with my initials `RZ` under the team name: `T34M1` and was placed `24/97.`
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43) (5).png" alt=""><figcaption></figcaption></figure>
 
 I was invited to compete in the CTF finale physically at the ASEAN – Singapore Cybersecurity Centre for Excellence (ASCCE) on 7th June 2023 since I was among the Top 60.
 
@@ -20,6 +20,6 @@ However, this clashed with my schedule and I was unable to attend the event phys
 
 For the competition, I placed `17/22`.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>

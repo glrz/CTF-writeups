@@ -26,7 +26,7 @@ Similar to previous CTF competiions, there's a sanity check challenge for this e
 
 Upon joining the Discord server, we can see the flag announced in the `announcement` channel.
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: HTB{l3t\_th3\_tr3asur3\_hunt1ng\_b3g1n!}
 
@@ -83,7 +83,7 @@ We can use this [CyberChef recipe](https://cyberchef.org/#recipe=Find\_/\_Replac
 2. Find `+` string and replace
 3. Find   and replace
 
-<figure><img src="../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: HTB{p0w3rsh3ll\_Cr4dl3s\_c4n\_g3t\_th3\_j0b\_d0n3}
 
@@ -138,7 +138,7 @@ Flag: HTB{th3s3\_4l13nS\_4r3\_s00000\_b4s1c}
 
 ## Roten
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.cap` file embedded in the zip file.
 

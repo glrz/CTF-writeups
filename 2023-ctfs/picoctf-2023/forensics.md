@@ -341,7 +341,7 @@ Flag: picoCTF{WilhelmZwalina}
 
 ## FindAndOpen
 
-<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.pcap` file.
 
@@ -375,7 +375,7 @@ I copied these strings in `CyberChef` and used the following [recipe](https://cy
 
 This would give us what seemed like a partial flag.
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I used this as the password to unlock the `.zip` file provided and managed to unzipped it.
 

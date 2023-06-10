@@ -2,13 +2,13 @@
 
 ## HideToSee
 
-<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given an image file.
 
 Upon opening the image, it showed the typical image of an `atbash cipher`.
 
-<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 From the challenge title, it was probably referring to `Steghide`.&#x20;
 
@@ -124,7 +124,7 @@ Flag: picoCTF{read\_mycert\_27442dba}
 
 ## rotation
 
-<figure><img src="../../.gitbook/assets/image (23) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can download the `encrypted.txt` file which showed some string that looked like it was rotated. We can use the common `ROT13` to decode it. However, this would not give us the flag.
 

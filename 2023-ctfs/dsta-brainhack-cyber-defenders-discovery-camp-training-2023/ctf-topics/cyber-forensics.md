@@ -478,7 +478,7 @@ Flag: e54c79f7c32b4dcf5e7360a7698b471c
 
 ## Finding the boy’s secret document
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was probably the most interesting one out of the many other challenges I solved in this training. It also had one of the least solves. I got to learn more about PDF structure through my own research as well.
 
@@ -486,7 +486,7 @@ For this challenge, we were given a `.vhd` file. I tried to load this into `FTK 
 
 We can see `secret.pdf` in the Alternate Data Stream(ADS) of `mynote.txt`. I have previously solved a challenge related to ADS in  [CSIT CNY 2023 Challenge](https://gadiel-lau.gitbook.io/2023-writeups/2023-ctfs/csit-cny-2023-challenge).  Do check it out if you would like to find out more.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (7).png" alt=""><figcaption></figcaption></figure>
 
 Back to the challenge, there were a few other pdf files in there where we could verify the correct format. The PDF should start with %PDF-{version number} and end with %%EOF.&#x20;
 
@@ -596,9 +596,9 @@ Now, we can reverse the PDF using `tac` command and save it to flag.pdf
 
 Opening the PDF showed a story of tortoise and hare on Page 1. However, Page 2 seemed blank or corrupted.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 I started to do more research on PDFs and found that [this ](https://resources.infosecinstitute.com/topic/pdf-file-format-basic-structure/)was pretty good at covering the structure of PDF.
 
@@ -643,14 +643,14 @@ I opened it in hex editor, changed byte 33 to 34
 
 Similarly, from the previous exiftool warning, we can go to offset 3262, which is 0xCBE, and will be able to see the duplicated object 13.
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (5).png" alt=""><figcaption></figcaption></figure>
 
 Change byte 33 to 34, save and open
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 The flag can be found on page 2 now.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 5b9f2f30e1abeeece18b4553ed23566b

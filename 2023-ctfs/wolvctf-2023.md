@@ -20,7 +20,7 @@ Fun Fact: I actually did not plan to participate in this CTF. However, after I s
 
 ## Sanity Check
 
-<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it provided a link to the Discord server. Once we navigate to the `rules` channel, we will be able to see the flag beside the channel name.
 
@@ -119,7 +119,7 @@ Flag: wctf{y0u\_h4v3\_b33n\_my\_fr13nd\_\_\_th4t\_1n\_1t53lf\_1s\_4\_tr3m3nd0u5\
 
 ## baby-re
 
-<figure><img src="../.gitbook/assets/image (9) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `baby-re` file.
 
@@ -339,7 +339,7 @@ Flag: wctf{ywtp}
 
 ## Dino Trading
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was under the forensics category and we were given a `.pcapng` file.
 

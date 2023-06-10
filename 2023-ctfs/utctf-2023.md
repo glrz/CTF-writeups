@@ -369,7 +369,7 @@ This is not the flag
 
 An easier way to find the image would be to search for the challenge creator username on Discord to find the messages posted by him.
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Note: Only two images were `.jpg` files. There were several other `psyduck` that looked like image files but they were just Discord stickers.
 

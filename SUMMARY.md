@@ -2,7 +2,8 @@
 
 * [2023 CTFs](README.md)
   * [AYCEP 2023](2023-ctfs/aycep-2023/README.md)
-    * [Page 1](2023-ctfs/aycep-2023/page-1.md)
+    * [AYCEP 2023 Training](2023-ctfs/aycep-2023/aycep-2023-training.md)
+    * [Copy of Page 1](2023-ctfs/aycep-2023/copy-of-page-1.md)
   * [DSTA BrainHack Cyber Defenders Discovery Camp Training 2023](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/README.md)
     * [Basic Concepts of Cybersecurity](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/README.md)
       * [Fundamentals of Cybersecurity](2023-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2023/basic-concepts-of-cybersecurity/fundamentals-of-cybersecurity.md)
