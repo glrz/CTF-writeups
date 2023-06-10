@@ -14,7 +14,7 @@ Flag: 125
 
 ## dggnbh
 
-<figure><img src="../../../.gitbook/assets/image (20) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 At first glance, this looked like `Enigma Machine`. I have previously solved a similar challenge [here](https://gadiel-lau.gitbook.io/2020-writeups-1/2020-ctfs/gsctf-2020#crypto-war).
 
@@ -26,7 +26,7 @@ Flag: bigbrotheriswatchingyou
 
 ## Number of primes
 
-<figure><img src="../../../.gitbook/assets/image (11) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 4
 
@@ -48,23 +48,23 @@ We can add them up and mod p again
 
 Note that this is done using a `TeXit` bot in Discord that uses `WolframAlpha` to solve.
 
-<figure><img src="../../../.gitbook/assets/image (18) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (51) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (16) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 39
 
 ## ECC
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50) (7).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we could simply search up : `ecc point addition calculator`
 
 Input the values respectively starting from curve, field, all the way to values of Q.
 
-<figure><img src="../../../.gitbook/assets/image (23) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Add up `R1` and `R2` manually and we will get the flag.
 

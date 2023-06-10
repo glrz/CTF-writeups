@@ -10,7 +10,7 @@ I participated in the training with my initials `RZ` under the team name: `T34M1
 
 <figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (7).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (43) (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,6 +20,6 @@ However, this clashed with my schedule and I was unable to attend the event phys
 
 For the competition, I placed `17/22`.
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54) (5).png" alt=""><figcaption></figcaption></figure>

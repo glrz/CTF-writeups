@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,29 +32,29 @@ Flag: W3lc0m3\_@dv3n+ur3r$
 
 ## MCQs – 1 attempt for Qns (22/25)
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (38) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (7).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (122) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (7).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (121) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
@@ -62,21 +62,21 @@ Flag: W3lc0m3\_@dv3n+ur3r$
 
 <figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (39) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (7).png" alt=""><figcaption></figcaption></figure>
 
 Besides MCQs, for most of the other challenges, we had to SSH into server using `MobaXterm` using the AYCEP private key
 
@@ -86,7 +86,7 @@ Besides MCQs, for most of the other challenges, we had to SSH into server using 
 
 ### Job Interview - Part 1
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 First, we can find the official website for `National Cybersecurity R&D Lab`
 
@@ -173,7 +173,7 @@ Flag: EE CHIEN CHANG
 
 ### Job Interview - Part 2
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (4).png" alt=""><figcaption></figcaption></figure>
 
 Using the official website we found earlier in previous challenge, we can use [Wayback machine](https://web.archive.org/web/20161201000000\*/ncl.sg).
 
@@ -197,7 +197,7 @@ We can see the name `Tess Tres`. If we do a search on the name on LinkedIn, we w
 
 The flag can be found under `Projects`
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: super\_enthu\_student
 
@@ -205,7 +205,7 @@ Flag: super\_enthu\_student
 
 ### Protocol Please
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Straightforward challenge, can easily Google if not sure.
 
@@ -264,7 +264,7 @@ T2ggeWFoLCB5b3UgZm91bmQgU2FoYXNyYWhsYSEgLi4uIC4uLiAuLi4gR29vZCBqb2IsIGxhIGxhIQpZ
 
 We can decode this in [CyberChef](https://cyberchef.org/#recipe=From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)\&input=DVQyZ2dlV0ZvTENCNWIzVWdabTkxYm1RZ1UyRm9ZWE55WVdoc1lTRWdMaTR1SUM0dUxpQXVMaTRnUjI5dlpDQnFiMklzSUd4aElHeGhJUXBaYjNWeUlHWnNZV2NnYVhNNklFTlZTMFZOUlU0PQ0K) to get the flag.
 
-<figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (150) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: CUKEMEN
 
@@ -301,7 +301,7 @@ In Audacity Spectrogram view, we will be able to see `Morse Code` at the bottom.
 
 We can use [CyberChef](https://cyberchef.org/#recipe=From\_Morse\_Code\('Space','Line%20feed'\)\&input=LS4tLSAtLS0gLi4tIC4tLiAtLi0gLiAtLi0tIC4uIC4uLiAtLS0uLi4gLi4uLiAuIC4uLiAtIC4uLQ) to decode this and we will get the key which is the password to unlock the zip file.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>YOURKEYIS:HESTU</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (4).png" alt=""><figcaption><p>YOURKEYIS:HESTU</p></figcaption></figure>
 
 Note that the password is typed in lower case
 
@@ -390,7 +390,7 @@ Flag: 40SealsOfTheProtector
 
 ### Spellplague Caverns
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (6).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was very straightforward. Once navigated into the challenge directory, there's an image file. Run `exiftool` on the image and we will find the create date which is the flag.
 
@@ -451,7 +451,7 @@ Flag: 2021-06-08
 
 ### Pirate King's Retreat
 
-<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (142) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the challenge directory, there's 2 `txt` files. Lets read the contents of both.
 
@@ -473,13 +473,13 @@ I found only the first file: `bounty.txt` to be useful since it looked like a ci
 
 Run `Rot13 Brute Force` in [CyberChef](https://cyberchef.org/#recipe=ROT13\_Brute\_Force\(true,true,false,100,0,true,''\)\&input=TmRqIGRldGMgaXd0IHJ3dGhpIGlkIHV4Y3MuLi4gcCBieGJ4ciEgKmhyZ3RwYmgqDQpZamhpIHp4c3N4Y3YhIFd0Z3QgbmRqIHZkOg0KODg4YWpyem5fbHhjY3RnaDg4OA0K) to get the flag.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43) (6).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 888lucky\_winners888
 
 ### The Frozen Heart
 
-<figure><img src="../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (147) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we navigate into the challenge directory and would find around 10 hidden `txt` files.
 
@@ -545,7 +545,7 @@ If we look back at the challenge, there is a useful hint on `XOR octal operation
 
 We can use an online tool like [this](https://toolslick.com/math/bitwise/xor-calculator) to get the octal result of `friedrich Nietzsche`.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 This password: `32054120021702103015410` will be used to unzip the zip file.
 
@@ -574,15 +574,15 @@ Flag: THUS-SPOKE-ZARATHUSTRA
 
 ### Messy Desk
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (84) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given an image.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (4).png" alt=""><figcaption></figcaption></figure>
 
 If we zoom in, we will be able to see the flag.
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63) (5).png" alt=""><figcaption></figcaption></figure>
 
 Flag: s0\_m3ssY!
 
@@ -592,31 +592,31 @@ Flag: s0\_m3ssY!
 
 For this challenge, we were given a link. Upon clicking the link, we are redirected to the website.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (4).png" alt=""><figcaption></figcaption></figure>
 
 First, lets view the source code. If we scroll down, we would see the flag commented  out.
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (81) (3).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, we can `CTRL+F` to search for `<!--` which represents comments in HTML
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: I\_th!nk\_th4r4f0r4\_I\_@m
 
 ### Key Pad
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a series of numbers or code.
 
 There's also an attached image.
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83) (3).png" alt=""><figcaption></figcaption></figure>
 
 We could decode this as [Multi-tap Phone (SMS)](https://www.dcode.fr/multitap-abc-cipher) to get the flag.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: AYCEP
 
