@@ -12,7 +12,7 @@ description: >-
 
 For this challenge, we were given a `Flag.jpg` file and I was the first to solve it.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (4).png" alt=""><figcaption></figcaption></figure>
 
 As the challenge name suggested, there could be files embedded within.
 
@@ -272,7 +272,7 @@ word/document.xml:<w:document xmlns:wpc="http://schemas.microsoft.com/office/wor
 
 ## Slay The Robot
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.png` file. However, is it really a `.png` file?
 
@@ -298,7 +298,7 @@ Flag: LNC2023{mah\_mah\_mah\_theROBOT}
 
 ## Wave
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.wav` file.&#x20;
 
@@ -306,17 +306,17 @@ We could simply load this file into an audio editor like `Audacity`.
 
 If we change it to `spectrogram` mode, we will be able to see the flag.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: LNC2023{annoyingwave}
 
 ## Survival's Message
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge we were given a `flag.jpg` file and I was third  to solve the challenge.
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 First, if we run the `file` command, we would see that this is not a jpg image file but rather a ASCII text file, similar to the previous  `Slay The Robot` challenge.
 
@@ -604,7 +604,7 @@ Flag: LNC2023{konoyodeichibandekinaiko}
 
 For this challenge, we were given a `.jpg` image file and I was the first to solve it.
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 First, lets open this image in image viewer.
 

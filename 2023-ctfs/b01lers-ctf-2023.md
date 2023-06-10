@@ -27,7 +27,7 @@ Once we join the Discord server, we can navigate to the `Announcements` channel.
 
 From there, we will notice that there is an ongoing thread.
 
-<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (81) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we clicked on it, we can see an active thread which displayed part of the flag.
 
@@ -35,19 +35,19 @@ If we clicked on it, we can see an active thread which displayed part of the fla
 
 Once we click into this thread, we will get the full flag :)
 
-<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (90) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: bctf{wow\_yet\_another\_place\_to\_put\_the\_sanity\_check\_flag\_hope\_you\_find\_it}
 
 ## switcheroo
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (87) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it provided a link to WolvCTF 2023 as well as a `gift` which looked like an encoded string.
 
 First, I went on to `CyberChef` to decode this string.
 
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure>
 
 After it was `Base64` decoded, it looked like we obtained a flag. However, the flag format is not correct and looked like it was a flag for `WolvCTF 2023` instead.
 
@@ -57,7 +57,7 @@ After I created an account and team on the platform, I could browse the challeng
 
 I noticed that there was a similar `switcheroo` challenge under the `misc` category as well.
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 It's a busy weekend, with tens of CTF happening at the same time :) If there is extra time, why not check out https://ctf.b01lers.com? BTW, take this as a gift: YmN0ZntoMzExMF93MHIxZF9nMWY3X2ZyMG1fN2gzX2IwMWxlcl9zMWQzfQ==
@@ -65,7 +65,7 @@ It's a busy weekend, with tens of CTF happening at the same time :) If there is 
 
 If I decode this in [`CyberChef`](https://cyberchef.org/#recipe=From\_Base64\('A-Za-z0-9%2B/%3D',true,false\)\&input=WW1OMFpudG9NekV4TUY5M01ISXhaRjluTVdZM1gyWnlNRzFmTjJnelgySXdNV3hsY2w5ek1XUXpmUT09), I'll get the flag.
 
-<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (85) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: bctf{h3110\_w0r1d\_g1f7\_fr0m\_7h3\_b01ler\_s1d3}
 
@@ -115,7 +115,7 @@ Now, we can navigate to the link: [http://ctf.b01lers.com:5115/ZGVidWcuaHRtbA==]
 
 From here, we can see that there could be a file `app.py`.
 
-<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (88) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once again, we can get the `Base64` of app.py through [`CyberChef`](https://cyberchef.org/#recipe=To\_Base64\('A-Za-z0-9%2B/%3D'\)\&input=YXBwLnB5).
 
@@ -158,7 +158,7 @@ from base64 import b64decode
 
 If we were to get the `Base64` of `flag.txt` in [CyberChef](https://cyberchef.org/#recipe=To\_Base64\('A-Za-z0-9%2B/%3D'\)\&input=ZmxhZy50eHQ), the output will be `ZmxhZy50eHQ=`.
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (89) (1).png" alt=""><figcaption></figcaption></figure>
 
 However, navigating to the link: [http://ctf.b01lers.com:5115/ZmxhZy50eHQ=](http://ctf.b01lers.com:5115/ZmxhZy50eHQ=) showed that the file is blocked.
 
@@ -168,7 +168,7 @@ If we take a closer look at the source code again, we will be able to understand
 
 We can get the `Base64` of `./flag.txt` from [CyberChef](https://cyberchef.org/#recipe=To\_Base64\('A-Za-z0-9%2B/%3D'\)\&input=Li9mbGFnLnR4dA). This would give us the output: `Li9mbGFnLnR4dA==`
 
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once we append this to the link, we will get the flag upon reaching the site: [http://ctf.b01lers.com:5115/Li9mbGFnLnR4dA==](http://ctf.b01lers.com:5115/Li9mbGFnLnR4dA==)
 

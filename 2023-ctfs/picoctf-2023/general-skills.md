@@ -30,7 +30,7 @@ Flag: picoCTF{Petya}
 
 ## repetitions
 
-<figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can download the `enc_flag` file.
 

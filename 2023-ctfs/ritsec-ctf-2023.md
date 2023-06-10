@@ -28,7 +28,7 @@ Flag: RS{!flag}
 
 ## Chandi Bot 2
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39) (2).png" alt=""><figcaption></figcaption></figure>
 
 There were a series of Chandi Bot challenges in the `Chandi Bot` category and I solved one of them. I found that this was pretty interesting and different from usual CTFs as they created a discord bot specifically for the challenges.
 

@@ -18,7 +18,7 @@ This time, we were in the team: `Final Hour`. We played this CTF for fun under t
 
 <figure><img src="../../.gitbook/assets/image (1) (2) (4).png" alt=""><figcaption><p>Personal profile</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Scoreboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (4).png" alt=""><figcaption><p>Scoreboard</p></figcaption></figure>
 
 Since we were in the open category, we were not eligible to attend the physical event on 16 April and not eligible for prizes. Thus, we decided to enjoy this CTF and agreed to spend our points on various hints because we were not competing to win.
 

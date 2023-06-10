@@ -2,7 +2,7 @@
 
 ## Noise
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (6).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given two `.wav` files.
 
@@ -37,7 +37,7 @@ Flag: LNC2023{RADIOWAVEINTERFERENCE}
 
 ## 2030
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 This was probably one of the harder crypto challenges (as compared to other challenges) which I solved.
 
@@ -66,7 +66,7 @@ As I continued to view more parts of the strings in the file, I realized that th
 
 Alternatively, if we didnt catch the phrase using `strings`, we could also use an [online xor cracker](https://wiremask.eu/tools/xor-cracker/) which would suggest the possible key.
 
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94) (1).png" alt=""><figcaption></figcaption></figure>
 
 Using the key, we can decrypt it in [CyberChef](https://cyberchef.org/#recipe=XOR\(%7B'option':'UTF8','string':'thisiskeylol'%7D,'Standard',false\)). In the output, we can see `JFIF` which likely suggest that its a `.jpg` file obtained from the decrypted output.
 
@@ -74,7 +74,7 @@ Using the key, we can decrypt it in [CyberChef](https://cyberchef.org/#recipe=XO
 
 We can save this file as `flag.jpg` and view it.
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93) (1).png" alt=""><figcaption></figcaption></figure>
 
 Nothing too interesting to see in the image. Although I did notice a word `PANDA` in the picture, that is not the flag.
 
@@ -170,7 +170,7 @@ Ancient_Pokemon.png: PNG image data, 600 x 531, 8-bit/color RGBA, non-interlaced
 
 First, I opened this image in image viewer.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (9).png" alt=""><figcaption></figcaption></figure>
 
 This looked like some kind of symbol cipher. We could search it up on [dcode](https://www.dcode.fr/symbols-ciphers) and we would find that this is `Pokemon unown alphabet`. We could also infer from the challenge description which mentioned `Unown`.
 
@@ -202,7 +202,7 @@ We can copy paste this into CyberChef which would suggest that it's `Base32` enc
 
 We can decode it as `Base32` on [CyberChef ](https://cyberchef.org/#recipe=From\_Base32\('A-Z2-7%3D',false\)\&input=SlpVV0daSkFPUlpIU0lESU9WV1dDM1JCRUJLR1EyTFRFQlVYR0lEVU5CU1NBWUxET1IyV0MzQkFNVlhHRzMzRU1WU0NBM0xGT05aV0M0M0hNVTVBVVFTRUtNWkRBTVJUUE4yR1dZM1NPUlZXRzRUNQ)and we would get what seemed like the flag, but with a shift of characters.
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54) (2).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we could add `ROT13 Brute Force` to the [CyberChef recipe](https://cyberchef.org/#recipe=From\_Base32\('A-Z2-7%3D',false\)ROT13\_Brute\_Force\(true,true,false,100,0,true,''\)\&input=SlpVV0daSkFPUlpIU0lESU9WV1dDM1JCRUJLR1EyTFRFQlVYR0lEVU5CU1NBWUxET1IyV0MzQkFNVlhHRzMzRU1WU0NBM0xGT05aV0M0M0hNVTVBVVFTRUtNWkRBTVJUUE4yR1dZM1NPUlZXRzRUNQ), which will give us the flag.
 

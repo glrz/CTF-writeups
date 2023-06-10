@@ -6,17 +6,17 @@
 
 For this challenge, we were given a link. Upon navigating to the link, we will be greeted with a simple Login  page.
 
-<figure><img src="../../../.gitbook/assets/image (108) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 We could use chrome extension - `EditThisCookie` for this challenge as the challenge already suggested `cookies`.
 
 We can see that the current cookie is set to `guest`
 
-<figure><img src="../../../.gitbook/assets/image (104) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
 Simply change `guest` to `admin` and refresh the page and the flag will be presented.
 
-<figure><img src="../../../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 This challenge was similar to [CDDC training 2022](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2022/basic-concepts-of-cybersecurity/introduction-to-web-security#web-security-1).
 
@@ -116,7 +116,7 @@ However, there was no particularly useful information in source code.
 
 I tried `‘` in username field to check for possible SQLi vulnerability.
 
-<figure><img src="../../../.gitbook/assets/image (111) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 The link became [http://52.78.16.36:7777/web3/?id=%27\&pw=](http://52.78.16.36:7777/web3/?id=%27\&pw=) which suggested that it could be prone to SQLi.
 

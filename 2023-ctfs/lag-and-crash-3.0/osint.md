@@ -2,7 +2,7 @@
 
 ## Container
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.zip` file. We could extract the contents from the zip file which would give us an image of container.
 
@@ -35,7 +35,7 @@ Compressed: 155869
 └─$ eog Container.jpg 
 ```
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (5).png" alt=""><figcaption></figcaption></figure>
 
 If we look at the container in the middle, we can see its `Prefix + Container number + Check digit`
 
@@ -55,9 +55,9 @@ For this challenge, we were given a website link.
 
 We can browse to the website and see many different pages and posts content.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 There's a page which prompts us for password to enter. I guess the flag could be in here. But what is the password?
 
@@ -65,12 +65,12 @@ There's a page which prompts us for password to enter. I guess the flag could be
 
 If we notice in previous pages, there is one thing in common. That is the postal code number appears on every page at the bottom.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Could that be the password? Lets try it out!
 
 Indeed, the password is `596303`. Upon entering the password, we are redirected to this site where we could `CTRL+F` to search for the flag.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (4).png" alt=""><figcaption></figcaption></figure>
 
 Flag: LNC2023{Wh@ts\_My\_N@m3}

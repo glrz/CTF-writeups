@@ -529,7 +529,7 @@ We can then open the image in image viewer using the `eog` command
 
 This is a statue with a toga in a box, implying the use of Caesar Box Cipher on the text below. We can decrypt this in [CyberChef](https://cyberchef.org/#recipe=Caesar\_Box\_Cipher\(4\)To\_Lower\_case\(\)\&input=VlZWQjMxMTBORENDMTExMQ).
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82) (1).png" alt=""><figcaption></figcaption></figure>
 
 This gives us the password: `v3n1v1d1v1c1b0c1`which can be used to extract the contents of `stage_four.zip`.
 
