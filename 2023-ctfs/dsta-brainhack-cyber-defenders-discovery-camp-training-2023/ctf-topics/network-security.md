@@ -10,7 +10,7 @@ For this challenge, we were given an image. This looked like a series of bytes w
 
 We can take a look at the IP packet.
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49) (5).png" alt=""><figcaption></figcaption></figure>
 
 According to the IP packet header specifications, `c0 a8 14 46` is the source IP address.
 
@@ -24,7 +24,7 @@ Flag: d37d3b3583dd7fdcca04728994bad42f
 
 ## Found a Note 2
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (11).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it is slightly similar to the previous challenge. We were given an image of packet as well.
 
@@ -613,7 +613,7 @@ We previously filtered by `icmp`. Now, we can `CTRL+A` to select all packets and
 
 Next, we will launch `Scapy`.
 
-<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84) (2).png" alt=""><figcaption></figcaption></figure>
 
 In scapy, we can view the first packet and we will see that it has PDF with version 1.7 showed as well.
 
@@ -667,7 +667,7 @@ Alternatively, the other method is to use tshark command as such to extract all 
 
 Next, we load this file: `hexpdf.txt` into [CyberChef ](https://cyberchef.org/#recipe=From\_Hex\('Auto'\))and convert from hex, followed by saving it as a PDF file.
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50) (6).png" alt=""><figcaption></figcaption></figure>
 
 We can open the pdf file and we will see a PDF file related to Cisco 2023 Data Privacy Benchmark Study.
 
@@ -715,7 +715,7 @@ At this point, I went ahead  to do further research and came across this [good r
 
 After reading, I used the search filter to filter by: `bittorrent.info_hash` in  Wireshark.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (6).png" alt=""><figcaption></figcaption></figure>
 
 Looking into this packet showed the info hash, which is under the `SHA1 Hash of info dictionary`.
 
@@ -739,7 +739,7 @@ Flag: 1e19a3f32b1b56eb1fdf717d2b0900a315ba070b
 
 For this challenge, we need to find the opened ports in a packet capture file.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (5).png" alt=""><figcaption></figcaption></figure>
 
 There are many ports to check. One way we could do the checking is to apply filter on the destination ports, by right clicking and `Apply as filter > Selected`.
 
@@ -763,7 +763,7 @@ Port 80, which is the port for HTTP is open. There is full TCP handshake, SYN, S
 
 Finally, port 443, which is the port for HTTPS is open. There is full TCP handshake, SYN, SYN-ACK, ACK.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (4).png" alt=""><figcaption></figcaption></figure>
 
 Combine the three ports with underscore and convert to MD5 to get the flag.
 
@@ -777,7 +777,7 @@ Flag: b7e52801b09fa7ae0f22dc7f33696d39
 
 ## Can you log in?
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a challenge link.
 
@@ -1016,7 +1016,7 @@ Flag: 512bad81faf8db0bf9a80a68efdc8525
 
 ## Subnet
 
-<figure><img src="../../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (88) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it was quite similar to previous [CDDC 2022 training](https://gadiel-lau.gitbook.io/2022-writeups/2022-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2022/ctf-topics/network-security#network-divider).
 

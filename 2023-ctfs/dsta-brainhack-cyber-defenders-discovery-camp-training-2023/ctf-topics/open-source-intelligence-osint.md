@@ -70,7 +70,7 @@ I proceeded to merge the images in ascending order&#x20;
 
 &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (19) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Set Merge options: Fix columns 3
 
@@ -124,7 +124,7 @@ First, we could open this up in `Tor` browser.
 
 If we view the source code, we would see that it mentioned backup is extremely important under  the comments.
 
-<figure><img src="../../../.gitbook/assets/image (84) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Additionally, if we go to the `server-status`: [http://y7dxireflp5yxffv4z4c2jqsyinx2jtcsezqrn3bv6deif6z24ugd2ad.onion/server-status/](http://y7dxireflp5yxffv4z4c2jqsyinx2jtcsezqrn3bv6deif6z24ugd2ad.onion/server-status/)
 
@@ -199,7 +199,7 @@ We can navigate to the `/backup` directory
 
 Next, go into the onion\_service folder.
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (7).png" alt=""><figcaption></figcaption></figure>
 
 In the `hostname` file, can see the flag string.
 
@@ -421,7 +421,7 @@ Flag: 38780352f99777c811b44ac57301e7b4
 
 ## Who’s that?
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (9).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given an email. I realized the username used for the email looked like it could be used for Instagram.
 
@@ -485,11 +485,11 @@ If we click into the photo, we would get the month of the magazine: `March`. Ano
 
 Next, after some searching, we would find that she renewed contract with `PLEDIS`.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (5).png" alt=""><figcaption></figcaption></figure>
 
 The final information we need to collect is the phone number of PLEDIS, which can be found easily as well.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (6).png" alt=""><figcaption></figcaption></figure>
 
 Combining the three pieces of information, we get the following: `03_pledis_025481677`
 
