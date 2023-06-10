@@ -6,7 +6,7 @@ description: >-
 
 # CTF Topics
 
-<figure><img src="../../../.gitbook/assets/image (21) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (88) (2).png" alt=""><figcaption></figcaption></figure>
 

@@ -2,7 +2,7 @@
 
 ## Found a Note 1
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54) (4).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given an image. This looked like a series of bytes which we normally see in a packet.
 
@@ -68,7 +68,7 @@ For this challenge, I unlocked the hint: USB keyboard.
 
 In this case, we are given a packet capture file of USB keyboard.
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (4).png" alt=""><figcaption></figcaption></figure>
 
 In Wireshark, we can filter by
 
@@ -565,7 +565,7 @@ Flag: 7f37b1af11faa23608c7c0a7aef10fa3
 
 ## Insiders
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.pcap` file.
 
@@ -595,7 +595,7 @@ Note that we can also filter by `icmp.type == 8`  to  display echo request packe
 
 Checking the first packet's ICMP data section shows there’s PDF
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (6).png" alt=""><figcaption></figcaption></figure>
 
 If we filter by `frame contains PDF-` we will see it too
 
@@ -605,7 +605,7 @@ Going back to our filtered icmp packets, the first packet showed the start of th
 
 The last packet showed the last part of a PDF file as denoted by `%%EOF`.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (5).png" alt=""><figcaption></figcaption></figure>
 
 From here, I will be covering two methods to get the hex data of this PDF file. One using `Scapy` and  the other using  `tshark` command.
 
@@ -683,11 +683,11 @@ Flag: 9a8f4bd1c07e53d7996586fa875b7e21f4b93c1e
 
 ## Private&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (4).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, I unlocked a hint which pointed to  `network analysis (torrent)`.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (5).png" alt=""><figcaption></figcaption></figure>
 
 Before  I unlocked the hint, I followed the `UDP` stream. However, I did not find any useful information.
 
@@ -697,13 +697,13 @@ Before  I unlocked the hint, I followed the `UDP` stream. However, I did not fin
 
 Next, I followed the `TCP` stream. In the first few streams, I thought that the value of `h` was the  info hash. I later realized it's not.
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 At stream  88,  I found the IP address of the tracker server and what I thought was the info hash as well.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (5).png" alt=""><figcaption></figcaption></figure>
 
 Similarly, on stream 110, I found the same info\_hash value
 
@@ -1040,7 +1040,7 @@ Using this, I  can copy and paste IP into network address and subnet mask accord
 
 Getting 50 in a row correct required a certain level of focus for the repetition of task. At times, it can be quite annoying when I pressed CTRL+C instead of CTRL+SHIFT+C on terminal to copy which terminated the connection:
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (4).png" alt=""><figcaption></figcaption></figure>
 
 After couple of minutes of copy pasting, I finally got the flag.
 

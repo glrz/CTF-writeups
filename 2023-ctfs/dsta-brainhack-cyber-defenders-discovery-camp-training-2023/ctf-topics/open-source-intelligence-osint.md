@@ -2,7 +2,7 @@
 
 ## Simple Search
 
-<figure><img src="../../../.gitbook/assets/image (55) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can go to GitHub and type `user:sanjawa` into the search bar.
 
@@ -14,11 +14,11 @@ Upon clicking into the repository, we will see that there was an update on `flag
 
 Click on `Update flag.txt` to see the changes made.
 
-<figure><img src="../../../.gitbook/assets/image (20) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 From here, we will be able to see the updated flag.
 
-<figure><img src="../../../.gitbook/assets/image (23) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we get the MD5 of the string from terminal
 
@@ -195,7 +195,7 @@ Slot	Total megabytes transferred this slot
 
 We can navigate to the `/backup` directory
 
-<figure><img src="../../../.gitbook/assets/image (38) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, go into the onion\_service folder.
 
@@ -219,7 +219,7 @@ Flag: 7412f2529d4d87f89751698a82f4bde8
 
 ## You can connect, If you don’t give up.
 
-<figure><img src="../../../.gitbook/assets/image (22) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given the password length which is a 5-digit number.
 
@@ -304,7 +304,7 @@ However, it took too long to crack with `proxychains.`
 
 At this point, I  unlocked the hint.
 
-<figure><img src="../../../.gitbook/assets/image (39) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 This hint was  actually very useful  compared to the other challenges hints I unlocked. Now that we know the first 2 digits of the password, we could craft a new password list that is much smaller in size, which will allow us to crack the password faster.
 
@@ -445,7 +445,7 @@ Since the challenge asked for `Twitter ID`, I searched up tools to find her Twit
 
 There was another site [here ](https://twiteridfinder.com/)which gave the same Twitter ID: `62755629`.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (3).png" alt=""><figcaption></figcaption></figure>
 
 However, after several failed attempts of submitting the flag, I later realized what they wanted was not the Twitter ID but the Twitter username or handle which was even more straightforward.
 
@@ -481,7 +481,7 @@ We could save the Kakao image as an image file and do a reverse image search.
 
 If we click into the photo, we would get the month of the magazine: `March`. Another important information to note is that the person in the picture is `nana`.
 
-<figure><img src="../../../.gitbook/assets/image (16) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, after some searching, we would find that she renewed contract with `PLEDIS`.
 
