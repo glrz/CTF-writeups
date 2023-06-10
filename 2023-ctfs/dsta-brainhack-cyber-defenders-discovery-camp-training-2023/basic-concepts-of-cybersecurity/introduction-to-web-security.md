@@ -6,7 +6,7 @@
 
 For this challenge, we were given a link. Upon navigating to the link, we will be greeted with a simple Login  page.
 
-<figure><img src="../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (108) (1).png" alt=""><figcaption></figcaption></figure>
 
 We could use chrome extension - `EditThisCookie` for this challenge as the challenge already suggested `cookies`.
 

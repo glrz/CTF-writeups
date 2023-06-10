@@ -2,11 +2,11 @@
 
 ## Simple Search
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we can go to GitHub and type `user:sanjawa` into the search bar.
 
-<figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (89) (2).png" alt=""><figcaption></figcaption></figure>
 
 This will show the repository: [https://github.com/sanjawa/simplica](https://github.com/sanjawa/simplica)
 
@@ -14,11 +14,11 @@ Upon clicking into the repository, we will see that there was an update on `flag
 
 Click on `Update flag.txt` to see the changes made.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (5).png" alt=""><figcaption></figcaption></figure>
 
 From here, we will be able to see the updated flag.
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (6).png" alt=""><figcaption></figcaption></figure>
 
 Finally, we get the MD5 of the string from terminal
 
@@ -32,7 +32,7 @@ Flag: 489b14d0c1bdeb037327f3fe6291bf8a
 
 ## BF..?
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (63) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.txt` file.
 
@@ -60,7 +60,7 @@ Flag: e419954f806c1faa2fc7e85ee11fd972
 
 ## Somewhere
 
-<figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (93) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given 9 torn images taken in combination.
 
@@ -70,17 +70,17 @@ I proceeded to merge the images in ascending order&#x20;
 
 &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (4).png" alt=""><figcaption></figcaption></figure>
 
 Set Merge options: Fix columns 3
 
 We will then get the following full image:
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49) (4).png" alt=""><figcaption></figcaption></figure>
 
 Next, we can do a reverse image search [here](https://www.duplichecker.com/reverse-image-search.php) which gives us the location.
 
-<figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (86) (2).png" alt=""><figcaption></figcaption></figure>
 
 Finally, get the MD5 hash value to get the flag.
 
@@ -92,7 +92,7 @@ Finally, get the MD5 hash value to get the flag.
 
 ## Find me, if you can.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, it provided what seemed like a username tag: `@RansomVault.` I thought that this could be a Telegram username or channel.
 
@@ -100,23 +100,23 @@ Indeed, when I searched it, I found this channel: [https://t.me/RansomVault](htt
 
 In the channel, there were a bunch of pictures, links etc.
 
-<figure><img src="../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (94) (2).png" alt=""><figcaption></figcaption></figure>
 
 While scrolling through the contents, I saw a `.docx` file which looked like it could be a ransomware file. I opened it and on the 2nd page, I found the flag at the bottom.
 
-<figure><img src="../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (91) (2).png" alt=""><figcaption></figcaption></figure>
 
 However, somehow when trying to convert this flag string into MD5 in terminal, it did not work very well, probably due to the `!!` at the end of the string which caused some issues.&#x20;
 
 Hence, I used an Online md5 hash generator instead.
 
-<figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (92) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: 209a5d3b3e9f8c0d7ad6abadc30da8c9
 
 ## The key is sometimes nearby.
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given a `.onion` site link.
 
@@ -124,7 +124,7 @@ First, we could open this up in `Tor` browser.
 
 If we view the source code, we would see that it mentioned backup is extremely important under  the comments.
 
-<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84) (2).png" alt=""><figcaption></figcaption></figure>
 
 Additionally, if we go to the `server-status`: [http://y7dxireflp5yxffv4z4c2jqsyinx2jtcsezqrn3bv6deif6z24ugd2ad.onion/server-status/](http://y7dxireflp5yxffv4z4c2jqsyinx2jtcsezqrn3bv6deif6z24ugd2ad.onion/server-status/)
 
@@ -195,7 +195,7 @@ Slot	Total megabytes transferred this slot
 
 We can navigate to the `/backup` directory
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (4).png" alt=""><figcaption></figcaption></figure>
 
 Next, go into the onion\_service folder.
 
@@ -203,7 +203,7 @@ Next, go into the onion\_service folder.
 
 In the `hostname` file, can see the flag string.
 
-<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (83) (2).png" alt=""><figcaption></figcaption></figure>
 
 Get the MD5 hash value for the flag.
 
@@ -219,7 +219,7 @@ Flag: 7412f2529d4d87f89751698a82f4bde8
 
 ## You can connect, If you don’t give up.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (5).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given the password length which is a 5-digit number.
 
@@ -304,7 +304,7 @@ However, it took too long to crack with `proxychains.`
 
 At this point, I  unlocked the hint.
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (3).png" alt=""><figcaption></figcaption></figure>
 
 This hint was  actually very useful  compared to the other challenges hints I unlocked. Now that we know the first 2 digits of the password, we could craft a new password list that is much smaller in size, which will allow us to crack the password faster.
 
@@ -427,21 +427,21 @@ For this challenge, we were given an email. I realized the username used for the
 
 Hence, I searched up Instagram and found the [user](https://www.instagram.com/forhu.719/).
 
-<figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (90) (2).png" alt=""><figcaption></figcaption></figure>
 
 Among the pictures, I saw the words `THEORY Final Edition` which looked like an album's name. I googled and searched for the images and confirmed that this person is `Younha`.
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (3).png" alt=""><figcaption></figcaption></figure>
 
 Next, it was quite easy to find her Twitter once we know her name.
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81) (2).png" alt=""><figcaption></figcaption></figure>
 
 Since the challenge asked for `Twitter ID`, I searched up tools to find her Twitter ID [here ](https://www.codeofaninja.com/tools/find-twitter-id/)and [here](https://tweeterid.com/).&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (4).png" alt=""><figcaption></figcaption></figure>
 
 There was another site [here ](https://twiteridfinder.com/)which gave the same Twitter ID: `62755629`.
 
@@ -451,15 +451,15 @@ However, after several failed attempts of submitting the flag, I later realized 
 
 Next, I searched up her birthday which can be found on [Wikipedia](https://en.wikipedia.org/wiki/Younha).
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption><p>880429</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (85) (2).png" alt=""><figcaption><p>880429</p></figcaption></figure>
 
 Next, I found that she has two dogs or chihuahuas to be exact. I also found this [YouTube video](https://www.youtube.com/watch?v=u1V8VGi38P0) where she talked about her dogs.
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50) (5).png" alt=""><figcaption></figcaption></figure>
 
 Lastly, I found the password number which was one of her songs.
 
-<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption><p>486</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (82) (2).png" alt=""><figcaption><p>486</p></figcaption></figure>
 
 Combining all the above information found and getting the MD5 hash value would give us the flag.
 
@@ -471,17 +471,17 @@ Combining all the above information found and getting the MD5 hash value would g
 
 ## I’d like to hire you.
 
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57) (3).png" alt=""><figcaption></figcaption></figure>
 
 For this challenge, we were given this link: [https://ibb.co/TvqfwG8](https://ibb.co/TvqfwG8)
 
 We could save the Kakao image as an image file and do a reverse image search.
 
-<figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (87) (2).png" alt=""><figcaption></figcaption></figure>
 
 If we click into the photo, we would get the month of the magazine: `March`. Another important information to note is that the person in the picture is `nana`.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (5).png" alt=""><figcaption></figcaption></figure>
 
 Next, after some searching, we would find that she renewed contract with `PLEDIS`.
 
