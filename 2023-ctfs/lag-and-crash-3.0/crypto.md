@@ -25,7 +25,7 @@ This is because there was noise added to  the message and  the message could not
 
 In audacity, I simply adjusted some of the `Stetrogram settings` to get a clearer view  of  the morse code.
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

@@ -20,9 +20,13 @@ I attempted several challenges in the first few days and maintained `1st` positi
 
 Subsequently, I did not commit much to this training because I had other more important commitments.
 
-After the training, my uni ranking was   and my overall ranking was   .
+After the training, my overall ranking was 20  .
 
-I solved a total of `42/78` challenges from `Basic Concepts of Cybersecurity` and `CTF Topics` and the progress of each category can be seen from the progress circle chart below.
+I solved a total of `42/78` challenges from `Basic Concepts of Cybersecurity` and `CTF Topics`&#x20;
+
+<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+
+The progress of each category can be seen from the progress circle chart below.
 
 <figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
