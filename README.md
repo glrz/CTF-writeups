@@ -16,11 +16,7 @@ I am constantly seeking out new knowledge in cybersecurity and plan to continue 
 
 If you have any inquiries or discussions related to cybersecurity or if you are interested in teaming up for upcoming CTF events, please feel free to reach out to me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.com).
 
-
-
 ## [CTF Competitions / Challenges 2024](https://gadiel-lau.gitbook.io/2024-writeups/)
-
-
 
 | Name                                                                                             | Category (Solo/Team) | Position |
 | ------------------------------------------------------------------------------------------------ | -------------------- | -------- |
@@ -69,4 +65,13 @@ If you have any inquiries or discussions related to cybersecurity or if you are 
 | [justCTF \[\*\] 2020](https://gadiel-lau.gitbook.io/2021-writeups/justctf-2020)                                                                                        | Open (Solo)          | 401/804  |
 | [TetCTF 2021](https://gadiel-lau.gitbook.io/2021-writeups/tetctf-2021)                                                                                                 | Open (Solo)          | 183/519  |
 
-## [CTF Competitions/Challenges 202](https://gadiel-lau.gitbook.io/2020-writeup/)
+## [CTF Competitions/Challenges 2020](https://gadiel-lau.gitbook.io/2020-writeups-1/)
+
+| Name                                                                                                                        | Category (Solo/Team) | Position |
+| --------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------- |
+| [Brixel CTF Winter Edition 2020](https://gadiel-lau.gitbook.io/2020-writeups/brixel-ctf-winter-edition-2020)                | Open (Solo)          | 269/824  |
+| [VULNCON CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/vulncon-ctf-2020)                                            | Open (Solo)          | 300/442  |
+| [hxp CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/hxp-ctf-2020)                                                    | Open (Solo)          | 394/532  |
+| [GovTech STACK the Flags CTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/govtech-stack-the-flags-ctf-2020)            | Poly/Uni (Team)      | 48/245   |
+| [GSCTF 2020](https://gadiel-lau.gitbook.io/2020-writeups/gsctf-2020)                                                        | Open (Solo)          | 6/30     |
+| [CSIT The InfoSecurity Challenge (TISC) 2020](https://gadiel-lau.gitbook.io/2020-writeups/csit-infosecurity-challenge-2020) | Open (Solo)          | -        |
