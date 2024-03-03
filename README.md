@@ -8,7 +8,7 @@ description: >-
 
 > A capture the flag (CTF) competition is a kind of cybersecurity competition designed to challenge participants to solve computer security problems or/and capture and defend computer systems.
 
-My interest in cybersecurity sparked during National Service in 2020. Since then, I've actively honed my skills through CTF competitions, both solo and in teams like Social Engineering Experts, youtiaos, and a collaborative effort with an NTU-SMU team (check out my [CTFtime profile](https://ctftime.org/user/97347)). Throughout these challenges, my focus has remained on continuous learning and growth, prioritizing the knowledge gained over mere competition results. This experience has solidified my passion for cybersecurity, and I'm committed to ongoing skill development and professional growth in this field.
+My interest in cybersecurity sparked during National Service in 2020. Since then, I've actively honed my skills through CTF competitions, both solo and in teams like Social Engineering Experts, youtiaos, and a NTU-SMU team (check out my [CTFtime profile](https://ctftime.org/user/97347)). Throughout these challenges, my focus has remained on continuous learning and growth, prioritizing the knowledge gained over mere competition results. This experience has solidified my passion for cybersecurity, and I'm committed to ongoing skill development and professional growth in this field.
 
 For inquiries or collaboration on cybersecurity or CTF events, feel free to reach out via [email](https://app.gitbook.com/u/kkC7YG92dGN4xVoyt7rmIfxtd932).
 
