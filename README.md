@@ -16,12 +16,13 @@ I am constantly seeking out new knowledge in cybersecurity and plan to continue 
 
 If you have any inquiries or discussions related to cybersecurity or if you are interested in teaming up for upcoming CTF events, please feel free to reach out to me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.com).
 
-## [CTF Competitions / Challenges 2024](https://gadiel-lau.gitbook.io/2024-writeups/)
+## [CTF Competitions/Challenges 2024](https://gadiel-lau.gitbook.io/2024-writeups/)
 
 | Name                                                                                             | Category (Solo/Team) | Position |
 | ------------------------------------------------------------------------------------------------ | -------------------- | -------- |
-| [Osu!gaming CTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/osu-gaming-ctf-2024) | Open (Team)          |          |
 |                                                                                                  |                      |          |
+| Lag and Crash 4.0                                                                                | Open (Team)          |          |
+| [Osu!gaming CTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/osu-gaming-ctf-2024) | Open (Team)          |          |
 
 ## [CTF Competitions/Challenges 2023](https://gadiel-lau.gitbook.io/2023-writeups/)
 
