@@ -6,15 +6,11 @@ description: >-
 
 # 🚩 Gadiel's CTF Writeups
 
-A capture the flag (CTF) competition is a kind of cybersecurity competition designed to challenge participants to solve computer security problems or/and capture and defend computer systems.
+> A capture the flag (CTF) competition is a kind of cybersecurity competition designed to challenge participants to solve computer security problems or/and capture and defend computer systems.
 
-In 2020, my fascination with cybersecurity began, and since then, I have been honing my skills by tackling cybersecurity challenges and competing in CTF events. This newfound hobby has greatly enhanced my cybersecurity proficiency. Although I have mainly competed as a solo player, I have also joined a few teams, including [Social Engineering Experts](https://ctftime.org/team/151372), [youtiaos](https://ctftime.org/team/194864) and another team consisting of 2 guys from NTU and 1 guy from SMU. You can find my CTFtime profile [here](https://ctftime.org/user/97347).
+My interest in cybersecurity sparked during National Service in 2020. Since then, I've actively honed my skills through CTF competitions, both solo and in teams like Social Engineering Experts, youtiaos, and a collaborative effort with an NTU-SMU team (check out my [CTFtime profile](https://ctftime.org/user/97347)). Throughout these challenges, my focus has remained on continuous learning and growth, prioritizing the knowledge gained over mere competition results. This experience has solidified my passion for cybersecurity, and I'm committed to ongoing skill development and professional growth in this field.
 
-In the interest of documenting my progress, I have included some CTFs where I didn't perform as well, but my primary focus has always been on the learning process and the knowledge I gain from these experiences. While I may experience disappointment at times for not solving more challenges, my unwavering passion for cybersecurity continues to fuel my growth.
-
-I am constantly seeking out new knowledge in cybersecurity and plan to continue doing so. This journey has been immensely rewarding, and I am excited for what the future holds.
-
-If you have any inquiries or discussions related to cybersecurity or if you are interested in teaming up for upcoming CTF events, please feel free to reach out to me at [gadiellaurz@gmail.com](mailto:gadiellaurz@gmail.com).
+For inquiries or collaboration on cybersecurity or CTF events, feel free to reach out via [email](https://app.gitbook.com/u/kkC7YG92dGN4xVoyt7rmIfxtd932).
 
 ## [CTF Competitions/Challenges 2024](https://gadiel-lau.gitbook.io/2024-writeups/)
 
