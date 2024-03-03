@@ -20,7 +20,7 @@ I attempted several challenges in the first few days and maintained `1st` positi
 
 Subsequently, I did not commit much to this training because I had other more important commitments.
 
-After the training, my overall ranking was 20  .
+After the training, my overall ranking was `20/1149`.
 
 I solved a total of `42/78` challenges from `Basic Concepts of Cybersecurity` and `CTF Topics`&#x20;
 
