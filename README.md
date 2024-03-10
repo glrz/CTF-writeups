@@ -10,7 +10,7 @@ description: >-
 
 My interest in cybersecurity sparked during National Service in 2020. Since then, I've actively honed my skills through CTF competitions, both solo and in teams like Social Engineering Experts, youtiaos, and a NTU-SMU team (check out my [CTFtime profile](https://ctftime.org/user/97347)). Throughout these challenges, my focus has remained on continuous learning and growth, prioritizing the knowledge gained over mere competition results. This experience has solidified my passion for cybersecurity, and I'm committed to ongoing skill development and professional growth in this field.
 
-For inquiries or collaboration on cybersecurity or CTF events, feel free to reach out via [email](https://app.gitbook.com/u/kkC7YG92dGN4xVoyt7rmIfxtd932).
+If you're interested in cybersecurity or CTF events, I'd love to connect! I'm always looking to collaborate with like-minded individuals. Feel free to reach out at gadiellaurz@gmail.com to discuss potential partnerships or joint projects.
 
 ## [CTF Competitions/Challenges 2024](https://gadiel-lau.gitbook.io/2024-writeups/)
 
