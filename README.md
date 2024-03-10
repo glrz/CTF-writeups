@@ -16,8 +16,8 @@ For inquiries or collaboration on cybersecurity or CTF events, feel free to reac
 
 | Name                                                                                             | Category (Solo/Team) | Position |
 | ------------------------------------------------------------------------------------------------ | -------------------- | -------- |
-|                                                                                                  |                      |          |
-| Lag and Crash 4.0                                                                                | Open (Team)          |          |
+| Lag and Crash 4.0                                                                                | Open (Solo)          |          |
+| WxMCTF 2024                                                                                      | Open (Solo)          |          |
 | [Osu!gaming CTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/osu-gaming-ctf-2024) | Open (Team)          | 111/984  |
 
 ## [CTF Competitions/Challenges 2023](https://gadiel-lau.gitbook.io/2023-writeups/)
