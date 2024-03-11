@@ -17,7 +17,7 @@ If you're interested in cybersecurity or CTF events, I'd love to connect! I'm al
 | Name                                                                                             | Category (Solo/Team) | Position |
 | ------------------------------------------------------------------------------------------------ | -------------------- | -------- |
 | Lag and Crash 4.0                                                                                | Open (Solo)          |          |
-| [WxMCTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/wxmctf-2024)                 | Open (Solo)          |          |
+| [WxMCTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/wxmctf-2024)                 | Open (Solo)          | 105/261  |
 | [Osu!gaming CTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/osu-gaming-ctf-2024) | Open (Team)          | 111/984  |
 
 ## [CTF Competitions/Challenges 2023](https://gadiel-lau.gitbook.io/2023-writeups/)
