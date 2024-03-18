@@ -265,6 +265,8 @@ At stream 17, we will find the password: `spongebob`.
 
 <figure><img src="../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
+Alternatively, an easier solution would be to apply the filter `ftp.response.code == 230` to search for the successful login on FTP server.  List of FTP return code can be found [here](https://en.wikipedia.org/wiki/List\_of\_FTP\_server\_return\_codes).
+
 Get the MD5 of `spongebob` for the flag.
 
 ```bash
