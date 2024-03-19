@@ -126,6 +126,10 @@ We can see that there are macros in the excel file, hence its blocked.
 
 Notice there is  a key: `Jennis_This_is_our_secret123_XXD` as well.
 
+[Oletools ](https://github.com/decalage2/oletools)can be very useful when it comes to analyzing Microsoft files.
+
+We might have initially considered running `oleid` command to detect any macros in the file. However, since I've already opened the Excel file and confirmed the presence of macros, I omitted that step this time.&#x20;
+
 On my Kali Linux VM, I ran olevba on the `.xls` file.
 
 > olevba is a script to parse OLE and OpenXML files such as MS Office documents (e.g. Word, Excel), to **detect VBA Macros**, extract their **source code** in clear text, and detect security-related patterns such as **auto-executable macros**, **suspicious VBA keywords** used by malware, anti-sandboxing and anti-virtualization techniques, and potential **IOCs** (IP addresses, URLs, executable filenames, etc). It also detects and decodes several common **obfuscation methods including Hex encoding, StrReverse, Base64, Dridex, VBA expressions**, and extracts IOCs from decoded strings. XLM/Excel 4 Macros are also supported in Excel and SLK files
