@@ -14,12 +14,12 @@ If you're interested in cybersecurity or CTF events, I'd love to connect! I'm al
 
 ## [CTF Competitions/Challenges 2024](https://gadiel-lau.gitbook.io/2024-writeups/)
 
-| Name                                                                                             | Category (Solo/Team) | Position                            |
-| ------------------------------------------------------------------------------------------------ | -------------------- | ----------------------------------- |
-| DSTA BrainHack Cyber Defenders Discovery Camp Training 2024                                      | Open (Solo)          |                                     |
-| [LNC 4.0](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/lnc-4.0)                         | Open (Solo)          | <p>Open: 23/44<br>Global: 61/93</p> |
-| [WxMCTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/wxmctf-2024)                 | Open (Solo)          | 105/261                             |
-| [Osu!gaming CTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/osu-gaming-ctf-2024) | Open (Team)          | 111/984                             |
+| Name                                                                                                                                                                             | Category (Solo/Team) | Position                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ----------------------------------- |
+| [DSTA BrainHack Cyber Defenders Discovery Camp Training 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/dsta-brainhack-cyber-defenders-discovery-camp-training-2024) | Open (Solo)          |                                     |
+| [LNC 4.0](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/lnc-4.0)                                                                                                         | Open (Solo)          | <p>Open: 23/44<br>Global: 61/93</p> |
+| [WxMCTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/wxmctf-2024)                                                                                                 | Open (Solo)          | 105/261                             |
+| [Osu!gaming CTF 2024](https://gadiel-lau.gitbook.io/2024-writeups/2024-ctfs/osu-gaming-ctf-2024)                                                                                 | Open (Team)          | 111/984                             |
 
 ## [CTF Competitions/Challenges 2023](https://gadiel-lau.gitbook.io/2023-writeups/)
 
