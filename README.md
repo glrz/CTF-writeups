@@ -12,6 +12,8 @@ My interest in cybersecurity sparked during National Service in 2020. Since then
 
 If you're interested in cybersecurity or CTF events, I'd love to connect! I'm always looking to collaborate with like-minded individuals. Feel free to reach out at gadiellaurz@gmail.com to discuss potential partnerships or joint projects.
 
+Comprehensive Tools Documentation: [gadiel-lau.gitbook.io/tech-tools](https://app.gitbook.com/o/YE1pzGVFZMDa7aPLpFV0/s/iINsgxbfePFP85jEDnqy/)
+
 ## [CTF Competitions/Challenges 2024](https://gadiel-lau.gitbook.io/2024-writeups/)
 
 | Name                                                                                                                                                                             | Category (Solo/Team) | Position                            |
